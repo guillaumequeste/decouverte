@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
 /* Header */
 
 .navbar {
@@ -34,4 +36,47 @@
 
 .titleApp {
     align-self: center;
+}
+
+
+/* Littoral */
+
+.bodyLittoral {
+    min-height: 93vh;
+    background-color: rgb(17, 143, 201);
+}
+
+.title {
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-size: 4em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.divPhoto {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.photo {
+    width: 80vw;
+    height: 30vh;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+    .photo {
+        height: 55vh;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .photo {
+        height: 80vh;
+    }
 }

@@ -13,6 +13,7 @@ class Littoral extends Component {
                 <Header />
                 <h2>Littoral works</h2>
                 <Link to="/ault">Ault</Link>
+                <Link to="/baie_de_somme">Baie de Somme</Link>
             </div>
         )
     }
