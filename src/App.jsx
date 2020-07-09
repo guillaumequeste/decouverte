@@ -13,22 +13,34 @@ const App = () => (
     <div className="app">
       <div className="flex">
       <Flip left>
-        <div className="part partLittoral">
-          <Link to="/littoral" className="titleApp"><h1>Littoral</h1></Link>
-        </div>
+        <Link to="/littoral" className="titleApp">
+          <div className="part partLittoral">
+            <div className="part2">
+              <h1>Littoral</h1>
+            </div>
+          </div>
+        </Link>
       </Flip>
       <Flip left>
-        <div className="part partSeine">
-          <Link to="/seine" className="titleApp"><h1>Boucles de la Seine</h1></Link>
-        </div>
+        <Link to="/seine" className="titleApp">
+          <div className="part partSeine">
+            <div className="part2">
+              <h1>Boucles de la Seine</h1>
+            </div>
+          </div>
+        </Link>
       </Flip>
       <Flip left>
-        <div className="part partAutres">
-          <Link to="/autres" className="titleApp"><h1>Autres</h1></Link>
-        </div>
+        <Link to="/autres" className="titleApp">
+          <div className="part partAutres">
+            <div className="part2">
+              <h1>Autres</h1>
+            </div>
+          </div>
+        </Link>
       </Flip>
-      </div>
     </div>
+  </div>
   </>
 )
 

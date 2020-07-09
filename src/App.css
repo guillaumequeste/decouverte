@@ -26,9 +26,9 @@
 }
 
 .part {
-    height: 31vh;
     display: flex;
     justify-content: center;
+    height: 31vh;
 }
 
 @media screen and (min-width: 1000px) {
@@ -46,6 +46,11 @@
     background-image: url("./img/littoral/etretat/etretat27.jpg");
     background-size: cover;
     background-position: center center;
+    display: flex;
+}
+
+.part2 {
+    margin: auto;
 }
 
 .partSeine {
@@ -57,7 +62,7 @@
 
 .partAutres {
     position: relative;
-    background-image: url("./img/autres/route.jpg");
+    background-image: url("./img/autres/route.png");
     background-size: cover;
     background-position: center center;
 }
