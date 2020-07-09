@@ -41,6 +41,9 @@ class Littoral extends Component {
                 <Link to="/saint-valery-sur-somme">Saint-Valéry-sur-Somme</Link>
                 <Link to="/sainte-cecile_plage">Sainte-Cécile Plage</Link>
                 <Link to="/sainte-marguerite">Sainte-Marguerite-sur-Mer</Link>
+                <Link to="/sotteville">Sotteville-sur-Mer</Link>
+                <Link to="/stella">Stella-Plage</Link>
+                <Link to="/varengeville">Varengeville-sur-Mer</Link>
             </div>
         )
     }

@@ -35,6 +35,9 @@ import Saint_Valery_en_Caux from './components/Littoral/Saint_Valery_en_Caux'
 import Saint_Valery_sur_Somme from './components/Littoral/Saint_Valery_sur_Somme'
 import Sainte_Cecile from './components/Littoral/Sainte_Cecile'
 import Sainte_Marguerite from './components/Littoral/Sainte_Marguerite'
+import Sotteville from './components/Littoral/Sotteville'
+import Stella from './components/Littoral/Stella'
+import Varengeville from './components/Littoral/Varengeville'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -80,6 +83,9 @@ const Root = () => (
             <Route path='/saint-valery-sur-somme' component={Saint_Valery_sur_Somme}/>
             <Route path='/sainte-cecile_plage' component={Sainte_Cecile}/>
             <Route path='/sainte-marguerite' component={Sainte_Marguerite}/>
+            <Route path='/sotteville' component={Sotteville}/>
+            <Route path='/stella' component={Stella}/>
+            <Route path='/varengeville' component={Varengeville}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>
