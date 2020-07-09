@@ -12,7 +12,7 @@ class Merlimont extends Component {
                         link={"http://decouverte.guillaumequeste.fr/merlimont"} />
                 <Header />
                 <div className="bodyLittoral">
-                    <h1 className="title">Merlimont</h1>
+                    <h1 className="title">Merlimont-Plage</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/littoral/merlimont/merlimont01.jpg")} alt="merlimont01" className="photo"/>
                     </div>
