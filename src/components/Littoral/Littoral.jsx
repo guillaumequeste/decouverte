@@ -27,6 +27,10 @@ class Littoral extends Component {
                 <Link to="/le_crotoy">Le Crotoy</Link>
                 <Link to="/le_hourdel">Le Hourdel</Link>
                 <Link to="/le_treport">Le Tréport</Link>
+                <Link to="/les_grandes_dalles">Les Grandes Dalles</Link>
+                <Link to="/les_petites_dalles">Les Petites Dalles</Link>
+                <Link to="/merlimont">Merlimont</Link>
+                <Link to="/mers">Mers-les-Bains</Link>
             </div>
         )
     }

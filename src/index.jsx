@@ -21,6 +21,10 @@ import Hardelot from './components/Littoral/Hardelot'
 import Le_Crotoy from './components/Littoral/Le_Crotoy'
 import Le_Hourdel from './components/Littoral/Le_Hourdel'
 import Le_Treport from './components/Littoral/Le_Treport'
+import Les_Grandes_Dalles from './components/Littoral/Les_Grandes_Dalles'
+import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
+import Merlimont from './components/Littoral/Merlimont'
+import Mers from './components/Littoral/Mers'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -52,6 +56,10 @@ const Root = () => (
             <Route path='/le_crotoy' component={Le_Crotoy}/>
             <Route path='/le_hourdel' component={Le_Hourdel}/>
             <Route path='/le_treport' component={Le_Treport}/>
+            <Route path='/les_grandes_dalles' component={Les_Grandes_Dalles}/>
+            <Route path='/les_petites_dalles' component={Les_Petites_Dalles}/>
+            <Route path='/merlimont' component={Merlimont}/>
+            <Route path='/mers' component={Mers}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>
