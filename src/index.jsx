@@ -25,6 +25,12 @@ import Les_Grandes_Dalles from './components/Littoral/Les_Grandes_Dalles'
 import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
 import Merlimont from './components/Littoral/Merlimont'
 import Mers from './components/Littoral/Mers'
+import Mesnil_Val from './components/Littoral/Mesnil_Val'
+import Pourville from './components/Littoral/Pourville'
+import Puys from './components/Littoral/Puys'
+import Quiberville from './components/Littoral/Quiberville'
+import Saint_Aubin from './components/Littoral/Saint_Aubin'
+import Saint_Pierre_en_Port from './components/Littoral/Saint_Pierre_en_Port'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -60,6 +66,12 @@ const Root = () => (
             <Route path='/les_petites_dalles' component={Les_Petites_Dalles}/>
             <Route path='/merlimont' component={Merlimont}/>
             <Route path='/mers' component={Mers}/>
+            <Route path='/mesnil_val' component={Mesnil_Val}/>
+            <Route path='/pourville' component={Pourville}/>
+            <Route path='/puys' component={Puys}/>
+            <Route path='/quiberville' component={Quiberville}/>
+            <Route path='/saint-aubin' component={Saint_Aubin}/>
+            <Route path='/saint-pierre-en-port' component={Saint_Pierre_en_Port}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>

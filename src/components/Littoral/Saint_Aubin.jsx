@@ -3,92 +3,92 @@ import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
 
-class Ault extends Component {
+class Saint_Aubin extends Component {
   
     render () {
         return (
             <div>
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
-                        link={"http://decouverte.guillaumequeste.fr/ault"} />
+                        link={"http://decouverte.guillaumequeste.fr/saint-aubin"} />
                 <Header />
                 <div className="bodyLittoral">
-                    <h1 className="title">Ault</h1>
+                    <h1 className="title">Saint-Aubin-sur-Mer</h1>
                     <div className="divPhoto">
-                        <img src={require("../../img/littoral/ault/ault01.jpg")} alt="ault01" className="photo"/>
+                        <img src={require("../../img/littoral/saint-aubin/saint-aubin01.jpg")} alt="saint-aubin01" className="photo"/>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault02.jpg")} alt="ault02" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin02.jpg")} alt="saint-aubin02" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault03.jpg")} alt="ault03" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin03.jpg")} alt="saint-aubin03" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault04.jpg")} alt="ault04" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin04.jpg")} alt="saint-aubin04" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault05.jpg")} alt="ault05" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin05.jpg")} alt="saint-aubin05" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault06.jpg")} alt="ault06" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin06.jpg")} alt="saint-aubin06" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault07.jpg")} alt="ault07" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin07.jpg")} alt="saint-aubin07" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault08.jpg")} alt="ault08" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin08.jpg")} alt="saint-aubin08" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault09.jpg")} alt="ault09" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin09.jpg")} alt="saint-aubin09" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault10.jpg")} alt="ault10" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin10.jpg")} alt="saint-aubin10" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault11.jpg")} alt="ault11" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin11.jpg")} alt="saint-aubin11" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault12.jpg")} alt="ault12" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin12.jpg")} alt="saint-aubin12" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault13.jpg")} alt="ault13" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin13.jpg")} alt="saint-aubin13" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault14.jpg")} alt="ault14" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin14.jpg")} alt="saint-aubin14" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault15.jpg")} alt="ault15" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin15.jpg")} alt="saint-aubin15" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/littoral/ault/ault16.jpg")} alt="ault16" className="photo"/>
+                            <img src={require("../../img/littoral/saint-aubin/saint-aubin16.jpg")} alt="saint-aubin16" className="photo"/>
                         </Zoom>
                     </div>
                 </div>
@@ -97,4 +97,4 @@ class Ault extends Component {
     }
 }
 
-export default Ault
+export default Saint_Aubin

@@ -31,6 +31,12 @@ class Littoral extends Component {
                 <Link to="/les_petites_dalles">Les Petites Dalles</Link>
                 <Link to="/merlimont">Merlimont</Link>
                 <Link to="/mers">Mers-les-Bains</Link>
+                <Link to="/mesnil_val">Mesnil Val Plage</Link>
+                <Link to="/pourville">Pourville-sur-Mer</Link>
+                <Link to="/puys">Puys</Link>
+                <Link to="/quiberville">Quiberville</Link>
+                <Link to="/saint-aubin">Saint-Aubin-sur-Mer</Link>
+                <Link to="/saint-pierre-en-port">Saint-Pierre-en-Port</Link>
             </div>
         )
     }
