@@ -14,21 +14,21 @@ class Baie extends Component {
                 <div className="bodyLittoral">
                     <h1 className="title">Baie de Somme</h1>
                     <div className="divPhoto">
-                        <img src={require("../../img/baie/baie01.jpg")} alt="baie01" className="photo"/>
+                        <img src={require("../../img/littoral/baie/baie01.jpg")} alt="baie01" className="photo"/>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/baie/baie02.jpg")} alt="baie02" className="photo"/>
+                            <img src={require("../../img/littoral/baie/baie02.jpg")} alt="baie02" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/baie/baie03.jpg")} alt="baie03" className="photo"/>
+                            <img src={require("../../img/littoral/baie/baie03.jpg")} alt="baie03" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/baie/baie04.jpg")} alt="baie04" className="photo"/>
+                            <img src={require("../../img/littoral/baie/baie04.jpg")} alt="baie04" className="photo"/>
                         </Zoom>
                     </div>
                 </div>

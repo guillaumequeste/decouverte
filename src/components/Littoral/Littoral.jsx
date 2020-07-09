@@ -14,6 +14,10 @@ class Littoral extends Component {
                 <h2>Littoral works</h2>
                 <Link to="/ault">Ault</Link>
                 <Link to="/baie_de_somme">Baie de Somme</Link>
+                <Link to="/belleville-sur-mer">Belleville-sur-Mer</Link>
+                <Link to="/berneval">Berneval</Link>
+                <Link to="/boulogne">Boulogne-sur-Mer</Link>
+                <Link to="/criel">Criel-sur-Mer</Link>
             </div>
         )
     }

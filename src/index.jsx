@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+
 import Littoral from './components/Littoral/Littoral'
 import Ault from './components/Littoral/Ault'
 import Baie from './components/Littoral/Baie'
+import Belleville from './components/Littoral/Belleville'
+import Berneval from './components/Littoral/Berneval'
+import Boulogne from './components/Littoral/Boulogne'
+import Criel from './components/Littoral/Criel'
+
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
 import Contact from './components/Contact'
@@ -20,9 +26,15 @@ const Root = () => (
     <Router>
         <Switch>
             <Route exact path='/' component={App}/>
+
             <Route path='/littoral' component={Littoral}/>
             <Route path='/ault' component={Ault}/>
             <Route path='/baie_de_somme' component={Baie}/>
+            <Route path='/belleville-sur-mer' component={Belleville}/>
+            <Route path='/berneval' component={Berneval}/>
+            <Route path='/boulogne' component={Boulogne}/>
+            <Route path='/criel' component={Criel}/>
+
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>
             <Route path='/contact' component={Contact}/>
