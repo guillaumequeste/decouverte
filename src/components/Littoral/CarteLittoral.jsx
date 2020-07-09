@@ -47,6 +47,9 @@ export default class CarteLittoral extends Component {
         const veletot = [49.786164997944525, 0.43129265244890025]
         const veules = [49.8722029, 0.7990652]
         const veulettes = [49.8503223, 0.5971459]
+        const vgrainval = [49.750562118454745, 0.3474143340336777]
+        const wimereux = [50.7696858, 1.6118608]
+        const yport = [49.7378489, 0.3133709]
 
         return (
             <div className="carteLittoral">
@@ -234,6 +237,21 @@ export default class CarteLittoral extends Component {
                         <Marker position={veulettes}>
                             <Popup minWidth={200}>
                                 <Link to="/veulettes" className="linkHippodrome"><div className="lien"><div>Veulettes-sur-Mer</div><div><img src={require('../../img/littoral/veulettes/veulettes01min.jpg')} alt="veulettes" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={vgrainval}>
+                            <Popup minWidth={200}>
+                                <Link to="/vgrainval" className="linkHippodrome"><div className="lien"><div>Valleuse de Grainval</div><div><img src={require('../../img/littoral/vgrainval/vgrainval01min.jpg')} alt="vgrainval" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={wimereux}>
+                            <Popup minWidth={200}>
+                                <Link to="/wimereux" className="linkHippodrome"><div className="lien"><div>Wimereux</div><div><img src={require('../../img/littoral/wimereux/wimereux01min.jpg')} alt="wimereux" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={yport}>
+                            <Popup minWidth={200}>
+                                <Link to="/yport" className="linkHippodrome"><div className="lien"><div>Yport</div><div><img src={require('../../img/littoral/yport/yport01min.jpg')} alt="yport" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                     </Map>
