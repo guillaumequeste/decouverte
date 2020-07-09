@@ -17,7 +17,6 @@ class Littoral extends Component {
                 <Helmet title={"Littoral Découverte Normandie"}
                         link={"http://decouverte.guillaumequeste.fr/littoral"} />
                 <Header />
-
                 <div className="mapLittoral">
                     <div className="divMapLittoral">
                         <h1 className="title">Map Littoral</h1>

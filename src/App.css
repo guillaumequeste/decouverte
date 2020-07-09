@@ -49,16 +49,28 @@
 }
 
 .partSeine {
-    background-color: green;
+    position: relative;
+    background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .partAutres {
-    background-color: yellow;
+    position: relative;
+    background-image: url("./img/autres/route.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .titleApp {
     color: white;
     align-self: center;
+    text-decoration: none;
+}
+
+.titleApp:hover {
+    text-decoration: none;
+    color: yellow;
 }
 
 
@@ -73,6 +85,12 @@
 
 .divMapLittoral {
     margin: auto;
+}
+
+@media screen and (min-width: 1000px) {
+    .divMapLittoral {
+        margin-top: 0;
+    }
 }
 
 html,
@@ -93,6 +111,12 @@ body {
     height: 60vh;
 }
 
+@media screen and (min-width: 1000px) {
+    .leaflet-container {
+        height: 70vh;
+    }
+}
+
 
 /* CarteLittoral */
 
@@ -110,7 +134,7 @@ body {
 }
 
 
-/* Plage du littoral */
+/* Détail plage du littoral */
 
 .bodyLittoral {
     min-height: 93vh;
@@ -150,4 +174,18 @@ body {
     .photo {
         height: 80vh;
     }
+}
+
+
+/* Contact */
+
+.divContact {
+    display: flex;
+    height: 93vh;
+    background-color: rgb(17, 143, 201);
+}
+
+.divContact2 {
+    margin: auto;
+    color: white;
 }

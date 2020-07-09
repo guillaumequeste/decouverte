@@ -10,7 +10,7 @@ class Seine extends Component {
                 <Helmet title={"Seine bases React"}
                         link={"http://decouverte.guillaumequeste.fr"} />
                 <Header />
-                <h2>Seine works</h2>
+                <h2>En construction</h2>
             </div>
         )
     }

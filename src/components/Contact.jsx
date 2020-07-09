@@ -10,7 +10,11 @@ class Contact extends Component {
                 <Helmet title={"Contact bases React"}
                         link={"http://decouverte.guillaumequeste.fr"} />
                 <Header />
-                <h2>Contact works</h2>
+                <div className="divContact">
+                    <div className="divContact2">
+                        <h2>guillaume.queste@laposte.net</h2>
+                    </div>
+                </div>
             </div>
         )
     }

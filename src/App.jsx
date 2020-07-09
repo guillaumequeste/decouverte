@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Helmet from './components/Helmet'
 import Flip from 'react-reveal/Flip'
+import { Link } from 'react-router-dom'
 
 const App = () => (
   <>
@@ -13,17 +14,17 @@ const App = () => (
       <div className="flex">
       <Flip left>
         <div className="part partLittoral">
-          <h1 className="titleApp">Littoral</h1>
+          <Link to="/littoral" className="titleApp"><h1>Littoral</h1></Link>
         </div>
       </Flip>
       <Flip left>
         <div className="part partSeine">
-          <h1 className="titleApp">Boucles de la Seine</h1>
+          <Link to="/seine" className="titleApp"><h1>Boucles de la Seine</h1></Link>
         </div>
       </Flip>
       <Flip left>
         <div className="part partAutres">
-        <h1 className="titleApp">Autres</h1>
+          <Link to="/autres" className="titleApp"><h1>Autres</h1></Link>
         </div>
       </Flip>
       </div>
