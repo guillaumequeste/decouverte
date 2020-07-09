@@ -13,6 +13,14 @@ import Berneval from './components/Littoral/Berneval'
 import Boulogne from './components/Littoral/Boulogne'
 import Criel from './components/Littoral/Criel'
 import Dieppe from './components/Littoral/Dieppe'
+import Equihen from './components/Littoral/Equihen'
+import Etaples from './components/Littoral/Etaples'
+import Etretat from './components/Littoral/Etretat'
+import Fecamp from './components/Littoral/Fecamp'
+import Hardelot from './components/Littoral/Hardelot'
+import Le_Crotoy from './components/Littoral/Le_Crotoy'
+import Le_Hourdel from './components/Littoral/Le_Hourdel'
+import Le_Treport from './components/Littoral/Le_Treport'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -36,7 +44,14 @@ const Root = () => (
             <Route path='/boulogne' component={Boulogne}/>
             <Route path='/criel' component={Criel}/>
             <Route path='/dieppe' component={Dieppe}/>
-
+            <Route path='/equihen' component={Equihen}/>
+            <Route path='/etaples' component={Etaples}/>
+            <Route path='/etretat' component={Etretat}/>
+            <Route path='/fecamp' component={Fecamp}/>
+            <Route path='/hardelot' component={Hardelot}/>
+            <Route path='/le_crotoy' component={Le_Crotoy}/>
+            <Route path='/le_hourdel' component={Le_Hourdel}/>
+            <Route path='/le_treport' component={Le_Treport}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>

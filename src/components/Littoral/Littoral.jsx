@@ -19,6 +19,14 @@ class Littoral extends Component {
                 <Link to="/boulogne">Boulogne-sur-Mer</Link>
                 <Link to="/criel">Criel-sur-Mer</Link>
                 <Link to="/dieppe">Dieppe</Link>
+                <Link to="/equihen">Equihen-Plage</Link>
+                <Link to="/etaples">Etaples</Link>
+                <Link to="/etretat">Etretat</Link>
+                <Link to="/fecamp">Fécamp</Link>
+                <Link to="/hardelot">Hardelot-Plage</Link>
+                <Link to="/le_crotoy">Le Crotoy</Link>
+                <Link to="/le_hourdel">Le Hourdel</Link>
+                <Link to="/le_treport">Le Tréport</Link>
             </div>
         )
     }
