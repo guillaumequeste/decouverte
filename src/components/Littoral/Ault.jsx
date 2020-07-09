@@ -76,21 +76,6 @@ class Ault extends Component {
                             <img src={require("../../img/littoral/ault/ault13.jpg")} alt="ault13" className="photo"/>
                         </Zoom>
                     </div>
-                    <div className="divPhoto">
-                        <Zoom>
-                            <img src={require("../../img/littoral/ault/ault14.jpg")} alt="ault14" className="photo"/>
-                        </Zoom>
-                    </div>
-                    <div className="divPhoto">
-                        <Zoom>
-                            <img src={require("../../img/littoral/ault/ault15.jpg")} alt="ault15" className="photo"/>
-                        </Zoom>
-                    </div>
-                    <div className="divPhoto">
-                        <Zoom>
-                            <img src={require("../../img/littoral/ault/ault16.jpg")} alt="ault16" className="photo"/>
-                        </Zoom>
-                    </div>
                 </div>
             </div>
         )

@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../Header'
 import Helmet from '../Helmet'
+import CarteLittoral from './CarteLittoral.jsx'
+import Leaflet from 'leaflet'
+import 'leaflet/dist/leaflet.css'
+
+Leaflet.Icon.Default.imagePath =
+  '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/'
 
 class Littoral extends Component {
   
@@ -24,6 +30,7 @@ class Littoral extends Component {
                 <Link to="/etretat">Etretat</Link>
                 <Link to="/fecamp">Fécamp</Link>
                 <Link to="/hardelot">Hardelot-Plage</Link>
+                <Link to="/le_bois_de_cise">Le Bois de Cise</Link>
                 <Link to="/le_crotoy">Le Crotoy</Link>
                 <Link to="/le_hourdel">Le Hourdel</Link>
                 <Link to="/le_treport">Le Tréport</Link>
@@ -50,6 +57,11 @@ class Littoral extends Component {
                 <Link to="/vgrainval">Valleuse de Grainval</Link>
                 <Link to="/wimereux">Wimereux</Link>
                 <Link to="/yport">Yport</Link>
+
+                <div className="mapLittoral">
+                    <p>Map Littoral</p>
+                    <CarteLittoral />
+                </div>
             </div>
         )
     }

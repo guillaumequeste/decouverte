@@ -41,6 +41,55 @@
 
 /* Littoral */
 
+.mapLittoral {
+    width: 100vw;
+    height: 70vh;
+    background-color: blue;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+}
+
+.leaflet-container {
+    width: 60vw;
+    height: 60vh;
+    margin-bottom: 10px;
+}
+
+
+/* CarteLittoral */
+
+.carteLittoral {
+    width: 500px;
+    height: 200px;
+}
+
+.linkPlage {
+    text-decoration: none;
+    display: flex;
+}
+
+.lien {
+    flex-direction: column;
+}
+
+.apercu {
+    width: 200px;
+}
+
+
+/* Plage du littoral */
+
 .bodyLittoral {
     min-height: 93vh;
     background-color: rgb(17, 143, 201);

@@ -18,6 +18,7 @@ import Etaples from './components/Littoral/Etaples'
 import Etretat from './components/Littoral/Etretat'
 import Fecamp from './components/Littoral/Fecamp'
 import Hardelot from './components/Littoral/Hardelot'
+import Le_Bois_de_Cise from './components/Littoral/Le_Bois_de_Cise'
 import Le_Crotoy from './components/Littoral/Le_Crotoy'
 import Le_Hourdel from './components/Littoral/Le_Hourdel'
 import Le_Treport from './components/Littoral/Le_Treport'
@@ -72,6 +73,7 @@ const Root = () => (
             <Route path='/etretat' component={Etretat}/>
             <Route path='/fecamp' component={Fecamp}/>
             <Route path='/hardelot' component={Hardelot}/>
+            <Route path='/le_bois_de_cise' component={Le_Bois_de_Cise}/>
             <Route path='/le_crotoy' component={Le_Crotoy}/>
             <Route path='/le_hourdel' component={Le_Hourdel}/>
             <Route path='/le_treport' component={Le_Treport}/>
