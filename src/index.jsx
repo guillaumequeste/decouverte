@@ -31,6 +31,10 @@ import Puys from './components/Littoral/Puys'
 import Quiberville from './components/Littoral/Quiberville'
 import Saint_Aubin from './components/Littoral/Saint_Aubin'
 import Saint_Pierre_en_Port from './components/Littoral/Saint_Pierre_en_Port'
+import Saint_Valery_en_Caux from './components/Littoral/Saint_Valery_en_Caux'
+import Saint_Valery_sur_Somme from './components/Littoral/Saint_Valery_sur_Somme'
+import Sainte_Cecile from './components/Littoral/Sainte_Cecile'
+import Sainte_Marguerite from './components/Littoral/Sainte_Marguerite'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -72,6 +76,10 @@ const Root = () => (
             <Route path='/quiberville' component={Quiberville}/>
             <Route path='/saint-aubin' component={Saint_Aubin}/>
             <Route path='/saint-pierre-en-port' component={Saint_Pierre_en_Port}/>
+            <Route path='/saint-valery-en-caux' component={Saint_Valery_en_Caux}/>
+            <Route path='/saint-valery-sur-somme' component={Saint_Valery_sur_Somme}/>
+            <Route path='/sainte-cecile_plage' component={Sainte_Cecile}/>
+            <Route path='/sainte-marguerite' component={Sainte_Marguerite}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>

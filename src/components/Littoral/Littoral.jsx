@@ -37,6 +37,10 @@ class Littoral extends Component {
                 <Link to="/quiberville">Quiberville</Link>
                 <Link to="/saint-aubin">Saint-Aubin-sur-Mer</Link>
                 <Link to="/saint-pierre-en-port">Saint-Pierre-en-Port</Link>
+                <Link to="/saint-valery-en-caux">Saint-Valéry-en-Caux</Link>
+                <Link to="/saint-valery-sur-somme">Saint-Valéry-sur-Somme</Link>
+                <Link to="/sainte-cecile_plage">Sainte-Cécile Plage</Link>
+                <Link to="/sainte-marguerite">Sainte-Marguerite-sur-Mer</Link>
             </div>
         )
     }
