@@ -38,6 +38,12 @@ import Sainte_Marguerite from './components/Littoral/Sainte_Marguerite'
 import Sotteville from './components/Littoral/Sotteville'
 import Stella from './components/Littoral/Stella'
 import Varengeville from './components/Littoral/Varengeville'
+import VEletot from './components/Littoral/VEletot'
+import Veules from './components/Littoral/Veules'
+import Veulettes from './components/Littoral/Veulettes'
+import VGrainval from './components/Littoral/VGrainval'
+import Wimereux from './components/Littoral/Wimereux'
+import Yport from './components/Littoral/Yport'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -86,6 +92,12 @@ const Root = () => (
             <Route path='/sotteville' component={Sotteville}/>
             <Route path='/stella' component={Stella}/>
             <Route path='/varengeville' component={Varengeville}/>
+            <Route path='/veletot' component={VEletot}/>
+            <Route path='/veules' component={Veules}/>
+            <Route path='/veulettes' component={Veulettes}/>
+            <Route path='/vgrainval' component={VGrainval}/>
+            <Route path='/wimereux' component={Wimereux}/>
+            <Route path='/yport' component={Yport}/>
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>

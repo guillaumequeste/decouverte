@@ -44,6 +44,12 @@ class Littoral extends Component {
                 <Link to="/sotteville">Sotteville-sur-Mer</Link>
                 <Link to="/stella">Stella-Plage</Link>
                 <Link to="/varengeville">Varengeville-sur-Mer</Link>
+                <Link to="/veletot">Valleuse d'Eletot</Link>
+                <Link to="/veules">Veules-les-Roses</Link>
+                <Link to="/veulettes">Veulettes-sur-Mer</Link>
+                <Link to="/vgrainval">Valleuse de Grainval</Link>
+                <Link to="/wimereux">Wimereux</Link>
+                <Link to="/yport">Yport</Link>
             </div>
         )
     }
