@@ -4,6 +4,12 @@
 
 .navbar {
     height: 7vh;
+    z-index: 100 !important;
+}
+
+.nav-link {
+    background-color: #f8f9fa;
+    z-index: 100 !important;
 }
 
 
@@ -11,6 +17,7 @@
 
 .app {
     height: 93vh;
+    background-color: rgb(17, 143, 201);
 }
 
 .flex {
@@ -34,7 +41,23 @@
     }
 }
 
+.partLittoral {
+    position: relative;
+    background-image: url("./img/littoral/etretat/etretat27.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.partSeine {
+    background-color: green;
+}
+
+.partAutres {
+    background-color: yellow;
+}
+
 .titleApp {
+    color: white;
     align-self: center;
 }
 
@@ -43,8 +66,13 @@
 
 .mapLittoral {
     width: 100vw;
-    height: 70vh;
-    background-color: blue;
+    height: 93vh;
+    background-color: rgb(17, 143, 201);
+    display: flex;
+}
+
+.divMapLittoral {
+    margin: auto;
 }
 
 html,
@@ -61,18 +89,12 @@ body {
 }
 
 .leaflet-container {
-    width: 60vw;
+    width: 90vw;
     height: 60vh;
-    margin-bottom: 10px;
 }
 
 
 /* CarteLittoral */
-
-.carteLittoral {
-    width: 500px;
-    height: 200px;
-}
 
 .linkPlage {
     text-decoration: none;

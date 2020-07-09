@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 export default class CarteLittoral extends Component {
     state = {
-        lat: 50,
+        lat: 50.3,
         lng: 1.1,
-        zoom: 8,
+        zoom: 7.5,
     }
 
     render() {
@@ -52,15 +52,14 @@ export default class CarteLittoral extends Component {
         const yport = [49.7378489, 0.3133709]
 
         return (
-            <div className="carteLittoral">
-               
-                    <Map center={position} zoom={this.state.zoom}>
-                        <TileLayer
-                            attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        />
-                        <Marker position={ault}>
-                            <Popup minWidth={200}>
+            <div className="essai">
+                <Map center={position} zoom={this.state.zoom}>
+                    <TileLayer
+                        attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
+                    <Marker position={ault}>
+                        <Popup minWidth={200}>
                                 <Link to="/ault" className="linkPlage"><div className="lien"><div>Ault</div><div><img src={require('../../img/littoral/ault/ault01min.jpg')} alt="ault" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
@@ -249,13 +248,12 @@ export default class CarteLittoral extends Component {
                                 <Link to="/wimereux" className="linkHippodrome"><div className="lien"><div>Wimereux</div><div><img src={require('../../img/littoral/wimereux/wimereux01min.jpg')} alt="wimereux" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
-                        <Marker position={yport}>
-                            <Popup minWidth={200}>
-                                <Link to="/yport" className="linkHippodrome"><div className="lien"><div>Yport</div><div><img src={require('../../img/littoral/yport/yport01min.jpg')} alt="yport" className="apercu"/></div></div></Link>
-                            </Popup>
-                        </Marker>
-                    </Map>
-              
+                    <Marker position={yport}>
+                        <Popup minWidth={200}>
+                            <Link to="/yport" className="linkHippodrome"><div className="lien"><div>Yport</div><div><img src={require('../../img/littoral/yport/yport01min.jpg')} alt="yport" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                </Map>
             </div>
         )
     }

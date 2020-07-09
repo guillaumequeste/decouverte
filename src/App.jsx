@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header'
 import Helmet from './components/Helmet'
+import Flip from 'react-reveal/Flip'
 
 const App = () => (
   <>
@@ -10,15 +11,21 @@ const App = () => (
     <Header />
     <div className="app">
       <div className="flex">
-        <div className="part">
+      <Flip left>
+        <div className="part partLittoral">
           <h1 className="titleApp">Littoral</h1>
         </div>
-        <div className="part">
+      </Flip>
+      <Flip left>
+        <div className="part partSeine">
           <h1 className="titleApp">Boucles de la Seine</h1>
         </div>
-        <div className="part">
+      </Flip>
+      <Flip left>
+        <div className="part partAutres">
         <h1 className="titleApp">Autres</h1>
         </div>
+      </Flip>
       </div>
     </div>
   </>
