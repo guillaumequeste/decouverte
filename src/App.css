@@ -93,6 +93,18 @@
     }
 }
 
+.titleLittoral {
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 html,
 body {
     margin: 0;
@@ -107,8 +119,8 @@ body {
 }
 
 .leaflet-container {
-    width: 90vw;
-    height: 60vh;
+    width: 80vw;
+    height: 50vh;
 }
 
 @media screen and (min-width: 1000px) {

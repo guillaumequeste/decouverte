@@ -19,7 +19,7 @@ class Littoral extends Component {
                 <Header />
                 <div className="mapLittoral">
                     <div className="divMapLittoral">
-                        <h1 className="title">Map Littoral</h1>
+                        <h1 className="titleLittoral">Map Littoral</h1>
                         <CarteLittoral />
                     </div>
                 </div>
