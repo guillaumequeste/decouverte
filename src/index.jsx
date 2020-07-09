@@ -12,6 +12,7 @@ import Belleville from './components/Littoral/Belleville'
 import Berneval from './components/Littoral/Berneval'
 import Boulogne from './components/Littoral/Boulogne'
 import Criel from './components/Littoral/Criel'
+import Dieppe from './components/Littoral/Dieppe'
 
 import Seine from './components/Seine/Seine'
 import Autres from './components/Autres/Autres'
@@ -34,6 +35,8 @@ const Root = () => (
             <Route path='/berneval' component={Berneval}/>
             <Route path='/boulogne' component={Boulogne}/>
             <Route path='/criel' component={Criel}/>
+            <Route path='/dieppe' component={Dieppe}/>
+
 
             <Route path='/seine' component={Seine}/>
             <Route path='/autres' component={Autres}/>

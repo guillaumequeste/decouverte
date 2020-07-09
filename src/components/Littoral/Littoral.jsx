@@ -18,6 +18,7 @@ class Littoral extends Component {
                 <Link to="/berneval">Berneval</Link>
                 <Link to="/boulogne">Boulogne-sur-Mer</Link>
                 <Link to="/criel">Criel-sur-Mer</Link>
+                <Link to="/dieppe">Dieppe</Link>
             </div>
         )
     }
