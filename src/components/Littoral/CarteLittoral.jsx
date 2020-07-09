@@ -40,6 +40,13 @@ export default class CarteLittoral extends Component {
         const saint_valery_en_caux = [49.8597004, 0.7106831]
         const saint_valery_sur_somme = [50.1887006, 1.6279147]
         const sainte_cecile = [50.5747158, 1.5826268]
+        const sainte_marguerite = [49.9088387, 0.9467867]
+        const sotteville = [49.8809899, 0.8306694]
+        const stella = [50.4799397, 1.577138]
+        const varengeville = [49.9046335, 1.0021825]
+        const veletot = [49.786164997944525, 0.43129265244890025]
+        const veules = [49.8722029, 0.7990652]
+        const veulettes = [49.8503223, 0.5971459]
 
         return (
             <div className="carteLittoral">
@@ -192,6 +199,41 @@ export default class CarteLittoral extends Component {
                         <Marker position={sainte_cecile}>
                             <Popup minWidth={200}>
                                 <Link to="/sainte-cecile_plage" className="linkHippodrome"><div className="lien"><div>Saint-Cécile Plage</div><div><img src={require('../../img/littoral/sainte-cecile/sainte-cecile01min.jpg')} alt="saint-cecile" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={sainte_marguerite}>
+                            <Popup minWidth={200}>
+                                <Link to="/sainte-marguerite" className="linkHippodrome"><div className="lien"><div>Saint-Marguerite-sur-Mer</div><div><img src={require('../../img/littoral/sainte-marguerite/sainte-marguerite01min.jpg')} alt="saint-marguerite" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={sotteville}>
+                            <Popup minWidth={200}>
+                                <Link to="/sotteville" className="linkHippodrome"><div className="lien"><div>Sotteville-sur-Mer</div><div><img src={require('../../img/littoral/sotteville/sotteville01min.jpg')} alt="sotteville" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={stella}>
+                            <Popup minWidth={200}>
+                                <Link to="/stella" className="linkHippodrome"><div className="lien"><div>Stella-Plage</div><div><img src={require('../../img/littoral/stella/stella01min.jpg')} alt="stella" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={varengeville}>
+                            <Popup minWidth={200}>
+                                <Link to="/varengeville" className="linkHippodrome"><div className="lien"><div>Varengeville-sur-Mer</div><div><img src={require('../../img/littoral/varengeville/varengeville01min.jpg')} alt="varengeville" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={veletot}>
+                            <Popup minWidth={200}>
+                                <Link to="/veletot" className="linkHippodrome"><div className="lien"><div>Valleuse d'Eletot</div><div><img src={require('../../img/littoral/veletot/veletot01min.jpg')} alt="veletot" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={veules}>
+                            <Popup minWidth={200}>
+                                <Link to="/veules" className="linkHippodrome"><div className="lien"><div>Veules-les-Roses</div><div><img src={require('../../img/littoral/veules/veules01min.jpg')} alt="veules" className="apercu"/></div></div></Link>
+                            </Popup>
+                        </Marker>
+                        <Marker position={veulettes}>
+                            <Popup minWidth={200}>
+                                <Link to="/veulettes" className="linkHippodrome"><div className="lien"><div>Veulettes-sur-Mer</div><div><img src={require('../../img/littoral/veulettes/veulettes01min.jpg')} alt="veulettes" className="apercu"/></div></div></Link>
                             </Popup>
                         </Marker>
                     </Map>
