@@ -16,10 +16,15 @@ export default class CarteSeine extends Component {
         const caudebec = [49.52416135852367, 0.7263719063849283]
         const cleon = [49.3142135, 1.0329344]
         const duclair = [49.482563, 0.8754968]
+        const hautot = [49.3602514, 0.9773356]
+        const heurteauville = [49.444798, 0.8128955]
+        const jumieges = [49.4317826, 0.8175572]
+        const la_roche_guyon = [49.0810715, 1.6305766]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
+        const val_de_la_haye = [49.3773661, 1.0010383]
 
         return (
             <div>
@@ -53,6 +58,26 @@ export default class CarteSeine extends Component {
                             <Link to="/duclair" className="linkPlage"><div className="lien"><div>Duclair</div><div><img src={require('../../img/seine/duclair/duclair01min.jpg')} alt="duclair" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={hautot}>
+                        <Popup minWidth={200}>
+                            <Link to="/hautot" className="linkPlage"><div className="lien"><div>hautot</div><div><img src={require('../../img/seine/hautot/hautot01min.jpg')} alt="hautot" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={heurteauville}>
+                        <Popup minWidth={200}>
+                            <Link to="/heurteauville" className="linkPlage"><div className="lien"><div>Heurteauville</div><div><img src={require('../../img/seine/heurteauville/heurteauville01min.jpg')} alt="heurteauville" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={jumieges}>
+                        <Popup minWidth={200}>
+                            <Link to="/jumieges" className="linkPlage"><div className="lien"><div>Jumièges</div><div><img src={require('../../img/seine/jumieges/jumieges01min.jpg')} alt="jumieges" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={la_roche_guyon}>
+                        <Popup minWidth={200}>
+                            <Link to="/la_roche-guyon" className="linkPlage"><div className="lien"><div>La Roche-Guyon</div><div><img src={require('../../img/seine/la_roche-guyon/la_roche-guyon01min.jpg')} alt="la_roche-guyon" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_plessis}>
                         <Popup minWidth={200}>
                             <Link to="/le_plessis" className="linkPlage"><div className="lien"><div>Panorama du Plessis</div><div><img src={require('../../img/seine/le_plessis/le_plessis01min.jpg')} alt="le_plessis" className="apercu"/></div></div></Link>
@@ -71,6 +96,11 @@ export default class CarteSeine extends Component {
                     <Marker position={saint_nicolas_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/saint-nicolas-de-bliquetuit" className="linkPlage"><div className="lien"><div>Saint-Nicolas-de-Bliquetuit</div><div><img src={require('../../img/seine/saint-nicolas-de-bliquetuit/saint-nicolas-de-bliquetuit01min.jpg')} alt="saint-nicolas-de-bliquetuit" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={val_de_la_haye}>
+                        <Popup minWidth={200}>
+                            <Link to="/val-de-la-haye" className="linkPlage"><div className="lien"><div>Val-de-la-Haye</div><div><img src={require('../../img/seine/val-de-la-haye/val-de-la-haye01min.jpg')} alt="val-de-la-haye" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>
