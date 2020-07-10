@@ -52,10 +52,64 @@ body {
     flex-direction: column;
 }
 
+.titleApp {
+    color: white;
+    align-self: center;
+    text-decoration: none;
+}
+
+.titleApp:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
 .part {
     display: flex;
     justify-content: center;
     height: 31vh;
+}
+
+.partLittoral {
+    position: relative;
+    background-image: url("./img/littoral/etretat/etretat27.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    transition: all 1s;
+}
+
+.partLittoral:hover {
+    transform: scale(1.2);
+}
+
+.partSeine {
+    position: relative;
+    background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    transition: all 1s;
+}
+
+.partSeine:hover {
+    transform: scale(1.2);
+}
+
+.partAutres {
+    position: relative;
+    background-image: url("./img/autres/route.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    transition: all 1s;
+}
+
+.partAutres:hover {
+    transform: scale(1.2);
+}
+
+.part2 {
+    margin: auto;
 }
 
 @media screen and (min-width: 1000px) {
@@ -66,43 +120,6 @@ body {
         height: 93vh;
         width: calc(100vw / 3);
     }
-}
-
-.partLittoral {
-    position: relative;
-    background-image: url("./img/littoral/etretat/etretat27.jpg");
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-}
-
-.part2 {
-    margin: auto;
-}
-
-.partSeine {
-    position: relative;
-    background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
-    background-size: cover;
-    background-position: center center;
-}
-
-.partAutres {
-    position: relative;
-    background-image: url("./img/autres/route.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-.titleApp {
-    color: white;
-    align-self: center;
-    text-decoration: none;
-}
-
-.titleApp:hover {
-    text-decoration: none;
-    color: yellow;
 }
 
 
