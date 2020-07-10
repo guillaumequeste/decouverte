@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne');
 
+/* leaflet */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+}
+
+.leaflet-container {
+    width: 80vw;
+    height: 50vh;
+}
+
+@media screen and (min-width: 1000px) {
+    .leaflet-container {
+        height: 70vh;
+    }
+}
+
+
 /* Header */
 
 .navbar {
@@ -79,7 +106,7 @@
 }
 
 
-/* Littoral */
+/* Littoral Seine Autres */
 
 .mapLittoral {
     width: 100vw;
@@ -110,32 +137,8 @@
     padding-bottom: 2%;
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
 
-#root {
-    width: inherit;
-    height: inherit;
-}
-
-.leaflet-container {
-    width: 80vw;
-    height: 50vh;
-}
-
-@media screen and (min-width: 1000px) {
-    .leaflet-container {
-        height: 70vh;
-    }
-}
-
-
-/* CarteLittoral */
+/* CarteLittoral CarteSeine CarteAutres */
 
 .linkPlage {
     text-decoration: none;
@@ -151,7 +154,7 @@ body {
 }
 
 
-/* Détail plage du littoral */
+/* Détail plage du littoral - Détail boucles Seine */
 
 .bodyLittoral {
     min-height: 93vh;

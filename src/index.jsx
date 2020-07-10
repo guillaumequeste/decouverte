@@ -47,6 +47,8 @@ import Wimereux from './components/Littoral/Wimereux'
 import Yport from './components/Littoral/Yport'
 
 import Seine from './components/Seine/Seine'
+import Le_Plessis from './components/Seine/Le_Plessis'
+
 import Autres from './components/Autres/Autres'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
@@ -102,6 +104,8 @@ const Root = () => (
             <Route path='/yport' component={Yport}/>
 
             <Route path='/seine' component={Seine}/>
+            <Route path='/le_plessis' component={Le_Plessis}/>
+
             <Route path='/autres' component={Autres}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

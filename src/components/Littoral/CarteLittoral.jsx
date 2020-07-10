@@ -52,7 +52,7 @@ export default class CarteLittoral extends Component {
         const yport = [49.7378489, 0.3133709]
 
         return (
-            <div className="essai">
+            <div>
                 <Map center={position} zoom={this.state.zoom}>
                     <TileLayer
                         attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
