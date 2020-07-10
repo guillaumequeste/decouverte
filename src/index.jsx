@@ -48,7 +48,9 @@ import Yport from './components/Littoral/Yport'
 
 import Seine from './components/Seine/Seine'
 import Barrage_Poses from './components/Seine/Barrage_Poses'
+import Bennecourt from './components/Seine/Bennecourt'
 import Le_Plessis from './components/Seine/Le_Plessis'
+import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
 
 import Autres from './components/Autres/Autres'
@@ -107,7 +109,9 @@ const Root = () => (
 
             <Route path='/seine' component={Seine}/>
             <Route path='/barrage_poses' component={Barrage_Poses}/>
+            <Route path='/bennecourt' component={Bennecourt}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
+            <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
 
             <Route path='/autres' component={Autres}/>

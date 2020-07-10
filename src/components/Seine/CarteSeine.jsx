@@ -12,7 +12,9 @@ export default class CarteSeine extends Component {
     render() {
         const position = [this.state.lat, this.state.lng]
         const barrage_poses = [49.31016932741239, 1.2364600137390047]
+        const bennecourt = [49.041242, 1.560926]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
+        const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
 
         return (
@@ -27,9 +29,19 @@ export default class CarteSeine extends Component {
                             <Link to="/barrage_poses" className="linkPlage"><div className="lien"><div>Barrage de Poses</div><div><img src={require('../../img/seine/barrage_poses/barrage_poses01min.jpg')} alt="barrage_poses" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={bennecourt}>
+                        <Popup minWidth={200}>
+                            <Link to="/bennecourt" className="linkPlage"><div className="lien"><div>Bennecourt</div><div><img src={require('../../img/seine/bennecourt/bennecourt01min.jpg')} alt="bennecourt" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_plessis}>
                         <Popup minWidth={200}>
                             <Link to="/le_plessis" className="linkPlage"><div className="lien"><div>Panorama du Plessis</div><div><img src={require('../../img/seine/le_plessis/le_plessis01min.jpg')} alt="le_plessis" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={notre_dame_de_bliquetuit}>
+                        <Popup minWidth={200}>
+                            <Link to="/notre-dame-de-bliquetuit" className="linkPlage"><div className="lien"><div>Notre-Dame-de-Bliquetuit</div><div><img src={require('../../img/seine/notre-dame-de-bliquetuit/notre-dame-de-bliquetuit01min.jpg')} alt="notre-dame-de-bliquetuit" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={saint_nicolas_de_bliquetuit}>
