@@ -132,6 +132,13 @@ body {
     display: flex;
 }
 
+.mapSeine {
+    width: 100vw;
+    height: 93vh;
+    background-color: rgb(58, 151, 3);
+    display: flex;
+}
+
 .divMapLittoral {
     margin: auto;
 }
@@ -176,6 +183,10 @@ body {
 .bodyLittoral {
     min-height: 93vh;
     background-color: rgb(17, 143, 201);
+}
+
+.bodySeine {
+    background-color: rgb(58, 151, 3);
 }
 
 .title {

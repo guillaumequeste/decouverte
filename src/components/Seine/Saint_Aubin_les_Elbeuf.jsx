@@ -11,7 +11,7 @@ class Saint_Aubin_les_Elbeuf extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-aubin-les-elbeuf"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Saint-Aubin-lès-Elbeuf</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/saint-aubin-les-elbeuf/saint-aubin-les-elbeuf01.jpg")} alt="saint-aubin-les-elbeuf01" className="photo"/>

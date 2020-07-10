@@ -11,7 +11,7 @@ class Jumieges extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/jumieges"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Jumièges</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/jumieges/jumieges01.jpg")} alt="jumieges01" className="photo"/>

@@ -11,7 +11,7 @@ class Hautot extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/hautot"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Hautot-sur-Seine</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/hautot/hautot01.jpg")} alt="hautot01" className="photo"/>

@@ -11,7 +11,7 @@ class Val_de_la_Haye extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/val-de-la-haye"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Val-de-la-Haye</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/val-de-la-haye/val-de-la-haye01.jpg")} alt="val-de-la-haye01" className="photo"/>

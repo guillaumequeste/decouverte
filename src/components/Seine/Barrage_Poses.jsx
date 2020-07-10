@@ -11,7 +11,7 @@ class Barrage_Poses extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/barrage_poses"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Barrage de Poses</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/barrage_poses/barrage_poses01.jpg")} alt="barrage_poses01" className="photo"/>

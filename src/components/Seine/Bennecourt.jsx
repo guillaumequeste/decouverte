@@ -11,7 +11,7 @@ class Bennecourt extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/bennecourt"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Bennecourt</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/bennecourt/bennecourt01.jpg")} alt="bennecourt01" className="photo"/>

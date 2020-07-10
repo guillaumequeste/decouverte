@@ -11,7 +11,7 @@ class Le_Val_Pitant extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/le_val_pitant"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Le Val Pitant</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/le_val_pitant/le_val_pitant01.jpg")} alt="lle_val_pitant01" className="photo"/>

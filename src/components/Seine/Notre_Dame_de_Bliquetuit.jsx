@@ -11,7 +11,7 @@ class Notre_Dame_de_Bliquetuit extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/notre-dame-de-bliquetuit"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Notre-Dame-de-Bliquetuit</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/notre-dame-de-bliquetuit/notre-dame-de-bliquetuit01.jpg")} alt="notre-dame-de-bliquetuit01" className="photo"/>

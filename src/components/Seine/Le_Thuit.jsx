@@ -11,7 +11,7 @@ class Le_Thuit extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/le_thuit"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Panorama du Thuit</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/le_thuit/le_thuit01.jpg")} alt="le_thuit01" className="photo"/>

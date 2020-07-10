@@ -11,7 +11,7 @@ class Port_Jumieges extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/port_jumieges"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Port Jumièges</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/port_jumieges/port_jumieges01.jpg")} alt="port_jumieges01" className="photo"/>

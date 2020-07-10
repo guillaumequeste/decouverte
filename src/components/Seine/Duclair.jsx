@@ -11,7 +11,7 @@ class Duclair extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/duclair"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Duclair</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/duclair/duclair01.jpg")} alt="duclair01" className="photo"/>

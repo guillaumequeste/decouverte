@@ -11,7 +11,7 @@ class Cleon extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/cleon"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Cléon</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/cleon/cleon01.jpg")} alt="cleon01" className="photo"/>

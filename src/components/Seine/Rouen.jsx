@@ -11,7 +11,7 @@ class Rouen extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/rouen"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Rouen</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/rouen/rouen01.jpg")} alt="rouen01" className="photo"/>

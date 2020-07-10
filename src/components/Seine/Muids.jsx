@@ -11,7 +11,7 @@ class Muids extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/muids"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Muids</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/muids/muids01.jpg")} alt="muids01" className="photo"/>

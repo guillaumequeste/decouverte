@@ -11,7 +11,7 @@ class Caudebec extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/caudebec"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Caudebec-en-Caux</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/caudebec/caudebec01.jpg")} alt="caudebec01" className="photo"/>

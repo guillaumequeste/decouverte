@@ -11,7 +11,7 @@ class Vernon extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/vernon"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Vernon</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/vernon/vernon01.jpg")} alt="vernon01" className="photo"/>

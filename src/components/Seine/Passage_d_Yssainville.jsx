@@ -11,7 +11,7 @@ class Passage_d_Yssainville extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/passage_d_yssainville"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Passage d'Yssainville</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/passage_d_yssainville/passage_d_yssainville01.jpg")} alt="passage_d_yssainville01" className="photo"/>

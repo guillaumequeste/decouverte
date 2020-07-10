@@ -11,7 +11,7 @@ class Les_Andelys extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/les_andelys"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Les Andelys</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/les_andelys/les_andelys01.jpg")} alt="les_andelys01" className="photo"/>

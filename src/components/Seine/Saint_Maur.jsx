@@ -11,7 +11,7 @@ class Saint_Maur extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-maur"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Saint-Maur</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/saint-maur/saint-maur01.jpg")} alt="saint-maur01" className="photo"/>

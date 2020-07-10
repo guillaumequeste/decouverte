@@ -11,7 +11,7 @@ class Saint_Pierre_de_Manneville extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-pierre-de-manneville"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Saint-Pierre-de-Manneville</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/saint-pierre-de-manneville/saint-pierre-de-manneville01.jpg")} alt="saint-pierre-de-manneville01" className="photo"/>

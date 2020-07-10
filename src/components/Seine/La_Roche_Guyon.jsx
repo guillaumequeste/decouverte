@@ -11,7 +11,7 @@ class La_Roche_Guyon extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/la_roche-guyon"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">La Roche-Guyon</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/la_roche-guyon/la_roche-guyon01.jpg")} alt="la_roche-guyon01" className="photo"/>

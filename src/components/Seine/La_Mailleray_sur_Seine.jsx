@@ -11,7 +11,7 @@ class La_Mailleray_sur_Seine extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/la_mailleray-sur-seine"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">La Mailleray-sur-Seine</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/la_mailleray-sur-seine/la_mailleray-sur-seine01.jpg")} alt="la_mailleray-sur-seine01" className="photo"/>

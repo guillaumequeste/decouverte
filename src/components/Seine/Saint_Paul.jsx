@@ -11,7 +11,7 @@ class Saint_Paul extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-paul"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Saint-Paul</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/saint-paul/saint-paul01.jpg")} alt="saint-paul01" className="photo"/>

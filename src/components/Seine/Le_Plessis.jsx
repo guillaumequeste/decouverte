@@ -11,7 +11,7 @@ class Le_Plessis extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/le_plessis"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Panorama du Plessis</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/le_plessis/le_plessis01.jpg")} alt="le_plessis01" className="photo"/>

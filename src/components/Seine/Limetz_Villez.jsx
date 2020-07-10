@@ -11,7 +11,7 @@ class Limetz_Villez extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/limetz-villez"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Limetz-Villez</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/limetz-villez/limetz-villez01.jpg")} alt="llimetz-villez01" className="photo"/>

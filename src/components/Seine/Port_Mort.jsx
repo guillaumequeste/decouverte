@@ -10,7 +10,7 @@ class Port_Mort extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/port-mort"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Port-Mort</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/port-mort/port-mort01.jpg")} alt="port-mort01" className="photo"/>

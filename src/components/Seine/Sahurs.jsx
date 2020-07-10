@@ -11,7 +11,7 @@ class Sahurs extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/sahurs"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Sahurs</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/sahurs/sahurs01.jpg")} alt="sahurs01" className="photo"/>

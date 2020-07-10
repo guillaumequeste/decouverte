@@ -11,7 +11,7 @@ class Passage_du_Trait extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/passage_du_trait"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Passage du Trait</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/passage_du_trait/passage_du_trait01.jpg")} alt="passage_du_trait01" className="photo"/>

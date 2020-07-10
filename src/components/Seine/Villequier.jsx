@@ -11,7 +11,7 @@ class Villequier extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/villequier"} />
                 <Header />
-                <div className="bodyLittoral">
+                <div className="bodySeine">
                     <h1 className="title">Villequier</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/villequier/villequier01.jpg")} alt="villequier01" className="photo"/>
