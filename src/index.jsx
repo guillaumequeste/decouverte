@@ -47,6 +47,7 @@ import Wimereux from './components/Littoral/Wimereux'
 import Yport from './components/Littoral/Yport'
 
 import Seine from './components/Seine/Seine'
+import Barrage_Poses from './components/Seine/Barrage_Poses'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
 
@@ -105,6 +106,7 @@ const Root = () => (
             <Route path='/yport' component={Yport}/>
 
             <Route path='/seine' component={Seine}/>
+            <Route path='/barrage_poses' component={Barrage_Poses}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
 
