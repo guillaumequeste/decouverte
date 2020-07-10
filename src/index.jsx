@@ -63,8 +63,13 @@ import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
+import Muids from './components/Seine/Muids'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
+import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
+import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
+import Rouen from './components/Seine/Rouen'
+import Sahurs from './components/Seine/Sahurs'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
@@ -140,8 +145,13 @@ const Root = () => (
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
             <Route path='/limetz-villez' component={Limetz_Villez}/>
+            <Route path='/muids' component={Muids}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
+            <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
+            <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>
+            <Route path='/rouen' component={Rouen}/>
+            <Route path='/sahurs' component={Sahurs}/>
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>

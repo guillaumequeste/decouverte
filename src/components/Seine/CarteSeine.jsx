@@ -27,8 +27,13 @@ export default class CarteSeine extends Component {
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
         const limetz_villez = [49.06031467107532, 1.5291453092289942]
+        const muids = [49.2228671, 1.2880007]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
+        const notre_dame_de_l_isle = [49.1455113, 1.4277246]
+        const port_jumieges = [49.43748167827217, 0.8038979890403919]
         const port_mort = [49.16899232754176, 1.3942056070488862]
+        const rouen = [49.4404591, 1.0939658]
+        const sahurs = [49.3586705, 0.9437092]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
         const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
         const val_de_la_haye = [49.3773661, 1.0010383]
@@ -120,14 +125,39 @@ export default class CarteSeine extends Component {
                             <Link to="/limetz-villez" className="linkPlage"><div className="lien"><div>Limetz-Villez</div><div><img src={require('../../img/seine/limetz-villez/limetz-villez01min.jpg')} alt="limetz-villez" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={muids}>
+                        <Popup minWidth={200}>
+                            <Link to="/muids" className="linkPlage"><div className="lien"><div>Muids</div><div><img src={require('../../img/seine/muids/muids01min.jpg')} alt="muids" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={notre_dame_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/notre-dame-de-bliquetuit" className="linkPlage"><div className="lien"><div>Notre-Dame-de-Bliquetuit</div><div><img src={require('../../img/seine/notre-dame-de-bliquetuit/notre-dame-de-bliquetuit01min.jpg')} alt="notre-dame-de-bliquetuit" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={notre_dame_de_l_isle}>
+                        <Popup minWidth={200}>
+                            <Link to="/notre-dame-de-l_isle" className="linkPlage"><div className="lien"><div>Notre-Dame-de-l'Isle</div><div><img src={require('../../img/seine/notre-dame-de-l_isle/notre-dame-de-l_isle01min.jpg')} alt="notre-dame-de-l_isle" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={port_jumieges}>
+                        <Popup minWidth={200}>
+                            <Link to="/port_jumieges" className="linkPlage"><div className="lien"><div>Port Jumièges</div><div><img src={require('../../img/seine/port_jumieges/port_jumieges01min.jpg')} alt="port_jumieges" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={port_mort}>
                         <Popup minWidth={200}>
                             <Link to="/port-mort" className="linkPlage"><div className="lien"><div>Port-Mort</div><div><img src={require('../../img/seine/port-mort/port-mort01min.jpg')} alt="port-mort" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={rouen}>
+                        <Popup minWidth={200}>
+                            <Link to="/rouen" className="linkPlage"><div className="lien"><div>Rouen</div><div><img src={require('../../img/seine/rouen/rouen01min.jpg')} alt="rouen" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={sahurs}>
+                        <Popup minWidth={200}>
+                            <Link to="/sahurs" className="linkPlage"><div className="lien"><div>Sahurs</div><div><img src={require('../../img/seine/sahurs/sahurs01min.jpg')} alt="sahurs" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={saint_nicolas_de_bliquetuit}>
