@@ -50,6 +50,8 @@ import Seine from './components/Seine/Seine'
 import Barrage_Poses from './components/Seine/Barrage_Poses'
 import Bennecourt from './components/Seine/Bennecourt'
 import Caudebec from './components/Seine/Caudebec'
+import Cleon from './components/Seine/Cleon'
+import Duclair from './components/Seine/Duclair'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Port_Mort from './components/Seine/Port_Mort'
@@ -113,6 +115,8 @@ const Root = () => (
             <Route path='/barrage_poses' component={Barrage_Poses}/>
             <Route path='/bennecourt' component={Bennecourt}/>
             <Route path='/caudebec' component={Caudebec}/>
+            <Route path='/cleon' component={Cleon}/>
+            <Route path='/duclair' component={Duclair}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/port-mort' component={Port_Mort}/>

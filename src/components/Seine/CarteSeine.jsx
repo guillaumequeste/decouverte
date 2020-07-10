@@ -14,6 +14,8 @@ export default class CarteSeine extends Component {
         const barrage_poses = [49.31016932741239, 1.2364600137390047]
         const bennecourt = [49.041242, 1.560926]
         const caudebec = [49.52416135852367, 0.7263719063849283]
+        const cleon = [49.3142135, 1.0329344]
+        const duclair = [49.482563, 0.8754968]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const port_mort = [49.16899232754176, 1.3942056070488862]
@@ -39,6 +41,16 @@ export default class CarteSeine extends Component {
                     <Marker position={caudebec}>
                         <Popup minWidth={200}>
                             <Link to="/caudebec" className="linkPlage"><div className="lien"><div>Caudebec-en-Caux</div><div><img src={require('../../img/seine/caudebec/caudebec01min.jpg')} alt="caudebec" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cleon}>
+                        <Popup minWidth={200}>
+                            <Link to="/cleon" className="linkPlage"><div className="lien"><div>Cléon</div><div><img src={require('../../img/seine/cleon/cleon01min.jpg')} alt="cleon" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={duclair}>
+                        <Popup minWidth={200}>
+                            <Link to="/duclair" className="linkPlage"><div className="lien"><div>Duclair</div><div><img src={require('../../img/seine/duclair/duclair01min.jpg')} alt="duclair" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_plessis}>
