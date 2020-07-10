@@ -55,15 +55,18 @@ import Duclair from './components/Seine/Duclair'
 import Hautot from './components/Seine/Hautot'
 import Heurteauville from './components/Seine/Heurteauville'
 import Jumieges from './components/Seine/Jumieges'
+import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
 import Le_Mesnil_sous_Jumieges from './components/Seine/Le_Mesnil_sous_Jumieges'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
+import Limetz_Villez from './components/Seine/Limetz_Villez'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Port_Mort from './components/Seine/Port_Mort'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
+import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
 
 import Autres from './components/Autres/Autres'
@@ -129,15 +132,18 @@ const Root = () => (
             <Route path='/hautot' component={Hautot}/>
             <Route path='/heurteauville' component={Heurteauville}/>
             <Route path='/jumieges' component={Jumieges}/>
+            <Route path='/la_mailleray-sur-seine' component={La_Mailleray_sur_Seine}/>
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
             <Route path='/le_mesnil-sous-jumieges' component={Le_Mesnil_sous_Jumieges}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/le_val_pitant' component={Le_Val_Pitant}/>
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
+            <Route path='/limetz-villez' component={Limetz_Villez}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/port-mort' component={Port_Mort}/>
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
+            <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
 
             <Route path='/autres' component={Autres}/>

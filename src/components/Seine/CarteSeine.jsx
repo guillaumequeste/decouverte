@@ -19,15 +19,18 @@ export default class CarteSeine extends Component {
         const hautot = [49.3602514, 0.9773356]
         const heurteauville = [49.444798, 0.8128955]
         const jumieges = [49.4317826, 0.8175572]
+        const la_mailleray_sur_seine = [49.48230701294539, 0.7747897018168937]
         const la_roche_guyon = [49.0810715, 1.6305766]
         const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const le_val_pitant = [49.30959482502866, 1.2485836639375236]
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
+        const limetz_villez = [49.06031467107532, 1.5291453092289942]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
+        const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
         const val_de_la_haye = [49.3773661, 1.0010383]
 
         return (
@@ -77,6 +80,11 @@ export default class CarteSeine extends Component {
                             <Link to="/jumieges" className="linkPlage"><div className="lien"><div>Jumièges</div><div><img src={require('../../img/seine/jumieges/jumieges01min.jpg')} alt="jumieges" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={la_mailleray_sur_seine}>
+                        <Popup minWidth={200}>
+                            <Link to="/la_mailleray-sur-seine" className="linkPlage"><div className="lien"><div>La Mailleray-sur-Seine</div><div><img src={require('../../img/seine/la_mailleray-sur-seine/la_mailleray-sur-seine01min.jpg')} alt="la_mailleray-sur-seine" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={la_roche_guyon}>
                         <Popup minWidth={200}>
                             <Link to="/la_roche-guyon" className="linkPlage"><div className="lien"><div>La Roche-Guyon</div><div><img src={require('../../img/seine/la_roche-guyon/la_roche-guyon01min.jpg')} alt="la_roche-guyon" className="apercu"/></div></div></Link>
@@ -107,6 +115,11 @@ export default class CarteSeine extends Component {
                             <Link to="/les_mousseaux" className="linkPlage"><div className="lien"><div>Les Mousseaux</div><div><img src={require('../../img/seine/les_mousseaux/les_mousseaux01min.jpg')} alt="les_mousseaux" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={limetz_villez}>
+                        <Popup minWidth={200}>
+                            <Link to="/limetz-villez" className="linkPlage"><div className="lien"><div>Limetz-Villez</div><div><img src={require('../../img/seine/limetz-villez/limetz-villez01min.jpg')} alt="limetz-villez" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={notre_dame_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/notre-dame-de-bliquetuit" className="linkPlage"><div className="lien"><div>Notre-Dame-de-Bliquetuit</div><div><img src={require('../../img/seine/notre-dame-de-bliquetuit/notre-dame-de-bliquetuit01min.jpg')} alt="notre-dame-de-bliquetuit" className="apercu"/></div></div></Link>
@@ -120,6 +133,11 @@ export default class CarteSeine extends Component {
                     <Marker position={saint_nicolas_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/saint-nicolas-de-bliquetuit" className="linkPlage"><div className="lien"><div>Saint-Nicolas-de-Bliquetuit</div><div><img src={require('../../img/seine/saint-nicolas-de-bliquetuit/saint-nicolas-de-bliquetuit01min.jpg')} alt="saint-nicolas-de-bliquetuit" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={saint_pierre_de_manneville}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-pierre-de-manneville" className="linkPlage"><div className="lien"><div>Saint-Pierre-de-Manneville</div><div><img src={require('../../img/seine/saint-pierre-de-manneville/saint-pierre-de-manneville01min.jpg')} alt="saint-pierre-de-manneville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={val_de_la_haye}>
