@@ -20,7 +20,11 @@ export default class CarteSeine extends Component {
         const heurteauville = [49.444798, 0.8128955]
         const jumieges = [49.4317826, 0.8175572]
         const la_roche_guyon = [49.0810715, 1.6305766]
+        const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
+        const le_val_pitant = [49.30959482502866, 1.2485836639375236]
+        const les_andelys = [49.2469193, 1.4215534]
+        const les_mousseaux = [49.19813000943054, 1.34611101749738]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
@@ -60,7 +64,7 @@ export default class CarteSeine extends Component {
                     </Marker>
                     <Marker position={hautot}>
                         <Popup minWidth={200}>
-                            <Link to="/hautot" className="linkPlage"><div className="lien"><div>hautot</div><div><img src={require('../../img/seine/hautot/hautot01min.jpg')} alt="hautot" className="apercu"/></div></div></Link>
+                            <Link to="/hautot" className="linkPlage"><div className="lien"><div>Hautot-sur-Seine</div><div><img src={require('../../img/seine/hautot/hautot01min.jpg')} alt="hautot" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={heurteauville}>
@@ -78,9 +82,29 @@ export default class CarteSeine extends Component {
                             <Link to="/la_roche-guyon" className="linkPlage"><div className="lien"><div>La Roche-Guyon</div><div><img src={require('../../img/seine/la_roche-guyon/la_roche-guyon01min.jpg')} alt="la_roche-guyon" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={le_mesnil_sous_jumieges}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_mesnil-sous-jumieges" className="linkPlage"><div className="lien"><div>Le Mesnil-sous-Jumièges</div><div><img src={require('../../img/seine/le_mesnil-sous-jumieges/le_mesnil-sous-jumieges01min.jpg')} alt="le_mesnil-sous-jumieges" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_plessis}>
                         <Popup minWidth={200}>
                             <Link to="/le_plessis" className="linkPlage"><div className="lien"><div>Panorama du Plessis</div><div><img src={require('../../img/seine/le_plessis/le_plessis01min.jpg')} alt="le_plessis" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={le_val_pitant}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_val_pitant" className="linkPlage"><div className="lien"><div>Le Val Pitant</div><div><img src={require('../../img/seine/le_val_pitant/le_val_pitant01min.jpg')} alt="le_val_pitant" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={les_andelys}>
+                        <Popup minWidth={200}>
+                            <Link to="/les_andelys" className="linkPlage"><div className="lien"><div>Les Andelys</div><div><img src={require('../../img/seine/les_andelys/les_andelys01min.jpg')} alt="les_andelys" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={les_mousseaux}>
+                        <Popup minWidth={200}>
+                            <Link to="/les_mousseaux" className="linkPlage"><div className="lien"><div>Les Mousseaux</div><div><img src={require('../../img/seine/les_mousseaux/les_mousseaux01min.jpg')} alt="les_mousseaux" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={notre_dame_de_bliquetuit}>
