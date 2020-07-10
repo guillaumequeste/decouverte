@@ -23,6 +23,7 @@ export default class CarteSeine extends Component {
         const la_roche_guyon = [49.0810715, 1.6305766]
         const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
+        const le_thuit = [49.254447617943185, 1.376624308241885]
         const le_val_pitant = [49.30959482502866, 1.2485836639375236]
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
@@ -34,7 +35,10 @@ export default class CarteSeine extends Component {
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const rouen = [49.4404591, 1.0939658]
         const sahurs = [49.3586705, 0.9437092]
+        const saint_aubin_les_elbeuf = [49.29435810837388, 1.0154206793338627]
+        const saint_maur = [49.35375598710399, 0.9542156965897641]
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
+        const saint_paul = [49.46908930819602, 0.8605530137303674]
         const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
         const val_de_la_haye = [49.3773661, 1.0010383]
 
@@ -105,6 +109,11 @@ export default class CarteSeine extends Component {
                             <Link to="/le_plessis" className="linkPlage"><div className="lien"><div>Panorama du Plessis</div><div><img src={require('../../img/seine/le_plessis/le_plessis01min.jpg')} alt="le_plessis" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={le_thuit}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_thuit" className="linkPlage"><div className="lien"><div>Panorama du Thuit</div><div><img src={require('../../img/seine/le_thuit/le_thuit01min.jpg')} alt="le_thuit" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_val_pitant}>
                         <Popup minWidth={200}>
                             <Link to="/le_val_pitant" className="linkPlage"><div className="lien"><div>Le Val Pitant</div><div><img src={require('../../img/seine/le_val_pitant/le_val_pitant01min.jpg')} alt="le_val_pitant" className="apercu"/></div></div></Link>
@@ -160,9 +169,24 @@ export default class CarteSeine extends Component {
                             <Link to="/sahurs" className="linkPlage"><div className="lien"><div>Sahurs</div><div><img src={require('../../img/seine/sahurs/sahurs01min.jpg')} alt="sahurs" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={saint_aubin_les_elbeuf}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-aubin-les-elbeuf" className="linkPlage"><div className="lien"><div>Saint-Aubin-lès-Elbeuf</div><div><img src={require('../../img/seine/saint-aubin-les-elbeuf/saint-aubin-les-elbeuf01min.jpg')} alt="saint-aubin-les-elbeuf" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={saint_maur}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-maur" className="linkPlage"><div className="lien"><div>Saint-Maur</div><div><img src={require('../../img/seine/saint-maur/saint-maur01min.jpg')} alt="saint-maur" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={saint_nicolas_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/saint-nicolas-de-bliquetuit" className="linkPlage"><div className="lien"><div>Saint-Nicolas-de-Bliquetuit</div><div><img src={require('../../img/seine/saint-nicolas-de-bliquetuit/saint-nicolas-de-bliquetuit01min.jpg')} alt="saint-nicolas-de-bliquetuit" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={saint_paul}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-paul" className="linkPlage"><div className="lien"><div>Saint-Paul</div><div><img src={require('../../img/seine/saint-paul/saint-paul01min.jpg')} alt="saint-paul" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={saint_pierre_de_manneville}>

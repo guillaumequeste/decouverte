@@ -59,6 +59,7 @@ import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
 import Le_Mesnil_sous_Jumieges from './components/Seine/Le_Mesnil_sous_Jumieges'
 import Le_Plessis from './components/Seine/Le_Plessis'
+import Le_Thuit from './components/Seine/Le_Thuit'
 import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
@@ -70,7 +71,10 @@ import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
 import Rouen from './components/Seine/Rouen'
 import Sahurs from './components/Seine/Sahurs'
+import Saint_Aubin_les_Elbeuf from './components/Seine/Saint_Aubin_les_Elbeuf'
+import Saint_Maur from './components/Seine/Saint_Maur'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
+import Saint_Paul from './components/Seine/Saint_Paul'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
 
@@ -141,6 +145,7 @@ const Root = () => (
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
             <Route path='/le_mesnil-sous-jumieges' component={Le_Mesnil_sous_Jumieges}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
+            <Route path='/le_thuit' component={Le_Thuit}/>
             <Route path='/le_val_pitant' component={Le_Val_Pitant}/>
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
@@ -152,7 +157,10 @@ const Root = () => (
             <Route path='/port-mort' component={Port_Mort}/>
             <Route path='/rouen' component={Rouen}/>
             <Route path='/sahurs' component={Sahurs}/>
+            <Route path='/saint-aubin-les-elbeuf' component={Saint_Aubin_les_Elbeuf}/>
+            <Route path='/saint-maur' component={Saint_Maur}/>
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
+            <Route path='/saint-paul' component={Saint_Paul}/>
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
 
