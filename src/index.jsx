@@ -67,6 +67,8 @@ import Limetz_Villez from './components/Seine/Limetz_Villez'
 import Muids from './components/Seine/Muids'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
+import Passage_du_Trait from './components/Seine/Passage_du_Trait'
+import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
 import Rouen from './components/Seine/Rouen'
@@ -77,6 +79,8 @@ import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bli
 import Saint_Paul from './components/Seine/Saint_Paul'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
+import Vernon from './components/Seine/Vernon'
+import Villequier from './components/Seine/Villequier'
 
 import Autres from './components/Autres/Autres'
 import Contact from './components/Contact'
@@ -153,6 +157,8 @@ const Root = () => (
             <Route path='/muids' component={Muids}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
+            <Route path='/passage_du_trait' component={Passage_du_Trait}/>
+            <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>
             <Route path='/rouen' component={Rouen}/>
@@ -163,6 +169,8 @@ const Root = () => (
             <Route path='/saint-paul' component={Saint_Paul}/>
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
+            <Route path='/vernon' component={Vernon}/>
+            <Route path='/villequier' component={Villequier}/>
 
             <Route path='/autres' component={Autres}/>
             <Route path='/contact' component={Contact}/>

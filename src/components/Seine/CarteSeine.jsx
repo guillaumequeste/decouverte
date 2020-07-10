@@ -31,6 +31,8 @@ export default class CarteSeine extends Component {
         const muids = [49.2228671, 1.2880007]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const notre_dame_de_l_isle = [49.1455113, 1.4277246]
+        const passage_du_trait = [49.466176205756646, 0.811326038830531]
+        const passage_d_yssainville = [49.456570881392274, 0.8152271590618643]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const rouen = [49.4404591, 1.0939658]
@@ -41,6 +43,8 @@ export default class CarteSeine extends Component {
         const saint_paul = [49.46908930819602, 0.8605530137303674]
         const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
         const val_de_la_haye = [49.3773661, 1.0010383]
+        const vernon = [49.09761619380803, 1.4884821158460415]
+        const villequier = [49.51442113762259, 0.6767299273563898]
 
         return (
             <div>
@@ -149,6 +153,16 @@ export default class CarteSeine extends Component {
                             <Link to="/notre-dame-de-l_isle" className="linkPlage"><div className="lien"><div>Notre-Dame-de-l'Isle</div><div><img src={require('../../img/seine/notre-dame-de-l_isle/notre-dame-de-l_isle01min.jpg')} alt="notre-dame-de-l_isle" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={passage_du_trait}>
+                        <Popup minWidth={200}>
+                            <Link to="/passage_du_trait" className="linkPlage"><div className="lien"><div>Passage du Trait</div><div><img src={require('../../img/seine/passage_du_trait/passage_du_trait01min.jpg')} alt="passage_du_trait" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={passage_d_yssainville}>
+                        <Popup minWidth={200}>
+                            <Link to="/passage_d_yssainville" className="linkPlage"><div className="lien"><div>Passage d'Yssainville</div><div><img src={require('../../img/seine/passage_d_yssainville/passage_d_yssainville01min.jpg')} alt="passage_d_yssainville" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={port_jumieges}>
                         <Popup minWidth={200}>
                             <Link to="/port_jumieges" className="linkPlage"><div className="lien"><div>Port Jumièges</div><div><img src={require('../../img/seine/port_jumieges/port_jumieges01min.jpg')} alt="port_jumieges" className="apercu"/></div></div></Link>
@@ -197,6 +211,16 @@ export default class CarteSeine extends Component {
                     <Marker position={val_de_la_haye}>
                         <Popup minWidth={200}>
                             <Link to="/val-de-la-haye" className="linkPlage"><div className="lien"><div>Val-de-la-Haye</div><div><img src={require('../../img/seine/val-de-la-haye/val-de-la-haye01min.jpg')} alt="val-de-la-haye" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={vernon}>
+                        <Popup minWidth={200}>
+                            <Link to="/vernon" className="linkPlage"><div className="lien"><div>Vernon</div><div><img src={require('../../img/seine/vernon/vernon01min.jpg')} alt="vernon" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={villequier}>
+                        <Popup minWidth={200}>
+                            <Link to="/villequier" className="linkPlage"><div className="lien"><div>Villequier</div><div><img src={require('../../img/seine/villequier/villequier01min.jpg')} alt="villequier" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>
