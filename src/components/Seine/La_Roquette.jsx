@@ -3,27 +3,27 @@ import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
 
-class Muids extends Component {
+class La_Roquette extends Component {
   
     render () {
         return (
             <div>
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
-                        link={"http://decouverte.guillaumequeste.fr/muids"} />
+                        link={"http://decouverte.guillaumequeste.fr/la_roquette"} />
                 <Header />
                 <div className="bodySeine">
-                    <h1 className="title">Muids</h1>
+                    <h1 className="title">La Roquette</h1>
                     <div className="divPhoto">
-                        <img src={require("../../img/seine/muids/muids01.jpg")} alt="muids01" className="photo"/>
+                        <img src={require("../../img/seine/la_roquette/la_roquette01.jpg")} alt="la_roquette01" className="photo"/>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/seine/muids/muids02.jpg")} alt="muids02" className="photo"/>
+                            <img src={require("../../img/seine/la_roquette/la_roquette02.jpg")} alt="la_roquette02" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/seine/muids/muids03.jpg")} alt="muids03" className="photo"/>
+                            <img src={require("../../img/seine/la_roquette/la_roquette03.jpg")} alt="la_roquette03" className="photo"/>
                         </Zoom>
                     </div>
                 </div>
@@ -32,4 +32,4 @@ class Muids extends Component {
     }
 }
 
-export default Muids
+export default La_Roquette

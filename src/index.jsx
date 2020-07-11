@@ -62,6 +62,7 @@ import Heurteauville from './components/Seine/Heurteauville'
 import Jumieges from './components/Seine/Jumieges'
 import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
+import La_Roquette from './components/Seine/La_Roquette'
 import Le_Mesnil_sous_Jumieges from './components/Seine/Le_Mesnil_sous_Jumieges'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Le_Thuit from './components/Seine/Le_Thuit'
@@ -69,7 +70,6 @@ import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
-import Muids from './components/Seine/Muids'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
 import Passage_du_Trait from './components/Seine/Passage_du_Trait'
@@ -157,6 +157,7 @@ const Root = () => (
             <Route path='/jumieges' component={Jumieges}/>
             <Route path='/la_mailleray-sur-seine' component={La_Mailleray_sur_Seine}/>
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
+            <Route path='/la_roquette' component={La_Roquette}/>
             <Route path='/le_mesnil-sous-jumieges' component={Le_Mesnil_sous_Jumieges}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/le_thuit' component={Le_Thuit}/>
@@ -164,7 +165,6 @@ const Root = () => (
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
             <Route path='/limetz-villez' component={Limetz_Villez}/>
-            <Route path='/muids' component={Muids}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
             <Route path='/passage_du_trait' component={Passage_du_Trait}/>

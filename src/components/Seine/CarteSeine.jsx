@@ -21,6 +21,7 @@ export default class CarteSeine extends Component {
         const jumieges = [49.4317826, 0.8175572]
         const la_mailleray_sur_seine = [49.48230701294539, 0.7747897018168937]
         const la_roche_guyon = [49.0810715, 1.6305766]
+        const la_roquette = [49.25060354040053, 1.3518886396638718]
         const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const le_thuit = [49.254447617943185, 1.376624308241885]
@@ -28,7 +29,6 @@ export default class CarteSeine extends Component {
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
         const limetz_villez = [49.06031467107532, 1.5291453092289942]
-        const muids = [49.2228671, 1.2880007]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const notre_dame_de_l_isle = [49.1455113, 1.4277246]
         const passage_du_trait = [49.466176205756646, 0.811326038830531]
@@ -103,6 +103,11 @@ export default class CarteSeine extends Component {
                             <Link to="/la_roche-guyon" className="linkPlage"><div className="lien"><div>La Roche-Guyon</div><div><img src={require('../../img/seine/la_roche-guyon/la_roche-guyon01min.jpg')} alt="la_roche-guyon" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={la_roquette}>
+                        <Popup minWidth={200}>
+                            <Link to="/la_roquette" className="linkPlage"><div className="lien"><div>La Roquette</div><div><img src={require('../../img/seine/la_roquette/la_roquette01min.jpg')} alt="la_roquette" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_mesnil_sous_jumieges}>
                         <Popup minWidth={200}>
                             <Link to="/le_mesnil-sous-jumieges" className="linkPlage"><div className="lien"><div>Le Mesnil-sous-Jumièges</div><div><img src={require('../../img/seine/le_mesnil-sous-jumieges/le_mesnil-sous-jumieges01min.jpg')} alt="le_mesnil-sous-jumieges" className="apercu"/></div></div></Link>
@@ -136,11 +141,6 @@ export default class CarteSeine extends Component {
                     <Marker position={limetz_villez}>
                         <Popup minWidth={200}>
                             <Link to="/limetz-villez" className="linkPlage"><div className="lien"><div>Limetz-Villez</div><div><img src={require('../../img/seine/limetz-villez/limetz-villez01min.jpg')} alt="limetz-villez" className="apercu"/></div></div></Link>
-                        </Popup>
-                    </Marker>
-                    <Marker position={muids}>
-                        <Popup minWidth={200}>
-                            <Link to="/muids" className="linkPlage"><div className="lien"><div>Muids</div><div><img src={require('../../img/seine/muids/muids01min.jpg')} alt="muids" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={notre_dame_de_bliquetuit}>
