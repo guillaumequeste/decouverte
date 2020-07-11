@@ -9,18 +9,22 @@ import Littoral from './components/Littoral/Littoral'
 import Ault from './components/Littoral/Ault'
 import Baie from './components/Littoral/Baie'
 import Belleville from './components/Littoral/Belleville'
+import Berck from './components/Littoral/Berck'
 import Berneval from './components/Littoral/Berneval'
 import Boulogne from './components/Littoral/Boulogne'
+import Cayeux from './components/Littoral/Cayeux'
 import Criel from './components/Littoral/Criel'
 import Dieppe from './components/Littoral/Dieppe'
 import Equihen from './components/Littoral/Equihen'
 import Etaples from './components/Littoral/Etaples'
 import Etretat from './components/Littoral/Etretat'
 import Fecamp from './components/Littoral/Fecamp'
+import Fort_Mahon from './components/Littoral/Fort_Mahon'
 import Hardelot from './components/Littoral/Hardelot'
 import Le_Bois_de_Cise from './components/Littoral/Le_Bois_de_Cise'
 import Le_Crotoy from './components/Littoral/Le_Crotoy'
 import Le_Hourdel from './components/Littoral/Le_Hourdel'
+import Le_Touquet from './components/Littoral/Le_Touquet'
 import Le_Treport from './components/Littoral/Le_Treport'
 import Les_Grandes_Dalles from './components/Littoral/Les_Grandes_Dalles'
 import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
@@ -29,6 +33,7 @@ import Mers from './components/Littoral/Mers'
 import Mesnil_Val from './components/Littoral/Mesnil_Val'
 import Pourville from './components/Littoral/Pourville'
 import Puys from './components/Littoral/Puys'
+import Quend from './components/Littoral/Quend'
 import Quiberville from './components/Littoral/Quiberville'
 import Saint_Aubin from './components/Littoral/Saint_Aubin'
 import Saint_Pierre_en_Port from './components/Littoral/Saint_Pierre_en_Port'
@@ -99,18 +104,22 @@ const Root = () => (
             <Route path='/ault' component={Ault}/>
             <Route path='/baie_de_somme' component={Baie}/>
             <Route path='/belleville-sur-mer' component={Belleville}/>
+            <Route path='/berck' component={Berck}/>
             <Route path='/berneval' component={Berneval}/>
             <Route path='/boulogne' component={Boulogne}/>
+            <Route path='/cayeux' component={Cayeux}/>
             <Route path='/criel' component={Criel}/>
             <Route path='/dieppe' component={Dieppe}/>
             <Route path='/equihen' component={Equihen}/>
             <Route path='/etaples' component={Etaples}/>
             <Route path='/etretat' component={Etretat}/>
             <Route path='/fecamp' component={Fecamp}/>
+            <Route path='/fort-mahon' component={Fort_Mahon}/>
             <Route path='/hardelot' component={Hardelot}/>
             <Route path='/le_bois_de_cise' component={Le_Bois_de_Cise}/>
             <Route path='/le_crotoy' component={Le_Crotoy}/>
             <Route path='/le_hourdel' component={Le_Hourdel}/>
+            <Route path='/le_touquet' component={Le_Touquet}/>
             <Route path='/le_treport' component={Le_Treport}/>
             <Route path='/les_grandes_dalles' component={Les_Grandes_Dalles}/>
             <Route path='/les_petites_dalles' component={Les_Petites_Dalles}/>
@@ -119,6 +128,7 @@ const Root = () => (
             <Route path='/mesnil_val' component={Mesnil_Val}/>
             <Route path='/pourville' component={Pourville}/>
             <Route path='/puys' component={Puys}/>
+            <Route path='/quend' component={Quend}/>
             <Route path='/quiberville' component={Quiberville}/>
             <Route path='/saint-aubin' component={Saint_Aubin}/>
             <Route path='/saint-pierre-en-port' component={Saint_Pierre_en_Port}/>
