@@ -24,9 +24,11 @@ export default class CarteAutres extends Component {
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
         const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181]
         const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
+        const estran = [49.93065912643744, 1.083684613302509]
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
+        const manoir_ango = [49.9007992793442, 0.9949236699621933]
         const memorial = [49.92534223326355, 1.0719519517528875]
         const musee_emma_bovary = [49.472504641012726, 1.3441478694678821]
         const panorama_xxl = [49.442203334431795, 1.0765784564376446]
@@ -105,6 +107,11 @@ export default class CarteAutres extends Component {
                             <Link to="/domaine_du_champ_de_bataille" className="linkPlage"><div className="lien"><div>Domaine du Champ de Bataille</div><div><img src={require('../../img/autres/domaine_du_champ_de_bataille/domaine_du_champ_de_bataillemin.jpg')} alt="domaine_du_champ_de_bataille" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={estran}>
+                        <Popup minWidth={200}>
+                            <Link to="/estran" className="linkPlage"><div className="lien"><div>Estran Cité de la Mer</div><div><img src={require('../../img/autres/estran/estran.jpeg')} alt="estran" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={gros_horloge}>
                         <Popup minWidth={200}>
                             <Link to="/gros-horloge" className="linkPlage"><div className="lien"><div>Le Gros-Horloge</div><div><img src={require('../../img/autres/gros-horloge/gros-horlogemin.jpg')} alt="gros-horloge" className="apercu"/></div></div></Link>
@@ -118,6 +125,11 @@ export default class CarteAutres extends Component {
                     <Marker position={le_sentier_du_verger}>
                         <Popup minWidth={200}>
                             <Link to="/le_sentier_du_verger" className="linkPlage"><div className="lien"><div>Le Sentier du Verger</div><div><img src={require('../../img/autres/le_sentier_du_verger/le_sentier_du_verger01min.jpg')} alt="le_sentier_du_verger" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={manoir_ango}>
+                        <Popup minWidth={200}>
+                            <Link to="/manoir_ango" className="linkPlage"><div className="lien"><div>Manoir d'Ango</div><div><img src={require("../../img/autres/manoir_ango/manoir_ango.jpeg")} alt="manoir_ango" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={memorial}>

@@ -101,9 +101,11 @@ import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
 import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
 import Cimetiere_des_Canadiens from './components/Autres/Cimetiere_des_Canadiens.jsx'
 import Domaine_du_Champ_de_Bataille from './components/Autres/Domaine_du_Champ_de_Bataille.jsx'
+import Estran from './components/Autres/Estran.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
+import Manoir_Ango from './components/Autres/Manoir_Ango.jsx'
 import Memorial from './components/Autres/Memorial.jsx'
 import Musee_Emma_Bovary from './components/Autres/Musee_Emma_Bovary.jsx'
 import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
@@ -218,9 +220,11 @@ const Root = () => (
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
             <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
+            <Route path='/estran' component={Estran}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
+            <Route path='/manoir_ango' component={Manoir_Ango}/>
             <Route path='/memorial' component={Memorial}/>
             <Route path='/musee_emma_bovary' component={Musee_Emma_Bovary}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
