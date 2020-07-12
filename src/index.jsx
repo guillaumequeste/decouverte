@@ -88,6 +88,18 @@ import Vernon from './components/Seine/Vernon'
 import Villequier from './components/Seine/Villequier'
 
 import Autres from './components/Autres/Autres'
+import Abbaye_Mortemer from './components/Autres/Abbaye_Mortemer'
+import Abbaye_Saint_Georges_Boscherville from './components/Autres/Abbaye_Saint_Georges_Boscherville'
+import Avenue_Verte_Arques from './components/Autres/Avenue_Verte_Arques'
+import Avenue_Verte_Dampierre from './components/Autres/Avenue_Verte_Dampierre'
+import Avenue_Verte_Mesnieres from './components/Autres/Avenue_Verte_Mesnieres.jsx'
+import Avenue_Verte_Meulers from './components/Autres/Avenue_Verte_Meulers.jsx'
+import Avenue_Verte_Osmoy from './components/Autres/Avenue_Verte_Osmoy.jsx'
+import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_Saint_Aubin_le_Cauf.jsx'
+import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
+import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
+import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
+
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -183,6 +195,18 @@ const Root = () => (
             <Route path='/villequier' component={Villequier}/>
 
             <Route path='/autres' component={Autres}/>
+            <Route path='/abbaye_mortemer' component={Abbaye_Mortemer}/>
+            <Route path='/abbaye_saint_georges_boscherville' component={Abbaye_Saint_Georges_Boscherville}/>
+            <Route path='/avenue_verte_arques' component={Avenue_Verte_Arques}/>
+            <Route path='/avenue_verte_dampierre' component={Avenue_Verte_Dampierre}/>
+            <Route path='/avenue_verte_mesnieres' component={Avenue_Verte_Mesnieres}/>
+            <Route path='/avenue_verte_meulers' component={Avenue_Verte_Meulers}/>
+            <Route path='/avenue_verte_osmoy' component={Avenue_Verte_Osmoy}/>
+            <Route path='/avenue_verte_saint-aubin-le-cauf' component={Avenue_Verte_Saint_Aubin_le_Cauf}/>
+            <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
+            <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
+            <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
+
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>
             <Redirect to="/notfound" />

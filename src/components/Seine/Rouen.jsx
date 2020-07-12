@@ -51,6 +51,26 @@ class Rouen extends Component {
                             <img src={require("../../img/seine/rouen/rouen08.jpg")} alt="rouen08" className="photo"/>
                         </Zoom>
                     </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/seine/rouen/rouen09.jpg")} alt="rouen09" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/seine/rouen/rouen10.jpg")} alt="rouen10" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/seine/rouen/rouen11.jpg")} alt="rouen11" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/seine/rouen/rouen12.jpg")} alt="rouen12" className="photo"/>
+                        </Zoom>
+                    </div>
                 </div>
             </div>
         )
