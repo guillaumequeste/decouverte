@@ -24,6 +24,14 @@ export default class CarteAutres extends Component {
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
         const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181]
         const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
+        const gros_horloge = [49.44151701844756, 1.0912492166726517]
+        const le_bec_hellouin = [49.2312413, 0.7210184]
+        const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
+        const memorial = [49.92534223326355, 1.0719519517528875]
+        const musee_emma_bovary = [49.472504641012726, 1.3441478694678821]
+        const panorama_xxl = [49.442203334431795, 1.0765784564376446]
+        const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
+        const varenne = [49.868665986725816, 1.1579329075862077]
 
         return (
             <div>
@@ -44,12 +52,12 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={avenue_verte_arques}>
                         <Popup minWidth={200}>
-                            <Link to="/avenue_verte_arques" className="linkPlage"><div className="lien"><div>Abbaye verte Arques-la-Bataille</div><div><img src={require('../../img/autres/avenue_verte_arques/avenue_verte_arques01min.jpg')} alt="avenue_verte_arques" className="apercu"/></div></div></Link>
+                            <Link to="/avenue_verte_arques" className="linkPlage"><div className="lien"><div>Avenue verte Arques-la-Bataille</div><div><img src={require('../../img/autres/avenue_verte_arques/avenue_verte_arques01min.jpg')} alt="avenue_verte_arques" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={avenue_verte_dampierre}>
                         <Popup minWidth={200}>
-                            <Link to="/avenue_verte_dampierre" className="linkPlage"><div className="lien"><div>Abbaye verte Dampierre-Saint-Nicolas</div><div><img src={require('../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre01min.jpg')} alt="avenue_verte_dampierre" className="apercu"/></div></div></Link>
+                            <Link to="/avenue_verte_dampierre" className="linkPlage"><div className="lien"><div>Avenue verte Dampierre-Saint-Nicolas</div><div><img src={require('../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre01min.jpg')} alt="avenue_verte_dampierre" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={avenue_verte_mesnieres}>
@@ -79,7 +87,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={chateau_harcourt}>
                         <Popup minWidth={200}>
-                            <Link to="/chateau_harcourt" className="linkPlage"><div className="lien"><div>Château d'Harcourt</div><div><img src={require('../../img/autres/chateau_harcourt/chateau_harcourtmin.jpg')} alt="chateau_harcourt" className="apercu"/></div></div></Link>
+                            <Link to="/chateau_harcourt" className="linkPlage"><div className="lien"><div>Château d'Harcourt</div><div><img src={require("../../img/autres/chateau_harcourt/chateau_harcourtmin.jpg")} alt="chateau_harcourt" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_vascoeuil}>
@@ -95,6 +103,46 @@ export default class CarteAutres extends Component {
                     <Marker position={domaine_du_champ_de_bataille}>
                         <Popup minWidth={200}>
                             <Link to="/domaine_du_champ_de_bataille" className="linkPlage"><div className="lien"><div>Domaine du Champ de Bataille</div><div><img src={require('../../img/autres/domaine_du_champ_de_bataille/domaine_du_champ_de_bataillemin.jpg')} alt="domaine_du_champ_de_bataille" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={gros_horloge}>
+                        <Popup minWidth={200}>
+                            <Link to="/gros-horloge" className="linkPlage"><div className="lien"><div>Le Gros-Horloge</div><div><img src={require('../../img/autres/gros-horloge/gros-horlogemin.jpg')} alt="gros-horloge" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={le_bec_hellouin}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_bec-hellouin" className="linkPlage"><div className="lien"><div>Le Bec-Hellouin</div><div><img src={require('../../img/autres/le_bec-hellouin/le_bec-hellouin01min.jpg')} alt="e_bec-hellouin" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={le_sentier_du_verger}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_sentier_du_verger" className="linkPlage"><div className="lien"><div>Le Sentier du Verger</div><div><img src={require('../../img/autres/le_sentier_du_verger/le_sentier_du_verger01min.jpg')} alt="le_sentier_du_verger" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={memorial}>
+                        <Popup minWidth={200}>
+                            <Link to="/memorial" className="linkPlage"><div className="lien"><div>Mémorial du 19 août 1942</div><div><img src={require('../../img/autres/memorial/memorial01min.jpg')} alt="memorial" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={musee_emma_bovary}>
+                        <Popup minWidth={200}>
+                            <Link to="/musee_emma_bovary" className="linkPlage"><div className="lien"><div>Galerie Bovary - Musée d'automates</div><div><img src={require("../../img/autres/musee_emma_bovary/musee_emma_bovary01min.jpg")} alt="musee_emma_bovary" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_xxl}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_xxl" className="linkPlage"><div className="lien"><div>Panorama XXL</div><div><img src={require('../../img/autres/panorama_xxl/panorama_xxlmin.jpg')} alt="panorama_xxl" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={phare_d_ailly}>
+                        <Popup minWidth={200}>
+                            <Link to="/phare_d_ailly" className="linkPlage"><div className="lien"><div>Phare d'Ailly</div><div><img src={require("../../img/autres/phare_d_ailly/phare_d_ailly01min.jpg")} alt="phare_d_ailly" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={varenne}>
+                        <Popup minWidth={200}>
+                            <Link to="/varenne" className="linkPlage"><div className="lien"><div>La Varenne</div><div><img src={require("../../img/autres/varenne/varenne01min.jpg")} alt="varenne" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>

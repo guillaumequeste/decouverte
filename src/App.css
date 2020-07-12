@@ -198,6 +198,7 @@ body {
 
 .bodyAutres {
     background-color: rgb(199, 156, 63);
+    min-height: 93vh;
 }
 
 .title {
@@ -223,15 +224,28 @@ body {
     height: 30vh;
 }
 
+.photoGrosHorloge {
+    width: 80vw;
+    height: 60vh;
+}
+
 @media screen and (min-width: 640px) and (max-width: 1000px) {
     .photo {
         height: 55vh;
+    }
+    .photoGrosHorloge {
+        width: 50vw;
+        height: 60vh;
     }
 }
 
 @media screen and (min-width: 1000px) {
     .photo {
         height: 80vh;
+    }
+    .photoGrosHorloge {
+        width: 30vw;
+        height: 60vh;
     }
 }
 
