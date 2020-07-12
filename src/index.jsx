@@ -99,6 +99,8 @@ import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_S
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
 import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
+import Cimetiere_des_Canadiens from './components/Autres/Cimetiere_des_Canadiens.jsx'
+import Domaine_du_Champ_de_Bataille from './components/Autres/Domaine_du_Champ_de_Bataille.jsx'
 
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
@@ -206,6 +208,8 @@ const Root = () => (
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
+            <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
+            <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
 
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

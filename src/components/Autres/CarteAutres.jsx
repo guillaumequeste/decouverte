@@ -22,6 +22,8 @@ export default class CarteAutres extends Component {
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
+        const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181]
+        const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
 
         return (
             <div>
@@ -83,6 +85,16 @@ export default class CarteAutres extends Component {
                     <Marker position={chateau_vascoeuil}>
                         <Popup minWidth={200}>
                             <Link to="/chateau_vascoeuil" className="linkPlage"><div className="lien"><div>Château de Vascoeuil</div><div><img src={require('../../img/autres/chateau_vascoeuil/chateau_vascoeuilmin.jpg')} alt="chateau_vascoeuil" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cimetiere_des_canadiens}>
+                        <Popup minWidth={200}>
+                            <Link to="/cimetiere_des_canadiens" className="linkPlage"><div className="lien"><div>Cimetière des Canadiens</div><div><img src={require('../../img/autres/cimetiere_des_canadiens/cimetiere_des_canadiens01min.jpg')} alt="cimetiere_des_canadiens" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={domaine_du_champ_de_bataille}>
+                        <Popup minWidth={200}>
+                            <Link to="/domaine_du_champ_de_bataille" className="linkPlage"><div className="lien"><div>Domaine du Champ de Bataille</div><div><img src={require('../../img/autres/domaine_du_champ_de_bataille/domaine_du_champ_de_bataillemin.jpg')} alt="domaine_du_champ_de_bataille" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>
