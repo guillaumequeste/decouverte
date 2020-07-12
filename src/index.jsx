@@ -89,6 +89,7 @@ import Villequier from './components/Seine/Villequier'
 
 import Autres from './components/Autres/Autres'
 import Abbaye_Mortemer from './components/Autres/Abbaye_Mortemer'
+import Abbaye_Notre_Dame_du_Bec from './components/Autres/Abbaye_Notre_Dame_du_Bec'
 import Abbaye_Saint_Georges_Boscherville from './components/Autres/Abbaye_Saint_Georges_Boscherville'
 import Avenue_Verte_Arques from './components/Autres/Avenue_Verte_Arques'
 import Avenue_Verte_Dampierre from './components/Autres/Avenue_Verte_Dampierre'
@@ -97,10 +98,12 @@ import Avenue_Verte_Meulers from './components/Autres/Avenue_Verte_Meulers.jsx'
 import Avenue_Verte_Osmoy from './components/Autres/Avenue_Verte_Osmoy.jsx'
 import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_Saint_Aubin_le_Cauf.jsx'
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
+import Biomarine from './components/Autres/Biomarine.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
 import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
 import Cimetiere_des_Canadiens from './components/Autres/Cimetiere_des_Canadiens.jsx'
 import Domaine_du_Champ_de_Bataille from './components/Autres/Domaine_du_Champ_de_Bataille.jsx'
+import Eglise_Saint_Joseph from './components/Autres/Eglise_Saint_Joseph.jsx'
 import Estran from './components/Autres/Estran.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
@@ -208,6 +211,7 @@ const Root = () => (
 
             <Route path='/autres' component={Autres}/>
             <Route path='/abbaye_mortemer' component={Abbaye_Mortemer}/>
+            <Route path='/abbaye_notre-dame_du_bec' component={Abbaye_Notre_Dame_du_Bec}/>
             <Route path='/abbaye_saint_georges_boscherville' component={Abbaye_Saint_Georges_Boscherville}/>
             <Route path='/avenue_verte_arques' component={Avenue_Verte_Arques}/>
             <Route path='/avenue_verte_dampierre' component={Avenue_Verte_Dampierre}/>
@@ -216,10 +220,12 @@ const Root = () => (
             <Route path='/avenue_verte_osmoy' component={Avenue_Verte_Osmoy}/>
             <Route path='/avenue_verte_saint-aubin-le-cauf' component={Avenue_Verte_Saint_Aubin_le_Cauf}/>
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
+            <Route path='/biomarine' component={Biomarine}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
             <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
+            <Route path='/eglise_saint-joseph' component={Eglise_Saint_Joseph}/>
             <Route path='/estran' component={Estran}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>

@@ -12,6 +12,7 @@ export default class CarteAutres extends Component {
     render() {
         const position = [this.state.lat, this.state.lng]
         const abbaye_mortemer = [49.369224896866555, 1.4805959564468152]
+        const abbaye_notre_dame_du_bec = [49.22953974001412, 0.720553351057176]
         const abbaye_saint_georges_boscherville = [49.44422912597656, 0.9642863273620605]
         const avenue_verte_arques = [49.874725744731734, 1.144591670209727]
         const avenue_verte_dampierre = [49.86053211973192, 1.1993901547966912]
@@ -20,10 +21,12 @@ export default class CarteAutres extends Component {
         const avenue_verte_osmoy = [49.79444326324918, 1.3227432047380594]
         const avenue_verte_saint_aubin_le_cauf = [49.867832893705945, 1.1776762445261735]
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
+        const biomarine = [49.922020903359154, 1.0719482754901533]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
         const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181]
         const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
+        const eglise_saint_joseph = [49.49094960069601, 0.10123783788756668]
         const estran = [49.93065912643744, 1.083684613302509]
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
         const le_bec_hellouin = [49.2312413, 0.7210184]
@@ -45,6 +48,11 @@ export default class CarteAutres extends Component {
                     <Marker position={abbaye_mortemer}>
                         <Popup minWidth={200}>
                             <Link to="/abbaye_mortemer" className="linkPlage"><div className="lien"><div>Abbaye de Mortemer</div><div><img src={require('../../img/autres/abbaye_mortemer/abbaye_mortemermin.jpg')} alt="abbaye_mortemer" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={abbaye_notre_dame_du_bec}>
+                        <Popup minWidth={200}>
+                            <Link to="/abbaye_notre-dame_du_bec" className="linkPlage"><div className="lien"><div>Abbaye Notre-Dame du Bec</div><div><img src={require('../../img/autres/abbaye_notre-dame_du_bec/abbaye_notre-dame_du_bec01min.jpg')} alt="abbaye_notre-dame_du_bec" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={abbaye_saint_georges_boscherville}>
@@ -87,6 +95,11 @@ export default class CarteAutres extends Component {
                             <Link to="/avenue_verte_saint-vaast" className="linkPlage"><div className="lien"><div>Avenue verte Saint-Vaast-d'Equiqueville</div><div><img src={require('../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast01min.jpg')} alt="avenue_verte_saint-vaast" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={biomarine}>
+                        <Popup minWidth={200}>
+                            <Link to="/biomarine" className="linkPlage"><div className="lien"><div>Biomarine</div><div><img src={require("../../img/autres/biomarine/biomarine01min.jpg")} alt="biomarine01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={chateau_harcourt}>
                         <Popup minWidth={200}>
                             <Link to="/chateau_harcourt" className="linkPlage"><div className="lien"><div>Château d'Harcourt</div><div><img src={require("../../img/autres/chateau_harcourt/chateau_harcourtmin.jpg")} alt="chateau_harcourt" className="apercu"/></div></div></Link>
@@ -105,6 +118,11 @@ export default class CarteAutres extends Component {
                     <Marker position={domaine_du_champ_de_bataille}>
                         <Popup minWidth={200}>
                             <Link to="/domaine_du_champ_de_bataille" className="linkPlage"><div className="lien"><div>Domaine du Champ de Bataille</div><div><img src={require('../../img/autres/domaine_du_champ_de_bataille/domaine_du_champ_de_bataillemin.jpg')} alt="domaine_du_champ_de_bataille" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={eglise_saint_joseph}>
+                        <Popup minWidth={200}>
+                            <Link to="/eglise_saint-joseph" className="linkPlage"><div className="lien"><div>Eglise Saint-Joseph</div><div><img src={require('../../img/autres/eglise_saint-joseph/eglise_saint-joseph01min.jpg')} alt="eglise_saint-joseph" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={estran}>
