@@ -22,7 +22,9 @@ export default class CarteAutres extends Component {
         const avenue_verte_saint_aubin_le_cauf = [49.867832893705945, 1.1776762445261735]
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
         const biomarine = [49.922020903359154, 1.0719482754901533]
+        const chateau_dieppe = [49.9246285256642, 1.070147852545782]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
+        const chateau_pierrefonds = [49.34697909699972, 2.9799778488216466]
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
         const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181]
         const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
@@ -100,9 +102,19 @@ export default class CarteAutres extends Component {
                             <Link to="/biomarine" className="linkPlage"><div className="lien"><div>Biomarine</div><div><img src={require("../../img/autres/biomarine/biomarine01min.jpg")} alt="biomarine01" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={chateau_dieppe}>
+                        <Popup minWidth={200}>
+                            <Link to="/chateau_dieppe" className="linkPlage"><div className="lien"><div>Château de Dieppe</div><div><img src={require("../../img/autres/chateau_dieppe/chateau_dieppe.jpg")} alt="chateau_dieppe" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={chateau_harcourt}>
                         <Popup minWidth={200}>
                             <Link to="/chateau_harcourt" className="linkPlage"><div className="lien"><div>Château d'Harcourt</div><div><img src={require("../../img/autres/chateau_harcourt/chateau_harcourtmin.jpg")} alt="chateau_harcourt" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={chateau_pierrefonds}>
+                        <Popup minWidth={200}>
+                            <Link to="/chateau_pierrefonds" className="linkPlage"><div className="lien"><div>Château de Pierrefonds</div><div><img src={require("../../img/autres/chateau_pierrefonds/chateau_pierrefonds.jpg")} alt="chateau_pierrefonds" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_vascoeuil}>

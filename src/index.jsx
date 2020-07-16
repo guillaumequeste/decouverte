@@ -99,7 +99,9 @@ import Avenue_Verte_Osmoy from './components/Autres/Avenue_Verte_Osmoy.jsx'
 import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_Saint_Aubin_le_Cauf.jsx'
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
 import Biomarine from './components/Autres/Biomarine.jsx'
+import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
+import Chateau_Pierrefonds from './components/Autres/Chateau_Pierrefonds.jsx'
 import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
 import Cimetiere_des_Canadiens from './components/Autres/Cimetiere_des_Canadiens.jsx'
 import Domaine_du_Champ_de_Bataille from './components/Autres/Domaine_du_Champ_de_Bataille.jsx'
@@ -221,7 +223,9 @@ const Root = () => (
             <Route path='/avenue_verte_saint-aubin-le-cauf' component={Avenue_Verte_Saint_Aubin_le_Cauf}/>
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
             <Route path='/biomarine' component={Biomarine}/>
+            <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
+            <Route path='/chateau_pierrefonds' component={Chateau_Pierrefonds}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
             <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
