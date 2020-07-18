@@ -12,7 +12,7 @@ class Vieux_Port extends Component {
                         link={"http://decouverte.guillaumequeste.fr/vieux-port"} />
                 <Header />
                 <div className="bodySeine">
-                    <h1 className="title">Vernon</h1>
+                    <h1 className="title">Vieux-Port</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/vieux-port/vieux-port01.jpg")} alt="vieux-port01" className="photo"/>
                     </div>
