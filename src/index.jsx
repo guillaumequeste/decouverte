@@ -76,8 +76,11 @@ import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetui
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
 import Passage_du_Trait from './components/Seine/Passage_du_Trait'
 import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
+import Phare_de_la_Roque from './components/Seine/Phare_de_la_Roque'
+import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
+import Quillebeuf from './components/Seine/Quillebeuf'
 import Rouen from './components/Seine/Rouen'
 import Sahurs from './components/Seine/Sahurs'
 import Saint_Aubin_les_Elbeuf from './components/Seine/Saint_Aubin_les_Elbeuf'
@@ -85,8 +88,11 @@ import Saint_Maur from './components/Seine/Saint_Maur'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
 import Saint_Paul from './components/Seine/Saint_Paul'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
+import Tancarville from './components/Seine/Tancarville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
+import Vatteville from './components/Seine/Vatteville'
 import Vernon from './components/Seine/Vernon'
+import Vieux_Port from './components/Seine/Vieux_Port'
 import Villequier from './components/Seine/Villequier'
 
 import Autres from './components/Autres/Autres'
@@ -208,8 +214,11 @@ const Root = () => (
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
             <Route path='/passage_du_trait' component={Passage_du_Trait}/>
             <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>
+            <Route path='/phare_de_la_roque' component={Phare_de_la_Roque}/>
+            <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>
+            <Route path='/quillebeuf' component={Quillebeuf}/>
             <Route path='/rouen' component={Rouen}/>
             <Route path='/sahurs' component={Sahurs}/>
             <Route path='/saint-aubin-les-elbeuf' component={Saint_Aubin_les_Elbeuf}/>
@@ -217,8 +226,11 @@ const Root = () => (
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
             <Route path='/saint-paul' component={Saint_Paul}/>
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
+            <Route path='/tancarville' component={Tancarville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
+            <Route path='/vatteville' component={Vatteville}/>
             <Route path='/vernon' component={Vernon}/>
+            <Route path='/vieux-port' component={Vieux_Port}/>
             <Route path='/villequier' component={Villequier}/>
 
             <Route path='/autres' component={Autres}/>
