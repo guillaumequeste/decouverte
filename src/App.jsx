@@ -16,7 +16,7 @@ const App = () => (
         <Link to="/littoral" className="titleApp">
           <div className="part partLittoral">
             <div className="part2">
-              <h1>Littoral</h1>
+              <h1 className="textTitleApp">Littoral</h1>
             </div>
           </div>
         </Link>
@@ -25,7 +25,7 @@ const App = () => (
         <Link to="/seine" className="titleApp">
           <div className="part partSeine">
             <div className="part2">
-              <h1>Boucles de la Seine</h1>
+              <h1 className="textTitleApp">Boucles de la Seine</h1>
             </div>
           </div>
         </Link>
@@ -34,7 +34,7 @@ const App = () => (
         <Link to="/autres" className="titleApp">
           <div className="part partAutres">
             <div className="part2">
-              <h1>Autres</h1>
+              <h1 className="textTitleApp">Autres</h1>
             </div>
           </div>
         </Link>

@@ -145,7 +145,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={eglise_saint_joseph}>
                         <Popup minWidth={200}>
-                            <Link to="/eglise_saint-joseph" className="linkPlage"><div className="lien"><div>Eglise Saint-Joseph</div><div><img src={require('../../img/autres/eglise_saint-joseph/eglise_saint-joseph01min.jpg')} alt="eglise_saint-joseph" className="apercu"/></div></div></Link>
+                            <Link to="/eglise_saint-joseph" className="linkPlage"><div className="lien"><div>Eglise Saint-Joseph du Havre</div><div><img src={require('../../img/autres/eglise_saint-joseph/eglise_saint-joseph01min.jpg')} alt="eglise_saint-joseph" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={estran}>
@@ -160,7 +160,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={gros_horloge}>
                         <Popup minWidth={200}>
-                            <Link to="/gros-horloge" className="linkPlage"><div className="lien"><div>Le Gros-Horloge</div><div><img src={require('../../img/autres/gros-horloge/gros-horlogemin.jpg')} alt="gros-horloge" className="apercu"/></div></div></Link>
+                            <Link to="/gros-horloge" className="linkPlage"><div className="lien"><div>Le Gros-Horloge à Rouen</div><div><img src={require('../../img/autres/gros-horloge/gros-horlogemin.jpg')} alt="gros-horloge" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_bec_hellouin}>

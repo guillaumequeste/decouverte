@@ -60,7 +60,7 @@ body {
 
 .titleApp:hover {
     text-decoration: none;
-    color: yellow;
+    color: white;
 }
 
 .part {
@@ -70,42 +70,21 @@ body {
 }
 
 .partLittoral {
-    position: relative;
     background-image: url("./img/littoral/etretat/etretat27.jpg");
     background-size: cover;
     background-position: center center;
-    display: flex;
-    transition: all 1s;
-}
-
-.partLittoral:hover {
-    transform: scale(1.2);
 }
 
 .partSeine {
-    position: relative;
     background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
     background-size: cover;
     background-position: center center;
-    display: flex;
-    transition: all 1s;
-}
-
-.partSeine:hover {
-    transform: scale(1.2);
 }
 
 .partAutres {
-    position: relative;
     background-image: url("./img/autres/route.png");
     background-size: cover;
     background-position: center center;
-    display: flex;
-    transition: all 1s;
-}
-
-.partAutres:hover {
-    transform: scale(1.2);
 }
 
 .part2 {
@@ -120,6 +99,13 @@ body {
         height: 93vh;
         width: calc(100vw / 3);
     }
+}
+
+.textTitleApp:hover {
+    text-decoration: none;
+    transform: skew(-40deg);
+    transition-duration: 0.5s;
+    color: rgb(255, 101, 247);
 }
 
 
@@ -207,10 +193,16 @@ body {
     text-align: center;
     padding-top: 5%;
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     margin: 0;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+@media screen and (min-width: 1000px) {
+    .title {
+        font-size: 4em;
+    }
 }
 
 .divPhoto {
@@ -247,6 +239,11 @@ body {
         width: 30vw;
         height: 60vh;
     }
+}
+
+.lienSiteOfficiel {
+    margin: 0;
+    padding-bottom: 5%;
 }
 
 

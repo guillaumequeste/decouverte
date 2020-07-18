@@ -16,6 +16,9 @@ class Cimetiere_des_Canadiens extends Component {
                     <div className="divPhoto">
                         <img src={require("../../img/autres/cimetiere_des_canadiens/cimetiere_des_canadiens01.jpg")} alt="cimetiere_des_canadiens01" className="photo"/>
                     </div>
+                    <div className="container">
+                        <p>Le cimetière militaire canadien de Dieppe, aussi appelé cimetière des Vertus1, est un cimetière militaire de la Seconde Guerre mondiale, situé à Hautot-sur-Mer, dans le département de la Seine-Maritime, au sud-ouest de Dieppe en Normandie. Dans ce cimetière reposent principalement des soldats canadiens tués lors du raid de Dieppe du 19 août 1942.</p>
+                    </div>
                     <div className="divPhoto">
                         <Zoom>
                             <img src={require("../../img/autres/cimetiere_des_canadiens/cimetiere_des_canadiens02.jpg")} alt="cimetiere_des_canadiens02" className="photo"/>

@@ -4,6 +4,7 @@ import Helmet from '../Helmet'
 import CarteAutres from './CarteAutres.jsx'
 import Leaflet from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import Fade from 'react-reveal/Fade'
 
 Leaflet.Icon.Default.imagePath =
   '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/'
@@ -19,7 +20,9 @@ class Autres extends Component {
                 <div className="mapAutres">
                     <div className="divMapLittoral">
                         <h1 className="titleLittoral">Map Autres</h1>
-                        <CarteAutres />
+                        <Fade bottom>
+                            <CarteAutres />
+                        </Fade>
                     </div>
                 </div>
             </div>

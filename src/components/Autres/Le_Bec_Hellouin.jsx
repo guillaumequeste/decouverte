@@ -16,6 +16,10 @@ class Le_Bec_Hellouin extends Component {
                     <div className="divPhoto">
                         <img src={require("../../img/autres/le_bec-hellouin/le_bec-hellouin01.jpg")} alt="le_bec-hellouin01" className="photo"/>
                     </div>
+                    <div className="container">
+                        <p>Entre Rouen et Lisieux, dans un paysage verdoyant de bocages et de pommiers, Le Bec-Hellouin est un village typique de Normandie aux maisons à pans de bois et balcons fleuris. Il tient son nom du ruisseau qui le borde et du fondateur de sa célèbre abbaye qui, avec le monastère des Bénédictines, témoigne de l'intense activité religieuse du site.</p>
+                        <p className="lienSiteOfficiel">Site officiel : <a href="https://www.les-plus-beaux-villages-de-france.org/fr/nos-villages/le-bec-hellouin/" target="_blank">Le Bec-Hellouin</a></p>
+                    </div>
                     <div className="divPhoto">
                         <Zoom>
                             <img src={require("../../img/autres/le_bec-hellouin/le_bec-hellouin02.jpg")} alt="le_bec-hellouin02" className="photo"/>
