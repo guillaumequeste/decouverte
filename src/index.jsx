@@ -100,6 +100,7 @@ import Avenue_Verte_Meulers from './components/Autres/Avenue_Verte_Meulers.jsx'
 import Avenue_Verte_Osmoy from './components/Autres/Avenue_Verte_Osmoy.jsx'
 import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_Saint_Aubin_le_Cauf.jsx'
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
+import Basilique_Lisieux from './components/Autres/Basilique_Lisieux.jsx'
 import Biomarine from './components/Autres/Biomarine.jsx'
 import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
@@ -113,9 +114,13 @@ import Giverny from './components/Autres/Giverny.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
+import Lillebonne from './components/Autres/Lillebonne.jsx'
 import Manoir_Ango from './components/Autres/Manoir_Ango.jsx'
 import Memorial from './components/Autres/Memorial.jsx'
 import Musee_Emma_Bovary from './components/Autres/Musee_Emma_Bovary.jsx'
+import Panorama_Evreux from './components/Autres/Panorama_Evreux.jsx'
+import Panorama_Marais_Vernier from './components/Autres/Panorama_Marais_Vernier.jsx'
+import Panorama_Vert_Village from './components/Autres/Panorama_Vert_Village.jsx'
 import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
 import Phare_d_Ailly from './components/Autres/Phare_d_Ailly.jsx'
 import Varenne from './components/Autres/Varenne.jsx'
@@ -227,6 +232,7 @@ const Root = () => (
             <Route path='/avenue_verte_osmoy' component={Avenue_Verte_Osmoy}/>
             <Route path='/avenue_verte_saint-aubin-le-cauf' component={Avenue_Verte_Saint_Aubin_le_Cauf}/>
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
+            <Route path='/basilique_lisieux' component={Basilique_Lisieux}/>
             <Route path='/biomarine' component={Biomarine}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
@@ -240,9 +246,13 @@ const Root = () => (
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
+            <Route path='/lillebonne' component={Lillebonne}/>
             <Route path='/manoir_ango' component={Manoir_Ango}/>
             <Route path='/memorial' component={Memorial}/>
             <Route path='/musee_emma_bovary' component={Musee_Emma_Bovary}/>
+            <Route path='/panorama_evreux' component={Panorama_Evreux}/>
+            <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
+            <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/varenne' component={Varenne}/>

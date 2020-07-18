@@ -21,6 +21,7 @@ export default class CarteAutres extends Component {
         const avenue_verte_osmoy = [49.79444326324918, 1.3227432047380594]
         const avenue_verte_saint_aubin_le_cauf = [49.867832893705945, 1.1776762445261735]
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
+        const basilique_lisieux = [49.139556789525805, 0.23629679734376907]
         const biomarine = [49.922020903359154, 1.0719482754901533]
         const chateau_dieppe = [49.9246285256642, 1.070147852545782]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
@@ -34,9 +35,13 @@ export default class CarteAutres extends Component {
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
+        const lillebonne = [49.51799724241, 0.5367753386982388]
         const manoir_ango = [49.9007992793442, 0.9949236699621933]
         const memorial = [49.92534223326355, 1.0719519517528875]
         const musee_emma_bovary = [49.472504641012726, 1.3441478694678821]
+        const panorama_evreux = [49.03194252699784, 1.147213258187909]
+        const panorama_marais_vernier = [49.402871672725254, 0.4678151817346565]
+        const panorama_vert_village = [49.00129340278666, 1.0921865534499275]
         const panorama_xxl = [49.442203334431795, 1.0765784564376446]
         const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
         const varenne = [49.868665986725816, 1.1579329075862077]
@@ -96,6 +101,11 @@ export default class CarteAutres extends Component {
                     <Marker position={avenue_verte_saint_vaast}>
                         <Popup minWidth={200}>
                             <Link to="/avenue_verte_saint-vaast" className="linkPlage"><div className="lien"><div>Avenue verte Saint-Vaast-d'Equiqueville</div><div><img src={require('../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast01min.jpg')} alt="avenue_verte_saint-vaast" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={basilique_lisieux}>
+                        <Popup minWidth={200}>
+                            <Link to="/basilique_lisieux" className="linkPlage"><div className="lien"><div>Basilique Sainte-Thérèse de Lisieux</div><div><img src={require("../../img/autres/basilique_lisieux/basilique_lisieux01min.jpg")} alt="basilique_lisieux01" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={biomarine}>
@@ -163,6 +173,11 @@ export default class CarteAutres extends Component {
                             <Link to="/le_sentier_du_verger" className="linkPlage"><div className="lien"><div>Le Sentier du Verger</div><div><img src={require('../../img/autres/le_sentier_du_verger/le_sentier_du_verger01min.jpg')} alt="le_sentier_du_verger" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={lillebonne}>
+                        <Popup minWidth={200}>
+                            <Link to="/lillebonne" className="linkPlage"><div className="lien"><div>Théâtre romain de Lillebonne</div><div><img src={require('../../img/autres/lillebonne/lillebonne01min.jpg')} alt="lillebonne" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={manoir_ango}>
                         <Popup minWidth={200}>
                             <Link to="/manoir_ango" className="linkPlage"><div className="lien"><div>Manoir d'Ango</div><div><img src={require("../../img/autres/manoir_ango/manoir_ango.jpeg")} alt="manoir_ango" className="apercu"/></div></div></Link>
@@ -176,6 +191,21 @@ export default class CarteAutres extends Component {
                     <Marker position={musee_emma_bovary}>
                         <Popup minWidth={200}>
                             <Link to="/musee_emma_bovary" className="linkPlage"><div className="lien"><div>Galerie Bovary - Musée d'automates</div><div><img src={require("../../img/autres/musee_emma_bovary/musee_emma_bovary01min.jpg")} alt="musee_emma_bovary" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_evreux}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_evreux" className="linkPlage"><div className="lien"><div>Panorama d'Evreux</div><div><img src={require('../../img/autres/panorama_evreux/panorama_evreux01min.jpg')} alt="panorama_evreux" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_marais_vernier}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_marais_vernier" className="linkPlage"><div className="lien"><div>Panorama du Marais Vernier</div><div><img src={require('../../img/autres/panorama_marais_vernier/panorama_marais_vernier01min.jpg')} alt="panorama_marais_vernier" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_vert_village}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_vert_village" className="linkPlage"><div className="lien"><div>Panorama du Vert Village</div><div><img src={require('../../img/autres/panorama_vert_village/panorama_vert_village01min.jpg')} alt="panorama_vert_village" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={panorama_xxl}>
