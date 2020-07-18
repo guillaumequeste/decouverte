@@ -241,7 +241,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     .photo {
-        height: 80vh;
+        height: 85vh;
     }
     .photoGrosHorloge {
         width: 30vw;

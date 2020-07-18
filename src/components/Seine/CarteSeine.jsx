@@ -11,6 +11,7 @@ export default class CarteSeine extends Component {
 
     render() {
         const position = [this.state.lat, this.state.lng]
+        const aizier = [49.431928407877166, 0.6245415669635257]
         const barrage_poses = [49.31016932741239, 1.2364600137390047]
         const bennecourt = [49.041242, 1.560926]
         const caudebec = [49.52416135852367, 0.7263719063849283]
@@ -22,6 +23,7 @@ export default class CarteSeine extends Component {
         const la_mailleray_sur_seine = [49.48230701294539, 0.7747897018168937]
         const la_roche_guyon = [49.0810715, 1.6305766]
         const la_roquette = [49.25060354040053, 1.3518886396638718]
+        const la_vacquerie = [49.44729478584017, 0.652205264487602]
         const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const le_thuit = [49.254447617943185, 1.376624308241885]
@@ -53,6 +55,11 @@ export default class CarteSeine extends Component {
                         attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />
+                    <Marker position={aizier}>
+                        <Popup minWidth={200}>
+                            <Link to="/aizier" className="linkPlage"><div className="lien"><div>Aizier</div><div><img src={require('../../img/seine/aizier/aizier01min.jpg')} alt="aizier" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={barrage_poses}>
                         <Popup minWidth={200}>
                             <Link to="/barrage_poses" className="linkPlage"><div className="lien"><div>Barrage de Poses</div><div><img src={require('../../img/seine/barrage_poses/barrage_poses01min.jpg')} alt="barrage_poses" className="apercu"/></div></div></Link>
@@ -106,6 +113,11 @@ export default class CarteSeine extends Component {
                     <Marker position={la_roquette}>
                         <Popup minWidth={200}>
                             <Link to="/la_roquette" className="linkPlage"><div className="lien"><div>La Roquette</div><div><img src={require('../../img/seine/la_roquette/la_roquette01min.jpg')} alt="la_roquette" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={la_vacquerie}>
+                        <Popup minWidth={200}>
+                            <Link to="/la_vacquerie" className="linkPlage"><div className="lien"><div>La Vacquerie</div><div><img src={require('../../img/seine/la_vacquerie/la_vacquerie01min.jpg')} alt="la_vacquerie" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_mesnil_sous_jumieges}>

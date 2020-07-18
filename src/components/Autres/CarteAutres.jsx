@@ -30,6 +30,7 @@ export default class CarteAutres extends Component {
         const domaine_du_champ_de_bataille = [49.168025480627925, 0.8590760530616404]
         const eglise_saint_joseph = [49.49094960069601, 0.10123783788756668]
         const estran = [49.93065912643744, 1.083684613302509]
+        const giverny = [49.0753489, 1.5337884]
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
@@ -140,6 +141,11 @@ export default class CarteAutres extends Component {
                     <Marker position={estran}>
                         <Popup minWidth={200}>
                             <Link to="/estran" className="linkPlage"><div className="lien"><div>Estran Cité de la Mer</div><div><img src={require('../../img/autres/estran/estran.jpeg')} alt="estran" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={giverny}>
+                        <Popup minWidth={200}>
+                            <Link to="/giverny" className="linkPlage"><div className="lien"><div>Fondation Claude Monet (Giverny)</div><div><img src={require('../../img/autres/giverny/giverny.jpg')} alt="giverny" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={gros_horloge}>

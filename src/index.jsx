@@ -52,6 +52,7 @@ import Wimereux from './components/Littoral/Wimereux'
 import Yport from './components/Littoral/Yport'
 
 import Seine from './components/Seine/Seine'
+import Aizier from './components/Seine/Aizier'
 import Barrage_Poses from './components/Seine/Barrage_Poses'
 import Bennecourt from './components/Seine/Bennecourt'
 import Caudebec from './components/Seine/Caudebec'
@@ -63,6 +64,7 @@ import Jumieges from './components/Seine/Jumieges'
 import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
 import La_Roquette from './components/Seine/La_Roquette'
+import La_Vacquerie from './components/Seine/La_Vacquerie'
 import Le_Mesnil_sous_Jumieges from './components/Seine/Le_Mesnil_sous_Jumieges'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Le_Thuit from './components/Seine/Le_Thuit'
@@ -107,6 +109,7 @@ import Cimetiere_des_Canadiens from './components/Autres/Cimetiere_des_Canadiens
 import Domaine_du_Champ_de_Bataille from './components/Autres/Domaine_du_Champ_de_Bataille.jsx'
 import Eglise_Saint_Joseph from './components/Autres/Eglise_Saint_Joseph.jsx'
 import Estran from './components/Autres/Estran.jsx'
+import Giverny from './components/Autres/Giverny.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
@@ -176,6 +179,7 @@ const Root = () => (
             <Route path='/yport' component={Yport}/>
 
             <Route path='/seine' component={Seine}/>
+            <Route path='/aizier' component={Aizier}/>
             <Route path='/barrage_poses' component={Barrage_Poses}/>
             <Route path='/bennecourt' component={Bennecourt}/>
             <Route path='/caudebec' component={Caudebec}/>
@@ -187,6 +191,7 @@ const Root = () => (
             <Route path='/la_mailleray-sur-seine' component={La_Mailleray_sur_Seine}/>
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
             <Route path='/la_roquette' component={La_Roquette}/>
+            <Route path='/la_vacquerie' component={La_Vacquerie}/>
             <Route path='/le_mesnil-sous-jumieges' component={Le_Mesnil_sous_Jumieges}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/le_thuit' component={Le_Thuit}/>
@@ -231,6 +236,7 @@ const Root = () => (
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
             <Route path='/eglise_saint-joseph' component={Eglise_Saint_Joseph}/>
             <Route path='/estran' component={Estran}/>
+            <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
