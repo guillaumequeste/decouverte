@@ -130,6 +130,7 @@ import Panorama_Vert_Village from './components/Autres/Panorama_Vert_Village.jsx
 import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
 import Phare_d_Ailly from './components/Autres/Phare_d_Ailly.jsx'
 import Varenne from './components/Autres/Varenne.jsx'
+import Versailles from './components/Autres/Versailles.jsx'
 
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
@@ -268,6 +269,7 @@ const Root = () => (
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/varenne' component={Varenne}/>
+            <Route path='/versailles' component={Versailles}/>
 
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

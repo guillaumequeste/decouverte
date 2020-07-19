@@ -259,3 +259,26 @@ body {
     margin: auto;
     color: white;
 }
+
+
+/* Not Found */
+
+.notFound {
+    height: 93vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.divNotFound {
+    margin: auto;
+    color: white;
+}
+
+.imgExit {
+    width: 100px;
+}
+
+.imgDoor {
+    width: 100px;
+}

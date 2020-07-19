@@ -45,6 +45,7 @@ export default class CarteAutres extends Component {
         const panorama_xxl = [49.442203334431795, 1.0765784564376446]
         const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
         const varenne = [49.868665986725816, 1.1579329075862077]
+        const versailles = [48.80503616157122, 2.119683843519584]
 
         return (
             <div>
@@ -221,6 +222,11 @@ export default class CarteAutres extends Component {
                     <Marker position={varenne}>
                         <Popup minWidth={200}>
                             <Link to="/varenne" className="linkPlage"><div className="lien"><div>La Varenne</div><div><img src={require("../../img/autres/varenne/varenne01min.jpg")} alt="varenne" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={versailles}>
+                        <Popup minWidth={200}>
+                            <Link to="/versailles" className="linkPlage"><div className="lien"><div>Château de Versailles</div><div><img src={require("../../img/autres/versailles/versailles01min.jpg")} alt="versailles" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Helmet from './Helmet'
+import { Link } from "react-router-dom"
 
 class NotFound extends Component {
   
@@ -8,9 +9,20 @@ class NotFound extends Component {
         return (
             <div>
                 <Helmet title={"NotFound bases React"}
-                        link={"http://decouverte.guillaumequeste.fr"} />
+                        link={"http://decouverte.guillaumequeste.fr/notfound"} />
                 <Header />
-                <h2>NotFound works</h2>
+                <div className="notFound">
+                    <div className="divNotFound">
+                        <div>
+                            <img src={require("../img/exit.png")} alt="exit" className="imgExit"></img>
+                        </div>
+                        <div>
+                        <Link to="/">
+                            <img src={require("../img/door.png")} alt="door" className="imgDoor"></img>
+                        </Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
