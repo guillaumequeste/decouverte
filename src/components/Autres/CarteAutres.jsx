@@ -23,6 +23,7 @@ export default class CarteAutres extends Component {
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
         const basilique_lisieux = [49.139556789525805, 0.23629679734376907]
         const biomarine = [49.922020903359154, 1.0719482754901533]
+        const chateau_chantilly = [49.19403662095672, 2.4855468818245985]
         const chateau_dieppe = [49.9246285256642, 1.070147852545782]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
         const chateau_pierrefonds = [49.34697909699972, 2.9799778488216466]
@@ -112,6 +113,11 @@ export default class CarteAutres extends Component {
                     <Marker position={biomarine}>
                         <Popup minWidth={200}>
                             <Link to="/biomarine" className="linkPlage"><div className="lien"><div>Biomarine</div><div><img src={require("../../img/autres/biomarine/biomarine01min.jpg")} alt="biomarine01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={chateau_chantilly}>
+                        <Popup minWidth={200}>
+                            <Link to="/chateau_chantilly" className="linkPlage"><div className="lien"><div>Château de Chantilly</div><div><img src={require("../../img/autres/chateau_chantilly/chateau_chantillymin.jpg")} alt="chateau_chantilly" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_dieppe}>

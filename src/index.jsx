@@ -108,6 +108,7 @@ import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_S
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
 import Basilique_Lisieux from './components/Autres/Basilique_Lisieux.jsx'
 import Biomarine from './components/Autres/Biomarine.jsx'
+import Chateau_Chantilly from './components/Autres/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
 import Chateau_Pierrefonds from './components/Autres/Chateau_Pierrefonds.jsx'
@@ -247,6 +248,7 @@ const Root = () => (
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
             <Route path='/basilique_lisieux' component={Basilique_Lisieux}/>
             <Route path='/biomarine' component={Biomarine}/>
+            <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
             <Route path='/chateau_pierrefonds' component={Chateau_Pierrefonds}/>
