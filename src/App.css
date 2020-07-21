@@ -73,18 +73,33 @@ body {
     background-image: url("./img/littoral/etretat/etretat27.jpg");
     background-size: cover;
     background-position: center center;
+    transition: transform 0.3s ease-out;
+}
+
+.partLittoral:hover {
+    transform: scale(1.075);
 }
 
 .partSeine {
     background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
     background-size: cover;
     background-position: center center;
+    transition: transform 0.3s ease-out;
+}
+
+.partSeine:hover {
+    transform: scale(1.075);
 }
 
 .partAutres {
     background-image: url("./img/autres/route.png");
     background-size: cover;
     background-position: center center;
+    transition: transform 0.3s ease-out;
+}
+
+.partAutres:hover {
+    transform: scale(1.075);
 }
 
 .part2 {

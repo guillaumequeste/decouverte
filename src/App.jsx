@@ -13,7 +13,7 @@ const App = () => (
     <div className="app">
       <div className="flex">
       <Flip left>
-        <Link to="/littoral" className="titleApp">
+        <Link to="/littoral" className="titleApp mw-100 overflow-hidden">
           <div className="part partLittoral">
             <div className="part2">
               <h1 className="textTitleApp">Littoral</h1>

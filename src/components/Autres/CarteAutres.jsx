@@ -122,7 +122,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={chateau_dieppe}>
                         <Popup minWidth={200}>
-                            <Link to="/chateau_dieppe" className="linkPlage"><div className="lien"><div>Château de Dieppe</div><div><img src={require("../../img/autres/chateau_dieppe/chateau_dieppe.jpg")} alt="chateau_dieppe" className="apercu"/></div></div></Link>
+                            <Link to="/chateau_dieppe" className="linkPlage"><div className="lien"><div>Château de Dieppe</div><div><img src={require("../../img/autres/chateau_dieppe/chateau_dieppemin.jpg")} alt="chateau_dieppe" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_harcourt}>
