@@ -39,6 +39,7 @@ export default class CarteAutres extends Component {
         const lillebonne = [49.51799724241, 0.5367753386982388]
         const manoir_ango = [49.9007992793442, 0.9949236699621933]
         const memorial = [49.92534223326355, 1.0719519517528875]
+        const montreuil_sur_mer = [50.46658643355182, 1.7603227017118916]
         const musee_emma_bovary = [49.472504641012726, 1.3441478694678821]
         const panorama_evreux = [49.03194252699784, 1.147213258187909]
         const panorama_marais_vernier = [49.402871672725254, 0.4678151817346565]
@@ -193,6 +194,11 @@ export default class CarteAutres extends Component {
                     <Marker position={memorial}>
                         <Popup minWidth={200}>
                             <Link to="/memorial" className="linkPlage"><div className="lien"><div>Mémorial du 19 août 1942</div><div><img src={require('../../img/autres/memorial/memorial01min.jpg')} alt="memorial" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={montreuil_sur_mer}>
+                        <Popup minWidth={200}>
+                            <Link to="/montreuil-sur-mer" className="linkPlage"><div className="lien"><div>Montreuil-sur-Mer</div><div><img src={require('../../img/autres/montreuil-sur-mer/montreuil-sur-mer01min.jpg')} alt="montreuil-sur-mer" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={musee_emma_bovary}>

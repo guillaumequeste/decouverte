@@ -124,6 +124,7 @@ import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
 import Lillebonne from './components/Autres/Lillebonne.jsx'
 import Manoir_Ango from './components/Autres/Manoir_Ango.jsx'
 import Memorial from './components/Autres/Memorial.jsx'
+import Montreuil_sur_Mer from './components/Autres/Montreuil_sur_Mer.jsx'
 import Musee_Emma_Bovary from './components/Autres/Musee_Emma_Bovary.jsx'
 import Panorama_Evreux from './components/Autres/Panorama_Evreux.jsx'
 import Panorama_Marais_Vernier from './components/Autres/Panorama_Marais_Vernier.jsx'
@@ -264,6 +265,7 @@ const Root = () => (
             <Route path='/lillebonne' component={Lillebonne}/>
             <Route path='/manoir_ango' component={Manoir_Ango}/>
             <Route path='/memorial' component={Memorial}/>
+            <Route path='/montreuil-sur-mer' component={Montreuil_sur_Mer}/>
             <Route path='/musee_emma_bovary' component={Musee_Emma_Bovary}/>
             <Route path='/panorama_evreux' component={Panorama_Evreux}/>
             <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
