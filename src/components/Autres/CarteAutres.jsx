@@ -42,15 +42,19 @@ export default class CarteAutres extends Component {
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
         const lillebonne = [49.51799724241, 0.5367753386982388]
+        const maison_jules_verne = [49.887827381264636, 2.3017851790421906]
         const manoir_ango = [49.9007992793442, 0.9949236699621933]
         const memorial = [49.92534223326355, 1.0719519517528875]
         const montreuil_sur_mer = [50.46658643355182, 1.7603227017118916]
+        const musee_beaux_arts = [49.444775046574925, 1.0945558547973633]
         const musee_emma_bovary = [49.472504641012726, 1.3441478694678821]
         const panorama_evreux = [49.03194252699784, 1.147213258187909]
         const panorama_marais_vernier = [49.402871672725254, 0.4678151817346565]
         const panorama_vert_village = [49.00129340278666, 1.0921865534499275]
         const panorama_xxl = [49.442203334431795, 1.0765784564376446]
         const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
+        const plan_eau_canada = [49.456879473483035, 2.0559077359983613]
+        const quartier_saint_leu = [49.897365617337606, 2.304579209878246]
         const varenne = [49.868665986725816, 1.1579329075862077]
         const versailles = [48.80503616157122, 2.119683843519584]
 
@@ -216,6 +220,11 @@ export default class CarteAutres extends Component {
                             <Link to="/lillebonne" className="linkPlage"><div className="lien"><div>Théâtre romain de Lillebonne</div><div><img src={require('../../img/autres/lillebonne/lillebonne01min.jpg')} alt="lillebonne" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={maison_jules_verne}>
+                        <Popup minWidth={200}>
+                            <Link to="/maison_jules_verne" className="linkPlage"><div className="lien"><div>Maison de Jules Verne</div><div><img src={require('../../img/autres/maison_jules_verne/maison_jules_verne01min.jpg')} alt="maison_jules_verne" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={manoir_ango}>
                         <Popup minWidth={200}>
                             <Link to="/manoir_ango" className="linkPlage"><div className="lien"><div>Manoir d'Ango</div><div><img src={require("../../img/autres/manoir_ango/manoir_ango.jpeg")} alt="manoir_ango" className="apercu"/></div></div></Link>
@@ -229,6 +238,11 @@ export default class CarteAutres extends Component {
                     <Marker position={montreuil_sur_mer}>
                         <Popup minWidth={200}>
                             <Link to="/montreuil-sur-mer" className="linkPlage"><div className="lien"><div>Montreuil-sur-Mer</div><div><img src={require('../../img/autres/montreuil-sur-mer/montreuil-sur-mer01min.jpg')} alt="montreuil-sur-mer" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={musee_beaux_arts}>
+                        <Popup minWidth={200}>
+                            <Link to="/musee_beaux_arts" className="linkPlage"><div className="lien"><div>Musée des Beaux Arts</div><div><img src={require('../../img/autres/musee_beaux_arts/musee_beaux_arts01min.jpg')} alt="musee_beaux_arts" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={musee_emma_bovary}>
@@ -259,6 +273,16 @@ export default class CarteAutres extends Component {
                     <Marker position={phare_d_ailly}>
                         <Popup minWidth={200}>
                             <Link to="/phare_d_ailly" className="linkPlage"><div className="lien"><div>Phare d'Ailly</div><div><img src={require("../../img/autres/phare_d_ailly/phare_d_ailly01min.jpg")} alt="phare_d_ailly" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={plan_eau_canada}>
+                        <Popup minWidth={200}>
+                            <Link to="/plan_eau_canada" className="linkPlage"><div className="lien"><div>Plan d'eau du Canada</div><div><img src={require("../../img/autres/plan_eau_canada/plan_eau_canada01min.jpg")} alt="plan_eau_canada" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={quartier_saint_leu}>
+                        <Popup minWidth={200}>
+                            <Link to="/quartier_saint-leu" className="linkPlage"><div className="lien"><div>Quartier Saint-Leu</div><div><img src={require("../../img/autres/quartier_saint-leu/quartier_saint-leu01min.jpg")} alt="quartier_saint-leu" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={varenne}>

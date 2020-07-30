@@ -174,7 +174,7 @@ export default class CarteSeine extends Component {
                     </Marker>
                     <Marker position={panorama_val_d_herblay}>
                         <Popup minWidth={200}>
-                            <Link to="/panorama_val_d_herblay" className="linkPlage"><div className="lien"><div>Panorama Val d'Herblay et la Seine</div><div><img src={require("../../img/autres/panorama_val_d_herblay/panorama_val_d_herblay01min.jpg")} alt="panorama_val_d_herblay" className="apercu"/></div></div></Link>
+                            <Link to="/panorama_val_d_herblay" className="linkPlage"><div className="lien"><div>Panorama Val d'Herblay et la Seine</div><div><img src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay01min.jpg")} alt="panorama_val_d_herblay" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={passage_du_trait}>

@@ -14,16 +14,16 @@ class Panorama_Val_d_Herblay extends Component {
                 <div className="bodyAutres">
                     <h1 className="title">Panorama Val d'Herblay et la Seine</h1>
                     <div className="divPhoto">
-                        <img src={require("../../img/autres/panorama_val_d_herblay/panorama_val_d_herblay01.jpg")} alt="panorama_val_d_herblay01" className="photo"/>
+                        <img src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay01.jpg")} alt="panorama_val_d_herblay01" className="photo"/>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/autres/panorama_val_d_herblay/panorama_val_d_herblay02.jpg")} alt="panorama_val_d_herblay02" className="photo"/>
+                            <img src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay02.jpg")} alt="panorama_val_d_herblay02" className="photo"/>
                         </Zoom>
                     </div>
                     <div className="divPhoto">
                         <Zoom>
-                            <img src={require("../../img/autres/panorama_val_d_herblay/panorama_val_d_herblay03.jpg")} alt="panorama_val_d_herblay03" className="photo"/>
+                            <img src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay03.jpg")} alt="panorama_val_d_herblay03" className="photo"/>
                         </Zoom>
                     </div>
                 </div>

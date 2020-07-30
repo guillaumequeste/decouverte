@@ -127,16 +127,20 @@ import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Hortillonnages from './components/Autres/Hortillonnages.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
+import Maison_Jules_Verne from './components/Autres/Maison_Jules_Verne.jsx'
 import Lillebonne from './components/Autres/Lillebonne.jsx'
 import Manoir_Ango from './components/Autres/Manoir_Ango.jsx'
 import Memorial from './components/Autres/Memorial.jsx'
 import Montreuil_sur_Mer from './components/Autres/Montreuil_sur_Mer.jsx'
+import Musee_Beaux_Arts from './components/Autres/Musee_Beaux_Arts.jsx'
 import Musee_Emma_Bovary from './components/Autres/Musee_Emma_Bovary.jsx'
 import Panorama_Evreux from './components/Autres/Panorama_Evreux.jsx'
 import Panorama_Marais_Vernier from './components/Autres/Panorama_Marais_Vernier.jsx'
 import Panorama_Vert_Village from './components/Autres/Panorama_Vert_Village.jsx'
 import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
 import Phare_d_Ailly from './components/Autres/Phare_d_Ailly.jsx'
+import Plan_eau_Canada from './components/Autres/Plan_eau_Canada.jsx'
+import Quartier_Saint_Leu from './components/Autres/Quartier_Saint_Leu.jsx'
 import Varenne from './components/Autres/Varenne.jsx'
 import Versailles from './components/Autres/Versailles.jsx'
 
@@ -275,15 +279,19 @@ const Root = () => (
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
+            <Route path='/maison_jules_verne' component={Maison_Jules_Verne}/>
             <Route path='/manoir_ango' component={Manoir_Ango}/>
             <Route path='/memorial' component={Memorial}/>
             <Route path='/montreuil-sur-mer' component={Montreuil_sur_Mer}/>
+            <Route path='/musee_beaux_arts' component={Musee_Beaux_Arts}/>
             <Route path='/musee_emma_bovary' component={Musee_Emma_Bovary}/>
             <Route path='/panorama_evreux' component={Panorama_Evreux}/>
             <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
             <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
+            <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>
+            <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
             <Route path='/varenne' component={Varenne}/>
             <Route path='/versailles' component={Versailles}/>
 
