@@ -11,7 +11,7 @@ class Panorama_Val_d_Herblay extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/panorama_val_d_herblay"} />
                 <Header />
-                <div className="bodyAutres">
+                <div className="bodySeine">
                     <h1 className="title">Panorama Val d'Herblay et la Seine</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay01.jpg")} alt="panorama_val_d_herblay01" className="photo"/>
