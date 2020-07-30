@@ -19,6 +19,8 @@ export default class CarteSeine extends Component {
         const duclair = [49.482563, 0.8754968]
         const hautot = [49.3602514, 0.9773356]
         const heurteauville = [49.444798, 0.8128955]
+        const ile_cite = [48.855910041518655, 2.3443539925747414]
+        const ile_saint_louis = [48.851763743343156, 2.357079065869625]
         const jumieges = [49.4317826, 0.8175572]
         const la_mailleray_sur_seine = [49.48230701294539, 0.7747897018168937]
         const la_roche_guyon = [49.0810715, 1.6305766]
@@ -31,12 +33,17 @@ export default class CarteSeine extends Component {
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
         const limetz_villez = [49.06031467107532, 1.5291453092289942]
+        const nanterre = [48.91719621975756, 2.2173717836551576]
+        const notre_dame = [48.85297093349124, 2.349745636990672]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const notre_dame_de_l_isle = [49.1455113, 1.4277246]
         const panorama_val_d_herblay = [48.98749636389404, 2.159593191902034]
         const passage_du_trait = [49.466176205756646, 0.811326038830531]
         const passage_d_yssainville = [49.456570881392274, 0.8152271590618643]
         const phare_de_la_roque = [49.44387280261981, 0.4251056914048146]
+        const pont_au_change = [48.856664448657654, 2.346722409591049]
+        const pont_charles_de_gaulle = [48.842592621958296, 2.3690977001586155]
+        const pont_saint_cloud = [48.841301752318536, 2.2235902795146423]
         const port_jerome = [49.472651189507765, 0.5354173653879579]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
         const port_mort = [49.16899232754176, 1.3942056070488862]
@@ -107,6 +114,16 @@ export default class CarteSeine extends Component {
                             <Link to="/jumieges" className="linkPlage"><div className="lien"><div>Jumièges</div><div><img src={require('../../img/seine/jumieges/jumieges01min.jpg')} alt="jumieges" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={ile_cite}>
+                        <Popup minWidth={200}>
+                            <Link to="/ile_cite" className="linkPlage"><div className="lien"><div>Ile de la Cité</div><div><img src={require('../../img/seine/ile_cite/ile_cite01min.jpg')} alt="ile_cite" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={ile_saint_louis}>
+                        <Popup minWidth={200}>
+                            <Link to="/ile_saint-louis" className="linkPlage"><div className="lien"><div>Ile Saint-Louis</div><div><img src={require('../../img/seine/ile_saint-louis/ile_saint-louis01min.jpg')} alt="ile_saint-louis" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={la_mailleray_sur_seine}>
                         <Popup minWidth={200}>
                             <Link to="/la_mailleray-sur-seine" className="linkPlage"><div className="lien"><div>La Mailleray-sur-Seine</div><div><img src={require('../../img/seine/la_mailleray-sur-seine/la_mailleray-sur-seine01min.jpg')} alt="la_mailleray-sur-seine" className="apercu"/></div></div></Link>
@@ -162,6 +179,16 @@ export default class CarteSeine extends Component {
                             <Link to="/limetz-villez" className="linkPlage"><div className="lien"><div>Limetz-Villez</div><div><img src={require('../../img/seine/limetz-villez/limetz-villez01min.jpg')} alt="limetz-villez" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={nanterre}>
+                        <Popup minWidth={200}>
+                            <Link to="/nanterre" className="linkPlage"><div className="lien"><div>Nanterre</div><div><img src={require('../../img/seine/nanterre/nanterre01min.jpg')} alt="nanterre" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={notre_dame}>
+                        <Popup minWidth={200}>
+                            <Link to="/notre_dame" className="linkPlage"><div className="lien"><div>Notre Dame</div><div><img src={require('../../img/seine/notre_dame/notre_dame01min.jpg')} alt="notre_dame" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={notre_dame_de_bliquetuit}>
                         <Popup minWidth={200}>
                             <Link to="/notre-dame-de-bliquetuit" className="linkPlage"><div className="lien"><div>Notre-Dame-de-Bliquetuit</div><div><img src={require('../../img/seine/notre-dame-de-bliquetuit/notre-dame-de-bliquetuit01min.jpg')} alt="notre-dame-de-bliquetuit" className="apercu"/></div></div></Link>
@@ -190,6 +217,21 @@ export default class CarteSeine extends Component {
                     <Marker position={phare_de_la_roque}>
                         <Popup minWidth={200}>
                             <Link to="/phare_de_la_roque" className="linkPlage"><div className="lien"><div>Phare de la Roque</div><div><img src={require('../../img/seine/phare_de_la_roque/phare_de_la_roque01min.jpg')} alt="phare_de_la_roque" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_au_change}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_au_change" className="linkPlage"><div className="lien"><div>Pont au Change</div><div><img src={require('../../img/seine/pont_au_change/pont_au_change01min.jpg')} alt="pont_au_change" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_charles_de_gaulle}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_charles_de_gaulle" className="linkPlage"><div className="lien"><div>Pont Charles de Gaulle</div><div><img src={require('../../img/seine/pont_charles_de_gaulle/pont_charles_de_gaulle01min.jpg')} alt="pont_charles_de_gaulle" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_saint_cloud}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_saint-cloud" className="linkPlage"><div className="lien"><div>Pont de Saint-Cloud</div><div><img src={require('../../img/seine/pont_saint-cloud/pont_saint-cloud01min.jpg')} alt="pont_saint-cloud" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={port_jerome}>

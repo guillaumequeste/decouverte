@@ -61,6 +61,8 @@ import Duclair from './components/Seine/Duclair'
 import Hautot from './components/Seine/Hautot'
 import Heurteauville from './components/Seine/Heurteauville'
 import Jumieges from './components/Seine/Jumieges'
+import Ile_Cite from './components/Seine/Ile_Cite'
+import Ile_Saint_Louis from './components/Seine/Ile_Saint_Louis'
 import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
 import La_Roquette from './components/Seine/La_Roquette'
@@ -72,12 +74,17 @@ import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
+import Nanterre from './components/Seine/Nanterre'
+import Notre_Dame from './components/Seine/Notre_Dame'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
 import Panorama_Val_d_Herblay from './components/Seine/Panorama_Val_d_Herblay'
 import Passage_du_Trait from './components/Seine/Passage_du_Trait'
 import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
 import Phare_de_la_Roque from './components/Seine/Phare_de_la_Roque'
+import Pont_au_Change from './components/Seine/Pont_au_Change'
+import Pont_Charles_de_Gaulle from './components/Seine/Pont_Charles_de_Gaulle'
+import Pont_Saint_Cloud from './components/Seine/Pont_Saint_Cloud'
 import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
@@ -212,6 +219,8 @@ const Root = () => (
             <Route path='/hautot' component={Hautot}/>
             <Route path='/heurteauville' component={Heurteauville}/>
             <Route path='/jumieges' component={Jumieges}/>
+            <Route path='/ile_cite' component={Ile_Cite}/>
+            <Route path='/ile_saint-louis' component={Ile_Saint_Louis}/>
             <Route path='/la_mailleray-sur-seine' component={La_Mailleray_sur_Seine}/>
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
             <Route path='/la_roquette' component={La_Roquette}/>
@@ -223,12 +232,17 @@ const Root = () => (
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
             <Route path='/limetz-villez' component={Limetz_Villez}/>
+            <Route path='/nanterre' component={Nanterre}/>
+            <Route path='/notre_dame' component={Notre_Dame}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
             <Route path='/panorama_val_d_herblay' component={Panorama_Val_d_Herblay}/>
             <Route path='/passage_du_trait' component={Passage_du_Trait}/>
             <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>
             <Route path='/phare_de_la_roque' component={Phare_de_la_Roque}/>
+            <Route path='/pont_au_change' component={Pont_au_Change}/>
+            <Route path='/pont_charles_de_gaulle' component={Pont_Charles_de_Gaulle}/>
+            <Route path='/pont_saint-cloud' component={Pont_Saint_Cloud}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>
