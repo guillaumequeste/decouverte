@@ -84,6 +84,10 @@ import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
 import Phare_de_la_Roque from './components/Seine/Phare_de_la_Roque'
 import Pont_au_Change from './components/Seine/Pont_au_Change'
 import Pont_Charles_de_Gaulle from './components/Seine/Pont_Charles_de_Gaulle'
+import Pont_de_Sully from './components/Seine/Pont_de_Sully'
+import Pont_d_Iena from './components/Seine/Pont_d_Iena'
+import Pont_du_Garigliano from './components/Seine/Pont_du_Garigliano'
+import Pont_Marie from './components/Seine/Pont_Marie'
 import Pont_Saint_Cloud from './components/Seine/Pont_Saint_Cloud'
 import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
@@ -242,6 +246,10 @@ const Root = () => (
             <Route path='/phare_de_la_roque' component={Phare_de_la_Roque}/>
             <Route path='/pont_au_change' component={Pont_au_Change}/>
             <Route path='/pont_charles_de_gaulle' component={Pont_Charles_de_Gaulle}/>
+            <Route path='/pont_de_sully' component={Pont_de_Sully}/>
+            <Route path='/pont_d_iena' component={Pont_d_Iena}/>
+            <Route path='/pont_du_garigliano' component={Pont_du_Garigliano}/>
+            <Route path='/pont_marie' component={Pont_Marie}/>
             <Route path='/pont_saint-cloud' component={Pont_Saint_Cloud}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>

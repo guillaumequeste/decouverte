@@ -43,6 +43,10 @@ export default class CarteSeine extends Component {
         const phare_de_la_roque = [49.44387280261981, 0.4251056914048146]
         const pont_au_change = [48.856664448657654, 2.346722409591049]
         const pont_charles_de_gaulle = [48.842592621958296, 2.3690977001586155]
+        const pont_de_sully = [48.84990140647367, 2.358337923076781]
+        const pont_d_iena = [48.85977066070461, 2.292117746632192]
+        const pont_du_garigliano = [48.83924816252435, 2.2684471491681624]
+        const pont_marie = [48.852798887464836, 2.357380669330671]
         const pont_saint_cloud = [48.841301752318536, 2.2235902795146423]
         const port_jerome = [49.472651189507765, 0.5354173653879579]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
@@ -227,6 +231,26 @@ export default class CarteSeine extends Component {
                     <Marker position={pont_charles_de_gaulle}>
                         <Popup minWidth={200}>
                             <Link to="/pont_charles_de_gaulle" className="linkPlage"><div className="lien"><div>Pont Charles de Gaulle</div><div><img src={require('../../img/seine/pont_charles_de_gaulle/pont_charles_de_gaulle01min.jpg')} alt="pont_charles_de_gaulle" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_de_sully}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_de_sully" className="linkPlage"><div className="lien"><div>Pont de Sully</div><div><img src={require('../../img/seine/pont_de_sully/pont_de_sully01min.jpg')} alt="pont_de_sully" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_d_iena}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_d_iena" className="linkPlage"><div className="lien"><div>Pont d'Iena</div><div><img src={require("../../img/seine/pont_d_iena/pont_d_iena01min.jpg")} alt="pont_d_iena" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_du_garigliano}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_du_garigliano" className="linkPlage"><div className="lien"><div>Pont du Garigliano</div><div><img src={require('../../img/seine/pont_du_garigliano/pont_du_garigliano01min.jpg')} alt="pont_du_garigliano" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_marie}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_marie" className="linkPlage"><div className="lien"><div>Pont Marie</div><div><img src={require('../../img/seine/pont_marie/pont_marie01min.jpg')} alt="pont_marie" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={pont_saint_cloud}>
