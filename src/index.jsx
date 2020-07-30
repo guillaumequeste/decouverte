@@ -88,7 +88,10 @@ import Pont_de_Sully from './components/Seine/Pont_de_Sully'
 import Pont_d_Iena from './components/Seine/Pont_d_Iena'
 import Pont_du_Garigliano from './components/Seine/Pont_du_Garigliano'
 import Pont_Marie from './components/Seine/Pont_Marie'
+import Pont_National from './components/Seine/Pont_National'
+import Pont_Neuf from './components/Seine/Pont_Neuf'
 import Pont_Saint_Cloud from './components/Seine/Pont_Saint_Cloud'
+import Pont_Saint_Louis from './components/Seine/Pont_Saint_Louis'
 import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
@@ -250,7 +253,10 @@ const Root = () => (
             <Route path='/pont_d_iena' component={Pont_d_Iena}/>
             <Route path='/pont_du_garigliano' component={Pont_du_Garigliano}/>
             <Route path='/pont_marie' component={Pont_Marie}/>
+            <Route path='/pont_national' component={Pont_National}/>
+            <Route path='/pont_neuf' component={Pont_Neuf}/>
             <Route path='/pont_saint-cloud' component={Pont_Saint_Cloud}/>
+            <Route path='/pont_saint-louis' component={Pont_Saint_Louis}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>

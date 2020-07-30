@@ -12,7 +12,7 @@ class Pont_d_Iena extends Component {
                         link={"http://decouverte.guillaumequeste.fr/pont_d_iena"} />
                 <Header />
                 <div className="bodySeine">
-                    <h1 className="title">Pont d'Iena'</h1>
+                    <h1 className="title">Pont d'Iena</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/seine/pont_d_iena/pont_d_iena01.jpg")} alt="pont_d_iena01" className="photo"/>
                     </div>

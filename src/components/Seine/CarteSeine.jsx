@@ -6,7 +6,7 @@ export default class CarteSeine extends Component {
     state = {
         lat: 49.3,
         lng: 1.1,
-        zoom: 9,
+        zoom: 8,
     }
 
     render() {
@@ -47,7 +47,10 @@ export default class CarteSeine extends Component {
         const pont_d_iena = [48.85977066070461, 2.292117746632192]
         const pont_du_garigliano = [48.83924816252435, 2.2684471491681624]
         const pont_marie = [48.852798887464836, 2.357380669330671]
+        const pont_national = [48.82784464797287, 2.3869750071940654]
+        const pont_neuf = [48.85767502321728, 2.3418120562873224]
         const pont_saint_cloud = [48.841301752318536, 2.2235902795146423]
+        const pont_saint_louis= [48.852736412536544, 2.3528050596371353]
         const port_jerome = [49.472651189507765, 0.5354173653879579]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
         const port_mort = [49.16899232754176, 1.3942056070488862]
@@ -253,9 +256,24 @@ export default class CarteSeine extends Component {
                             <Link to="/pont_marie" className="linkPlage"><div className="lien"><div>Pont Marie</div><div><img src={require('../../img/seine/pont_marie/pont_marie01min.jpg')} alt="pont_marie" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={pont_national}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_national" className="linkPlage"><div className="lien"><div>Pont National</div><div><img src={require('../../img/seine/pont_national/pont_national01min.jpg')} alt="pont_national" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_neuf}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_neuf" className="linkPlage"><div className="lien"><div>Pont Neuf</div><div><img src={require('../../img/seine/pont_neuf/pont_neuf01min.jpg')} alt="pont_neuf" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={pont_saint_cloud}>
                         <Popup minWidth={200}>
                             <Link to="/pont_saint-cloud" className="linkPlage"><div className="lien"><div>Pont de Saint-Cloud</div><div><img src={require('../../img/seine/pont_saint-cloud/pont_saint-cloud01min.jpg')} alt="pont_saint-cloud" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pont_saint_louis}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_saint-louis" className="linkPlage"><div className="lien"><div>Pont Saint-Louis</div><div><img src={require('../../img/seine/pont_saint-louis/pont_saint-louis01min.jpg')} alt="pont_saint-louis" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={port_jerome}>

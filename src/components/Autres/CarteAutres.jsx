@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default class CarteAutres extends Component {
     state = {
-        lat: 49.3,
+        lat: 49.5,
         lng: 1.1,
         zoom: 8,
     }
