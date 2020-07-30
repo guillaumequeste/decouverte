@@ -14,6 +14,7 @@ export default class CarteAutres extends Component {
         const abbaye_mortemer = [49.369224896866555, 1.4805959564468152]
         const abbaye_notre_dame_du_bec = [49.22953974001412, 0.720553351057176]
         const abbaye_saint_georges_boscherville = [49.44422912597656, 0.9642863273620605]
+        const auvers_sur_oise = [49.0701875, 2.1718687]
         const avenue_verte_arques = [49.874725744731734, 1.144591670209727]
         const avenue_verte_dampierre = [49.86053211973192, 1.1993901547966912]
         const avenue_verte_mesnieres = [49.76121475529929, 1.378964622259904]
@@ -23,6 +24,9 @@ export default class CarteAutres extends Component {
         const avenue_verte_saint_vaast = [49.81910677943631, 1.2588236235701933]
         const basilique_lisieux = [49.139556789525805, 0.23629679734376907]
         const biomarine = [49.922020903359154, 1.0719482754901533]
+        const cathedrale_amiens = [49.894544762202585, 2.302213976161882]
+        const cathedrale_beauvais = [49.43259468183312, 2.0813340770177735]
+        const cathedrale_rouen = [49.442550390837766, 1.099799646516808]
         const chateau_chantilly = [49.19403662095672, 2.4855468818245985]
         const chateau_dieppe = [49.9246285256642, 1.070147852545782]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
@@ -71,6 +75,11 @@ export default class CarteAutres extends Component {
                             <Link to="/abbaye_saint_georges_boscherville" className="linkPlage"><div className="lien"><div>Abbaye Romane Saint Georges de Boscherville</div><div><img src={require('../../img/autres/abbaye_saint_georges_boscherville/abbaye_saint_georges_boschervillemin.jpg')} alt="abbaye_saint_georges_boscherville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={auvers_sur_oise}>
+                        <Popup minWidth={200}>
+                            <Link to="/auvers-sur-oise" className="linkPlage"><div className="lien"><div>Auvers-sur-Oise</div><div><img src={require('../../img/autres/auvers-sur-oise/auvers-sur-oise01min.jpg')} alt="auvers-sur-oise" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={avenue_verte_arques}>
                         <Popup minWidth={200}>
                             <Link to="/avenue_verte_arques" className="linkPlage"><div className="lien"><div>Avenue verte Arques-la-Bataille</div><div><img src={require('../../img/autres/avenue_verte_arques/avenue_verte_arques01min.jpg')} alt="avenue_verte_arques" className="apercu"/></div></div></Link>
@@ -114,6 +123,21 @@ export default class CarteAutres extends Component {
                     <Marker position={biomarine}>
                         <Popup minWidth={200}>
                             <Link to="/biomarine" className="linkPlage"><div className="lien"><div>Biomarine</div><div><img src={require("../../img/autres/biomarine/biomarine01min.jpg")} alt="biomarine01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cathedrale_amiens}>
+                        <Popup minWidth={200}>
+                            <Link to="/cathedrale_amiens" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame d'Amiens</div><div><img src={require("../../img/autres/cathedrale_amiens/cathedrale_amiens01min.jpg")} alt="cathedrale_amiens01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cathedrale_beauvais}>
+                        <Popup minWidth={200}>
+                            <Link to="/cathedrale_beauvais" className="linkPlage"><div className="lien"><div>Cathédrale Saint-Pierre de Beauvais</div><div><img src={require("../../img/autres/cathedrale_beauvais/cathedrale_beauvais01min.jpg")} alt="cathedrale_beauvais01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cathedrale_rouen}>
+                        <Popup minWidth={200}>
+                            <Link to="/cathedrale_rouen" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame de Rouen</div><div><img src={require("../../img/autres/cathedrale_rouen/cathedrale_rouen01.jpg")} alt="cathedrale_rouen01" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_chantilly}>

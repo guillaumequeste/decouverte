@@ -99,6 +99,7 @@ import Autres from './components/Autres/Autres'
 import Abbaye_Mortemer from './components/Autres/Abbaye_Mortemer'
 import Abbaye_Notre_Dame_du_Bec from './components/Autres/Abbaye_Notre_Dame_du_Bec'
 import Abbaye_Saint_Georges_Boscherville from './components/Autres/Abbaye_Saint_Georges_Boscherville'
+import Auvers_sur_Oise from './components/Autres/Auvers_sur_Oise'
 import Avenue_Verte_Arques from './components/Autres/Avenue_Verte_Arques'
 import Avenue_Verte_Dampierre from './components/Autres/Avenue_Verte_Dampierre'
 import Avenue_Verte_Mesnieres from './components/Autres/Avenue_Verte_Mesnieres.jsx'
@@ -108,6 +109,9 @@ import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte_S
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte_Saint_Vaast.jsx'
 import Basilique_Lisieux from './components/Autres/Basilique_Lisieux.jsx'
 import Biomarine from './components/Autres/Biomarine.jsx'
+import Cathedrale_Amiens from './components/Autres/Cathedrale_Amiens.jsx'
+import Cathedrale_Beauvais from './components/Autres/Cathedrale_Beauvais.jsx'
+import Cathedrale_Rouen from './components/Autres/Cathedrale_Rouen.jsx'
 import Chateau_Chantilly from './components/Autres/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
@@ -240,6 +244,7 @@ const Root = () => (
             <Route path='/abbaye_mortemer' component={Abbaye_Mortemer}/>
             <Route path='/abbaye_notre-dame_du_bec' component={Abbaye_Notre_Dame_du_Bec}/>
             <Route path='/abbaye_saint_georges_boscherville' component={Abbaye_Saint_Georges_Boscherville}/>
+            <Route path='/auvers-sur-oise' component={Auvers_sur_Oise}/>
             <Route path='/avenue_verte_arques' component={Avenue_Verte_Arques}/>
             <Route path='/avenue_verte_dampierre' component={Avenue_Verte_Dampierre}/>
             <Route path='/avenue_verte_mesnieres' component={Avenue_Verte_Mesnieres}/>
@@ -249,6 +254,9 @@ const Root = () => (
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
             <Route path='/basilique_lisieux' component={Basilique_Lisieux}/>
             <Route path='/biomarine' component={Biomarine}/>
+            <Route path='/cathedrale_amiens' component={Cathedrale_Amiens}/>
+            <Route path='/cathedrale_beauvais' component={Cathedrale_Beauvais}/>
+            <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
