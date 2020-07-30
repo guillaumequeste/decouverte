@@ -33,6 +33,7 @@ export default class CarteSeine extends Component {
         const limetz_villez = [49.06031467107532, 1.5291453092289942]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const notre_dame_de_l_isle = [49.1455113, 1.4277246]
+        const panorama_val_d_herblay = [48.98749636389404, 2.159593191902034]
         const passage_du_trait = [49.466176205756646, 0.811326038830531]
         const passage_d_yssainville = [49.456570881392274, 0.8152271590618643]
         const phare_de_la_roque = [49.44387280261981, 0.4251056914048146]
@@ -169,6 +170,11 @@ export default class CarteSeine extends Component {
                     <Marker position={notre_dame_de_l_isle}>
                         <Popup minWidth={200}>
                             <Link to="/notre-dame-de-l_isle" className="linkPlage"><div className="lien"><div>Notre-Dame-de-l'Isle</div><div><img src={require('../../img/seine/notre-dame-de-l_isle/notre-dame-de-l_isle01min.jpg')} alt="notre-dame-de-l_isle" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_val_d_herblay}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_val_d_herblay" className="linkPlage"><div className="lien"><div>Panorama Val d'Herblay et la Seine</div><div><img src={require("../../img/autres/panorama_val_d_herblay/panorama_val_d_herblay01min.jpg")} alt="panorama_val_d_herblay" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={passage_du_trait}>

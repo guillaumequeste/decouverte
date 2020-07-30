@@ -38,6 +38,7 @@ export default class CarteAutres extends Component {
         const estran = [49.93065912643744, 1.083684613302509]
         const giverny = [49.0753489, 1.5337884]
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
+        const hortillonnages = [49.8948700325477, 2.3124191947304062]
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
         const lillebonne = [49.51799724241, 0.5367753386982388]
@@ -195,6 +196,11 @@ export default class CarteAutres extends Component {
                             <Link to="/gros-horloge" className="linkPlage"><div className="lien"><div>Le Gros-Horloge à Rouen</div><div><img src={require('../../img/autres/gros-horloge/gros-horlogemin.jpg')} alt="gros-horloge" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={hortillonnages}>
+                        <Popup minWidth={200}>
+                            <Link to="/hortillonnages" className="linkPlage"><div className="lien"><div>Hortillonnages d'Amiens</div><div><img src={require("../../img/autres/hortillonnages/hortillonnages01min.jpg")} alt="hortillonnages" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_bec_hellouin}>
                         <Popup minWidth={200}>
                             <Link to="/le_bec-hellouin" className="linkPlage"><div className="lien"><div>Le Bec-Hellouin</div><div><img src={require('../../img/autres/le_bec-hellouin/le_bec-hellouin01min.jpg')} alt="e_bec-hellouin" className="apercu"/></div></div></Link>
@@ -232,7 +238,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={panorama_evreux}>
                         <Popup minWidth={200}>
-                            <Link to="/panorama_evreux" className="linkPlage"><div className="lien"><div>Panorama d'Evreux</div><div><img src={require('../../img/autres/panorama_evreux/panorama_evreux01min.jpg')} alt="panorama_evreux" className="apercu"/></div></div></Link>
+                            <Link to="/panorama_evreux" className="linkPlage"><div className="lien"><div>Panorama d'Evreux</div><div><img src={require("../../img/autres/panorama_evreux/panorama_evreux01min.jpg")} alt="panorama_evreux" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={panorama_marais_vernier}>

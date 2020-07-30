@@ -74,6 +74,7 @@ import Les_Mousseaux from './components/Seine/Les_Mousseaux'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
+import Panorama_Val_d_Herblay from './components/Seine/Panorama_Val_d_Herblay'
 import Passage_du_Trait from './components/Seine/Passage_du_Trait'
 import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
 import Phare_de_la_Roque from './components/Seine/Phare_de_la_Roque'
@@ -123,6 +124,7 @@ import Eglise_Saint_Joseph from './components/Autres/Eglise_Saint_Joseph.jsx'
 import Estran from './components/Autres/Estran.jsx'
 import Giverny from './components/Autres/Giverny.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
+import Hortillonnages from './components/Autres/Hortillonnages.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
 import Lillebonne from './components/Autres/Lillebonne.jsx'
@@ -219,6 +221,7 @@ const Root = () => (
             <Route path='/limetz-villez' component={Limetz_Villez}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
+            <Route path='/panorama_val_d_herblay' component={Panorama_Val_d_Herblay}/>
             <Route path='/passage_du_trait' component={Passage_du_Trait}/>
             <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>
             <Route path='/phare_de_la_roque' component={Phare_de_la_Roque}/>
@@ -268,6 +271,7 @@ const Root = () => (
             <Route path='/estran' component={Estran}/>
             <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
+            <Route path='/hortillonnages' component={Hortillonnages}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
