@@ -79,6 +79,10 @@ import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
 import Les_Mureaux from './components/Seine/Les_Mureaux'
+import LimayA from './components/Seine/LimayA'
+import LimayB from './components/Seine/LimayB'
+import LimayC from './components/Seine/LimayC'
+import LimayD from './components/Seine/LimayD'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
 import Meulan_en_Yvelines from './components/Seine/Meulan_en_Yvelines'
 import Mezy_sur_Seine from './components/Seine/Mezy_sur_Seine'
@@ -116,6 +120,7 @@ import Sandrancourt from './components/Seine/Sandrancourt'
 import Tancarville from './components/Seine/Tancarville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
 import Vatteville from './components/Seine/Vatteville'
+import Vaux_sur_Seine from './components/Seine/Vaux_sur_Seine'
 import Vernon from './components/Seine/Vernon'
 import Vetheuil from './components/Seine/Vetheuil'
 import Vieux_Port from './components/Seine/Vieux_Port'
@@ -255,6 +260,10 @@ const Root = () => (
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
             <Route path='/les_mureaux' component={Les_Mureaux}/>
+            <Route path='/limayA' component={LimayA}/>
+            <Route path='/limayB' component={LimayB}/>
+            <Route path='/limayC' component={LimayC}/>
+            <Route path='/limayD' component={LimayD}/>
             <Route path='/limetz-villez' component={Limetz_Villez}/>
             <Route path='/meulan-en-yvelines' component={Meulan_en_Yvelines}/>
             <Route path='/mezy-sur-seine' component={Mezy_sur_Seine}/>
@@ -292,6 +301,7 @@ const Root = () => (
             <Route path='/tancarville' component={Tancarville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
             <Route path='/vatteville' component={Vatteville}/>
+            <Route path='/vaux-sur-seine' component={Vaux_sur_Seine}/>
             <Route path='/vernon' component={Vernon}/>
             <Route path='/vetheuil' component={Vetheuil}/>
             <Route path='/vieux-port' component={Vieux_Port}/>
