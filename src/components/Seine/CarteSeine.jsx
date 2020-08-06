@@ -17,11 +17,16 @@ export default class CarteSeine extends Component {
         const caudebec = [49.52416135852367, 0.7263719063849283]
         const cleon = [49.3142135, 1.0329344]
         const duclair = [49.482563, 0.8754968]
+        const gargenville = [48.976861008962665, 1.815486818861043]
+        const guernes = [49.00541213405952, 1.6347672194356955]
+        const hardricourt = [49.003782942255654, 1.9048766694675834]
         const hautot = [49.3602514, 0.9773356]
         const heurteauville = [49.444798, 0.8128955]
         const ile_cite = [48.855910041518655, 2.3443539925747414]
+        const ile_l_aumone = [49.000011061272204, 1.7188917620003474]
         const ile_saint_louis = [48.851763743343156, 2.357079065869625]
         const jumieges = [49.4317826, 0.8175572]
+        const juziers = [48.987111605582704, 1.8413811040722905]
         const la_mailleray_sur_seine = [49.48230701294539, 0.7747897018168937]
         const la_roche_guyon = [49.0810715, 1.6305766]
         const la_roquette = [49.25060354040053, 1.3518886396638718]
@@ -32,7 +37,10 @@ export default class CarteSeine extends Component {
         const le_val_pitant = [49.30959482502866, 1.2485836639375236]
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
+        const les_mureaux = [49.000169067222835, 1.9117994004540018]
         const limetz_villez = [49.06031467107532, 1.5291453092289942]
+        const meulan_en_yvelines = [49.00177604401088, 1.9090958184399387]
+        const mezy_sur_seine = [48.997421818559246, 1.8836185541003259]
         const nanterre = [48.91719621975756, 2.2173717836551576]
         const notre_dame = [48.85297093349124, 2.349745636990672]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
@@ -51,6 +59,7 @@ export default class CarteSeine extends Component {
         const pont_neuf = [48.85767502321728, 2.3418120562873224]
         const pont_saint_cloud = [48.841301752318536, 2.2235902795146423]
         const pont_saint_louis= [48.852736412536544, 2.3528050596371353]
+        const porcheville = [48.967849586129546, 1.778778948604236]
         const port_jerome = [49.472651189507765, 0.5354173653879579]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
         const port_mort = [49.16899232754176, 1.3942056070488862]
@@ -62,10 +71,12 @@ export default class CarteSeine extends Component {
         const saint_nicolas_de_bliquetuit = [49.52091892613221, 0.7276994092058375]
         const saint_paul = [49.46908930819602, 0.8605530137303674]
         const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
+        const sandrancourt = [49.0373032929155, 1.6470670579397595]
         const tancarville = [49.48139170731105, 0.47487084026760495]
         const val_de_la_haye = [49.3773661, 1.0010383]
         const vatteville = [49.49712555659109, 0.6714457248089811]
         const vernon = [49.09761619380803, 1.4884821158460415]
+        const vetheuil = [49.064290180847955, 1.6984859510052086]
         const vieux_port = [49.42689869574646, 0.6100424316636621]
         const villequier = [49.51442113762259, 0.6767299273563898]
 
@@ -106,6 +117,21 @@ export default class CarteSeine extends Component {
                             <Link to="/duclair" className="linkPlage"><div className="lien"><div>Duclair</div><div><img src={require('../../img/seine/duclair/duclair01min.jpg')} alt="duclair" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={gargenville}>
+                        <Popup minWidth={200}>
+                            <Link to="/gargenville" className="linkPlage"><div className="lien"><div>Gargenville</div><div><img src={require('../../img/seine/gargenville/gargenville01min.jpg')} alt="gargenville" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={guernes}>
+                        <Popup minWidth={200}>
+                            <Link to="/guernes" className="linkPlage"><div className="lien"><div>Guernes</div><div><img src={require('../../img/seine/guernes/guernes01min.jpg')} alt="guernes" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={hardricourt}>
+                        <Popup minWidth={200}>
+                            <Link to="/hardricourt" className="linkPlage"><div className="lien"><div>Hardricourt</div><div><img src={require('../../img/seine/hardricourt/hardricourt01min.jpg')} alt="hardricourt" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={hautot}>
                         <Popup minWidth={200}>
                             <Link to="/hautot" className="linkPlage"><div className="lien"><div>Hautot-sur-Seine</div><div><img src={require('../../img/seine/hautot/hautot01min.jpg')} alt="hautot" className="apercu"/></div></div></Link>
@@ -116,19 +142,29 @@ export default class CarteSeine extends Component {
                             <Link to="/heurteauville" className="linkPlage"><div className="lien"><div>Heurteauville</div><div><img src={require('../../img/seine/heurteauville/heurteauville01min.jpg')} alt="heurteauville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
-                    <Marker position={jumieges}>
-                        <Popup minWidth={200}>
-                            <Link to="/jumieges" className="linkPlage"><div className="lien"><div>Jumièges</div><div><img src={require('../../img/seine/jumieges/jumieges01min.jpg')} alt="jumieges" className="apercu"/></div></div></Link>
-                        </Popup>
-                    </Marker>
                     <Marker position={ile_cite}>
                         <Popup minWidth={200}>
                             <Link to="/ile_cite" className="linkPlage"><div className="lien"><div>Ile de la Cité</div><div><img src={require('../../img/seine/ile_cite/ile_cite01min.jpg')} alt="ile_cite" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={ile_l_aumone}>
+                        <Popup minWidth={200}>
+                            <Link to="/ile_l_aumone" className="linkPlage"><div className="lien"><div>Ile l'Aumone</div><div><img src={require('../../img/seine/ile_l_aumone/ile_l_aumone01min.jpg')} alt="ile_l_aumone" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={ile_saint_louis}>
                         <Popup minWidth={200}>
                             <Link to="/ile_saint-louis" className="linkPlage"><div className="lien"><div>Ile Saint-Louis</div><div><img src={require('../../img/seine/ile_saint-louis/ile_saint-louis01min.jpg')} alt="ile_saint-louis" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={jumieges}>
+                        <Popup minWidth={200}>
+                            <Link to="/jumieges" className="linkPlage"><div className="lien"><div>Jumièges</div><div><img src={require('../../img/seine/jumieges/jumieges01min.jpg')} alt="jumieges" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={juziers}>
+                        <Popup minWidth={200}>
+                            <Link to="/juziers" className="linkPlage"><div className="lien"><div>Juziers</div><div><img src={require('../../img/seine/juziers/juziers01min.jpg')} alt="juziers" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={la_mailleray_sur_seine}>
@@ -181,9 +217,24 @@ export default class CarteSeine extends Component {
                             <Link to="/les_mousseaux" className="linkPlage"><div className="lien"><div>Les Mousseaux</div><div><img src={require('../../img/seine/les_mousseaux/les_mousseaux01min.jpg')} alt="les_mousseaux" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={les_mureaux}>
+                        <Popup minWidth={200}>
+                            <Link to="/les_mureaux" className="linkPlage"><div className="lien"><div>Les Mureaux</div><div><img src={require('../../img/seine/les_mureaux/les_mureaux01min.jpg')} alt="les_mureaux" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={limetz_villez}>
                         <Popup minWidth={200}>
                             <Link to="/limetz-villez" className="linkPlage"><div className="lien"><div>Limetz-Villez</div><div><img src={require('../../img/seine/limetz-villez/limetz-villez01min.jpg')} alt="limetz-villez" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={meulan_en_yvelines}>
+                        <Popup minWidth={200}>
+                            <Link to="/meulan-en-yvelines" className="linkPlage"><div className="lien"><div>Meulan-en-Yvelines</div><div><img src={require('../../img/seine/meulan-en-yvelines/meulan-en-yvelines01min.jpg')} alt="meulan-en-yvelines" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={mezy_sur_seine}>
+                        <Popup minWidth={200}>
+                            <Link to="/mezy-sur-seine" className="linkPlage"><div className="lien"><div>Mézy-sur-Seine</div><div><img src={require('../../img/seine/mezy-sur-seine/mezy-sur-seine01min.jpg')} alt="mezy-sur-seine" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={nanterre}>
@@ -276,6 +327,11 @@ export default class CarteSeine extends Component {
                             <Link to="/pont_saint-louis" className="linkPlage"><div className="lien"><div>Pont Saint-Louis</div><div><img src={require('../../img/seine/pont_saint-louis/pont_saint-louis01min.jpg')} alt="pont_saint-louis" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={porcheville}>
+                        <Popup minWidth={200}>
+                            <Link to="/porcheville" className="linkPlage"><div className="lien"><div>Porcheville</div><div><img src={require('../../img/seine/porcheville/porcheville01min.jpg')} alt="porcheville" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={port_jerome}>
                         <Popup minWidth={200}>
                             <Link to="/port-jerome" className="linkPlage"><div className="lien"><div>Port-Jérôme-sur-Seine</div><div><img src={require('../../img/seine/port-jerome/port-jerome01min.jpg')} alt="port-jerome" className="apercu"/></div></div></Link>
@@ -331,6 +387,11 @@ export default class CarteSeine extends Component {
                             <Link to="/saint-pierre-de-manneville" className="linkPlage"><div className="lien"><div>Saint-Pierre-de-Manneville</div><div><img src={require('../../img/seine/saint-pierre-de-manneville/saint-pierre-de-manneville01min.jpg')} alt="saint-pierre-de-manneville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={sandrancourt}>
+                        <Popup minWidth={200}>
+                            <Link to="/sandrancourt" className="linkPlage"><div className="lien"><div>Sandrancourt</div><div><img src={require('../../img/seine/sandrancourt/sandrancourt01min.jpg')} alt="sandrancourt" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={tancarville}>
                         <Popup minWidth={200}>
                             <Link to="/tancarville" className="linkPlage"><div className="lien"><div>Tancarville</div><div><img src={require('../../img/seine/tancarville/tancarville01min.jpg')} alt="tancarville" className="apercu"/></div></div></Link>
@@ -349,6 +410,11 @@ export default class CarteSeine extends Component {
                     <Marker position={vernon}>
                         <Popup minWidth={200}>
                             <Link to="/vernon" className="linkPlage"><div className="lien"><div>Vernon</div><div><img src={require('../../img/seine/vernon/vernon01min.jpg')} alt="vernon" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={vetheuil}>
+                        <Popup minWidth={200}>
+                            <Link to="/vetheuil" className="linkPlage"><div className="lien"><div>Vétheuil</div><div><img src={require('../../img/seine/vetheuil/vetheuil01min.jpg')} alt="vetheuil" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={vieux_port}>

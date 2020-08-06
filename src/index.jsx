@@ -58,11 +58,16 @@ import Bennecourt from './components/Seine/Bennecourt'
 import Caudebec from './components/Seine/Caudebec'
 import Cleon from './components/Seine/Cleon'
 import Duclair from './components/Seine/Duclair'
+import Gargenville from './components/Seine/Gargenville'
+import Guernes from './components/Seine/Guernes'
+import Hardricourt from './components/Seine/Hardricourt'
 import Hautot from './components/Seine/Hautot'
 import Heurteauville from './components/Seine/Heurteauville'
-import Jumieges from './components/Seine/Jumieges'
 import Ile_Cite from './components/Seine/Ile_Cite'
+import Ile_l_Aumone from './components/Seine/Ile_l_Aumone'
 import Ile_Saint_Louis from './components/Seine/Ile_Saint_Louis'
+import Jumieges from './components/Seine/Jumieges'
+import Juziers from './components/Seine/Juziers'
 import La_Mailleray_sur_Seine from './components/Seine/La_Mailleray_sur_Seine'
 import La_Roche_Guyon from './components/Seine/La_Roche_Guyon'
 import La_Roquette from './components/Seine/La_Roquette'
@@ -73,7 +78,10 @@ import Le_Thuit from './components/Seine/Le_Thuit'
 import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
+import Les_Mureaux from './components/Seine/Les_Mureaux'
 import Limetz_Villez from './components/Seine/Limetz_Villez'
+import Meulan_en_Yvelines from './components/Seine/Meulan_en_Yvelines'
+import Mezy_sur_Seine from './components/Seine/Mezy_sur_Seine'
 import Nanterre from './components/Seine/Nanterre'
 import Notre_Dame from './components/Seine/Notre_Dame'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
@@ -92,6 +100,7 @@ import Pont_National from './components/Seine/Pont_National'
 import Pont_Neuf from './components/Seine/Pont_Neuf'
 import Pont_Saint_Cloud from './components/Seine/Pont_Saint_Cloud'
 import Pont_Saint_Louis from './components/Seine/Pont_Saint_Louis'
+import Porcheville from './components/Seine/Porcheville'
 import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
 import Port_Mort from './components/Seine/Port_Mort'
@@ -103,10 +112,12 @@ import Saint_Maur from './components/Seine/Saint_Maur'
 import Saint_Nicolas_de_Bliquetuit from './components/Seine/Saint_Nicolas_de_Bliquetuit'
 import Saint_Paul from './components/Seine/Saint_Paul'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
+import Sandrancourt from './components/Seine/Sandrancourt'
 import Tancarville from './components/Seine/Tancarville'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
 import Vatteville from './components/Seine/Vatteville'
 import Vernon from './components/Seine/Vernon'
+import Vetheuil from './components/Seine/Vetheuil'
 import Vieux_Port from './components/Seine/Vieux_Port'
 import Villequier from './components/Seine/Villequier'
 
@@ -223,11 +234,16 @@ const Root = () => (
             <Route path='/caudebec' component={Caudebec}/>
             <Route path='/cleon' component={Cleon}/>
             <Route path='/duclair' component={Duclair}/>
+            <Route path='/gargenville' component={Gargenville}/>
+            <Route path='/guernes' component={Guernes}/>
+            <Route path='/hardricourt' component={Hardricourt}/>
             <Route path='/hautot' component={Hautot}/>
             <Route path='/heurteauville' component={Heurteauville}/>
-            <Route path='/jumieges' component={Jumieges}/>
             <Route path='/ile_cite' component={Ile_Cite}/>
+            <Route path='/ile_l_aumone' component={Ile_l_Aumone}/>
             <Route path='/ile_saint-louis' component={Ile_Saint_Louis}/>
+            <Route path='/jumieges' component={Jumieges}/>
+            <Route path='/juziers' component={Juziers}/>
             <Route path='/la_mailleray-sur-seine' component={La_Mailleray_sur_Seine}/>
             <Route path='/la_roche-guyon' component={La_Roche_Guyon}/>
             <Route path='/la_roquette' component={La_Roquette}/>
@@ -238,7 +254,10 @@ const Root = () => (
             <Route path='/le_val_pitant' component={Le_Val_Pitant}/>
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
+            <Route path='/les_mureaux' component={Les_Mureaux}/>
             <Route path='/limetz-villez' component={Limetz_Villez}/>
+            <Route path='/meulan-en-yvelines' component={Meulan_en_Yvelines}/>
+            <Route path='/mezy-sur-seine' component={Mezy_sur_Seine}/>
             <Route path='/nanterre' component={Nanterre}/>
             <Route path='/notre_dame' component={Notre_Dame}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
@@ -257,6 +276,7 @@ const Root = () => (
             <Route path='/pont_neuf' component={Pont_Neuf}/>
             <Route path='/pont_saint-cloud' component={Pont_Saint_Cloud}/>
             <Route path='/pont_saint-louis' component={Pont_Saint_Louis}/>
+            <Route path='/porcheville' component={Porcheville}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
             <Route path='/port-mort' component={Port_Mort}/>
@@ -268,10 +288,12 @@ const Root = () => (
             <Route path='/saint-nicolas-de-bliquetuit' component={Saint_Nicolas_de_Bliquetuit}/>
             <Route path='/saint-paul' component={Saint_Paul}/>
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
+            <Route path='/sandrancourt' component={Sandrancourt}/>
             <Route path='/tancarville' component={Tancarville}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
             <Route path='/vatteville' component={Vatteville}/>
             <Route path='/vernon' component={Vernon}/>
+            <Route path='/vetheuil' component={Vetheuil}/>
             <Route path='/vieux-port' component={Vieux_Port}/>
             <Route path='/villequier' component={Villequier}/>
 
