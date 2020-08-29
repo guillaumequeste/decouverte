@@ -5,6 +5,7 @@ import CarteLittoral from './CarteLittoral.jsx'
 import Leaflet from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import Fade from 'react-reveal/Fade'
+import Footer from '../../components/Footer'
 
 Leaflet.Icon.Default.imagePath =
   '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/'
@@ -17,6 +18,7 @@ class Littoral extends Component {
                 <Helmet title={"Littoral Découverte Normandie"}
                         link={"http://decouverte.guillaumequeste.fr/littoral"} />
                 <Header />
+                <Footer />
                 <div className="mapLittoral">
                     <div className="divMapLittoral">
                         <h1 className="titleLittoral">Map Littoral</h1>

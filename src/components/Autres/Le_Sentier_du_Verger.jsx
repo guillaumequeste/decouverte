@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Le_Sentier_du_Verger extends Component {
   
@@ -11,6 +12,7 @@ class Le_Sentier_du_Verger extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/le_sentier_du_verger"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Le Sentier du Verger</h1>
                     <div className="divPhoto">

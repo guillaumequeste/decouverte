@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Helmet from './Helmet'
+import Footer from './Footer'
 
 class Contact extends Component {
   
@@ -15,6 +16,7 @@ class Contact extends Component {
                         <h5>guillaume.queste@laposte.net</h5>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

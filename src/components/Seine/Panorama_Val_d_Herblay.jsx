@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Panorama_Val_d_Herblay extends Component {
   
@@ -11,6 +12,7 @@ class Panorama_Val_d_Herblay extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/panorama_val_d_herblay"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">Panorama Val d'Herblay et la Seine</h1>
                     <div className="divPhoto">

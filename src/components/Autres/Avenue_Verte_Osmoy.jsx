@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Avenue_Verte_Osmoy extends Component {
   
@@ -11,6 +12,7 @@ class Avenue_Verte_Osmoy extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/avenue_verte_osmoy"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Abbaye verte Osmoy-Saint-Valéry</h1>
                     <div className="divPhoto">

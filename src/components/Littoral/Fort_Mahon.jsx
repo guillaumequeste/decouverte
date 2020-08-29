@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Fort_Mahon extends Component {
   
@@ -11,6 +12,7 @@ class Fort_Mahon extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/fort-mahon"} />
                 <Header />
+                <Footer />
                 <div className="bodyLittoral">
                     <h1 className="title">Fort-Mahon-Plage</h1>
                     <div className="divPhoto">

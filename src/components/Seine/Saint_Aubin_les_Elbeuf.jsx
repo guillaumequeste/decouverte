@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Saint_Aubin_les_Elbeuf extends Component {
   
@@ -11,6 +12,7 @@ class Saint_Aubin_les_Elbeuf extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-aubin-les-elbeuf"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">Saint-Aubin-lès-Elbeuf</h1>
                     <div className="divPhoto">

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Passage_du_Trait extends Component {
   
@@ -11,6 +12,7 @@ class Passage_du_Trait extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/passage_du_trait"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">Passage du Trait</h1>
                     <div className="divPhoto">

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Varengeville extends Component {
   
@@ -11,6 +12,7 @@ class Varengeville extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/varengeville"} />
                 <Header />
+                <Footer />
                 <div className="bodyLittoral">
                     <h1 className="title">Varengeville-sur-Mer</h1>
                     <div className="divPhoto">

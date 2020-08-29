@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Le_Bois_de_Cise extends Component {
   
@@ -11,6 +12,7 @@ class Le_Bois_de_Cise extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/le_bois_de_cise"} />
                 <Header />
+                <Footer />
                 <div className="bodyLittoral">
                     <h1 className="title">Le Bois de Cise</h1>
                     <div className="divPhoto">

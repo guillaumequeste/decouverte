@@ -17,10 +17,10 @@ body {
 
 .leaflet-container {
     width: 80vw;
-    height: 50vh;
+    height: 65vh;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .leaflet-container {
         height: 70vh;
     }
@@ -28,6 +28,16 @@ body {
 
 
 /* Header */
+
+.bodyHeader {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyHeader {
+        display: block;
+    }
+}
 
 .navbar {
     height: 7vh;
@@ -37,6 +47,36 @@ body {
 .nav-link {
     background-color: #f8f9fa;
     z-index: 100 !important;
+}
+
+
+/* Footer */
+
+.bodyFooter {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
+.divFooter {
+    width: 20%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    border: solid 1px rgb(17, 143, 201);
+}
+
+.linkFooter {
+    margin: auto;
 }
 
 
@@ -66,7 +106,7 @@ body {
 .part {
     display: flex;
     justify-content: center;
-    height: 31vh;
+    height: calc(100vh / 3);
 }
 
 .partLittoral {
@@ -76,19 +116,11 @@ body {
     transition: transform 0.3s ease-out;
 }
 
-.partLittoral:hover {
-    transform: scale(1.075);
-}
-
 .partSeine {
     background-image: url("./img/seine/le_plessis/le_plessis02.jpg");
     background-size: cover;
     background-position: center center;
     transition: transform 0.3s ease-out;
-}
-
-.partSeine:hover {
-    transform: scale(1.075);
 }
 
 .partAutres {
@@ -98,20 +130,16 @@ body {
     transition: transform 0.3s ease-out;
 }
 
-.partAutres:hover {
-    transform: scale(1.075);
-}
-
 .part2 {
     margin: auto;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .flex {
         flex-direction: row;
     }
     .part {
-        height: 93vh;
+        height: 100vh;
         width: calc(100vw / 3);
     }
 }
@@ -149,9 +177,10 @@ body {
 
 .divMapLittoral {
     margin: auto;
+    margin-top: 0;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .divMapLittoral {
         margin-top: 0;
     }
@@ -191,16 +220,19 @@ body {
 .bodyLittoral {
     min-height: 93vh;
     background-color: rgb(17, 143, 201);
+    padding-bottom: 10%;
 }
 
 .bodySeine {
     background-color: rgb(58, 151, 3);
     min-height: 93vh;
+    padding-bottom: 10%;
 }
 
 .bodyAutres {
     background-color: rgb(199, 156, 63);
     min-height: 93vh;
+    padding-bottom: 10%;
 }
 
 .title {
@@ -215,7 +247,7 @@ body {
     padding-bottom: 2%;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .title {
         font-size: 4em;
     }
@@ -237,7 +269,7 @@ body {
     height: 60vh;
 }
 
-@media screen and (min-width: 640px) and (max-width: 1000px) {
+@media screen and (min-width: 640px) and (max-width: 1025px) {
     .photo {
         height: 55vh;
     }
@@ -247,7 +279,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
     .photo {
         height: 85vh;
     }

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Memorial extends Component {
   
@@ -11,6 +12,7 @@ class Memorial extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/memorial"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Mémorial du 19 août 1942</h1>
                     <div className="divPhoto">

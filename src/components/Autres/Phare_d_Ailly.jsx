@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Phare_d_Ailly extends Component {
   
@@ -11,6 +12,7 @@ class Phare_d_Ailly extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/phare_d_ailly"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Phare d'Ailly</h1>
                     <div className="divPhoto">

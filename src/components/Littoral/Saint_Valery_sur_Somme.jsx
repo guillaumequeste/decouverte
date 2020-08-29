@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Saint_Valery_sur_Somme extends Component {
   
@@ -11,6 +12,7 @@ class Saint_Valery_sur_Somme extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/saint-valery-sur-somme"} />
                 <Header />
+                <Footer />
                 <div className="bodyLittoral">
                     <h1 className="title">Saint-Valéry-sur-Somme</h1>
                     <div className="divPhoto">

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Musee_Beaux_Arts extends Component {
   
@@ -11,6 +12,7 @@ class Musee_Beaux_Arts extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/muse_beaux_arts"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Musée des Beaux Arts</h1>
                     <div className="divPhoto">

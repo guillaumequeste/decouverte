@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Cimetiere_des_Canadiens extends Component {
   
@@ -11,6 +12,7 @@ class Cimetiere_des_Canadiens extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/cimetiere_des_canadiens"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Cimetière des Canadiens</h1>
                     <div className="divPhoto">

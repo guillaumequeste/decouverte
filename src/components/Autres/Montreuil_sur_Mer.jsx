@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Montreuil_sur_Mer extends Component {
   
@@ -11,6 +12,7 @@ class Montreuil_sur_Mer extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/montreuil-sur-mer"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Montreuil-sur-Mer</h1>
                     <div className="divPhoto">

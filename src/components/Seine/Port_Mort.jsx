@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
+import Footer from '../../components/Footer'
 
 class Port_Mort extends Component {
   
@@ -10,6 +11,7 @@ class Port_Mort extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/port-mort"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">Port-Mort</h1>
                     <div className="divPhoto">

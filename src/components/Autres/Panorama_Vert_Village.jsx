@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Panorama_Vert_Village extends Component {
   
@@ -11,6 +12,7 @@ class Panorama_Vert_Village extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/panorama_vert_village"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Panorama du Vert Village</h1>
                     <div className="divPhoto">

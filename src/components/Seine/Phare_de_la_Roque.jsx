@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Phare_de_la_Roque extends Component {
   
@@ -11,6 +12,7 @@ class Phare_de_la_Roque extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/phare_de_la_roque"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">Phare de la Roque</h1>
                     <div className="divPhoto">

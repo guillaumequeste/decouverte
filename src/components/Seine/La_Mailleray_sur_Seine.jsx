@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class La_Mailleray_sur_Seine extends Component {
   
@@ -11,6 +12,7 @@ class La_Mailleray_sur_Seine extends Component {
                 <Helmet title={"Baie de Somme Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/la_mailleray-sur-seine"} />
                 <Header />
+                <Footer />
                 <div className="bodySeine">
                     <h1 className="title">La Mailleray-sur-Seine</h1>
                     <div className="divPhoto">

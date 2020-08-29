@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Plan_eau_Canada extends Component {
   
@@ -11,6 +12,7 @@ class Plan_eau_Canada extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/plan_eau_canada"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Plan d'eau du Canada</h1>
                     <div className="divPhoto">

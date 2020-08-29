@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
+import Footer from '../../components/Footer'
 
 class Eglise_Saint_Joseph extends Component {
   
@@ -11,6 +12,7 @@ class Eglise_Saint_Joseph extends Component {
                 <Helmet title={"Ault Découverte de la Normandie et du Littoral"}
                         link={"http://decouverte.guillaumequeste.fr/eglise_saint-joseph"} />
                 <Header />
+                <Footer />
                 <div className="bodyAutres">
                     <h1 className="title">Eglise Saint-Joseph du Havre</h1>
                     <div className="divPhoto">
