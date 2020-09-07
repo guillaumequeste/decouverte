@@ -75,6 +75,7 @@ import La_Vacquerie from './components/Seine/La_Vacquerie'
 import Le_Mesnil_sous_Jumieges from './components/Seine/Le_Mesnil_sous_Jumieges'
 import Le_Plessis from './components/Seine/Le_Plessis'
 import Le_Thuit from './components/Seine/Le_Thuit'
+import Le_Val_d_Hazey from './components/Seine/Le_Val_d_Hazey'
 import Le_Val_Pitant from './components/Seine/Le_Val_Pitant'
 import Les_Andelys from './components/Seine/Les_Andelys'
 import Les_Mousseaux from './components/Seine/Les_Mousseaux'
@@ -107,6 +108,7 @@ import Pont_Saint_Louis from './components/Seine/Pont_Saint_Louis'
 import Porcheville from './components/Seine/Porcheville'
 import Port_Jerome from './components/Seine/Port_Jerome'
 import Port_Jumieges from './components/Seine/Port_Jumieges'
+import Port_Morin from './components/Seine/Port_Morin'
 import Port_Mort from './components/Seine/Port_Mort'
 import Quillebeuf from './components/Seine/Quillebeuf'
 import Rouen from './components/Seine/Rouen'
@@ -118,6 +120,7 @@ import Saint_Paul from './components/Seine/Saint_Paul'
 import Saint_Pierre_de_Manneville from './components/Seine/Saint_Pierre_de_Manneville'
 import Sandrancourt from './components/Seine/Sandrancourt'
 import Tancarville from './components/Seine/Tancarville'
+import Tosny from './components/Seine/Tosny'
 import Val_de_la_Haye from './components/Seine/Val_de_la_Haye'
 import Vatteville from './components/Seine/Vatteville'
 import Vaux_sur_Seine from './components/Seine/Vaux_sur_Seine'
@@ -125,6 +128,7 @@ import Vernon from './components/Seine/Vernon'
 import Vetheuil from './components/Seine/Vetheuil'
 import Vieux_Port from './components/Seine/Vieux_Port'
 import Villequier from './components/Seine/Villequier'
+import Villers_sur_le_Roule from './components/Seine/Villers_sur_le_Roule'
 
 import Autres from './components/Autres/Autres'
 import Abbaye_Mortemer from './components/Autres/Abbaye_Mortemer'
@@ -256,6 +260,7 @@ const Root = () => (
             <Route path='/le_mesnil-sous-jumieges' component={Le_Mesnil_sous_Jumieges}/>
             <Route path='/le_plessis' component={Le_Plessis}/>
             <Route path='/le_thuit' component={Le_Thuit}/>
+            <Route path='/le_val_d_hazey' component={Le_Val_d_Hazey}/>
             <Route path='/le_val_pitant' component={Le_Val_Pitant}/>
             <Route path='/les_andelys' component={Les_Andelys}/>
             <Route path='/les_mousseaux' component={Les_Mousseaux}/>
@@ -288,6 +293,7 @@ const Root = () => (
             <Route path='/porcheville' component={Porcheville}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>
+            <Route path='/port_morin' component={Port_Morin}/>
             <Route path='/port-mort' component={Port_Mort}/>
             <Route path='/quillebeuf' component={Quillebeuf}/>
             <Route path='/rouen' component={Rouen}/>
@@ -299,6 +305,7 @@ const Root = () => (
             <Route path='/saint-pierre-de-manneville' component={Saint_Pierre_de_Manneville}/>
             <Route path='/sandrancourt' component={Sandrancourt}/>
             <Route path='/tancarville' component={Tancarville}/>
+            <Route path='/tosny' component={Tosny}/>
             <Route path='/val-de-la-haye' component={Val_de_la_Haye}/>
             <Route path='/vatteville' component={Vatteville}/>
             <Route path='/vaux-sur-seine' component={Vaux_sur_Seine}/>
@@ -306,6 +313,7 @@ const Root = () => (
             <Route path='/vetheuil' component={Vetheuil}/>
             <Route path='/vieux-port' component={Vieux_Port}/>
             <Route path='/villequier' component={Villequier}/>
+            <Route path='/villers-sur-le-roule' component={Villers_sur_le_Roule}/>
 
             <Route path='/autres' component={Autres}/>
             <Route path='/abbaye_mortemer' component={Abbaye_Mortemer}/>

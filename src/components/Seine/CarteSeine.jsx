@@ -34,6 +34,7 @@ export default class CarteSeine extends Component {
         const le_mesnil_sous_jumieges = [49.4124195, 0.8576236]
         const le_plessis = [49.30212635047978, 1.2645172895483237]
         const le_thuit = [49.254447617943185, 1.376624308241885]
+        const le_val_d_hazey = [49.1896278739391, 1.3341148213599263]
         const le_val_pitant = [49.30959482502866, 1.2485836639375236]
         const les_andelys = [49.2469193, 1.4215534]
         const les_mousseaux = [49.19813000943054, 1.34611101749738]
@@ -66,6 +67,7 @@ export default class CarteSeine extends Component {
         const porcheville = [48.967849586129546, 1.778778948604236]
         const port_jerome = [49.472651189507765, 0.5354173653879579]
         const port_jumieges = [49.43748167827217, 0.8038979890403919]
+        const port_morin = [49.238051651593516, 1.3972022389704097]
         const port_mort = [49.16899232754176, 1.3942056070488862]
         const quillebeuf = [49.470337430065115, 0.5301951339102651]
         const rouen = [49.4404591, 1.0939658]
@@ -77,6 +79,7 @@ export default class CarteSeine extends Component {
         const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686]
         const sandrancourt = [49.0373032929155, 1.6470670579397595]
         const tancarville = [49.48139170731105, 0.47487084026760495]
+        const tosny = [49.21739244922967, 1.375410967104962]
         const val_de_la_haye = [49.3773661, 1.0010383]
         const vatteville = [49.49712555659109, 0.6714457248089811]
         const vaux_sur_seine = [49.0049731849544, 1.963319801259904]
@@ -84,6 +87,7 @@ export default class CarteSeine extends Component {
         const vetheuil = [49.064290180847955, 1.6984859510052086]
         const vieux_port = [49.42689869574646, 0.6100424316636621]
         const villequier = [49.51442113762259, 0.6767299273563898]
+        const villers_sur_le_roule = [49.20334508543771, 1.3434505936257768]
 
         return (
             <div>
@@ -205,6 +209,11 @@ export default class CarteSeine extends Component {
                     <Marker position={le_thuit}>
                         <Popup minWidth={200}>
                             <Link to="/le_thuit" className="linkPlage"><div className="lien"><div>Panorama du Thuit</div><div><img src={require('../../img/seine/le_thuit/le_thuit01min.jpg')} alt="le_thuit" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={le_val_d_hazey}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_val_d_hazey" className="linkPlage"><div className="lien"><div>Le Val d'Hazey</div><div><img src={require("../../img/seine/le_val_d_hazey/le_val_d_hazey01min.jpg")} alt="le_val_d_hazey" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_val_pitant}>
@@ -367,6 +376,11 @@ export default class CarteSeine extends Component {
                             <Link to="/port_jumieges" className="linkPlage"><div className="lien"><div>Port Jumièges</div><div><img src={require('../../img/seine/port_jumieges/port_jumieges01min.jpg')} alt="port_jumieges" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={port_morin}>
+                        <Popup minWidth={200}>
+                            <Link to="/port_morin" className="linkPlage"><div className="lien"><div>Port Morin</div><div><img src={require('../../img/seine/port_morin/port_morin01min.jpg')} alt="port_morin" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={port_mort}>
                         <Popup minWidth={200}>
                             <Link to="/port-mort" className="linkPlage"><div className="lien"><div>Port-Mort</div><div><img src={require('../../img/seine/port-mort/port-mort01min.jpg')} alt="port-mort" className="apercu"/></div></div></Link>
@@ -422,6 +436,11 @@ export default class CarteSeine extends Component {
                             <Link to="/tancarville" className="linkPlage"><div className="lien"><div>Tancarville</div><div><img src={require('../../img/seine/tancarville/tancarville01min.jpg')} alt="tancarville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={tosny}>
+                        <Popup minWidth={200}>
+                            <Link to="/tosny" className="linkPlage"><div className="lien"><div>Tosny</div><div><img src={require('../../img/seine/tosny/tosny01min.jpg')} alt="tosny" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={val_de_la_haye}>
                         <Popup minWidth={200}>
                             <Link to="/val-de-la-haye" className="linkPlage"><div className="lien"><div>Val-de-la-Haye</div><div><img src={require('../../img/seine/val-de-la-haye/val-de-la-haye01min.jpg')} alt="val-de-la-haye" className="apercu"/></div></div></Link>
@@ -455,6 +474,11 @@ export default class CarteSeine extends Component {
                     <Marker position={villequier}>
                         <Popup minWidth={200}>
                             <Link to="/villequier" className="linkPlage"><div className="lien"><div>Villequier</div><div><img src={require('../../img/seine/villequier/villequier01min.jpg')} alt="villequier" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={villers_sur_le_roule}>
+                        <Popup minWidth={200}>
+                            <Link to="/villers-sur-le-roule" className="linkPlage"><div className="lien"><div>Villers-sur-le-Roule</div><div><img src={require('../../img/seine/villers-sur-le-roule/villers-sur-le-roule01min.jpg')} alt="villers-sur-le-roule" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                 </Map>
