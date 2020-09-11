@@ -58,6 +58,46 @@ class Berneval extends Component {
                             <img src={require("../../img/littoral/berneval/berneval09.jpg")} alt="berneval09" className="photo"/>
                         </Zoom>
                     </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval10.jpg")} alt="berneval10" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval11.jpg")} alt="berneval11" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval12.jpg")} alt="berneval12" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval13.jpg")} alt="berneval13" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval14.jpg")} alt="berneval14" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval15.jpg")} alt="berneval15" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval16.jpg")} alt="berneval16" className="photo"/>
+                        </Zoom>
+                    </div>
+                    <div className="divPhoto">
+                        <Zoom>
+                            <img src={require("../../img/littoral/berneval/berneval17.jpg")} alt="berneval17" className="photo"/>
+                        </Zoom>
+                    </div>
                 </div>
             </div>
         )
