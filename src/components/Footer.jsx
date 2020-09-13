@@ -6,31 +6,31 @@ class Footer extends Component {
     render () {
         return (
             <div className="bodyFooter">
-                <div className="divFooter">
+                <Link to="/" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/">Accueil</Link>
+                        <span>Accueil</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/littoral" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/littoral">Littoral</Link>
+                        <span>Littoral</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/seine" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/seine">Seine</Link>
+                        <span>Seine</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/autres" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/autres">Autres</Link>
+                        <span>Autres</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/contact" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/contact">Contact</Link>
+                        <span>Contact</span>
                     </div>
-                </div>
+                </Link>
             </div>
         )
     }
