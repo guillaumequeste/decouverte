@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const App = () => (
   <>
     <Helmet title={"Accueil Découverte de la Normandie et du Littoral"}
-              link={"http://decouverte.guillaumequeste.fr"} />
+              link={"http://decouverte.guillaumequeste.fr/"} />
     <Header />
     <div className="app">
       <div className="flex">
