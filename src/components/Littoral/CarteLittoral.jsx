@@ -27,6 +27,7 @@ export default class CarteLittoral extends Component {
         const fort_mahon = [50.3414288, 1.5683131]
         const hardelot = [50.6338762, 1.5778096]
         const le_bois_de_cise = [50.08914499767833, 1.4244834055121158]
+        const le_croquet = [49.55719501137759, 0.09194783688565522]
         const le_crotoy = [50.2165693, 1.624047]
         const le_hourdel = [50.2147829, 1.5647525]
         const le_touquet = [50.5211202, 1.5909325]
@@ -41,13 +42,17 @@ export default class CarteLittoral extends Component {
         const quend = [50.322829094686696, 1.5461341515583582]
         const quiberville = [49.9031626, 0.9232605]
         const saint_aubin = [49.8889942, 0.8768462]
-        const spenport = [49.8069179, 0.4946787]
+        const saint_jouin_bruneval_belvedere = [49.64905668396091, 0.15729245283401916]
+        const saint_jouin_bruneval_plage = [49.6488242115505, 0.15342109419867356]
         const saint_valery_en_caux = [49.8597004, 0.7106831]
         const saint_valery_sur_somme = [50.1887006, 1.6279147]
         const sainte_cecile = [50.5747158, 1.5826268]
         const sainte_marguerite = [49.9088387, 0.9467867]
         const sotteville = [49.8809899, 0.8306694]
+        const spenport = [49.8069179, 0.4946787]
         const stella = [50.4799397, 1.577138]
+        const valleuse_boucherot = [49.64280588649105, 0.15316556140311022]
+        const valleuse_de_vaucottes = [49.73798575146814, 0.2908350344303434]
         const varengeville = [49.9046335, 1.0021825]
         const veletot = [49.786164997944525, 0.43129265244890025]
         const veules = [49.8722029, 0.7990652]
@@ -143,6 +148,11 @@ export default class CarteLittoral extends Component {
                             <Link to="/le_bois_de_cise" className="linkHippodrome"><div className="lien"><div>Le Bois de Cise</div><div><img src={require('../../img/littoral/le_bois_de_cise/le_bois_de_cise01min.jpg')} alt="le_bois_de_cise" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={le_croquet}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_croquet" className="linkHippodrome"><div className="lien"><div>Le Croquet</div><div><img src={require('../../img/littoral/le_croquet/le_croquet01min.jpg')} alt="le_croquet" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_crotoy}>
                         <Popup minWidth={200}>
                             <Link to="/le_crotoy" className="linkHippodrome"><div className="lien"><div>Le Crotoy</div><div><img src={require('../../img/littoral/le_crotoy/le_crotoy01min.jpg')} alt="le_crotoy" className="apercu"/></div></div></Link>
@@ -213,9 +223,14 @@ export default class CarteLittoral extends Component {
                             <Link to="/saint-aubin" className="linkHippodrome"><div className="lien"><div>Saint-Aubin-sur-Mer</div><div><img src={require('../../img/littoral/saint-aubin/saint-aubin01min.jpg')} alt="saint-aubin" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
-                    <Marker position={spenport}>
+                    <Marker position={saint_jouin_bruneval_belvedere}>
                         <Popup minWidth={200}>
-                            <Link to="/saint-pierre-en-port" className="linkHippodrome"><div className="lien"><div>Saint-Pierre-en-Port</div><div><img src={require('../../img/littoral/saint-pierre-en-port/spenport01min.jpg')} alt="spenport" className="apercu"/></div></div></Link>
+                            <Link to="/saint-jouin-bruneval_belvedere" className="linkHippodrome"><div className="lien"><div>Saint-Jouin-Bruneval (belvédère)</div><div><img src={require('../../img/littoral/saint-jouin-bruneval_belvedere/saint-jouin-bruneval_belvedere01min.jpg')} alt="saint-jouin-bruneval_belvedere" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={saint_jouin_bruneval_plage}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-jouin-bruneval_plage" className="linkHippodrome"><div className="lien"><div>Saint-Jouin-Bruneval (plage)</div><div><img src={require('../../img/littoral/saint-jouin-bruneval_plage/saint-jouin-bruneval_plage01min.jpg')} alt="saint-jouin-bruneval_plage" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={saint_valery_en_caux}>
@@ -243,9 +258,24 @@ export default class CarteLittoral extends Component {
                             <Link to="/sotteville" className="linkHippodrome"><div className="lien"><div>Sotteville-sur-Mer</div><div><img src={require('../../img/littoral/sotteville/sotteville01min.jpg')} alt="sotteville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={spenport}>
+                        <Popup minWidth={200}>
+                            <Link to="/saint-pierre-en-port" className="linkHippodrome"><div className="lien"><div>Saint-Pierre-en-Port</div><div><img src={require('../../img/littoral/saint-pierre-en-port/spenport01min.jpg')} alt="spenport" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={stella}>
                         <Popup minWidth={200}>
                             <Link to="/stella" className="linkHippodrome"><div className="lien"><div>Stella-Plage</div><div><img src={require('../../img/littoral/stella/stella01min.jpg')} alt="stella" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={valleuse_boucherot}>
+                        <Popup minWidth={200}>
+                            <Link to="/valleuse_boucherot" className="linkHippodrome"><div className="lien"><div>Valleuse Boucherot</div><div><img src={require('../../img/littoral/valleuse_boucherot/valleuse_boucherot01min.jpg')} alt="valleuse_boucherot" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={valleuse_de_vaucottes}>
+                        <Popup minWidth={200}>
+                            <Link to="/valleuse_de_vaucottes" className="linkHippodrome"><div className="lien"><div>Valleuse de Vaucottes</div><div><img src={require('../../img/littoral/valleuse_de_vaucottes/valleuse_de_vaucottes01min.jpg')} alt="valleuse_de_vaucottes" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={varengeville}>
