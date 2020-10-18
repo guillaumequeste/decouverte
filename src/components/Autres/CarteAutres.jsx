@@ -29,6 +29,7 @@ export default class CarteAutres extends Component {
         const cathedrale_rouen = [49.442550390837766, 1.099799646516808]
         const chateau_chantilly = [49.19403662095672, 2.4855468818245985]
         const chateau_dieppe = [49.9246285256642, 1.070147852545782]
+        const chateau_fontainebleau = [48.40181464878997, 2.69947521185792]
         const chateau_harcourt = [49.17351250829536, 0.7872275764497649]
         const chateau_pierrefonds = [49.34697909699972, 2.9799778488216466]
         const chateau_vascoeuil = [49.44667305520199, 1.3786565396338535]
@@ -153,6 +154,11 @@ export default class CarteAutres extends Component {
                     <Marker position={chateau_dieppe}>
                         <Popup minWidth={200}>
                             <Link to="/chateau_dieppe" className="linkPlage"><div className="lien"><div>Château de Dieppe</div><div><img src={require("../../img/autres/chateau_dieppe/chateau_dieppemin.jpg")} alt="chateau_dieppe" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={chateau_fontainebleau}>
+                        <Popup minWidth={200}>
+                            <Link to="/chateau_fontainebleau" className="linkPlage"><div className="lien"><div>Château de Fontainebleau</div><div><img src={require("../../img/autres/chateau_fontainebleau/chateau_fontainebleau01min.jpg")} alt="chateau_fontainebleau" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_harcourt}>

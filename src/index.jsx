@@ -154,6 +154,7 @@ import Cathedrale_Beauvais from './components/Autres/Cathedrale_Beauvais.jsx'
 import Cathedrale_Rouen from './components/Autres/Cathedrale_Rouen.jsx'
 import Chateau_Chantilly from './components/Autres/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
+import Chateau_Fontainebleau from './components/Autres/Chateau_Fontainebleau.jsx'
 import Chateau_Harcourt from './components/Autres/Chateau_Harcourt.jsx'
 import Chateau_Pierrefonds from './components/Autres/Chateau_Pierrefonds.jsx'
 import Chateau_Vascoeuil from './components/Autres/Chateau_Vascoeuil.jsx'
@@ -344,6 +345,7 @@ const Root = () => (
             <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
+            <Route path='/chateau_fontainebleau' component={Chateau_Fontainebleau}/>
             <Route path='/chateau_harcourt' component={Chateau_Harcourt}/>
             <Route path='/chateau_pierrefonds' component={Chateau_Pierrefonds}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
