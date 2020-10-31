@@ -59,6 +59,7 @@ export default class CarteAutres extends Component {
         const petite_france = [48.58068798375643, 7.741254297467077]
         const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
         const plan_eau_canada = [49.456879473483035, 2.0559077359983613]
+        const pont_du_gard = [43.947331125316595, 4.535250957779171]
         const puy_de_dome = [45.772334863043476, 2.9639319409802134]
         const quartier_saint_leu = [49.897365617337606, 2.304579209878246]
         const tapisserie_bayeux = [49.274405158912934, -0.7003888434955718]
@@ -149,7 +150,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={cathedrale_reims}>
                         <Popup minWidth={200}>
-                            <Link to="/cathedrale_reims" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame de Beauvais</div><div></div></div></Link>
+                            <Link to="/cathedrale_reims" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame de Beauvais</div><div><img src={require("../../img/autres/cathedrale_reims/cathedrale_reims01min.jpg")} alt="cathedrale_reims01min" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={cathedrale_rouen}>
@@ -229,7 +230,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={lac_du_salagou}>
                         <Popup minWidth={200}>
-                            <Link to="/lac_du_salagou" className="linkPlage"><div className="lien"><div>Lac du Salagou</div><div></div></div></Link>
+                            <Link to="/lac_du_salagou" className="linkPlage"><div className="lien"><div>Lac du Salagou</div><div><img src={require("../../img/autres/lac_du_salagou/lac_du_salagou01min.jpg")} alt="lac_du_salagou" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_bec_hellouin}>
@@ -299,7 +300,7 @@ export default class CarteAutres extends Component {
                     </Marker>
                     <Marker position={petite_france}>
                         <Popup minWidth={200}>
-                            <Link to="/petite_france" className="linkPlage"><div className="lien"><div>Petite France</div><div></div></div></Link>
+                            <Link to="/petite_france" className="linkPlage"><div className="lien"><div>Petite France</div><div><img src={require('../../img/autres/petite_france/petite_france_min.jpg')} alt="petite_france" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={phare_d_ailly}>
@@ -312,9 +313,14 @@ export default class CarteAutres extends Component {
                             <Link to="/plan_eau_canada" className="linkPlage"><div className="lien"><div>Plan d'eau du Canada</div><div><img src={require("../../img/autres/plan_eau_canada/plan_eau_canada01min.jpg")} alt="plan_eau_canada" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={pont_du_gard}>
+                        <Popup minWidth={200}>
+                            <Link to="/pont_du_gard" className="linkPlage"><div className="lien"><div>Pont du Gard</div><div><img src={require("../../img/autres/pont_du_gard/pont_du_gard01min.jpg")} alt="pont_du_gard01min" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={puy_de_dome}>
                         <Popup minWidth={200}>
-                            <Link to="/puy_de_dome" className="linkPlage"><div className="lien"><div>Puy de Dôme</div><div></div></div></Link>
+                            <Link to="/puy_de_dome" className="linkPlage"><div className="lien"><div>Puy de Dôme</div><div><img src={require("../../img/autres/puy_de_dome/puy_de_dome01min.jpg")} alt="puy_de_dome01min" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={quartier_saint_leu}>

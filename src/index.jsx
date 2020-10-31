@@ -184,6 +184,7 @@ import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
 import Petite_France from './components/Autres/Petite_France.jsx'
 import Phare_d_Ailly from './components/Autres/Phare_d_Ailly.jsx'
 import Plan_eau_Canada from './components/Autres/Plan_eau_Canada.jsx'
+import Pont_du_Gard from './components/Autres/Pont_du_Gard.jsx'
 import Puy_de_Dome from './components/Autres/Puy_de_Dome.jsx'
 import Quartier_Saint_Leu from './components/Autres/Quartier_Saint_Leu.jsx'
 import Tapisserie_Bayeux from './components/Autres/Tapisserie_Bayeux.jsx'
@@ -381,6 +382,7 @@ const Root = () => (
             <Route path='/petite_france' component={Petite_France}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>
+            <Route path='/pont_du_gard' component={Pont_du_Gard}/>
             <Route path='/puy_de_dome' component={Puy_de_Dome}/>
             <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
             <Route path='/tapisserie_bayeux' component={Tapisserie_Bayeux}/>
