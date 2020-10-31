@@ -151,7 +151,9 @@ import Basilique_Lisieux from './components/Autres/Basilique_Lisieux.jsx'
 import Biomarine from './components/Autres/Biomarine.jsx'
 import Cathedrale_Amiens from './components/Autres/Cathedrale_Amiens.jsx'
 import Cathedrale_Beauvais from './components/Autres/Cathedrale_Beauvais.jsx'
+import Cathedrale_Reims from './components/Autres/Cathedrale_Reims.jsx'
 import Cathedrale_Rouen from './components/Autres/Cathedrale_Rouen.jsx'
+import Champagne_Lanson from './components/Autres/Champagne_Lanson.jsx'
 import Chateau_Chantilly from './components/Autres/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Chateau_Dieppe.jsx'
 import Chateau_Fontainebleau from './components/Autres/Chateau_Fontainebleau.jsx'
@@ -165,6 +167,7 @@ import Estran from './components/Autres/Estran.jsx'
 import Giverny from './components/Autres/Giverny.jsx'
 import Gros_Horloge from './components/Autres/Gros_Horloge.jsx'
 import Hortillonnages from './components/Autres/Hortillonnages.jsx'
+import Lac_du_Salagou from './components/Autres/Lac_du_Salagou.jsx'
 import Le_Bec_Hellouin from './components/Autres/Le_Bec_Hellouin.jsx'
 import Le_Sentier_du_Verger from './components/Autres/Le_Sentier_du_Verger.jsx'
 import Maison_Jules_Verne from './components/Autres/Maison_Jules_Verne.jsx'
@@ -178,9 +181,12 @@ import Panorama_Evreux from './components/Autres/Panorama_Evreux.jsx'
 import Panorama_Marais_Vernier from './components/Autres/Panorama_Marais_Vernier.jsx'
 import Panorama_Vert_Village from './components/Autres/Panorama_Vert_Village.jsx'
 import Panorama_XXL from './components/Autres/Panorama_XXL.jsx'
+import Petite_France from './components/Autres/Petite_France.jsx'
 import Phare_d_Ailly from './components/Autres/Phare_d_Ailly.jsx'
 import Plan_eau_Canada from './components/Autres/Plan_eau_Canada.jsx'
+import Puy_de_Dome from './components/Autres/Puy_de_Dome.jsx'
 import Quartier_Saint_Leu from './components/Autres/Quartier_Saint_Leu.jsx'
+import Tapisserie_Bayeux from './components/Autres/Tapisserie_Bayeux.jsx'
 import Varenne from './components/Autres/Varenne.jsx'
 import Versailles from './components/Autres/Versailles.jsx'
 
@@ -342,7 +348,9 @@ const Root = () => (
             <Route path='/biomarine' component={Biomarine}/>
             <Route path='/cathedrale_amiens' component={Cathedrale_Amiens}/>
             <Route path='/cathedrale_beauvais' component={Cathedrale_Beauvais}/>
+            <Route path='/cathedrale_reims' component={Cathedrale_Reims}/>
             <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
+            <Route path='/champagne_lanson' component={Champagne_Lanson}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_fontainebleau' component={Chateau_Fontainebleau}/>
@@ -356,6 +364,7 @@ const Root = () => (
             <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/hortillonnages' component={Hortillonnages}/>
+            <Route path='/lac_du_salagou' component={Lac_du_Salagou}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
@@ -369,9 +378,12 @@ const Root = () => (
             <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
             <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
+            <Route path='/petite_france' component={Petite_France}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>
+            <Route path='/puy_de_dome' component={Puy_de_Dome}/>
             <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
+            <Route path='/tapisserie_bayeux' component={Tapisserie_Bayeux}/>
             <Route path='/varenne' component={Varenne}/>
             <Route path='/versailles' component={Versailles}/>
 

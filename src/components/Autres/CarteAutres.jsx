@@ -26,7 +26,9 @@ export default class CarteAutres extends Component {
         const biomarine = [49.922020903359154, 1.0719482754901533]
         const cathedrale_amiens = [49.894544762202585, 2.302213976161882]
         const cathedrale_beauvais = [49.43259468183312, 2.0813340770177735]
+        const cathedrale_reims = [49.25379938340183, 4.0341799204409545]
         const cathedrale_rouen = [49.442550390837766, 1.099799646516808]
+        const champagne_lanson = [49.24297648429447, 4.020384962519099]
         const chateau_chantilly = [49.19403662095672, 2.4855468818245985]
         const chateau_dieppe = [49.9246285256642, 1.070147852545782]
         const chateau_fontainebleau = [48.40181464878997, 2.69947521185792]
@@ -40,6 +42,7 @@ export default class CarteAutres extends Component {
         const giverny = [49.0753489, 1.5337884]
         const gros_horloge = [49.44151701844756, 1.0912492166726517]
         const hortillonnages = [49.8948700325477, 2.3124191947304062]
+        const lac_du_salagou = [43.65486516256189, 3.374581127555518]
         const le_bec_hellouin = [49.2312413, 0.7210184]
         const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296]
         const lillebonne = [49.51799724241, 0.5367753386982388]
@@ -53,9 +56,12 @@ export default class CarteAutres extends Component {
         const panorama_marais_vernier = [49.402871672725254, 0.4678151817346565]
         const panorama_vert_village = [49.00129340278666, 1.0921865534499275]
         const panorama_xxl = [49.442203334431795, 1.0765784564376446]
+        const petite_france = [48.58068798375643, 7.741254297467077]
         const phare_d_ailly = [49.91589152840033, 0.9587284896833781]
         const plan_eau_canada = [49.456879473483035, 2.0559077359983613]
+        const puy_de_dome = [45.772334863043476, 2.9639319409802134]
         const quartier_saint_leu = [49.897365617337606, 2.304579209878246]
+        const tapisserie_bayeux = [49.274405158912934, -0.7003888434955718]
         const varenne = [49.868665986725816, 1.1579329075862077]
         const versailles = [48.80503616157122, 2.119683843519584]
 
@@ -141,9 +147,19 @@ export default class CarteAutres extends Component {
                             <Link to="/cathedrale_beauvais" className="linkPlage"><div className="lien"><div>Cathédrale Saint-Pierre de Beauvais</div><div><img src={require("../../img/autres/cathedrale_beauvais/cathedrale_beauvais01min.jpg")} alt="cathedrale_beauvais01" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={cathedrale_reims}>
+                        <Popup minWidth={200}>
+                            <Link to="/cathedrale_reims" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame de Beauvais</div><div></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={cathedrale_rouen}>
                         <Popup minWidth={200}>
                             <Link to="/cathedrale_rouen" className="linkPlage"><div className="lien"><div>Cathédrale Notre-Dame de Rouen</div><div><img src={require("../../img/autres/cathedrale_rouen/cathedrale_rouen01.jpg")} alt="cathedrale_rouen01" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={champagne_lanson}>
+                        <Popup minWidth={200}>
+                            <Link to="/champagne_lanson" className="linkPlage"><div className="lien"><div>Champagne Lanson</div><div><img src={require("../../img/autres/champagne_lanson/maison_lanson.jpg")} alt="maison_lanson" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={chateau_chantilly}>
@@ -211,6 +227,11 @@ export default class CarteAutres extends Component {
                             <Link to="/hortillonnages" className="linkPlage"><div className="lien"><div>Hortillonnages d'Amiens</div><div><img src={require("../../img/autres/hortillonnages/hortillonnages01min.jpg")} alt="hortillonnages" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={lac_du_salagou}>
+                        <Popup minWidth={200}>
+                            <Link to="/lac_du_salagou" className="linkPlage"><div className="lien"><div>Lac du Salagou</div><div></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_bec_hellouin}>
                         <Popup minWidth={200}>
                             <Link to="/le_bec-hellouin" className="linkPlage"><div className="lien"><div>Le Bec-Hellouin</div><div><img src={require('../../img/autres/le_bec-hellouin/le_bec-hellouin01min.jpg')} alt="e_bec-hellouin" className="apercu"/></div></div></Link>
@@ -276,6 +297,11 @@ export default class CarteAutres extends Component {
                             <Link to="/panorama_xxl" className="linkPlage"><div className="lien"><div>Panorama XXL</div><div><img src={require('../../img/autres/panorama_xxl/panorama_xxlmin.jpg')} alt="panorama_xxl" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={petite_france}>
+                        <Popup minWidth={200}>
+                            <Link to="/petite_france" className="linkPlage"><div className="lien"><div>Petite France</div><div></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={phare_d_ailly}>
                         <Popup minWidth={200}>
                             <Link to="/phare_d_ailly" className="linkPlage"><div className="lien"><div>Phare d'Ailly</div><div><img src={require("../../img/autres/phare_d_ailly/phare_d_ailly01min.jpg")} alt="phare_d_ailly" className="apercu"/></div></div></Link>
@@ -286,9 +312,19 @@ export default class CarteAutres extends Component {
                             <Link to="/plan_eau_canada" className="linkPlage"><div className="lien"><div>Plan d'eau du Canada</div><div><img src={require("../../img/autres/plan_eau_canada/plan_eau_canada01min.jpg")} alt="plan_eau_canada" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={puy_de_dome}>
+                        <Popup minWidth={200}>
+                            <Link to="/puy_de_dome" className="linkPlage"><div className="lien"><div>Puy de Dôme</div><div></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={quartier_saint_leu}>
                         <Popup minWidth={200}>
                             <Link to="/quartier_saint-leu" className="linkPlage"><div className="lien"><div>Quartier Saint-Leu</div><div><img src={require("../../img/autres/quartier_saint-leu/quartier_saint-leu01min.jpg")} alt="quartier_saint-leu" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={tapisserie_bayeux}>
+                        <Popup minWidth={200}>
+                            <Link to="/tapisserie_bayeux" className="linkPlage"><div className="lien"><div>Tapisserie de Bayeux</div><div><img src={require("../../img/autres/tapisserie_bayeux/tapisserie_bayeux.png")} alt="tapisserie_bayeux" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={varenne}>
