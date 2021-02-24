@@ -29,6 +29,7 @@ export default class CarteLittoral extends Component {
         const le_bois_de_cise = [50.08914499767833, 1.4244834055121158]
         const le_croquet = [49.55719501137759, 0.09194783688565522]
         const le_crotoy = [50.2165693, 1.624047]
+        const le_havre = [49.49087165636735, 0.09282103786222073]
         const le_hourdel = [50.2147829, 1.5647525]
         const le_touquet = [50.5211202, 1.5909325]
         const le_treport = [50.0591099, 1.3827656]
@@ -37,6 +38,8 @@ export default class CarteLittoral extends Component {
         const merlimont = [50.4553061, 1.614809]
         const mers = [50.0656325, 1.3889703]
         const mesnil_val = [50.0419433, 1.3340248]
+        const pain_de_sucre = [49.50439041538592, 0.08321623597271177]
+        const phare_de_la_heve = [49.51106215330866, 0.0684245703524411]
         const pourville = [49.916219, 1.0304797]
         const puys = [49.9365342, 1.117419]
         const quend = [50.322829094686696, 1.5461341515583582]
@@ -46,11 +49,13 @@ export default class CarteLittoral extends Component {
         const saint_jouin_bruneval_plage = [49.6488242115505, 0.15342109419867356]
         const saint_valery_en_caux = [49.8597004, 0.7106831]
         const saint_valery_sur_somme = [50.1887006, 1.6279147]
+        const sainte_adresse = [49.50495225104016, 0.07481740281443994]
         const sainte_cecile = [50.5747158, 1.5826268]
         const sainte_marguerite = [49.9088387, 0.9467867]
         const sotteville = [49.8809899, 0.8306694]
         const spenport = [49.8069179, 0.4946787]
         const stella = [50.4799397, 1.577138]
+        const table_d_orientation_sainte_adresse = [49.50713945422277, 0.07376828633311128]
         const valleuse_boucherot = [49.64280588649105, 0.15316556140311022]
         const valleuse_de_vaucottes = [49.73798575146814, 0.2908350344303434]
         const varengeville = [49.9046335, 1.0021825]
@@ -158,6 +163,11 @@ export default class CarteLittoral extends Component {
                             <Link to="/le_crotoy" className="linkHippodrome"><div className="lien"><div>Le Crotoy</div><div><img src={require('../../img/littoral/le_crotoy/le_crotoy01min.jpg')} alt="le_crotoy" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={le_havre}>
+                        <Popup minWidth={200}>
+                            <Link to="/le_havre" className="linkHippodrome"><div className="lien"><div>Le Havre</div><div><img src={require('../../img/littoral/le_havre/le_havre01min.jpg')} alt="le_havre" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={le_hourdel}>
                         <Popup minWidth={200}>
                             <Link to="/le_hourdel" className="linkHippodrome"><div className="lien"><div>Le Hourdel</div><div><img src={require('../../img/littoral/le_hourdel/le_hourdel01min.jpg')} alt="le_hourdel" className="apercu"/></div></div></Link>
@@ -196,6 +206,16 @@ export default class CarteLittoral extends Component {
                     <Marker position={mesnil_val}>
                         <Popup minWidth={200}>
                             <Link to="/mesnil_val" className="linkHippodrome"><div className="lien"><div>Mesnil Val Plage</div><div><img src={require('../../img/littoral/mesnil_val/mesnil_val01min.jpg')} alt="mesnil_val" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={pain_de_sucre}>
+                        <Popup minWidth={200}>
+                            <Link to="/pain_de_sucre" className="linkHippodrome"><div className="lien"><div>Pain de Sucre</div><div><img src={require('../../img/littoral/pain_de_sucre/pain_de_sucre01min.jpg')} alt="pain_de_sucre" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={phare_de_la_heve}>
+                        <Popup minWidth={200}>
+                            <Link to="/phare_de_la_heve" className="linkHippodrome"><div className="lien"><div>Phare de la Hève</div><div><img src={require('../../img/littoral/phare_de_la_heve/phare_de_la_heve01min.jpg')} alt="phare_de_la_heve" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={pourville}>
@@ -243,6 +263,11 @@ export default class CarteLittoral extends Component {
                             <Link to="/saint-valery-sur-somme" className="linkHippodrome"><div className="lien"><div>Saint-Valéry-sur-Somme</div><div><img src={require('../../img/littoral/saint-valery-sur-somme/saint-valery-sur-somme01min.jpg')} alt="saint-valery-sur-somme" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={sainte_adresse}>
+                        <Popup minWidth={200}>
+                            <Link to="/sainte-adresse" className="linkHippodrome"><div className="lien"><div>Sainte-Adresse</div><div><img src={require('../../img/littoral/sainte-adresse/sainte-adresse01min.jpg')} alt="saint-adresse" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={sainte_cecile}>
                         <Popup minWidth={200}>
                             <Link to="/sainte-cecile_plage" className="linkHippodrome"><div className="lien"><div>Saint-Cécile Plage</div><div><img src={require('../../img/littoral/sainte-cecile/sainte-cecile01min.jpg')} alt="saint-cecile" className="apercu"/></div></div></Link>
@@ -266,6 +291,11 @@ export default class CarteLittoral extends Component {
                     <Marker position={stella}>
                         <Popup minWidth={200}>
                             <Link to="/stella" className="linkHippodrome"><div className="lien"><div>Stella-Plage</div><div><img src={require('../../img/littoral/stella/stella01min.jpg')} alt="stella" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={table_d_orientation_sainte_adresse}>
+                        <Popup minWidth={200}>
+                            <Link to="/table_d_orientation_sainte_adresse" className="linkHippodrome"><div className="lien"><div>Table d'orientation Sainte-Adresse</div><div><img src={require('../../img/littoral/table_d_orientation_sainte-adresse/table_d_orientation_sainte-adresse01min.jpg')} alt="table_d_orientation_sainte-adresse" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={valleuse_boucherot}>

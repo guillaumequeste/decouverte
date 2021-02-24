@@ -24,6 +24,7 @@ import Hardelot from './components/Littoral/Hardelot'
 import Le_Bois_de_Cise from './components/Littoral/Le_Bois_de_Cise'
 import Le_Croquet from './components/Littoral/Le_Croquet'
 import Le_Crotoy from './components/Littoral/Le_Crotoy'
+import Le_Havre from './components/Littoral/Le_Havre'
 import Le_Hourdel from './components/Littoral/Le_Hourdel'
 import Le_Touquet from './components/Littoral/Le_Touquet'
 import Le_Treport from './components/Littoral/Le_Treport'
@@ -32,6 +33,8 @@ import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
 import Merlimont from './components/Littoral/Merlimont'
 import Mers from './components/Littoral/Mers'
 import Mesnil_Val from './components/Littoral/Mesnil_Val'
+import Pain_de_Sucre from './components/Littoral/Pain_de_Sucre'
+import Phare_de_la_Heve from './components/Littoral/Phare_de_la_Heve'
 import Pourville from './components/Littoral/Pourville'
 import Puys from './components/Littoral/Puys'
 import Quend from './components/Littoral/Quend'
@@ -42,10 +45,12 @@ import Saint_Jouin_Bruneval_Plage from './components/Littoral/Saint_Jouin_Brunev
 import Saint_Pierre_en_Port from './components/Littoral/Saint_Pierre_en_Port'
 import Saint_Valery_en_Caux from './components/Littoral/Saint_Valery_en_Caux'
 import Saint_Valery_sur_Somme from './components/Littoral/Saint_Valery_sur_Somme'
+import Sainte_Adresse from './components/Littoral/Sainte_Adresse'
 import Sainte_Cecile from './components/Littoral/Sainte_Cecile'
 import Sainte_Marguerite from './components/Littoral/Sainte_Marguerite'
 import Sotteville from './components/Littoral/Sotteville'
 import Stella from './components/Littoral/Stella'
+import Table_d_Orientation_Sainte_Adresse from './components/Littoral/Table_d_Orientation_Sainte_Adresse'
 import Valleuse_Boucherot from './components/Littoral/Valleuse_Boucherot'
 import Valleuse_de_Vaucottes from './components/Littoral/Valleuse_de_Vaucottes'
 import Varengeville from './components/Littoral/Varengeville'
@@ -222,6 +227,7 @@ const Root = () => (
             <Route path='/le_bois_de_cise' component={Le_Bois_de_Cise}/>
             <Route path='/le_croquet' component={Le_Croquet}/>
             <Route path='/le_crotoy' component={Le_Crotoy}/>
+            <Route path='/le_havre' component={Le_Havre}/>
             <Route path='/le_hourdel' component={Le_Hourdel}/>
             <Route path='/le_touquet' component={Le_Touquet}/>
             <Route path='/le_treport' component={Le_Treport}/>
@@ -230,6 +236,8 @@ const Root = () => (
             <Route path='/merlimont' component={Merlimont}/>
             <Route path='/mers' component={Mers}/>
             <Route path='/mesnil_val' component={Mesnil_Val}/>
+            <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
+            <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
             <Route path='/pourville' component={Pourville}/>
             <Route path='/puys' component={Puys}/>
             <Route path='/quend' component={Quend}/>
@@ -240,10 +248,12 @@ const Root = () => (
             <Route path='/saint-pierre-en-port' component={Saint_Pierre_en_Port}/>
             <Route path='/saint-valery-en-caux' component={Saint_Valery_en_Caux}/>
             <Route path='/saint-valery-sur-somme' component={Saint_Valery_sur_Somme}/>
+            <Route path='/sainte-adresse' component={Sainte_Adresse}/>
             <Route path='/sainte-cecile_plage' component={Sainte_Cecile}/>
             <Route path='/sainte-marguerite' component={Sainte_Marguerite}/>
             <Route path='/sotteville' component={Sotteville}/>
             <Route path='/stella' component={Stella}/>
+            <Route path='/table_d_orientation_sainte_adresse' component={Table_d_Orientation_Sainte_Adresse}/>
             <Route path='/valleuse_boucherot' component={Valleuse_Boucherot}/>
             <Route path='/valleuse_de_vaucottes' component={Valleuse_de_Vaucottes}/>
             <Route path='/varengeville' component={Varengeville}/>
