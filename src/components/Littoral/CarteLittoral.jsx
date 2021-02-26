@@ -16,8 +16,10 @@ export default class CarteLittoral extends Component {
         const belleville = [49.9476778, 1.1637398]
         const berck = [50.4052576, 1.5711617]
         const berneval = [49.9572664, 1.1888108]
+        const blonville_sur_mer = [49.339868017999756, 0.028210862876303366]
         const boulogne = [50.7259985, 1.6118771]
         const cayeux = [50.1792004, 1.4933839]
+        const cricqueboeuf = [49.405661299844944, 0.1414178236658703]
         const criel = [50.0160928, 1.3139444]
         const dieppe = [49.9246182, 1.0791444]
         const equihen = [50.679393, 1.5716648]
@@ -26,6 +28,7 @@ export default class CarteLittoral extends Component {
         const fecamp = [49.7577729, 0.374891]
         const fort_mahon = [50.3414288, 1.5683131]
         const hardelot = [50.6338762, 1.5778096]
+        const houlgate = [49.299750716644134, -0.08478741779805565]
         const le_bois_de_cise = [50.08914499767833, 1.4244834055121158]
         const le_croquet = [49.55719501137759, 0.09194783688565522]
         const le_crotoy = [50.2165693, 1.624047]
@@ -63,6 +66,9 @@ export default class CarteLittoral extends Component {
         const veules = [49.8722029, 0.7990652]
         const veulettes = [49.8503223, 0.5971459]
         const vgrainval = [49.750562118454745, 0.3474143340336777]
+        const villers_sur_mer1 = [49.32894895905092, 0.0067647577833795935]
+        const villers_sur_mer2 = [49.32431557010392, -0.004348807631764373]
+        const villerville = [49.40319463035321, 0.13029669355369755]
         const wimereux = [50.7696858, 1.6118608]
         const yport = [49.7378489, 0.3133709]
 
@@ -98,6 +104,11 @@ export default class CarteLittoral extends Component {
                             <Link to="/berneval" className="linkPlage"><div className="lien"><div>Berneval</div><div><img src={require('../../img/littoral/berneval/berneval01min.jpg')} alt="berneval" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={blonville_sur_mer}>
+                        <Popup minWidth={200}>
+                            <Link to="/blonville-sur-mer" className="linkPlage"><div className="lien"><div>Blonville-sur-mer</div><div><img src={require('../../img/littoral/blonville-sur-mer/blonville-sur-mer01min.jpg')} alt="blonville-sur-mer" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={boulogne}>
                         <Popup minWidth={200}>
                             <Link to="/boulogne" className="linkPlage"><div className="lien"><div>Boulogne-sur-Mer</div><div><img src={require('../../img/littoral/boulogne/boulogne01min.jpg')} alt="boulogne" className="apercu"/></div></div></Link>
@@ -106,6 +117,11 @@ export default class CarteLittoral extends Component {
                     <Marker position={cayeux}>
                         <Popup minWidth={200}>
                             <Link to="/cayeux" className="linkPlage"><div className="lien"><div>Cayeux-sur-Mer</div><div><img src={require('../../img/littoral/cayeux/cayeux01min.jpg')} alt="cayeux" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={cricqueboeuf}>
+                        <Popup minWidth={200}>
+                            <Link to="/cricqueboeuf" className="linkPlage"><div className="lien"><div>Cricqueboeuf</div><div><img src={require('../../img/littoral/cricqueboeuf/cricqueboeuf01min.jpg')} alt="cricqueboeuf" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={criel}>
@@ -146,6 +162,11 @@ export default class CarteLittoral extends Component {
                     <Marker position={hardelot}>
                         <Popup minWidth={200}>
                             <Link to="/hardelot" className="linkHippodrome"><div className="lien"><div>Hardelot-Plage</div><div><img src={require('../../img/littoral/hardelot/hardelot01min.jpg')} alt="hardelot" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={houlgate}>
+                        <Popup minWidth={200}>
+                            <Link to="/houlgate" className="linkHippodrome"><div className="lien"><div>Houlgate</div><div><img src={require('../../img/littoral/houlgate/houlgate01min.jpg')} alt="houlgate" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={le_bois_de_cise}>
@@ -331,6 +352,21 @@ export default class CarteLittoral extends Component {
                     <Marker position={vgrainval}>
                         <Popup minWidth={200}>
                             <Link to="/vgrainval" className="linkHippodrome"><div className="lien"><div>Valleuse de Grainval</div><div><img src={require('../../img/littoral/vgrainval/vgrainval01min.jpg')} alt="vgrainval" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={villers_sur_mer1}>
+                        <Popup minWidth={200}>
+                            <Link to="/villers-sur-mer1" className="linkHippodrome"><div className="lien"><div>Villers-sur-Mer (1)</div><div><img src={require('../../img/littoral/villers-sur-mer1/villers-sur-mer101min.jpg')} alt="villers-sur-mer1" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={villers_sur_mer2}>
+                        <Popup minWidth={200}>
+                            <Link to="/villers-sur-mer2" className="linkHippodrome"><div className="lien"><div>Villers-sur-Mer (2)</div><div><img src={require('../../img/littoral/villers-sur-mer2/villers-sur-mer201min.jpg')} alt="villers-sur-mer2" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={villerville}>
+                        <Popup minWidth={200}>
+                            <Link to="/villerville" className="linkHippodrome"><div className="lien"><div>Villerville</div><div><img src={require('../../img/littoral/villerville/villerville01min.jpg')} alt="villerville" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={wimereux}>

@@ -11,8 +11,10 @@ import Baie from './components/Littoral/Baie'
 import Belleville from './components/Littoral/Belleville'
 import Berck from './components/Littoral/Berck'
 import Berneval from './components/Littoral/Berneval'
+import Blonville_sur_Mer from './components/Littoral/Blonville_sur_Mer'
 import Boulogne from './components/Littoral/Boulogne'
 import Cayeux from './components/Littoral/Cayeux'
+import Cricqueboeuf from './components/Littoral/Cricqueboeuf'
 import Criel from './components/Littoral/Criel'
 import Dieppe from './components/Littoral/Dieppe'
 import Equihen from './components/Littoral/Equihen'
@@ -21,6 +23,7 @@ import Etretat from './components/Littoral/Etretat'
 import Fecamp from './components/Littoral/Fecamp'
 import Fort_Mahon from './components/Littoral/Fort_Mahon'
 import Hardelot from './components/Littoral/Hardelot'
+import Houlgate from './components/Littoral/Houlgate'
 import Le_Bois_de_Cise from './components/Littoral/Le_Bois_de_Cise'
 import Le_Croquet from './components/Littoral/Le_Croquet'
 import Le_Crotoy from './components/Littoral/Le_Crotoy'
@@ -58,6 +61,9 @@ import VEletot from './components/Littoral/VEletot'
 import Veules from './components/Littoral/Veules'
 import Veulettes from './components/Littoral/Veulettes'
 import VGrainval from './components/Littoral/VGrainval'
+import Villers_sur_Mer1 from './components/Littoral/Villers_sur_Mer1'
+import Villers_sur_Mer2 from './components/Littoral/Villers_sur_Mer2'
+import Villerville from './components/Littoral/Villerville'
 import Wimereux from './components/Littoral/Wimereux'
 import Yport from './components/Littoral/Yport'
 
@@ -75,6 +81,8 @@ import Hardricourt from './components/Seine/Hardricourt'
 import Hautot from './components/Seine/Hautot'
 import Heurteauville from './components/Seine/Heurteauville'
 import Honfleur from './components/Seine/Honfleur'
+import Honfleur_plage from './components/Seine/Honfleur_plage'
+import Honfleur_point_de_vue from './components/Seine/Honfleur_point_de_vue'
 import Honfleur_zone_portuaire from './components/Seine/Honfleur_zone_portuaire'
 import Ile_Cite from './components/Seine/Ile_Cite'
 import Ile_l_Aumone from './components/Seine/Ile_l_Aumone'
@@ -218,8 +226,10 @@ const Root = () => (
             <Route path='/belleville-sur-mer' component={Belleville}/>
             <Route path='/berck' component={Berck}/>
             <Route path='/berneval' component={Berneval}/>
+            <Route path='/blonville-sur-mer' component={Blonville_sur_Mer}/>
             <Route path='/boulogne' component={Boulogne}/>
             <Route path='/cayeux' component={Cayeux}/>
+            <Route path='/cricqueboeuf' component={Cricqueboeuf}/>
             <Route path='/criel' component={Criel}/>
             <Route path='/dieppe' component={Dieppe}/>
             <Route path='/equihen' component={Equihen}/>
@@ -228,6 +238,7 @@ const Root = () => (
             <Route path='/fecamp' component={Fecamp}/>
             <Route path='/fort-mahon' component={Fort_Mahon}/>
             <Route path='/hardelot' component={Hardelot}/>
+            <Route path='/houlgate' component={Houlgate}/>
             <Route path='/le_bois_de_cise' component={Le_Bois_de_Cise}/>
             <Route path='/le_croquet' component={Le_Croquet}/>
             <Route path='/le_crotoy' component={Le_Crotoy}/>
@@ -265,6 +276,9 @@ const Root = () => (
             <Route path='/veules' component={Veules}/>
             <Route path='/veulettes' component={Veulettes}/>
             <Route path='/vgrainval' component={VGrainval}/>
+            <Route path='/villers-sur-mer1' component={Villers_sur_Mer1}/>
+            <Route path='/villers-sur-mer2' component={Villers_sur_Mer2}/>
+            <Route path='/villerville' component={Villerville}/>
             <Route path='/wimereux' component={Wimereux}/>
             <Route path='/yport' component={Yport}/>
 
@@ -273,6 +287,7 @@ const Root = () => (
             <Route path='/barrage_poses' component={Barrage_Poses}/>
             <Route path='/bennecourt' component={Bennecourt}/>
             <Route path='/berville-sur-mer' component={Berville_sur_Mer}/>
+            <Route path='/blonville-sur-mer' component={Blonville_sur_Mer}/>
             <Route path='/caudebec' component={Caudebec}/>
             <Route path='/cleon' component={Cleon}/>
             <Route path='/duclair' component={Duclair}/>
@@ -282,6 +297,8 @@ const Root = () => (
             <Route path='/hautot' component={Hautot}/>
             <Route path='/heurteauville' component={Heurteauville}/>
             <Route path='/honfleur' component={Honfleur}/>
+            <Route path='/honfleur_plage' component={Honfleur_plage}/>
+            <Route path='/honfleur_point_de_vue' component={Honfleur_point_de_vue}/>
             <Route path='/honfleur_zone_portuaire' component={Honfleur_zone_portuaire}/>
             <Route path='/ile_cite' component={Ile_Cite}/>
             <Route path='/ile_l_aumone' component={Ile_l_Aumone}/>

@@ -24,6 +24,8 @@ export default class CarteSeine extends Component {
         const hautot = [49.3602514, 0.9773356]
         const heurteauville = [49.444798, 0.8128955]
         const honfleur = [49.422389300892156, 0.23574543158495942]
+        const honfleur_plage = [49.42534367948838, 0.21386837838599515]
+        const honfleur_point_de_vue = [49.42342113122669, 0.22198009090871995]
         const honfleur_zone_portuaire = [49.427957553128806, 0.25221513718679756]
         const ile_cite = [48.855910041518655, 2.3443539925747414]
         const ile_l_aumone = [49.000011061272204, 1.7188917620003474]
@@ -163,6 +165,16 @@ export default class CarteSeine extends Component {
                     <Marker position={honfleur}>
                         <Popup minWidth={200}>
                             <Link to="/honfleur" className="linkPlage"><div className="lien"><div>Honfleur</div><div><img src={require('../../img/seine/honfleur/honfleur01min.jpg')} alt="honfleur" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={honfleur_plage}>
+                        <Popup minWidth={200}>
+                            <Link to="/honfleur_plage" className="linkPlage"><div className="lien"><div>honfleur_plage plage</div><div><img src={require('../../img/seine/honfleur_plage/honfleur_plage01min.jpg')} alt="honfleur_plage" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={honfleur_point_de_vue}>
+                        <Popup minWidth={200}>
+                            <Link to="/honfleur_point_de_vue" className="linkPlage"><div className="lien"><div>Honfleur point de vue</div><div><img src={require('../../img/seine/honfleur_point_de_vue/honfleur_point_de_vue01min.jpg')} alt="honfleur_point_de_vue" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={honfleur_zone_portuaire}>
