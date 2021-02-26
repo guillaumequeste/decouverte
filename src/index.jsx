@@ -65,6 +65,7 @@ import Seine from './components/Seine/Seine'
 import Aizier from './components/Seine/Aizier'
 import Barrage_Poses from './components/Seine/Barrage_Poses'
 import Bennecourt from './components/Seine/Bennecourt'
+import Berville_sur_Mer from './components/Seine/Berville_sur_Mer'
 import Caudebec from './components/Seine/Caudebec'
 import Cleon from './components/Seine/Cleon'
 import Duclair from './components/Seine/Duclair'
@@ -73,6 +74,8 @@ import Guernes from './components/Seine/Guernes'
 import Hardricourt from './components/Seine/Hardricourt'
 import Hautot from './components/Seine/Hautot'
 import Heurteauville from './components/Seine/Heurteauville'
+import Honfleur from './components/Seine/Honfleur'
+import Honfleur_zone_portuaire from './components/Seine/Honfleur_zone_portuaire'
 import Ile_Cite from './components/Seine/Ile_Cite'
 import Ile_l_Aumone from './components/Seine/Ile_l_Aumone'
 import Ile_Saint_Louis from './components/Seine/Ile_Saint_Louis'
@@ -101,6 +104,7 @@ import Nanterre from './components/Seine/Nanterre'
 import Notre_Dame from './components/Seine/Notre_Dame'
 import Notre_Dame_de_Bliquetuit from './components/Seine/Notre_Dame_de_Bliquetuit'
 import Notre_Dame_de_l_Isle from './components/Seine/Notre_Dame_de_l_Isle'
+import Panorama_du_Mont_Joli from './components/Seine/Panorama_du_Mont_Joli'
 import Panorama_Val_d_Herblay from './components/Seine/Panorama_Val_d_Herblay'
 import Passage_du_Trait from './components/Seine/Passage_du_Trait'
 import Passage_d_Yssainville from './components/Seine/Passage_d_Yssainville'
@@ -268,6 +272,7 @@ const Root = () => (
             <Route path='/aizier' component={Aizier}/>
             <Route path='/barrage_poses' component={Barrage_Poses}/>
             <Route path='/bennecourt' component={Bennecourt}/>
+            <Route path='/berville-sur-mer' component={Berville_sur_Mer}/>
             <Route path='/caudebec' component={Caudebec}/>
             <Route path='/cleon' component={Cleon}/>
             <Route path='/duclair' component={Duclair}/>
@@ -276,6 +281,8 @@ const Root = () => (
             <Route path='/hardricourt' component={Hardricourt}/>
             <Route path='/hautot' component={Hautot}/>
             <Route path='/heurteauville' component={Heurteauville}/>
+            <Route path='/honfleur' component={Honfleur}/>
+            <Route path='/honfleur_zone_portuaire' component={Honfleur_zone_portuaire}/>
             <Route path='/ile_cite' component={Ile_Cite}/>
             <Route path='/ile_l_aumone' component={Ile_l_Aumone}/>
             <Route path='/ile_saint-louis' component={Ile_Saint_Louis}/>
@@ -304,6 +311,7 @@ const Root = () => (
             <Route path='/notre_dame' component={Notre_Dame}/>
             <Route path='/notre-dame-de-bliquetuit' component={Notre_Dame_de_Bliquetuit}/>
             <Route path='/notre-dame-de-l_isle' component={Notre_Dame_de_l_Isle}/>
+            <Route path='/panorama_du_mont_joli' component={Panorama_du_Mont_Joli}/>
             <Route path='/panorama_val_d_herblay' component={Panorama_Val_d_Herblay}/>
             <Route path='/passage_du_trait' component={Passage_du_Trait}/>
             <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>

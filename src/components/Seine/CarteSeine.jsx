@@ -14,6 +14,7 @@ export default class CarteSeine extends Component {
         const aizier = [49.431928407877166, 0.6245415669635257]
         const barrage_poses = [49.31016932741239, 1.2364600137390047]
         const bennecourt = [49.041242, 1.560926]
+        const berville_sur_mer = [49.43727738166467, 0.35969628589593405]
         const caudebec = [49.52416135852367, 0.7263719063849283]
         const cleon = [49.3142135, 1.0329344]
         const duclair = [49.482563, 0.8754968]
@@ -22,6 +23,8 @@ export default class CarteSeine extends Component {
         const hardricourt = [49.003782942255654, 1.9048766694675834]
         const hautot = [49.3602514, 0.9773356]
         const heurteauville = [49.444798, 0.8128955]
+        const honfleur = [49.422389300892156, 0.23574543158495942]
+        const honfleur_zone_portuaire = [49.427957553128806, 0.25221513718679756]
         const ile_cite = [48.855910041518655, 2.3443539925747414]
         const ile_l_aumone = [49.000011061272204, 1.7188917620003474]
         const ile_saint_louis = [48.851763743343156, 2.357079065869625]
@@ -50,6 +53,7 @@ export default class CarteSeine extends Component {
         const notre_dame = [48.85297093349124, 2.349745636990672]
         const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077]
         const notre_dame_de_l_isle = [49.1455113, 1.4277246]
+        const panorama_du_mont_joli = [49.42021262381745, 0.22531378906144983]
         const panorama_val_d_herblay = [48.98749636389404, 2.159593191902034]
         const passage_du_trait = [49.466176205756646, 0.811326038830531]
         const passage_d_yssainville = [49.456570881392274, 0.8152271590618643]
@@ -111,6 +115,11 @@ export default class CarteSeine extends Component {
                             <Link to="/bennecourt" className="linkPlage"><div className="lien"><div>Bennecourt</div><div><img src={require('../../img/seine/bennecourt/bennecourt01min.jpg')} alt="bennecourt" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
+                    <Marker position={berville_sur_mer}>
+                        <Popup minWidth={200}>
+                            <Link to="/berville-sur-mer" className="linkPlage"><div className="lien"><div>Berville-sur-Mer</div><div><img src={require('../../img/seine/berville-sur-mer/berville-sur-mer01min.jpg')} alt="berville-sur-mer" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
                     <Marker position={caudebec}>
                         <Popup minWidth={200}>
                             <Link to="/caudebec" className="linkPlage"><div className="lien"><div>Caudebec-en-Caux</div><div><img src={require('../../img/seine/caudebec/caudebec01min.jpg')} alt="caudebec" className="apercu"/></div></div></Link>
@@ -149,6 +158,16 @@ export default class CarteSeine extends Component {
                     <Marker position={heurteauville}>
                         <Popup minWidth={200}>
                             <Link to="/heurteauville" className="linkPlage"><div className="lien"><div>Heurteauville</div><div><img src={require('../../img/seine/heurteauville/heurteauville01min.jpg')} alt="heurteauville" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={honfleur}>
+                        <Popup minWidth={200}>
+                            <Link to="/honfleur" className="linkPlage"><div className="lien"><div>Honfleur</div><div><img src={require('../../img/seine/honfleur/honfleur01min.jpg')} alt="honfleur" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={honfleur_zone_portuaire}>
+                        <Popup minWidth={200}>
+                            <Link to="/honfleur_zone_portuaire" className="linkPlage"><div className="lien"><div>Honfleur zone portuaire</div><div><img src={require('../../img/seine/honfleur_zone_portuaire/honfleur_zone_portuaire01min.jpg')} alt="honfleur_zone_portuaire" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={ile_cite}>
@@ -289,6 +308,11 @@ export default class CarteSeine extends Component {
                     <Marker position={notre_dame_de_l_isle}>
                         <Popup minWidth={200}>
                             <Link to="/notre-dame-de-l_isle" className="linkPlage"><div className="lien"><div>Notre-Dame-de-l'Isle</div><div><img src={require('../../img/seine/notre-dame-de-l_isle/notre-dame-de-l_isle01min.jpg')} alt="notre-dame-de-l_isle" className="apercu"/></div></div></Link>
+                        </Popup>
+                    </Marker>
+                    <Marker position={panorama_du_mont_joli}>
+                        <Popup minWidth={200}>
+                            <Link to="/panorama_du_mont_joli" className="linkPlage"><div className="lien"><div>Panorama du Mont Joli</div><div><img src={require("../../img/seine/panorama_du_mont_joli/panorama_du_mont_joli01min.jpg")} alt="panorama_du_mont_joli" className="apercu"/></div></div></Link>
                         </Popup>
                     </Marker>
                     <Marker position={panorama_val_d_herblay}>
