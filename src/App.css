@@ -245,6 +245,8 @@ body {
     margin: 0;
     padding-top: 2%;
     padding-bottom: 2%;
+    display: inline-block;
+    width: 60%;
 }
 
 @media screen and (min-width: 1025px) {
@@ -306,6 +308,35 @@ body {
 .divContact2 {
     margin: auto;
     color: white;
+}
+
+
+/* Next */
+
+.next {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.arrow_next {
+    width: 30px;
+}
+
+
+/* Previous */
+
+.prev {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.arrow_prev {
+    width: 30px;
+    transform: rotate(180deg);
 }
 
 

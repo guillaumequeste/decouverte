@@ -3,6 +3,8 @@ import Header from '../Header'
 import Helmet from '../Helmet'
 import Zoom from 'react-reveal/Zoom'
 import Footer from '../../components/Footer'
+import Next from '../Next'
+import Previous from '../Previous'
 
 class Jumieges extends Component {
   
@@ -14,7 +16,9 @@ class Jumieges extends Component {
                 <Header />
                 <Footer />
                 <div className="bodySeine">
+                    <Previous prev={"port_jumieges"} />
                     <h1 className="title">Jumièges</h1>
+                    <Next next={"le_mesnil-sous-jumieges"} />
                     <div className="divPhoto">
                         <img src={require("../../img/seine/jumieges/jumieges01.jpg")} alt="jumieges01" className="photo"/>
                     </div>
