@@ -16,7 +16,9 @@ const App = () => (
         <Link to="/littoral" className="titleApp mw-100 overflow-hidden">
           <div className="part partLittoral">
             <div className="part2">
-              <h1 className="textTitleApp">Littoral</h1>
+              <h1 className="textTitleApp">
+                <div className="textTitleApp2">Littoral</div>
+              </h1>
             </div>
           </div>
         </Link>
@@ -25,7 +27,9 @@ const App = () => (
         <Link to="/seine" className="titleApp">
           <div className="part partSeine">
             <div className="part2">
-              <h1 className="textTitleApp">Boucles de la Seine</h1>
+              <h1 className="textTitleApp">
+              <div className="textTitleApp2">Boucles de la Seine</div>
+              </h1>
             </div>
           </div>
         </Link>
@@ -34,7 +38,9 @@ const App = () => (
         <Link to="/autres" className="titleApp">
           <div className="part partAutres">
             <div className="part2">
-              <h1 className="textTitleApp">Autres</h1>
+              <h1 className="textTitleApp">
+              <div className="textTitleApp2">Autres</div>
+              </h1>
             </div>
           </div>
         </Link>

@@ -49,6 +49,14 @@ body {
     z-index: 100 !important;
 }
 
+.nav-link:hover {
+    color: black !important;
+}
+
+.navbar-brand:hover {
+    color: rgb(121, 117, 117) !important;
+}
+
 
 /* Footer */
 
@@ -144,11 +152,41 @@ body {
     }
 }
 
+.textTitleApp {
+    width: calc(100vw / 4);
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    border: 0.1rem solid white;
+    border-radius: 5px;
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .textTitleApp {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .textTitleApp {
+        font-size: 1.8em;
+    }
+}
+
 .textTitleApp:hover {
-    text-decoration: none;
-    transform: skew(-40deg);
-    transition-duration: 0.5s;
-    color: rgb(255, 101, 247);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background-color: transparent;
+    color: white;
+}
+
+.textTitleApp2 {
+    margin: auto;
 }
 
 
@@ -219,8 +257,8 @@ body {
 
 .bodyLittoral {
     min-height: 93vh;
-    background-color: rgb(17, 143, 201);
     padding-bottom: 10%;
+    background-color: rgb(17, 143, 201);
 }
 
 .bodySeine {
@@ -342,6 +380,10 @@ body {
     width: 30px;
 }
 
+.arrow_next:hover {
+    background-color: rgb(95, 94, 94);
+}
+
 
 /* Previous */
 
@@ -355,6 +397,10 @@ body {
 .arrow_prev {
     width: 30px;
     transform: rotate(180deg);
+}
+
+.arrow_prev:hover {
+    background-color: rgb(95, 94, 94);
 }
 
 
