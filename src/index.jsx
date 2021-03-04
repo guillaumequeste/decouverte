@@ -276,7 +276,7 @@ const Root = () => (
             <Route path='/sainte-marguerite' component={Sainte_Marguerite}/>
             <Route path='/sotteville' component={Sotteville}/>
             <Route path='/stella' component={Stella}/>
-            <Route path='/table_d_orientation_sainte_adresse' component={Table_d_Orientation_Sainte_Adresse}/>
+            <Route path='/table_d_orientation_sainte-adresse' component={Table_d_Orientation_Sainte_Adresse}/>
             <Route path='/valleuse_boucherot' component={Valleuse_Boucherot}/>
             <Route path='/valleuse_de_vaucottes' component={Valleuse_de_Vaucottes}/>
             <Route path='/varengeville' component={Varengeville}/>
