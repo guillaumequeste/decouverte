@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne');
+:root {
+    --blue-color: rgb(17, 143, 201);
+    --green-color: rgb(58, 151, 3);
+    --brown-color: rgb(199, 156, 63);
+}
+
 
 /* leaflet */
 
@@ -80,7 +86,7 @@ body {
     height: 7vh;
     background-color: white;
     display: flex;
-    border: solid 1px rgb(17, 143, 201);
+    border: solid 1px var(--blue-color);
 }
 
 .linkFooter {
@@ -92,7 +98,7 @@ body {
 
 .app {
     height: 93vh;
-    background-color: rgb(17, 143, 201);
+    background-color: var(--blue-color);
 }
 
 .flex {
@@ -195,21 +201,21 @@ body {
 .mapLittoral {
     width: 100vw;
     height: 93vh;
-    background-color: rgb(17, 143, 201);
+    background-color: var(--blue-color);
     display: flex;
 }
 
 .mapSeine {
     width: 100vw;
     height: 93vh;
-    background-color: rgb(58, 151, 3);
+    background-color: var(--green-color);
     display: flex;
 }
 
 .mapAutres {
     width: 100vw;
     height: 93vh;
-    background-color: rgb(199, 156, 63);
+    background-color: var(--brown-color);
     display: flex;
 }
 
@@ -258,17 +264,17 @@ body {
 .bodyLittoral {
     min-height: 93vh;
     padding-bottom: 10%;
-    background-color: rgb(17, 143, 201);
+    background-color: var(--blue-color);
 }
 
 .bodySeine {
-    background-color: rgb(58, 151, 3);
+    background-color: var(--green-color);
     min-height: 93vh;
     padding-bottom: 10%;
 }
 
 .bodyAutres {
-    background-color: rgb(199, 156, 63);
+    background-color: var(--brown-color);
     min-height: 93vh;
     padding-bottom: 10%;
 }
@@ -358,7 +364,7 @@ body {
 .divContact {
     display: flex;
     height: 93vh;
-    background-color: rgb(17, 143, 201);
+    background-color: var(--blue-color);
 }
 
 .divContact2 {
