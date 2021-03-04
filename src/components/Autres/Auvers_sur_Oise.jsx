@@ -14,7 +14,7 @@ class Auvers_sur_Oise extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Auvers-sur-Oise</h1>
+                    <h1 className="titleAutres">Auvers-sur-Oise</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/auvers-sur-oise/auvers-sur-oise01.jpg")} alt="auvers-sur-oise01" className="photoGrosHorloge"/>
                     </div>

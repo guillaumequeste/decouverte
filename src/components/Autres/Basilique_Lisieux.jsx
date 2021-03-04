@@ -14,7 +14,7 @@ class Basilique_Lisieux extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Basilique Sainte-Thérèse de Lisieux</h1>
+                    <h1 className="titleAutres">Basilique Sainte-Thérèse de Lisieux</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/basilique_lisieux/basilique_lisieux01.jpg")} alt="basilique_lisieux01" className="photo"/>
                     </div>

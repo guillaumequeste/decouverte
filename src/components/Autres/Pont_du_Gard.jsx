@@ -15,7 +15,7 @@ class Pont_du_Gard extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Pont du Gard</h1>
+          <h1 className="titleAutres">Pont du Gard</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/pont_du_gard/pont_du_gard01.jpg")}

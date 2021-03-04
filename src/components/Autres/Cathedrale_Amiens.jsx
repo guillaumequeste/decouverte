@@ -14,7 +14,7 @@ class Cathedrale_Amiens extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Cathédrale Notre-Dame d'Amiens</h1>
+                    <h1 className="titleAutres">Cathédrale Notre-Dame d'Amiens</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/cathedrale_amiens/cathedrale_amiens01.jpg")} alt="cathedrale_amiens01" className="photoGrosHorloge"/>
                     </div>

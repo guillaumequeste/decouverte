@@ -14,7 +14,7 @@ class Estran extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Estran Cité de la Mer</h1>
+                    <h1 className="titleAutres">Estran Cité de la Mer</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/estran/estran.jpeg")} alt="estran01" className="photo"/>
                     </div>

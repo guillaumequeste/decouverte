@@ -14,7 +14,7 @@ class Cathedrale_Beauvais extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Cathédrale Saint-Pierre de Beauvais</h1>
+                    <h1 className="titleAutres">Cathédrale Saint-Pierre de Beauvais</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/cathedrale_beauvais/cathedrale_beauvais01.jpg")} alt="cathedrale_beauvais01" className="photoGrosHorloge"/>
                     </div>

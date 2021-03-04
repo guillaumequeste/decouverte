@@ -255,6 +255,24 @@ body {
     }
 }
 
+.titleAutres {
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media screen and (min-width: 1025px) {
+    .titleAutres {
+        font-size: 4em;
+    }
+}
+
 .divPhoto {
     width: 100%;
     text-align: center;

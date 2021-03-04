@@ -14,7 +14,7 @@ class Chateau_Vascoeuil extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Château de Vascoeuil</h1>
+                    <h1 className="titleAutres">Château de Vascoeuil</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/chateau_vascoeuil/chateau_vascoeuil.jpg")} alt="chateau_vascoeuil" className="photo"/>
                     </div>

@@ -14,7 +14,7 @@ class Musee_Emma_Bovary extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Galerie Bovary - Musée d'automates</h1>
+                    <h1 className="titleAutres">Galerie Bovary - Musée d'automates</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/musee_emma_bovary/musee_emma_bovary01.jpg")} alt="musee_emma_bovary01" className="photo"/>
                     </div>

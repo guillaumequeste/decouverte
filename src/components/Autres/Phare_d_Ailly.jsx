@@ -14,7 +14,7 @@ class Phare_d_Ailly extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Phare d'Ailly</h1>
+                    <h1 className="titleAutres">Phare d'Ailly</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/phare_d_ailly/phare_d_ailly01.jpg")} alt="phare_d_ailly01" className="photo"/>
                     </div>

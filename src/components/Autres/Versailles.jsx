@@ -14,7 +14,7 @@ class Versailles extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Château de Versailles</h1>
+                    <h1 className="titleAutres">Château de Versailles</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/versailles/versailles01.jpg")} alt="versailles01" className="photo"/>
                     </div>

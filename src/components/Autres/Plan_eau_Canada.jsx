@@ -14,7 +14,7 @@ class Plan_eau_Canada extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Plan d'eau du Canada</h1>
+                    <h1 className="titleAutres">Plan d'eau du Canada</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/plan_eau_canada/plan_eau_canada01.jpg")} alt="plan_eau_canada01" className="photo"/>
                     </div>

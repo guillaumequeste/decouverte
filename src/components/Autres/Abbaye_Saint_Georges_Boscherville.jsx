@@ -14,7 +14,7 @@ class Abbaye_Saint_Georges_Boscherville extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Abbaye Romane Saint Georges de Boscherville</h1>
+                    <h1 className="titleAutres">Abbaye Romane Saint Georges de Boscherville</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/abbaye_saint_georges_boscherville/abbaye_saint_georges_boscherville.jpg")} alt="abbaye_saint_georges_boscherville" className="photo"/>
                     </div>

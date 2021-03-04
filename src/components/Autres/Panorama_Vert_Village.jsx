@@ -14,7 +14,7 @@ class Panorama_Vert_Village extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Panorama du Vert Village</h1>
+                    <h1 className="titleAutres">Panorama du Vert Village</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/panorama_vert_village/panorama_vert_village01.jpg")} alt="panorama_vert_village01" className="photo"/>
                     </div>

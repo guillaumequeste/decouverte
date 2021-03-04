@@ -14,7 +14,7 @@ class Manoir_Ango extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Manoir d'Ango</h1>
+                    <h1 className="titleAutres">Manoir d'Ango</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/manoir_ango/manoir_ango.jpeg")} alt="manoir_ango" className="photo"/>
                     </div>

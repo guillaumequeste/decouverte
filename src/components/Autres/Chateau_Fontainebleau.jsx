@@ -17,7 +17,7 @@ class Chateau_Fontainebleau extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Château de Fontainebleau</h1>
+          <h1 className="titleAutres">Château de Fontainebleau</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/chateau_fontainebleau/chateau_fontainebleau01.jpg")}

@@ -14,7 +14,7 @@ class Biomarine extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Biomarine</h1>
+                    <h1 className="tittitleAutresle">Biomarine</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/biomarine/biomarine01.jpg")} alt="biomarine01" className="photo"/>
                     </div>

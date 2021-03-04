@@ -15,7 +15,7 @@ class Lac_du_Salagou extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Lac du Salagou</h1>
+          <h1 className="titleAutres">Lac du Salagou</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/lac_du_salagou/lac_du_salagou01.jpg")}

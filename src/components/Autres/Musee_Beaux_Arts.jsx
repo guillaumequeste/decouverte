@@ -14,7 +14,7 @@ class Musee_Beaux_Arts extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Musée des Beaux Arts</h1>
+                    <h1 className="titleAutres">Musée des Beaux Arts</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/musee_beaux_arts/musee_beaux_arts01.jpg")} alt="musee_beaux_arts01" className="photo"/>
                     </div>

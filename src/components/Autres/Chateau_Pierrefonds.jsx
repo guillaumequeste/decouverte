@@ -14,7 +14,7 @@ class Chateau_Pierrefonds extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Château de Pierrefonds</h1>
+                    <h1 className="titleAutres">Château de Pierrefonds</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/chateau_pierrefonds/chateau_pierrefonds.jpg")} alt="chateau_pierrefonds" className="photo"/>
                     </div>

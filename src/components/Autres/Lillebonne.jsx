@@ -14,7 +14,7 @@ class Lillebonne extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Théâtre romain de Lillebonne</h1>
+                    <h1 className="titleAutres">Théâtre romain de Lillebonne</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/lillebonne/lillebonne01.jpg")} alt="lillebonne01" className="photo"/>
                     </div>

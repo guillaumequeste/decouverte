@@ -14,7 +14,7 @@ class Domaine_du_Champ_de_Bataille extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Domaine du Champ de Bataille</h1>
+                    <h1 className="titleAutres">Domaine du Champ de Bataille</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/domaine_du_champ_de_bataille/domaine_du_champ_de_bataille.jpg")} alt="domaine_du_champ_de_bataille" className="photo"/>
                     </div>

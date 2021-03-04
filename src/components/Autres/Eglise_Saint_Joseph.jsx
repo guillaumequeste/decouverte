@@ -14,7 +14,7 @@ class Eglise_Saint_Joseph extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Eglise Saint-Joseph du Havre</h1>
+                    <h1 className="titleAutres">Eglise Saint-Joseph du Havre</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/eglise_saint-joseph/eglise_saint-joseph01.jpg")} alt="eglise_saint-joseph01" className="photo"/>
                     </div>

@@ -14,7 +14,7 @@ class Gros_Horloge extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Le Gros-Horloge à Rouen</h1>
+                    <h1 className="titleAutres">Le Gros-Horloge à Rouen</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/gros-horloge/gros-horloge.jpg")} alt="gros-horloge" className="photoGrosHorloge"/>
                     </div>

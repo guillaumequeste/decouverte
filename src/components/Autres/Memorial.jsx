@@ -14,7 +14,7 @@ class Memorial extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Mémorial du 19 août 1942</h1>
+                    <h1 className="titleAutres">Mémorial du 19 août 1942</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/memorial/memorial01.jpg")} alt="memorial01" className="photo"/>
                     </div>

@@ -14,7 +14,7 @@ class Chateau_Harcourt extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Château d'Harcourt</h1>
+                    <h1 className="titleAutres">Château d'Harcourt</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/chateau_harcourt/chateau_harcourt.jpg")} alt="chateau_harcourt" className="photo"/>
                     </div>

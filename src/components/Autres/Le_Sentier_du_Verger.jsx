@@ -14,7 +14,7 @@ class Le_Sentier_du_Verger extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Le Sentier du Verger</h1>
+                    <h1 className="titleAutres">Le Sentier du Verger</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/le_sentier_du_verger/le_sentier_du_verger01.jpg")} alt="le_sentier_du_verger01" className="photo"/>
                     </div>

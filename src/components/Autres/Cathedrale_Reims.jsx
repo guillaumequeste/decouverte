@@ -15,7 +15,7 @@ class Cathedrale_Reims extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Cathédrale Notre-Dame de Reims</h1>
+          <h1 className="titleAutres">Cathédrale Notre-Dame de Reims</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/cathedrale_reims/cathedrale_reims01.jpg")}

@@ -14,7 +14,7 @@ class Le_Bec_Hellouin extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Le Bec-Hellouin</h1>
+                    <h1 className="titleAutres">Le Bec-Hellouin</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/le_bec-hellouin/le_bec-hellouin01.jpg")} alt="le_bec-hellouin01" className="photo"/>
                     </div>

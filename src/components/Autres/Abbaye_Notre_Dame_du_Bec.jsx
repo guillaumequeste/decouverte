@@ -14,7 +14,7 @@ class Abbaye_Notre_Dame_du_Bec extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Abbaye Notre-Dame du Bec</h1>
+                    <h1 className="titleAutres">Abbaye Notre-Dame du Bec</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/abbaye_notre-dame_du_bec/abbaye_notre-dame_du_bec01.jpg")} alt="abbaye_notre-dame_du_bec01" className="photo"/>
                     </div>

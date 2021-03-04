@@ -14,7 +14,7 @@ class Maison_Jules_Verne extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Maison de Jules Verne</h1>
+                    <h1 className="titleAutres">Maison de Jules Verne</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/maison_jules_verne/maison_jules_verne01.jpg")} alt="maison_jules_verne01" className="photoGrosHorloge"/>
                     </div>

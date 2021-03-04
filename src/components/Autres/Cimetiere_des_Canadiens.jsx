@@ -14,7 +14,7 @@ class Cimetiere_des_Canadiens extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Cimetière des Canadiens</h1>
+                    <h1 className="titleAutres">Cimetière des Canadiens</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/cimetiere_des_canadiens/cimetiere_des_canadiens01.jpg")} alt="cimetiere_des_canadiens01" className="photo"/>
                     </div>

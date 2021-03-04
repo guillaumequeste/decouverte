@@ -15,7 +15,7 @@ class Puy_de_Dome extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Puy de Dôme</h1>
+          <h1 className="titleAutres">Puy de Dôme</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/puy_de_dome/puy_de_dome01.jpg")}

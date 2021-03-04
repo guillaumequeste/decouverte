@@ -14,7 +14,7 @@ class Panorama_Evreux extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Panorama d'Evreux</h1>
+                    <h1 className="titleAutres">Panorama d'Evreux</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/panorama_evreux/panorama_evreux01.jpg")} alt="panorama_evreux01" className="photo"/>
                     </div>

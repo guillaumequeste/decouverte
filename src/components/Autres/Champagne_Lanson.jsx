@@ -15,7 +15,7 @@ class Champagne_Lanson extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Champagne Lanson</h1>
+          <h1 className="tittitleAutresle">Champagne Lanson</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/champagne_lanson/maison_lanson.jpg")}

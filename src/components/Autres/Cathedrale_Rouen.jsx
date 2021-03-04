@@ -14,7 +14,7 @@ class Cathedrale_Rouen extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Cathédrale Notre-Dame de Rouen</h1>
+                    <h1 className="titleAutres">Cathédrale Notre-Dame de Rouen</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/cathedrale_rouen/cathedrale_rouen01.jpg")} alt="cathedrale_rouen01" className="photoGrosHorloge"/>
                     </div>

@@ -15,7 +15,7 @@ class Petite_France extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="title">Petite France</h1>
+          <h1 className="titleAutres">Petite France</h1>
           <div className="divPhoto">
             <img
               src={require("../../img/autres/petite_france/petite_france11.jpg")}

@@ -14,7 +14,7 @@ class Panorama_Marais_Vernier extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Panorama du Marais Vernier</h1>
+                    <h1 className="titleAutres">Panorama du Marais Vernier</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/panorama_marais_vernier/panorama_marais_vernier01.jpg")} alt="panorama_marais_vernier01" className="photo"/>
                     </div>

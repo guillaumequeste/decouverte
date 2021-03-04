@@ -14,7 +14,7 @@ class Varenne extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">La Varenne</h1>
+                    <h1 className="titleAutres">La Varenne</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/varenne/varenne01.jpg")} alt="varenne01" className="photo"/>
                     </div>

@@ -14,7 +14,7 @@ class Quartier_Saint_Leu extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Quartier Saint-Leu</h1>
+                    <h1 className="titleAutres">Quartier Saint-Leu</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/quartier_saint-leu/quartier_saint-leu01.jpg")} alt="quartier_saint-leu01" className="photo"/>
                     </div>

@@ -14,7 +14,7 @@ class Montreuil_sur_Mer extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Montreuil-sur-Mer</h1>
+                    <h1 className="titleAutres">Montreuil-sur-Mer</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/montreuil-sur-mer/montreuil-sur-mer01.jpg")} alt="montreuil-sur-mer01" className="photo"/>
                     </div>

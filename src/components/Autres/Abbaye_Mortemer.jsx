@@ -14,7 +14,7 @@ class Abbaye_Mortemer extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Abbaye de Mortemer</h1>
+                    <h1 className="titleAutres">Abbaye de Mortemer</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/abbaye_mortemer/abbaye_mortemer.jpg")} alt="abbaye_mortemer" className="photo"/>
                     </div>

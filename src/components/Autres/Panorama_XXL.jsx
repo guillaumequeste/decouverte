@@ -14,7 +14,7 @@ class Panorama_XXL extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Panorama XXL</h1>
+                    <h1 className="titleAutres">Panorama XXL</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/panorama_xxl/panorama_xxl.jpg")} alt="panorama_xxl" className="photo"/>
                     </div>

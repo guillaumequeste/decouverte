@@ -14,7 +14,7 @@ class Hortillonnages extends Component {
                 <Header />
                 <Footer />
                 <div className="bodyAutres">
-                    <h1 className="title">Hortillonnages d'Amiens</h1>
+                    <h1 className="titleAutres">Hortillonnages d'Amiens</h1>
                     <div className="divPhoto">
                         <img src={require("../../img/autres/hortillonnages/hortillonnages01.jpg")} alt="hortillonnages01" className="photo"/>
                     </div>
