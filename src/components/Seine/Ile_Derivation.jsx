@@ -2,36 +2,36 @@ import React, { Component } from "react";
 import Header from "../Header";
 import Helmet from "../Helmet";
 import Zoom from "react-reveal/Zoom";
-import Footer from "../../components/Footer";
+import Footer from "../Footer";
 import Next from "../Next";
 import Previous from "../Previous";
 
-class Nanterre extends Component {
+class Ile_Derivation extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
-          link={"http://decouverte.guillaumequeste.fr/nanterre"}
+          title={"Ile de la Dérivation Découverte de la Normandie et du Littoral"}
+          link={"http://decouverte.guillaumequeste.fr/ile_derivation"}
         />
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"ile_chaussee"} />
-          <h1 className="title">Nanterre</h1>
-          <Next next={"pont_saint-cloud"} />
+          <Previous prev={"triel-sur-seine"} />
+          <h1 className="title">Ile de la Dérivation</h1>
+          <Next next={"andresy"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/seine/nanterre/nanterre01.jpg")}
-              alt="nanterre01"
+              src={require("../../img/seine/ile_derivation/ile_derivation01.jpg")}
+              alt="tile_derivation01"
               className="photo"
             />
           </div>
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/nanterre/nanterre02.jpg")}
-                alt="nanterre02"
+                src={require("../../img/seine/ile_derivation/ile_derivation02.jpg")}
+                alt="ile_derivation02"
                 className="photo"
               />
             </Zoom>
@@ -39,8 +39,8 @@ class Nanterre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/nanterre/nanterre03.jpg")}
-                alt="nanterre03"
+                src={require("../../img/seine/ile_derivation/ile_derivation03.jpg")}
+                alt="ile_derivation03"
                 className="photo"
               />
             </Zoom>
@@ -48,8 +48,8 @@ class Nanterre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/nanterre/nanterre04.jpg")}
-                alt="nanterre04"
+                src={require("../../img/seine/ile_derivation/ile_derivation04.jpg")}
+                alt="ile_derivation04"
                 className="photo"
               />
             </Zoom>
@@ -57,8 +57,8 @@ class Nanterre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/nanterre/nanterre05.jpg")}
-                alt="nanterre05"
+                src={require("../../img/seine/ile_derivation/ile_derivation05.jpg")}
+                alt="ile_derivation05"
                 className="photo"
               />
             </Zoom>
@@ -66,17 +66,8 @@ class Nanterre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/nanterre/nanterre06.jpg")}
-                alt="nanterre06"
-                className="photo"
-              />
-            </Zoom>
-          </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/seine/nanterre/nanterre07.jpg")}
-                alt="nanterre07"
+                src={require("../../img/seine/ile_derivation/ile_derivation06.jpg")}
+                alt="ile_derivation06"
                 className="photo"
               />
             </Zoom>
@@ -87,4 +78,4 @@ class Nanterre extends Component {
   }
 }
 
-export default Nanterre;
+export default Ile_Derivation;

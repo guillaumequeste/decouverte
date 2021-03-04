@@ -12,22 +12,27 @@ export default class CarteSeine extends Component {
   render() {
     const position = [this.state.lat, this.state.lng];
     const aizier = [49.431928407877166, 0.6245415669635257];
+    const andresy = [48.9819095262023, 2.061438227332575];
     const barrage_poses = [49.31016932741239, 1.2364600137390047];
     const bennecourt = [49.041242, 1.560926];
     const berville_sur_mer = [49.43727738166467, 0.35969628589593405];
     const caudebec = [49.52416135852367, 0.7263719063849283];
     const cleon = [49.3142135, 1.0329344];
+    const conflans_sainte_honorine = [48.988290414786235, 2.0723917357971455];
     const duclair = [49.482563, 0.8754968];
     const gargenville = [48.976861008962665, 1.815486818861043];
     const guernes = [49.00541213405952, 1.6347672194356955];
     const hardricourt = [49.003782942255654, 1.9048766694675834];
     const hautot = [49.3602514, 0.9773356];
+    const herblay = [48.986754039858695, 2.158093863257755];
     const heurteauville = [49.444798, 0.8128955];
     const honfleur = [49.422389300892156, 0.23574543158495942];
     const honfleur_plage = [49.42534367948838, 0.21386837838599515];
     const honfleur_point_de_vue = [49.42342113122669, 0.22198009090871995];
     const honfleur_zone_portuaire = [49.427957553128806, 0.25221513718679756];
+    const ile_chaussee = [48.86958098815109, 2.1376456035848834];
     const ile_cite = [48.855910041518655, 2.3443539925747414];
+    const ile_derivation = [48.951360372959385, 2.0466587186703844];
     const ile_l_aumone = [49.000011061272204, 1.7188917620003474];
     const ile_saint_louis = [48.851763743343156, 2.357079065869625];
     const jumieges = [49.4317826, 0.8175572];
@@ -51,6 +56,7 @@ export default class CarteSeine extends Component {
     const limetz_villez = [49.06031467107532, 1.5291453092289942];
     const meulan_en_yvelines = [49.00177604401088, 1.9090958184399387];
     const mezy_sur_seine = [48.997421818559246, 1.8836185541003259];
+    const montesson = [48.91245049228811, 2.1175196029212096];
     const nanterre = [48.91719621975756, 2.2173717836551576];
     const notre_dame = [48.85297093349124, 2.349745636990672];
     const notre_dame_de_bliquetuit = [49.49294918557146, 0.7712008905530077];
@@ -84,8 +90,10 @@ export default class CarteSeine extends Component {
     const saint_paul = [49.46908930819602, 0.8605530137303674];
     const saint_pierre_de_manneville = [49.37659117448786, 0.9195194617895686];
     const sandrancourt = [49.0373032929155, 1.6470670579397595];
+    const sartrouville = [48.94521856637024, 2.1604969325058665];
     const tancarville = [49.48139170731105, 0.47487084026760495];
     const tosny = [49.21739244922967, 1.375410967104962];
+    const triel_sur_seine = [48.98140986083938, 2.000512311660687];
     const val_de_la_haye = [49.3773661, 1.0010383];
     const vatteville = [49.49712555659109, 0.6714457248089811];
     const vaux_sur_seine = [49.0049731849544, 1.963319801259904];
@@ -111,6 +119,22 @@ export default class CarteSeine extends Component {
                     <img
                       src={require("../../img/seine/aizier/aizier01min.jpg")}
                       alt="aizier"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={andresy}>
+            <Popup minWidth={200}>
+              <Link to="/andresy" className="linkPlage">
+                <div className="lien">
+                  <div>Andresy</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/andresy/andresy01min.jpg")}
+                      alt="andresy"
                       className="apercu"
                     />
                   </div>
@@ -198,6 +222,22 @@ export default class CarteSeine extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={conflans_sainte_honorine}>
+            <Popup minWidth={200}>
+              <Link to="/conflans-sainte-honorine" className="linkPlage">
+                <div className="lien">
+                  <div>Conflans-Sainte-Honorine</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/conflans-sainte-honorine/conflans-sainte-honorine01min.jpg")}
+                      alt="conflans-sainte-honorine"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={duclair}>
             <Popup minWidth={200}>
               <Link to="/duclair" className="linkPlage">
@@ -271,6 +311,22 @@ export default class CarteSeine extends Component {
                     <img
                       src={require("../../img/seine/hautot/hautot01min.jpg")}
                       alt="hautot"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={herblay}>
+            <Popup minWidth={200}>
+              <Link to="/herblay" className="linkPlage">
+                <div className="lien">
+                  <div>Herblay</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/herblay/herblay01min.jpg")}
+                      alt="herblay"
                       className="apercu"
                     />
                   </div>
@@ -358,6 +414,22 @@ export default class CarteSeine extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={ile_chaussee}>
+            <Popup minWidth={200}>
+              <Link to="/ile_chaussee" className="linkPlage">
+                <div className="lien">
+                  <div>Ile de la Chaussée</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/ile_chaussee/ile_chaussee01min.jpg")}
+                      alt="ile_chaussee"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={ile_cite}>
             <Popup minWidth={200}>
               <Link to="/ile_cite" className="linkPlage">
@@ -367,6 +439,22 @@ export default class CarteSeine extends Component {
                     <img
                       src={require("../../img/seine/ile_cite/ile_cite01min.jpg")}
                       alt="ile_cite"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={ile_derivation}>
+            <Popup minWidth={200}>
+              <Link to="/ile_derivation" className="linkPlage">
+                <div className="lien">
+                  <div>Ile de la Dérivation</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/ile_derivation/ile_derivation01min.jpg")}
+                      alt="ile_derivation"
                       className="apercu"
                     />
                   </div>
@@ -735,6 +823,22 @@ export default class CarteSeine extends Component {
                     <img
                       src={require("../../img/seine/mezy-sur-seine/mezy-sur-seine01min.jpg")}
                       alt="mezy-sur-seine"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={montesson}>
+            <Popup minWidth={200}>
+              <Link to="/montesson" className="linkPlage">
+                <div className="lien">
+                  <div>Montesson</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/montesson/montesson01min.jpg")}
+                      alt="montesson"
                       className="apercu"
                     />
                   </div>
@@ -1270,6 +1374,22 @@ export default class CarteSeine extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={sartrouville}>
+            <Popup minWidth={200}>
+              <Link to="/sartrouville" className="linkPlage">
+                <div className="lien">
+                  <div>Sartrouville</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/sartrouville/sartrouville01min.jpg")}
+                      alt="sartrouville"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={tancarville}>
             <Popup minWidth={200}>
               <Link to="/tancarville" className="linkPlage">
@@ -1295,6 +1415,22 @@ export default class CarteSeine extends Component {
                     <img
                       src={require("../../img/seine/tosny/tosny01min.jpg")}
                       alt="tosny"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={triel_sur_seine}>
+            <Popup minWidth={200}>
+              <Link to="/triel-sur-seine" className="linkPlage">
+                <div className="lien">
+                  <div>Triel-sur-Seine</div>
+                  <div>
+                    <img
+                      src={require("../../img/seine/triel-sur-seine/triel-sur-seine01min.jpg")}
+                      alt="triel-sur-seine"
                       className="apercu"
                     />
                   </div>

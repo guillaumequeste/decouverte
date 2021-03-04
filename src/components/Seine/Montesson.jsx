@@ -6,32 +6,32 @@ import Footer from "../../components/Footer";
 import Next from "../Next";
 import Previous from "../Previous";
 
-class Panorama_Val_d_Herblay extends Component {
+class Montesson extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
-          link={"http://decouverte.guillaumequeste.fr/panorama_val_d_herblay"}
+          title={"Montesson Découverte de la Normandie et du Littoral"}
+          link={"http://decouverte.guillaumequeste.fr/montesson"}
         />
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"conflans-sainte-honorine"} />
-          <h1 className="title">Panorama Val d'Herblay et la Seine</h1>
-          <Next next={"herblay"} />
+          <Previous prev={"sartrouville"} />
+          <h1 className="title">Montesson</h1>
+          <Next next={"ile_chaussee"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay01.jpg")}
-              alt="panorama_val_d_herblay01"
+              src={require("../../img/seine/montesson/montesson01.jpg")}
+              alt="montesson01"
               className="photo"
             />
           </div>
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay02.jpg")}
-                alt="panorama_val_d_herblay02"
+                src={require("../../img/seine/montesson/montesson02.jpg")}
+                alt="montesson02"
                 className="photo"
               />
             </Zoom>
@@ -39,8 +39,8 @@ class Panorama_Val_d_Herblay extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/panorama_val_d_herblay/panorama_val_d_herblay03.jpg")}
-                alt="panorama_val_d_herblay03"
+                src={require("../../img/seine/montesson/montesson03.jpg")}
+                alt="montesson03"
                 className="photo"
               />
             </Zoom>
@@ -51,4 +51,4 @@ class Panorama_Val_d_Herblay extends Component {
   }
 }
 
-export default Panorama_Val_d_Herblay;
+export default Montesson;

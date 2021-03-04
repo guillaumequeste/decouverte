@@ -6,32 +6,32 @@ import Footer from "../../components/Footer";
 import Next from "../Next";
 import Previous from "../Previous";
 
-class Vaux_sur_Seine extends Component {
+class Herblay extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
-          link={"http://decouverte.guillaumequeste.fr/vaux-sur-seine"}
+          title={"Herblay Découverte de la Normandie et du Littoral"}
+          link={"http://decouverte.guillaumequeste.fr/herblay"}
         />
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"les_mureaux"} />
-          <h1 className="title">Vaux-sur-Seine</h1>
-          <Next next={"triel-sur-seine"} />
+          <Previous prev={"panorama_val_d_herblay"} />
+          <h1 className="title">Herblay</h1>
+          <Next next={"sartrouville"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine01.jpg")}
-              alt="vaux-sur-seine01"
+              src={require("../../img/seine/herblay/herblay01.jpg")}
+              alt="herblay01"
               className="photo"
             />
           </div>
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine02.jpg")}
-                alt="vaux-sur-seine02"
+                src={require("../../img/seine/herblay/herblay02.jpg")}
+                alt="herblay02"
                 className="photo"
               />
             </Zoom>
@@ -39,8 +39,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine03.jpg")}
-                alt="vaux-sur-seine03"
+                src={require("../../img/seine/herblay/herblay03.jpg")}
+                alt="herblay03"
                 className="photo"
               />
             </Zoom>
@@ -48,8 +48,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine04.jpg")}
-                alt="vaux-sur-seine04"
+                src={require("../../img/seine/herblay/herblay04.jpg")}
+                alt="herblay04"
                 className="photo"
               />
             </Zoom>
@@ -57,8 +57,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine05.jpg")}
-                alt="vaux-sur-seine05"
+                src={require("../../img/seine/herblay/herblay05.jpg")}
+                alt="herblay05"
                 className="photo"
               />
             </Zoom>
@@ -66,8 +66,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine06.jpg")}
-                alt="vaux-sur-seine06"
+                src={require("../../img/seine/herblay/herblay06.jpg")}
+                alt="herblay06"
                 className="photo"
               />
             </Zoom>
@@ -75,8 +75,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine07.jpg")}
-                alt="vaux-sur-seine07"
+                src={require("../../img/seine/herblay/herblay07.jpg")}
+                alt="herblay07"
                 className="photo"
               />
             </Zoom>
@@ -84,8 +84,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine08.jpg")}
-                alt="vaux-sur-seine08"
+                src={require("../../img/seine/herblay/herblay08.jpg")}
+                alt="herblay08"
                 className="photo"
               />
             </Zoom>
@@ -93,8 +93,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine09.jpg")}
-                alt="vaux-sur-seine09"
+                src={require("../../img/seine/herblay/herblay09.jpg")}
+                alt="herblay09"
                 className="photo"
               />
             </Zoom>
@@ -102,8 +102,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine10.jpg")}
-                alt="vaux-sur-seine10"
+                src={require("../../img/seine/herblay/herblay10.jpg")}
+                alt="herblay10"
                 className="photo"
               />
             </Zoom>
@@ -111,8 +111,8 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine11.jpg")}
-                alt="vaux-sur-seine11"
+                src={require("../../img/seine/herblay/herblay11.jpg")}
+                alt="herblay11"
                 className="photo"
               />
             </Zoom>
@@ -120,8 +120,26 @@ class Vaux_sur_Seine extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/seine/vaux-sur-seine/vaux-sur-seine12.jpg")}
-                alt="vaux-sur-seine12"
+                src={require("../../img/seine/herblay/herblay12.jpg")}
+                alt="herblay12"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/seine/herblay/herblay13.jpg")}
+                alt="herblay13"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/seine/herblay/herblay14.jpg")}
+                alt="herblay14"
                 className="photo"
               />
             </Zoom>
@@ -132,4 +150,4 @@ class Vaux_sur_Seine extends Component {
   }
 }
 
-export default Vaux_sur_Seine;
+export default Herblay;
