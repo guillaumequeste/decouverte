@@ -63,6 +63,33 @@ class Pourville extends Component {
               />
             </Zoom>
           </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/littoral/pourville/pourville06.jpg")}
+                alt="pourville06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/littoral/pourville/pourville07.jpg")}
+                alt="pourville07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/littoral/pourville/pourville08.jpg")}
+                alt="pourville08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
         </div>
       </div>
     );

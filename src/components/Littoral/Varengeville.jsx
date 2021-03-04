@@ -207,51 +207,6 @@ class Varengeville extends Component {
               />
             </Zoom>
           </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/littoral/varengeville/varengeville22.jpg")}
-                alt="varengeville22"
-                className="photo"
-              />
-            </Zoom>
-          </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/littoral/varengeville/varengeville23.jpg")}
-                alt="varengeville23"
-                className="photo"
-              />
-            </Zoom>
-          </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/littoral/varengeville/varengeville24.jpg")}
-                alt="varengeville24"
-                className="photo"
-              />
-            </Zoom>
-          </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/littoral/varengeville/varengeville25.jpg")}
-                alt="varengeville25"
-                className="photo"
-              />
-            </Zoom>
-          </div>
-          <div className="divPhoto">
-            <Zoom>
-              <img
-                src={require("../../img/littoral/varengeville/varengeville26.jpg")}
-                alt="varengeville26"
-                className="photo"
-              />
-            </Zoom>
-          </div>
         </div>
       </div>
     );
