@@ -22,6 +22,7 @@ export default class CarteLittoral extends Component {
     const cabourg1 = [49.297396873701764, -0.10630096507771469];
     const cabourg2 = [49.292543154762846, -0.12447833748117754];
     const cayeux = [50.1792004, 1.4933839];
+    const colleville_montgomery = [49.293625132209826, -0.2823951296882776];
     const cricqueboeuf = [49.405661299844944, 0.1414178236658703];
     const criel = [50.0160928, 1.3139444];
     const deauville = [49.36353360295033, 0.06904659774387589];
@@ -33,6 +34,7 @@ export default class CarteLittoral extends Component {
     const fecamp = [49.7577729, 0.374891];
     const fort_mahon = [50.3414288, 1.5683131];
     const hardelot = [50.6338762, 1.5778096];
+    const hermanville_sur_mer = [49.29603225303073, -0.2931680180543106];
     const houlgate = [49.299750716644134, -0.08478741779805565];
     const le_bois_de_cise = [50.08914499767833, 1.4244834055121158];
     const le_croquet = [49.55719501137759, 0.09194783688565522];
@@ -43,12 +45,14 @@ export default class CarteLittoral extends Component {
     const le_treport = [50.0591099, 1.3827656];
     const les_grandes_dalles = [49.8172964, 0.510781];
     const les_petites_dalles = [49.8210168, 0.5251555];
+    const lion_sur_mer = [49.30263188970311, -0.31382139408440146];
     const merlimont = [50.4553061, 1.614809];
     const mers = [50.0656325, 1.3889703];
     const merville_franceville_plage = [49.28650744074311, -0.20175568132633215];
     const mesnil_val = [50.0419433, 1.3340248];
     const pain_de_sucre = [49.50439041538592, 0.08321623597271177];
     const phare_de_la_heve = [49.51106215330866, 0.0684245703524411];
+    const plage_ouistreham = [49.29191161328451, -0.2701268764212994];
     const pointe_ouistreham = [49.278099968417436, -0.24046806688210687];
     const port_dives_sur_mer = [49.29328608059495, -0.09653081069732616];
     const port_ouistreham = [49.275354226968155, -0.2470057538076098];
@@ -273,6 +277,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={colleville_montgomery}>
+            <Popup minWidth={200}>
+              <Link to="/colleville-montgomery" className="linkPlage">
+                <div className="lien">
+                  <div>Colleville-Montgomery (Sword Beach)</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/colleville-montgomery/colleville-montgomery01min.jpg")}
+                      alt="colleville-montgomery"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={cricqueboeuf}>
             <Popup minWidth={200}>
               <Link to="/cricqueboeuf" className="linkPlage">
@@ -449,6 +469,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={hermanville_sur_mer}>
+            <Popup minWidth={200}>
+              <Link to="/hermanville-sur-mer" className="linkHippodrome">
+                <div className="lien">
+                  <div>Hermanville-sur-Mer</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/hermanville-sur-mer/hermanville-sur-mer01min.jpg")}
+                      alt="hermanville-sur-mer"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={houlgate}>
             <Popup minWidth={200}>
               <Link to="/houlgate" className="linkHippodrome">
@@ -609,6 +645,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={lion_sur_mer}>
+            <Popup minWidth={200}>
+              <Link to="/lion-sur-mer" className="linkHippodrome">
+                <div className="lien">
+                  <div>Lion-sur-Mer</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/lion-sur-mer/lion-sur-mer01min.jpg")}
+                      alt="lion-sur-mer"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={merlimont}>
             <Popup minWidth={200}>
               <Link to="/merlimont" className="linkHippodrome">
@@ -698,6 +750,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/phare_de_la_heve/phare_de_la_heve01min.jpg")}
                       alt="phare_de_la_heve"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={plage_ouistreham}>
+            <Popup minWidth={200}>
+              <Link to="/plage_ouistreham" className="linkHippodrome">
+                <div className="lien">
+                  <div>Plage de Ouistreham</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/plage_ouistreham/plage_ouistreham01min.jpg")}
+                      alt="plage_ouistreham"
                       className="apercu"
                     />
                   </div>

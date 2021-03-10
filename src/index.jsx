@@ -17,6 +17,7 @@ import Boulogne from './components/Littoral/Boulogne'
 import Cabourg1 from './components/Littoral/Cabourg1'
 import Cabourg2 from './components/Littoral/Cabourg2'
 import Cayeux from './components/Littoral/Cayeux'
+import Colleville_Montgomery from './components/Littoral/Colleville_Montgomery'
 import Cricqueboeuf from './components/Littoral/Cricqueboeuf'
 import Criel from './components/Littoral/Criel'
 import Deauville from './components/Littoral/Deauville'
@@ -28,6 +29,7 @@ import Etretat from './components/Littoral/Etretat'
 import Fecamp from './components/Littoral/Fecamp'
 import Fort_Mahon from './components/Littoral/Fort_Mahon'
 import Hardelot from './components/Littoral/Hardelot'
+import Hermanville_sur_Mer from './components/Littoral/Hermanville_sur_Mer'
 import Houlgate from './components/Littoral/Houlgate'
 import Le_Bois_de_Cise from './components/Littoral/Le_Bois_de_Cise'
 import Le_Croquet from './components/Littoral/Le_Croquet'
@@ -38,12 +40,14 @@ import Le_Touquet from './components/Littoral/Le_Touquet'
 import Le_Treport from './components/Littoral/Le_Treport'
 import Les_Grandes_Dalles from './components/Littoral/Les_Grandes_Dalles'
 import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
+import Lion_sur_Mer from './components/Littoral/Lion_sur_Mer'
 import Merlimont from './components/Littoral/Merlimont'
 import Merville_Franceville_Plage from './components/Littoral/Merville_Franceville_Plage'
 import Mers from './components/Littoral/Mers'
 import Mesnil_Val from './components/Littoral/Mesnil_Val'
 import Pain_de_Sucre from './components/Littoral/Pain_de_Sucre'
 import Phare_de_la_Heve from './components/Littoral/Phare_de_la_Heve'
+import Plage_Ouistreham from './components/Littoral/Plage_Ouistreham'
 import Pointe_Ouistreham from './components/Littoral/Pointe_Ouistreham'
 import Port_Dives_sur_Mer from './components/Littoral/Port_Dives_sur_Mer'
 import Port_Ouistreham from './components/Littoral/Port_Ouistreham'
@@ -252,6 +256,7 @@ const Root = () => (
             <Route path='/cabourg1' component={Cabourg1}/>
             <Route path='/cabourg2' component={Cabourg2}/>
             <Route path='/cayeux' component={Cayeux}/>
+            <Route path='/colleville-montgomery' component={Colleville_Montgomery}/>
             <Route path='/cricqueboeuf' component={Cricqueboeuf}/>
             <Route path='/criel' component={Criel}/>
             <Route path='/deauville' component={Deauville}/>
@@ -263,6 +268,7 @@ const Root = () => (
             <Route path='/fecamp' component={Fecamp}/>
             <Route path='/fort-mahon' component={Fort_Mahon}/>
             <Route path='/hardelot' component={Hardelot}/>
+            <Route path='/hermanville-sur-mer' component={Hermanville_sur_Mer}/>
             <Route path='/houlgate' component={Houlgate}/>
             <Route path='/le_bois_de_cise' component={Le_Bois_de_Cise}/>
             <Route path='/le_croquet' component={Le_Croquet}/>
@@ -273,12 +279,14 @@ const Root = () => (
             <Route path='/le_treport' component={Le_Treport}/>
             <Route path='/les_grandes_dalles' component={Les_Grandes_Dalles}/>
             <Route path='/les_petites_dalles' component={Les_Petites_Dalles}/>
+            <Route path='/lion-sur-mer' component={Lion_sur_Mer}/>
             <Route path='/merlimont' component={Merlimont}/>
             <Route path='/merville-franceville-plage' component={Merville_Franceville_Plage}/>
             <Route path='/mers' component={Mers}/>
             <Route path='/mesnil_val' component={Mesnil_Val}/>
             <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
             <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
+            <Route path='/plage_ouistreham' component={Plage_Ouistreham}/>
             <Route path='/pointe_ouistreham' component={Pointe_Ouistreham}/>
             <Route path='/port_dives-sur-mer' component={Port_Dives_sur_Mer}/>
             <Route path='/port_ouistreham' component={Port_Ouistreham}/>
