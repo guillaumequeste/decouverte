@@ -20,6 +20,7 @@ export default class CarteLittoral extends Component {
     const blonville_sur_mer = [49.339868017999756, 0.028210862876303366];
     const boulogne = [50.7259985, 1.6118771];
     const cabourg1 = [49.297396873701764, -0.10630096507771469];
+    const cabourg2 = [49.292543154762846, -0.12447833748117754];
     const cayeux = [50.1792004, 1.4933839];
     const cricqueboeuf = [49.405661299844944, 0.1414178236658703];
     const criel = [50.0160928, 1.3139444];
@@ -44,10 +45,13 @@ export default class CarteLittoral extends Component {
     const les_petites_dalles = [49.8210168, 0.5251555];
     const merlimont = [50.4553061, 1.614809];
     const mers = [50.0656325, 1.3889703];
+    const merville_franceville_plage = [49.28650744074311, -0.20175568132633215];
     const mesnil_val = [50.0419433, 1.3340248];
     const pain_de_sucre = [49.50439041538592, 0.08321623597271177];
     const phare_de_la_heve = [49.51106215330866, 0.0684245703524411];
+    const pointe_ouistreham = [49.278099968417436, -0.24046806688210687];
     const port_dives_sur_mer = [49.29328608059495, -0.09653081069732616];
+    const port_ouistreham = [49.275354226968155, -0.2470057538076098];
     const pourville = [49.916219, 1.0304797];
     const puys = [49.9365342, 1.117419];
     const quend = [50.322829094686696, 1.5461341515583582];
@@ -74,6 +78,7 @@ export default class CarteLittoral extends Component {
     const trouville_sur_mer2 = [49.36737101116615, 0.07552186080749923];
     const valleuse_boucherot = [49.64280588649105, 0.15316556140311022];
     const valleuse_de_vaucottes = [49.73798575146814, 0.2908350344303434];
+    const varaville = [49.286910449389204, -0.16864406675309196];
     const varengeville = [49.9046335, 1.0021825];
     const veletot = [49.786164997944525, 0.43129265244890025];
     const veules = [49.8722029, 0.7990652];
@@ -229,6 +234,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/cabourg1/cabourg101min.jpg")}
                       alt="cabourg1"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={cabourg2}>
+            <Popup minWidth={200}>
+              <Link to="/cabourg2" className="linkPlage">
+                <div className="lien">
+                  <div>Cabourg 2</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/cabourg2/cabourg201min.jpg")}
+                      alt="cabourg2"
                       className="apercu"
                     />
                   </div>
@@ -620,6 +641,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={merville_franceville_plage}>
+            <Popup minWidth={200}>
+              <Link to="/merville-franceville-plage" className="linkHippodrome">
+                <div className="lien">
+                  <div>Merville-Franceville-Plage</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/merville-franceville-plage/merville-franceville-plage01min.jpg")}
+                      alt="erville-franceville-plage"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={mesnil_val}>
             <Popup minWidth={200}>
               <Link to="/mesnil_val" className="linkHippodrome">
@@ -668,6 +705,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={pointe_ouistreham}>
+            <Popup minWidth={200}>
+              <Link to="/pointe_ouistreham" className="linkHippodrome">
+                <div className="lien">
+                  <div>Pointe de Ouistreham</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/pointe_ouistreham/pointe_ouistreham01min.jpg")}
+                      alt="pointe_ouistreham"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={port_dives_sur_mer}>
             <Popup minWidth={200}>
               <Link to="/port_dives-sur-mer" className="linkHippodrome">
@@ -677,6 +730,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/port_dives-sur-mer/port_dives-sur-mer01min.jpg")}
                       alt="port_dives-sur-mer"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={port_ouistreham}>
+            <Popup minWidth={200}>
+              <Link to="/port_ouistreham" className="linkHippodrome">
+                <div className="lien">
+                  <div>Port de Ouistreham</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/port_ouistreham/port_ouistreham01min.jpg")}
+                      alt="port_ouistreham"
                       className="apercu"
                     />
                   </div>
@@ -1003,6 +1072,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/valleuse_de_vaucottes/valleuse_de_vaucottes01min.jpg")}
                       alt="valleuse_de_vaucottes"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={varaville}>
+            <Popup minWidth={200}>
+              <Link to="/varaville" className="linkHippodrome">
+                <div className="lien">
+                  <div>Varaville</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/varaville/varaville01min.jpg")}
+                      alt="varaville"
                       className="apercu"
                     />
                   </div>

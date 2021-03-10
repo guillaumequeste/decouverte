@@ -15,6 +15,7 @@ import Berneval from './components/Littoral/Berneval'
 import Blonville_sur_Mer from './components/Littoral/Blonville_sur_Mer'
 import Boulogne from './components/Littoral/Boulogne'
 import Cabourg1 from './components/Littoral/Cabourg1'
+import Cabourg2 from './components/Littoral/Cabourg2'
 import Cayeux from './components/Littoral/Cayeux'
 import Cricqueboeuf from './components/Littoral/Cricqueboeuf'
 import Criel from './components/Littoral/Criel'
@@ -38,11 +39,14 @@ import Le_Treport from './components/Littoral/Le_Treport'
 import Les_Grandes_Dalles from './components/Littoral/Les_Grandes_Dalles'
 import Les_Petites_Dalles from './components/Littoral/Les_Petites_Dalles'
 import Merlimont from './components/Littoral/Merlimont'
+import Merville_Franceville_Plage from './components/Littoral/Merville_Franceville_Plage'
 import Mers from './components/Littoral/Mers'
 import Mesnil_Val from './components/Littoral/Mesnil_Val'
 import Pain_de_Sucre from './components/Littoral/Pain_de_Sucre'
 import Phare_de_la_Heve from './components/Littoral/Phare_de_la_Heve'
+import Pointe_Ouistreham from './components/Littoral/Pointe_Ouistreham'
 import Port_Dives_sur_Mer from './components/Littoral/Port_Dives_sur_Mer'
+import Port_Ouistreham from './components/Littoral/Port_Ouistreham'
 import Pourville from './components/Littoral/Pourville'
 import Puys from './components/Littoral/Puys'
 import Quend from './components/Littoral/Quend'
@@ -63,6 +67,7 @@ import Trouville_sur_Mer1 from './components/Littoral/Trouville_sur_Mer1'
 import Trouville_sur_Mer2 from './components/Littoral/Trouville_sur_Mer2'
 import Valleuse_Boucherot from './components/Littoral/Valleuse_Boucherot'
 import Valleuse_de_Vaucottes from './components/Littoral/Valleuse_de_Vaucottes'
+import Varaville from './components/Littoral/Varaville'
 import Varengeville from './components/Littoral/Varengeville'
 import VEletot from './components/Littoral/VEletot'
 import Veules from './components/Littoral/Veules'
@@ -245,6 +250,7 @@ const Root = () => (
             <Route path='/blonville-sur-mer' component={Blonville_sur_Mer}/>
             <Route path='/boulogne' component={Boulogne}/>
             <Route path='/cabourg1' component={Cabourg1}/>
+            <Route path='/cabourg2' component={Cabourg2}/>
             <Route path='/cayeux' component={Cayeux}/>
             <Route path='/cricqueboeuf' component={Cricqueboeuf}/>
             <Route path='/criel' component={Criel}/>
@@ -268,11 +274,14 @@ const Root = () => (
             <Route path='/les_grandes_dalles' component={Les_Grandes_Dalles}/>
             <Route path='/les_petites_dalles' component={Les_Petites_Dalles}/>
             <Route path='/merlimont' component={Merlimont}/>
+            <Route path='/merville-franceville-plage' component={Merville_Franceville_Plage}/>
             <Route path='/mers' component={Mers}/>
             <Route path='/mesnil_val' component={Mesnil_Val}/>
             <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
             <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
+            <Route path='/pointe_ouistreham' component={Pointe_Ouistreham}/>
             <Route path='/port_dives-sur-mer' component={Port_Dives_sur_Mer}/>
+            <Route path='/port_ouistreham' component={Port_Ouistreham}/>
             <Route path='/pourville' component={Pourville}/>
             <Route path='/puys' component={Puys}/>
             <Route path='/quend' component={Quend}/>
@@ -293,6 +302,7 @@ const Root = () => (
             <Route path='/trouville-sur-mer2' component={Trouville_sur_Mer2}/>
             <Route path='/valleuse_boucherot' component={Valleuse_Boucherot}/>
             <Route path='/valleuse_de_vaucottes' component={Valleuse_de_Vaucottes}/>
+            <Route path='/varaville' component={Varaville}/>
             <Route path='/varengeville' component={Varengeville}/>
             <Route path='/veletot' component={VEletot}/>
             <Route path='/veules' component={Veules}/>
