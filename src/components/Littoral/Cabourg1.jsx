@@ -6,32 +6,32 @@ import Footer from "../../components/Footer";
 import Next from "../Next";
 import Previous from "../Previous";
 
-class Villerville extends Component {
+class Cabourg1 extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Villerville Découverte de la Normandie et du Littoral"}
-          link={"http://decouverte.guillaumequeste.fr/villerville"}
+          title={"Cabourg 1 Découverte de la Normandie et du Littoral"}
+          link={"http://decouverte.guillaumequeste.fr/cabourg1"}
         />
         <Header />
         <Footer />
         <div className="bodyLittoral">
-          <Previous prev={"trouville-sur-mer1"} />
-          <h1 className="title">Villerville</h1>
-          <Next next={"cricqueboeuf"} />
+          <Previous prev={"cabourg2"} />
+          <h1 className="title">Cabourg 1</h1>
+          <Next next={"port_dives-sur-mer"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/littoral/villerville/villerville01.jpg")}
-              alt="villerville01"
+              src={require("../../img/littoral/cabourg1/cabourg101.jpg")}
+              alt="cabourg101"
               className="photo"
             />
           </div>
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/littoral/villerville/villerville02.jpg")}
-                alt="villerville02"
+                src={require("../../img/littoral/cabourg1/cabourg102.jpg")}
+                alt="cabourg102"
                 className="photo"
               />
             </Zoom>
@@ -39,8 +39,8 @@ class Villerville extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/littoral/villerville/villerville03.jpg")}
-                alt="villerville03"
+                src={require("../../img/littoral/cabourg1/cabourg103.jpg")}
+                alt="cabourg103"
                 className="photo"
               />
             </Zoom>
@@ -48,8 +48,8 @@ class Villerville extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/littoral/villerville/villerville04.jpg")}
-                alt="villerville04"
+                src={require("../../img/littoral/cabourg1/cabourg104.jpg")}
+                alt="cabourg104"
                 className="photo"
               />
             </Zoom>
@@ -57,8 +57,8 @@ class Villerville extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/littoral/villerville/villerville05.jpg")}
-                alt="villerville05"
+                src={require("../../img/littoral/cabourg1/cabourg105.jpg")}
+                alt="cabourg105"
                 className="photo"
               />
             </Zoom>
@@ -66,8 +66,17 @@ class Villerville extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/littoral/villerville/villerville06.jpg")}
-                alt="villerville06"
+                src={require("../../img/littoral/cabourg1/cabourg106.jpg")}
+                alt="cabourg106"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../img/littoral/cabourg1/cabourg107.jpg")}
+                alt="cabourg107"
                 className="photo"
               />
             </Zoom>
@@ -78,4 +87,4 @@ class Villerville extends Component {
   }
 }
 
-export default Villerville;
+export default Cabourg1;

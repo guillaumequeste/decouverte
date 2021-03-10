@@ -17,6 +17,7 @@ class Houlgate extends Component {
         <Header />
         <Footer />
         <div className="bodyLittoral">
+          <Previous prev={"dives-sur-mer"} />
           <h1 className="title">Houlgate</h1>
           <Next next={"villers-sur-mer2"} />
           <div className="divPhoto">

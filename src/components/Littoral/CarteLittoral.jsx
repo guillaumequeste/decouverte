@@ -14,14 +14,18 @@ export default class CarteLittoral extends Component {
     const ault = [50.1015635, 1.4473006];
     const baie = [50.2125115163148, 1.6683178464456194];
     const belleville = [49.9476778, 1.1637398];
+    const benerville_sur_mer = [49.339410335475336, 0.02752296973673296];
     const berck = [50.4052576, 1.5711617];
     const berneval = [49.9572664, 1.1888108];
     const blonville_sur_mer = [49.339868017999756, 0.028210862876303366];
     const boulogne = [50.7259985, 1.6118771];
+    const cabourg1 = [49.297396873701764, -0.10630096507771469];
     const cayeux = [50.1792004, 1.4933839];
     const cricqueboeuf = [49.405661299844944, 0.1414178236658703];
     const criel = [50.0160928, 1.3139444];
+    const deauville = [49.36353360295033, 0.06904659774387589];
     const dieppe = [49.9246182, 1.0791444];
+    const dives_sur_mer = [49.29495528599388, -0.09090491368977105];
     const equihen = [50.679393, 1.5716648];
     const etaples = [50.5139552, 1.6386252];
     const etretat = [49.7074621, 0.2031905];
@@ -43,6 +47,7 @@ export default class CarteLittoral extends Component {
     const mesnil_val = [50.0419433, 1.3340248];
     const pain_de_sucre = [49.50439041538592, 0.08321623597271177];
     const phare_de_la_heve = [49.51106215330866, 0.0684245703524411];
+    const port_dives_sur_mer = [49.29328608059495, -0.09653081069732616];
     const pourville = [49.916219, 1.0304797];
     const puys = [49.9365342, 1.117419];
     const quend = [50.322829094686696, 1.5461341515583582];
@@ -65,6 +70,8 @@ export default class CarteLittoral extends Component {
       49.50713945422277,
       0.07376828633311128
     ];
+    const trouville_sur_mer1 = [49.37410075048613, 0.08511754737730914];
+    const trouville_sur_mer2 = [49.36737101116615, 0.07552186080749923];
     const valleuse_boucherot = [49.64280588649105, 0.15316556140311022];
     const valleuse_de_vaucottes = [49.73798575146814, 0.2908350344303434];
     const varengeville = [49.9046335, 1.0021825];
@@ -126,6 +133,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/belleville/belleville01min.jpg")}
                       alt="belleville"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={benerville_sur_mer}>
+            <Popup minWidth={200}>
+              <Link to="/benerville-sur-mer" className="linkPlage">
+                <div className="lien">
+                  <div>Benerville-sur-Mer</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/benerville-sur-mer/benerville-sur-mer01min.jpg")}
+                      alt="benerville-sur-mer"
                       className="apercu"
                     />
                   </div>
@@ -197,6 +220,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={cabourg1}>
+            <Popup minWidth={200}>
+              <Link to="/cabourg1" className="linkPlage">
+                <div className="lien">
+                  <div>Cabourg 1</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/cabourg1/cabourg101min.jpg")}
+                      alt="cabourg1"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={cayeux}>
             <Popup minWidth={200}>
               <Link to="/cayeux" className="linkPlage">
@@ -245,6 +284,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={deauville}>
+            <Popup minWidth={200}>
+              <Link to="/deauville" className="linkPlage">
+                <div className="lien">
+                  <div>Deauville</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/deauville/deauville01min.jpg")}
+                      alt="deauville"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={dieppe}>
             <Popup minWidth={200}>
               <Link to="/dieppe" className="linkHippodrome">
@@ -254,6 +309,22 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/dieppe/dieppe01min.jpg")}
                       alt="dieppe"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={dives_sur_mer}>
+            <Popup minWidth={200}>
+              <Link to="/dives-sur-mer" className="linkHippodrome">
+                <div className="lien">
+                  <div>Dives-sur-Mer</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/dives-sur-mer/dives-sur-mer01min.jpg")}
+                      alt="dives-sur-mer"
                       className="apercu"
                     />
                   </div>
@@ -597,6 +668,22 @@ export default class CarteLittoral extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={port_dives_sur_mer}>
+            <Popup minWidth={200}>
+              <Link to="/port_dives-sur-mer" className="linkHippodrome">
+                <div className="lien">
+                  <div>Port de Dives-sur-Mer</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/port_dives-sur-mer/port_dives-sur-mer01min.jpg")}
+                      alt="port_dives-sur-mer"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={pourville}>
             <Popup minWidth={200}>
               <Link to="/pourville" className="linkHippodrome">
@@ -852,6 +939,38 @@ export default class CarteLittoral extends Component {
                     <img
                       src={require("../../img/littoral/table_d_orientation_sainte-adresse/table_d_orientation_sainte-adresse01min.jpg")}
                       alt="table_d_orientation_sainte-adresse"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={trouville_sur_mer1}>
+            <Popup minWidth={200}>
+              <Link to="/trouville-sur-mer1" className="linkHippodrome">
+                <div className="lien">
+                  <div>Trouville-sur-Mer 1</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/trouville-sur-mer1/trouville-sur-mer101min.jpg")}
+                      alt="trouville-sur-mer1"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={trouville_sur_mer2}>
+            <Popup minWidth={200}>
+              <Link to="/trouville-sur-mer2" className="linkHippodrome">
+                <div className="lien">
+                  <div>Trouville-sur-Mer 2</div>
+                  <div>
+                    <img
+                      src={require("../../img/littoral/trouville-sur-mer2/trouville-sur-mer201min.jpg")}
+                      alt="trouville-sur-mer2"
                       className="apercu"
                     />
                   </div>

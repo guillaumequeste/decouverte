@@ -9,14 +9,18 @@ import Littoral from './components/Littoral/Littoral'
 import Ault from './components/Littoral/Ault'
 import Baie from './components/Littoral/Baie'
 import Belleville from './components/Littoral/Belleville'
+import Benerville_sur_Mer from './components/Littoral/Benerville_sur_Mer'
 import Berck from './components/Littoral/Berck'
 import Berneval from './components/Littoral/Berneval'
 import Blonville_sur_Mer from './components/Littoral/Blonville_sur_Mer'
 import Boulogne from './components/Littoral/Boulogne'
+import Cabourg1 from './components/Littoral/Cabourg1'
 import Cayeux from './components/Littoral/Cayeux'
 import Cricqueboeuf from './components/Littoral/Cricqueboeuf'
 import Criel from './components/Littoral/Criel'
+import Deauville from './components/Littoral/Deauville'
 import Dieppe from './components/Littoral/Dieppe'
+import Dives_sur_Mer from './components/Littoral/Dives_sur_Mer'
 import Equihen from './components/Littoral/Equihen'
 import Etaples from './components/Littoral/Etaples'
 import Etretat from './components/Littoral/Etretat'
@@ -38,6 +42,7 @@ import Mers from './components/Littoral/Mers'
 import Mesnil_Val from './components/Littoral/Mesnil_Val'
 import Pain_de_Sucre from './components/Littoral/Pain_de_Sucre'
 import Phare_de_la_Heve from './components/Littoral/Phare_de_la_Heve'
+import Port_Dives_sur_Mer from './components/Littoral/Port_Dives_sur_Mer'
 import Pourville from './components/Littoral/Pourville'
 import Puys from './components/Littoral/Puys'
 import Quend from './components/Littoral/Quend'
@@ -54,6 +59,8 @@ import Sainte_Marguerite from './components/Littoral/Sainte_Marguerite'
 import Sotteville from './components/Littoral/Sotteville'
 import Stella from './components/Littoral/Stella'
 import Table_d_Orientation_Sainte_Adresse from './components/Littoral/Table_d_Orientation_Sainte_Adresse'
+import Trouville_sur_Mer1 from './components/Littoral/Trouville_sur_Mer1'
+import Trouville_sur_Mer2 from './components/Littoral/Trouville_sur_Mer2'
 import Valleuse_Boucherot from './components/Littoral/Valleuse_Boucherot'
 import Valleuse_de_Vaucottes from './components/Littoral/Valleuse_de_Vaucottes'
 import Varengeville from './components/Littoral/Varengeville'
@@ -232,14 +239,18 @@ const Root = () => (
             <Route path='/ault' component={Ault}/>
             <Route path='/baie_de_somme' component={Baie}/>
             <Route path='/belleville-sur-mer' component={Belleville}/>
+            <Route path='/benerville-sur-mer' component={Benerville_sur_Mer}/>
             <Route path='/berck' component={Berck}/>
             <Route path='/berneval' component={Berneval}/>
             <Route path='/blonville-sur-mer' component={Blonville_sur_Mer}/>
             <Route path='/boulogne' component={Boulogne}/>
+            <Route path='/cabourg1' component={Cabourg1}/>
             <Route path='/cayeux' component={Cayeux}/>
             <Route path='/cricqueboeuf' component={Cricqueboeuf}/>
             <Route path='/criel' component={Criel}/>
+            <Route path='/deauville' component={Deauville}/>
             <Route path='/dieppe' component={Dieppe}/>
+            <Route path='/dives-sur-mer' component={Dives_sur_Mer}/>
             <Route path='/equihen' component={Equihen}/>
             <Route path='/etaples' component={Etaples}/>
             <Route path='/etretat' component={Etretat}/>
@@ -261,6 +272,7 @@ const Root = () => (
             <Route path='/mesnil_val' component={Mesnil_Val}/>
             <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
             <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
+            <Route path='/port_dives-sur-mer' component={Port_Dives_sur_Mer}/>
             <Route path='/pourville' component={Pourville}/>
             <Route path='/puys' component={Puys}/>
             <Route path='/quend' component={Quend}/>
@@ -277,6 +289,8 @@ const Root = () => (
             <Route path='/sotteville' component={Sotteville}/>
             <Route path='/stella' component={Stella}/>
             <Route path='/table_d_orientation_sainte-adresse' component={Table_d_Orientation_Sainte_Adresse}/>
+            <Route path='/trouville-sur-mer1' component={Trouville_sur_Mer1}/>
+            <Route path='/trouville-sur-mer2' component={Trouville_sur_Mer2}/>
             <Route path='/valleuse_boucherot' component={Valleuse_Boucherot}/>
             <Route path='/valleuse_de_vaucottes' component={Valleuse_de_Vaucottes}/>
             <Route path='/varengeville' component={Varengeville}/>
