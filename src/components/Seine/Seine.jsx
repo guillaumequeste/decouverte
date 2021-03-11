@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
-import CarteSeine from './CarteSeine.jsx'
+import CarteSeine from './Carte_Seine/CarteSeine.jsx'
 import Leaflet from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import Fade from 'react-reveal/Fade'
