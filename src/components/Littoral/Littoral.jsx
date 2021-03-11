@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Header from '../Header'
 import Helmet from '../Helmet'
-import CarteLittoral from './CarteLittoral.jsx'
+import CarteLittoral from './Carte/CarteLittoral'
 import Leaflet from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import Fade from 'react-reveal/Fade'
-import Footer from '../../components/Footer'
+import Footer from '../Footer'
 
 Leaflet.Icon.Default.imagePath =
   '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/'
