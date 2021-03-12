@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
 import Littoral from './components/Littoral/Littoral'
+import Anse_du_Guesclin from './components/Littoral/Plages_Ile_et_Vilaine/Anse_du_Guesclin'
 import Ault from './components/Littoral/Plages_Somme/Ault'
 import Baie from './components/Littoral/Plages_Somme/Baie'
 import Belleville from './components/Littoral/Plages_Seine_Maritime/Belleville'
@@ -16,6 +17,8 @@ import Blonville_sur_Mer from './components/Littoral/Plages_Calvados/Blonville_s
 import Boulogne from './components/Littoral/Plages_Pas_de_Calais/Boulogne'
 import Cabourg1 from './components/Littoral/Plages_Calvados/Cabourg1'
 import Cabourg2 from './components/Littoral/Plages_Calvados/Cabourg2'
+import Cancale1 from './components/Littoral/Plages_Ile_et_Vilaine/Cancale1'
+import Cancale2 from './components/Littoral/Plages_Ile_et_Vilaine/Cancale2'
 import Cayeux from './components/Littoral/Plages_Somme/Cayeux'
 import Colleville_Montgomery from './components/Littoral/Plages_Calvados/Colleville_Montgomery'
 import Cricqueboeuf from './components/Littoral/Plages_Calvados/Cricqueboeuf'
@@ -36,6 +39,7 @@ import Le_Croquet from './components/Littoral/Plages_Seine_Maritime/Le_Croquet'
 import Le_Crotoy from './components/Littoral/Plages_Somme/Le_Crotoy'
 import Le_Havre from './components/Littoral/Plages_Seine_Maritime/Le_Havre'
 import Le_Hourdel from './components/Littoral/Plages_Somme/Le_Hourdel'
+import Saint_Coulomb from './components/Littoral/Plages_Ile_et_Vilaine/Saint_Coulomb'
 import Le_Touquet from './components/Littoral/Plages_Pas_de_Calais/Le_Touquet'
 import Le_Treport from './components/Littoral/Plages_Seine_Maritime/Le_Treport'
 import Les_Grandes_Dalles from './components/Littoral/Plages_Seine_Maritime/Les_Grandes_Dalles'
@@ -48,6 +52,7 @@ import Mesnil_Val from './components/Littoral/Plages_Seine_Maritime/Mesnil_Val'
 import Pain_de_Sucre from './components/Littoral/Plages_Seine_Maritime/Pain_de_Sucre'
 import Phare_de_la_Heve from './components/Littoral/Plages_Seine_Maritime/Phare_de_la_Heve'
 import Plage_Ouistreham from './components/Littoral/Plages_Calvados/Plage_Ouistreham'
+import Pointe_de_la_Varde from './components/Littoral/Plages_Ile_et_Vilaine/Pointe_de_la_Varde'
 import Pointe_Ouistreham from './components/Littoral/Plages_Calvados/Pointe_Ouistreham'
 import Port_Dives_sur_Mer from './components/Littoral/Plages_Calvados/Port_Dives_sur_Mer'
 import Port_Ouistreham from './components/Littoral/Plages_Calvados/Port_Ouistreham'
@@ -55,9 +60,13 @@ import Pourville from './components/Littoral/Plages_Seine_Maritime/Pourville'
 import Puys from './components/Littoral/Plages_Seine_Maritime/Puys'
 import Quend from './components/Littoral/Plages_Somme/Quend'
 import Quiberville from './components/Littoral/Plages_Seine_Maritime/Quiberville'
+import Rotheneuf1 from './components/Littoral/Plages_Ile_et_Vilaine/Rotheneuf1'
+import Rotheneuf2 from './components/Littoral/Plages_Ile_et_Vilaine/Rotheneuf2'
 import Saint_Aubin from './components/Littoral/Plages_Seine_Maritime/Saint_Aubin'
 import Saint_Jouin_Bruneval_Belvedere from './components/Littoral/Plages_Seine_Maritime/Saint_Jouin_Bruneval_Belvedere'
 import Saint_Jouin_Bruneval_Plage from './components/Littoral/Plages_Seine_Maritime/Saint_Jouin_Bruneval_Plage'
+import Saint_Malo1 from './components/Littoral/Plages_Ile_et_Vilaine/Saint_Malo1'
+import Saint_Malo2 from './components/Littoral/Plages_Ile_et_Vilaine/Saint_Malo2'
 import Saint_Pierre_en_Port from './components/Littoral/Plages_Seine_Maritime/Saint_Pierre_en_Port'
 import Saint_Valery_en_Caux from './components/Littoral/Plages_Seine_Maritime/Saint_Valery_en_Caux'
 import Saint_Valery_sur_Somme from './components/Littoral/Plages_Somme/Saint_Valery_sur_Somme'
@@ -245,6 +254,7 @@ const Root = () => (
             <Route exact path='/' component={App}/>
 
             <Route path='/littoral' component={Littoral}/>
+            <Route path='/anse_du_guesclin' component={Anse_du_Guesclin}/>
             <Route path='/ault' component={Ault}/>
             <Route path='/baie_de_somme' component={Baie}/>
             <Route path='/belleville-sur-mer' component={Belleville}/>
@@ -255,6 +265,8 @@ const Root = () => (
             <Route path='/boulogne' component={Boulogne}/>
             <Route path='/cabourg1' component={Cabourg1}/>
             <Route path='/cabourg2' component={Cabourg2}/>
+            <Route path='/cancale1' component={Cancale1}/>
+            <Route path='/cancale2' component={Cancale2}/>
             <Route path='/cayeux' component={Cayeux}/>
             <Route path='/colleville-montgomery' component={Colleville_Montgomery}/>
             <Route path='/cricqueboeuf' component={Cricqueboeuf}/>
@@ -275,6 +287,7 @@ const Root = () => (
             <Route path='/le_crotoy' component={Le_Crotoy}/>
             <Route path='/le_havre' component={Le_Havre}/>
             <Route path='/le_hourdel' component={Le_Hourdel}/>
+            <Route path='/saint-coulomb' component={Saint_Coulomb}/>
             <Route path='/le_touquet' component={Le_Touquet}/>
             <Route path='/le_treport' component={Le_Treport}/>
             <Route path='/les_grandes_dalles' component={Les_Grandes_Dalles}/>
@@ -287,6 +300,7 @@ const Root = () => (
             <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
             <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
             <Route path='/plage_ouistreham' component={Plage_Ouistreham}/>
+            <Route path='/pointe_de_la_varde' component={Pointe_de_la_Varde}/>
             <Route path='/pointe_ouistreham' component={Pointe_Ouistreham}/>
             <Route path='/port_dives-sur-mer' component={Port_Dives_sur_Mer}/>
             <Route path='/port_ouistreham' component={Port_Ouistreham}/>
@@ -294,9 +308,13 @@ const Root = () => (
             <Route path='/puys' component={Puys}/>
             <Route path='/quend' component={Quend}/>
             <Route path='/quiberville' component={Quiberville}/>
+            <Route path='/rotheneuf1' component={Rotheneuf1}/>
+            <Route path='/rotheneuf2' component={Rotheneuf2}/>
             <Route path='/saint-aubin' component={Saint_Aubin}/>
             <Route path='/saint-jouin-bruneval_belvedere' component={Saint_Jouin_Bruneval_Belvedere}/>
             <Route path='/saint-jouin-bruneval_plage' component={Saint_Jouin_Bruneval_Plage}/>
+            <Route path='/saint-malo1' component={Saint_Malo1}/>
+            <Route path='/saint-malo2' component={Saint_Malo2}/>
             <Route path='/saint-pierre-en-port' component={Saint_Pierre_en_Port}/>
             <Route path='/saint-valery-en-caux' component={Saint_Valery_en_Caux}/>
             <Route path='/saint-valery-sur-somme' component={Saint_Valery_sur_Somme}/>
