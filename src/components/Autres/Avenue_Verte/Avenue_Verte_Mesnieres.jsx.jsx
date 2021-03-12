@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Header from "../Header";
-import Helmet from "../Helmet";
+import Header from "../../Header";
+import Helmet from "../../Helmet";
 import Zoom from "react-reveal/Zoom";
-import Footer from "../../components/Footer";
-import Previous from "../Previous";
+import Footer from "../../Footer";
+import Previous from "../../Previous";
 
 class Avenue_Verte_Mesnieres extends Component {
   render() {
@@ -20,7 +20,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <h1 className="title">Abbaye verte Mesnières-en-Bray</h1>
           <div className="divPhoto">
             <img
-              src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres01.jpg")}
+              src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres01.jpg")}
               alt="avenue_verte_mesnieres01"
               className="photo"
             />
@@ -28,7 +28,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres02.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres02.jpg")}
                 alt="avenue_verte_mesnieres02"
                 className="photo"
               />
@@ -37,7 +37,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres03.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres03.jpg")}
                 alt="avenue_verte_mesnieres03"
                 className="photo"
               />
@@ -46,7 +46,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres04.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres04.jpg")}
                 alt="avenue_verte_mesnieres04"
                 className="photo"
               />
@@ -55,7 +55,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres05.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres05.jpg")}
                 alt="avenue_verte_mesnieres05"
                 className="photo"
               />
@@ -64,7 +64,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres06.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres06.jpg")}
                 alt="avenue_verte_mesnieres06"
                 className="photo"
               />
@@ -73,7 +73,7 @@ class Avenue_Verte_Mesnieres extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres07.jpg")}
+                src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres07.jpg")}
                 alt="avenue_verte_mesnieres07"
                 className="photo"
               />

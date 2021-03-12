@@ -15,7 +15,7 @@ class Tapisserie_Bayeux extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="tititleAutrestle">Tapisserie de Bayeux</h1>
+          <h1 className="titleAutres">Tapisserie de Bayeux</h1>
           <div className="divPhoto">
                         <img src={require("../../img/autres/tapisserie_bayeux/tapisserie_bayeux.png")} alt="tapisserie_bayeux" className="photo"/>
                     </div>

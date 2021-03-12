@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Header from "../Header";
-import Helmet from "../Helmet";
+import Header from "../../Header";
+import Helmet from "../../Helmet";
 import Zoom from "react-reveal/Zoom";
-import Footer from "../../components/Footer";
-import Next from "../Next";
-import Previous from "../Previous";
+import Footer from "../../Footer";
+import Next from "../../Next";
+import Previous from "../../Previous";
 
 class Avenue_Verte_Dampierre extends Component {
   render() {
@@ -22,7 +22,7 @@ class Avenue_Verte_Dampierre extends Component {
           <Next next={"avenue_verte_meulers"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre01.jpg")}
+              src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre01.jpg")}
               alt="avenue_verte_dampierre01"
               className="photo"
             />
@@ -30,7 +30,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre02.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre02.jpg")}
                 alt="avenue_verte_dampierre02"
                 className="photo"
               />
@@ -39,7 +39,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre03.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre03.jpg")}
                 alt="avenue_verte_dampierre03"
                 className="photo"
               />
@@ -48,7 +48,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre04.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre04.jpg")}
                 alt="avenue_verte_dampierre04"
                 className="photo"
               />
@@ -57,7 +57,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre05.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre05.jpg")}
                 alt="avenue_verte_dampierre05"
                 className="photo"
               />
@@ -66,7 +66,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre06.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre06.jpg")}
                 alt="avenue_verte_dampierre06"
                 className="photo"
               />
@@ -75,7 +75,7 @@ class Avenue_Verte_Dampierre extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre07.jpg")}
+                src={require("../../../img/autres/avenue_verte_dampierre/avenue_verte_dampierre07.jpg")}
                 alt="avenue_verte_dampierre07"
                 className="photo"
               />

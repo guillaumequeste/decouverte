@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Header from "../Header";
-import Helmet from "../Helmet";
+import Header from "../../Header";
+import Helmet from "../../Helmet";
 import Zoom from "react-reveal/Zoom";
-import Footer from "../../components/Footer";
-import Next from "../Next";
-import Previous from "../Previous";
+import Footer from "../../Footer";
+import Next from "../../Next";
+import Previous from "../../Previous";
 
 class Avenue_Verte_Saint_Vaast extends Component {
   render() {
@@ -22,7 +22,7 @@ class Avenue_Verte_Saint_Vaast extends Component {
           <Next next={"avenue_verte_osmoy"} />
           <div className="divPhoto">
             <img
-              src={require("../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast01.jpg")}
+              src={require("../../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast01.jpg")}
               alt="avenue_verte_saint-vaast01"
               className="photo"
             />
@@ -30,7 +30,7 @@ class Avenue_Verte_Saint_Vaast extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast02.jpg")}
+                src={require("../../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast02.jpg")}
                 alt="avenue_verte_saint-vaast02"
                 className="photo"
               />
@@ -39,7 +39,7 @@ class Avenue_Verte_Saint_Vaast extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast03.jpg")}
+                src={require("../../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast03.jpg")}
                 alt="avenue_verte_saint-vaast03"
                 className="photo"
               />
@@ -48,7 +48,7 @@ class Avenue_Verte_Saint_Vaast extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast04.jpg")}
+                src={require("../../../img/autres/avenue_verte_saint-vaast/avenue_verte_saint-vaast04.jpg")}
                 alt="avenue_verte_saint-vaast04"
                 className="photo"
               />
