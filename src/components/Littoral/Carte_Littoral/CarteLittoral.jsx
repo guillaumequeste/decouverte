@@ -6,6 +6,8 @@ import Littoral_Somme from './Littoral_Somme'
 import Littoral_Seine_Maritime from './Littoral_Seine_Maritime'
 import Littoral_Calvados from './Littoral_Calvados'
 import Littoral_Ile_et_Vilaine from './Littoral_Ile_et_Vilaine'
+import Littoral_Aude from './Littoral_Aude'
+import Littoral_Gironde from './Littoral_Gironde'
 
 export default class CarteLittoral extends Component {
   state = {
@@ -30,6 +32,8 @@ export default class CarteLittoral extends Component {
           <Littoral_Somme />
           <Littoral_Pas_de_Calais />
           <Littoral_Ile_et_Vilaine />
+          <Littoral_Aude />
+          <Littoral_Gironde />
 
         </Map>
       </div>

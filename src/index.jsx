@@ -26,6 +26,7 @@ import Criel from './components/Littoral/Plages_Seine_Maritime/Criel'
 import Deauville from './components/Littoral/Plages_Calvados/Deauville'
 import Dieppe from './components/Littoral/Plages_Seine_Maritime/Dieppe'
 import Dives_sur_Mer from './components/Littoral/Plages_Calvados/Dives_sur_Mer'
+import Dune_du_Pilat from './components/Littoral/Plages_Gironde/Dune_du_Pilat'
 import Equihen from './components/Littoral/Plages_Pas_de_Calais/Equihen'
 import Etaples from './components/Littoral/Plages_Pas_de_Calais/Etaples'
 import Etretat from './components/Littoral/Plages_Seine_Maritime/Etretat'
@@ -49,6 +50,7 @@ import Merlimont from './components/Littoral/Plages_Pas_de_Calais/Merlimont'
 import Merville_Franceville_Plage from './components/Littoral/Plages_Calvados/Merville_Franceville_Plage'
 import Mers from './components/Littoral/Plages_Somme/Mers'
 import Mesnil_Val from './components/Littoral/Plages_Seine_Maritime/Mesnil_Val'
+import Narbonne from './components/Littoral/Plages_Aude/Narbonne'
 import Pain_de_Sucre from './components/Littoral/Plages_Seine_Maritime/Pain_de_Sucre'
 import Phare_de_la_Heve from './components/Littoral/Plages_Seine_Maritime/Phare_de_la_Heve'
 import Plage_Ouistreham from './components/Littoral/Plages_Calvados/Plage_Ouistreham'
@@ -204,6 +206,7 @@ import Cathedrale_Beauvais from './components/Autres/Patrimoine_Oise/Cathedrale_
 import Cathedrale_Reims from './components/Autres/Patrimoine_Marne/Cathedrale_Reims'
 import Cathedrale_Rouen from './components/Autres/Patrimoine_Seine_Maritime/Cathedrale_Rouen'
 import Champagne_Lanson from './components/Autres/Patrimoine_Marne/Champagne_Lanson'
+import Chateau_Carrouges from './components/Autres/Patrimoine_Orne/Chateau_Carrouges.jsx'
 import Chateau_Chantilly from './components/Autres/Patrimoine_Oise/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Patrimoine_Seine_Maritime/Chateau_Dieppe'
 import Chateau_Fontainebleau from './components/Autres/Patrimoine_Seine_et_Marne/Chateau_Fontainebleau'
@@ -274,6 +277,7 @@ const Root = () => (
             <Route path='/deauville' component={Deauville}/>
             <Route path='/dieppe' component={Dieppe}/>
             <Route path='/dives-sur-mer' component={Dives_sur_Mer}/>
+            <Route path='/dune_du_pilat' component={Dune_du_Pilat}/>
             <Route path='/equihen' component={Equihen}/>
             <Route path='/etaples' component={Etaples}/>
             <Route path='/etretat' component={Etretat}/>
@@ -297,6 +301,7 @@ const Root = () => (
             <Route path='/merville-franceville-plage' component={Merville_Franceville_Plage}/>
             <Route path='/mers' component={Mers}/>
             <Route path='/mesnil_val' component={Mesnil_Val}/>
+            <Route path='/narbonne' component={Narbonne}/>
             <Route path='/pain_de_sucre' component={Pain_de_Sucre}/>
             <Route path='/phare_de_la_heve' component={Phare_de_la_Heve}/>
             <Route path='/plage_ouistreham' component={Plage_Ouistreham}/>
@@ -453,6 +458,7 @@ const Root = () => (
             <Route path='/cathedrale_reims' component={Cathedrale_Reims}/>
             <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
             <Route path='/champagne_lanson' component={Champagne_Lanson}/>
+            <Route path='/chateau_carrouges' component={Chateau_Carrouges}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
             <Route path='/chateau_fontainebleau' component={Chateau_Fontainebleau}/>
