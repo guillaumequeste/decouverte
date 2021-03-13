@@ -326,6 +326,7 @@ body {
 .photo {
     width: 80vw;
     height: 30vh;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .photoGrosHorloge {
