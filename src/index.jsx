@@ -219,6 +219,7 @@ import Eglise_Saint_Joseph from './components/Autres/Patrimoine_Seine_Maritime/E
 import Estran from './components/Autres/Patrimoine_Seine_Maritime/Estran.jsx'
 import Giverny from './components/Autres/Patrimoine_Eure/Giverny'
 import Gros_Horloge from './components/Autres/Patrimoine_Seine_Maritime/Gros_Horloge'
+import Haras_du_Pin from './components/Autres/Patrimoine_Orne/Haras_du_Pin'
 import Hortillonnages from './components/Autres/Patrimoine_Somme/Hortillonnages'
 import Lac_du_Salagou from './components/Autres/Patrimoine_Herault/Lac_du_Salagou'
 import Le_Bec_Hellouin from './components/Autres/Patrimoine_Eure/Le_Bec_Hellouin'
@@ -469,6 +470,7 @@ const Root = () => (
             <Route path='/estran' component={Estran}/>
             <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
+            <Route path='/haras_du_pin' component={Haras_du_Pin}/>
             <Route path='/hortillonnages' component={Hortillonnages}/>
             <Route path='/lac_du_salagou' component={Lac_du_Salagou}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
