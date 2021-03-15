@@ -63,7 +63,7 @@ class Chateau_Fontainebleau extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://www.chateaudefontainebleau.fr" target="_blank">
+              <a href="https://www.chateaudefontainebleau.fr" target="_blank" rel="noopener noreferrer">
                 Château de Fontainebleau
               </a>
             </p>

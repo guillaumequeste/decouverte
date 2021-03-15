@@ -41,6 +41,7 @@ class Basilique_Lisieux extends Component {
               <a
                 href="https://www.therese-de-lisieux.catholique.fr/lisieux/la-basilique/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Basilique Sainte-Thérèse de Lisieux
               </a>

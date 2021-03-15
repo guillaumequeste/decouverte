@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Harcourt extends Component {
@@ -37,7 +36,7 @@ class Chateau_Harcourt extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.harcourt-normandie.fr/" target="_blank">
+              <a href="http://www.harcourt-normandie.fr/" target="_blank" rel="noopener noreferrer">
                 Château d'Harcourt
               </a>
             </p>

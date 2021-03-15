@@ -34,6 +34,7 @@ class Puy_de_Dome extends Component {
               <a
                 href="https://www.panoramiquedesdomes.fr/page/le-puy-de-dome"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Puy de Dôme
               </a>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Maison_Jules_Verne extends Component {
@@ -36,6 +35,7 @@ class Maison_Jules_Verne extends Component {
               <a
                 href="https://www.amiens.fr/Vivre-a-Amiens/Culture-Patrimoine/Etablissements-culturels/Maison-de-Jules-Verne"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Maison de Jules Verne
               </a>

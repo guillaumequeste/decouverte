@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Musee_Beaux_Arts extends Component {
@@ -55,7 +54,7 @@ class Musee_Beaux_Arts extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://mbarouen.fr/fr" target="_blank">
+              <a href="https://mbarouen.fr/fr" target="_blank" rel="noopener noreferrer">
                 Musée des Beaux Arts
               </a>
             </p>

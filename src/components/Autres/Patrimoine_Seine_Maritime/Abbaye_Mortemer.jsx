@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Abbaye_Mortemer extends Component {
@@ -36,7 +35,7 @@ class Abbaye_Mortemer extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.abbaye-de-mortemer.fr/" target="_blank">
+              <a href="http://www.abbaye-de-mortemer.fr/" target="_blank" rel="noopener noreferrer">
                 Abbaye de Mortemer
               </a>
             </p>

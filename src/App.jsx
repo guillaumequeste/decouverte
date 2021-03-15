@@ -39,7 +39,7 @@ const App = () => (
           <div className="part partAutres">
             <div className="part2">
               <h1 className="textTitleApp">
-              <div className="textTitleApp2">Autres</div>
+              <div className="textTitleApp2">Patrimoine</div>
               </h1>
             </div>
           </div>

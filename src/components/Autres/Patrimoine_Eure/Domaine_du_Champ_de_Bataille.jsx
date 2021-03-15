@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Domaine_du_Champ_de_Bataille extends Component {
@@ -44,6 +43,7 @@ class Domaine_du_Champ_de_Bataille extends Component {
               <a
                 href="https://www.chateauduchampdebataille.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Domaine du Champ de Bataille
               </a>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Abbaye_Saint_Georges_Boscherville extends Component {
@@ -41,7 +40,7 @@ class Abbaye_Saint_Georges_Boscherville extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.abbaye-saint-georges.com/" target="_blank">
+              <a href="http://www.abbaye-saint-georges.com/" target="_blank" rel="noopener noreferrer">
                 Abbaye Romane Saint Georges de Boscherville
               </a>
             </p>

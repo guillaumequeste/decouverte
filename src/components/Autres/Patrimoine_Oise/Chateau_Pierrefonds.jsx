@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Pierrefonds extends Component {
@@ -40,7 +39,7 @@ class Chateau_Pierrefonds extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.chateau-pierrefonds.fr/" target="_blank">
+              <a href="http://www.chateau-pierrefonds.fr/" target="_blank" rel="noopener noreferrer">
                 Château de Pierrefonds
               </a>
             </p>

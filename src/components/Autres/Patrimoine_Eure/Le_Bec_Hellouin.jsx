@@ -37,6 +37,7 @@ class Le_Bec_Hellouin extends Component {
               <a
                 href="https://www.les-plus-beaux-villages-de-france.org/fr/nos-villages/le-bec-hellouin/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Le Bec-Hellouin
               </a>

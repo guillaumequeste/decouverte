@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Chantilly extends Component {
@@ -47,7 +46,7 @@ class Chateau_Chantilly extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://domainedechantilly.com/fr/" target="_blank">
+              <a href="https://domainedechantilly.com/fr/" target="_blank" rel="noopener noreferrer">
                 Domaine de Chantilly
               </a>
             </p>

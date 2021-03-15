@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Panorama_XXL extends Component {
@@ -41,7 +40,7 @@ class Panorama_XXL extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.panoramaxxl.com/" target="_blank">
+              <a href="http://www.panoramaxxl.com/" target="_blank" rel="noopener noreferrer">
                 Panorama XXL
               </a>
             </p>

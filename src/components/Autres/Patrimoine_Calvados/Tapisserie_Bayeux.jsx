@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Tapisserie_Bayeux extends Component {
@@ -17,8 +16,12 @@ class Tapisserie_Bayeux extends Component {
         <div className="bodyAutres">
           <h1 className="titleAutres">Tapisserie de Bayeux</h1>
           <div className="divPhoto">
-                        <img src={require("../../../img/autres/tapisserie_bayeux/tapisserie_bayeux.png")} alt="tapisserie_bayeux" className="photo"/>
-                    </div>
+            <img
+              src={require("../../../img/autres/tapisserie_bayeux/tapisserie_bayeux.png")}
+              alt="tapisserie_bayeux"
+              className="photo"
+            />
+          </div>
           <div className="container">
             <p>
               La tapisserieNote de Bayeux, aussi connue sous le nom de «
@@ -48,7 +51,16 @@ class Tapisserie_Bayeux extends Component {
               présentée au public au centre Guillaume le Conquérant qui lui est
               entièrement dédié.
             </p>
-            <p className="lienSiteOfficiel">Site officiel : <a href="https://www.bayeuxmuseum.com/la-tapisserie-de-bayeux/" target="_blank">Tapisserie de Bayeux</a></p>
+            <p className="lienSiteOfficiel">
+              Site officiel :{" "}
+              <a
+                href="https://www.bayeuxmuseum.com/la-tapisserie-de-bayeux/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tapisserie de Bayeux
+              </a>
+            </p>
           </div>
         </div>
       </div>

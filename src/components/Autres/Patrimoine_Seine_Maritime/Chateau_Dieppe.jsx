@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Dieppe extends Component {
@@ -37,6 +36,7 @@ class Chateau_Dieppe extends Component {
               <a
                 href="https://www.dieppe.fr/mini-sites/musee-de-dieppe"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Ville de Dieppe - Musée de Dieppe
               </a>

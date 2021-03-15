@@ -34,7 +34,7 @@ class Abbaye_Notre_Dame_du_Bec extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://abbayedubec.org/" target="_blank">
+              <a href="https://abbayedubec.org/" target="_blank" rel="noopener noreferrer">
                 Abbaye de Notre-Dame du Bec
               </a>
             </p>

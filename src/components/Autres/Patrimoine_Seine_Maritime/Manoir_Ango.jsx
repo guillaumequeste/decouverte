@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Manoir_Ango extends Component {
@@ -36,6 +35,7 @@ class Manoir_Ango extends Component {
               <a
                 href="https://www.manoirdango.fr/Site_Manoir_dAngo/Manoir_dAngo.html"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Manoir d'Ango
               </a>

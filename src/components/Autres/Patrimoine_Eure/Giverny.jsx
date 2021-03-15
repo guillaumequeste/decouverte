@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Giverny extends Component {
@@ -39,7 +38,7 @@ class Giverny extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://fondation-monet.com/" target="_blank">
+              <a href="https://fondation-monet.com/" target="_blank" rel="noopener noreferrer">
                 Fondation Claude Monet
               </a>
             </p>

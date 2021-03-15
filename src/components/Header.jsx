@@ -49,7 +49,7 @@ class Header extends Component {
                   className="nav-link"
                   to="/autres"
                 >
-                  Autres
+                  Patrimoine
                 </NavLink>
               </li>
               <li className="nav-item">

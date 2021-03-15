@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Vascoeuil extends Component {
@@ -36,7 +35,7 @@ class Chateau_Vascoeuil extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.chateauvascoeuil.com/" target="_blank">
+              <a href="http://www.chateauvascoeuil.com/" target="_blank" rel="noopener noreferrer">
                 Château de Vascoeuil
               </a>
             </p>

@@ -42,6 +42,7 @@ class Lillebonne extends Component {
               <a
                 href="http://www.theatrelillebonne.fr/fr/home/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Théâtre romain de Lillebonne
               </a>

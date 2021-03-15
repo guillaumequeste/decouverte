@@ -21,7 +21,7 @@ class Autres extends Component {
                 <Footer />
                 <div className="mapAutres">
                     <div className="divMapLittoral">
-                        <h1 className="titleLittoral">Map Autres</h1>
+                        <h1 className="titleLittoral">Map Patrimoine</h1>
                         <Fade bottom>
                             <CarteAutres />
                         </Fade>

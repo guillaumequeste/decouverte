@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Chateau_Carrouges extends Component {
@@ -38,7 +37,7 @@ class Chateau_Carrouges extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://chateau-carrouges.fr" target="_blank">
+              <a href="http://chateau-carrouges.fr" target="_blank" rel="noopener noreferrer">
                 Château de Carrouges
               </a>
             </p>

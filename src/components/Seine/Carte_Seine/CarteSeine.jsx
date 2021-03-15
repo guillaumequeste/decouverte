@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import { Link } from "react-router-dom";
-import Seine_Seine_Maritime from './Seine_Seine_Maritime'
-import Seine_Eure from './Seine_Eure'
-import Seine_Yvelines from './Seine_Yvelines'
-import Seine_Hauts_de_Seine from './Seine_Hauts_de_Seine'
-import Seine_Paris from './Seine_Paris'
-import Seine_Calvados from './Seine_Calvados'
+import { Map, TileLayer } from "react-leaflet";
+import SeineSeineMaritime from './Seine_Seine_Maritime'
+import SeineEure from './Seine_Eure'
+import SeineYvelines from './Seine_Yvelines'
+import SeineHautsDeSeine from './Seine_Hauts_de_Seine'
+import SeineParis from './Seine_Paris'
+import SeineCalvados from './Seine_Calvados'
 
 export default class CarteSeine extends Component {
   state = {
@@ -26,12 +25,12 @@ export default class CarteSeine extends Component {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           
-          <Seine_Calvados />
-          <Seine_Paris />
-          <Seine_Hauts_de_Seine />
-          <Seine_Yvelines />
-          <Seine_Eure />
-          <Seine_Seine_Maritime />
+          <SeineCalvados />
+          <SeineParis />
+          <SeineHautsDeSeine />
+          <SeineYvelines />
+          <SeineEure />
+          <SeineSeineMaritime />
           
         </Map>
       </div>

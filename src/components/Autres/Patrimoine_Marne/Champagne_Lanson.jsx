@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Champagne_Lanson extends Component {
@@ -40,6 +39,7 @@ class Champagne_Lanson extends Component {
               <a
                 href="https://www.lanson.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Champagne Lanson
               </a>

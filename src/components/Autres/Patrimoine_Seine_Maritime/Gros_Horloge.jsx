@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
-import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
 
 class Gros_Horloge extends Component {
@@ -34,7 +33,7 @@ class Gros_Horloge extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="https://rouen.fr/gros-horloge" target="_blank">
+              <a href="https://rouen.fr/gros-horloge" target="_blank" rel="noopener noreferrer">
                 Le Gros-Horloge
               </a>
             </p>

@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import { Link } from "react-router-dom";
-import Littoral_Pas_de_Calais from './Littoral_Pas_de_Calais'
-import Littoral_Somme from './Littoral_Somme'
-import Littoral_Seine_Maritime from './Littoral_Seine_Maritime'
-import Littoral_Calvados from './Littoral_Calvados'
-import Littoral_Ile_et_Vilaine from './Littoral_Ile_et_Vilaine'
-import Littoral_Aude from './Littoral_Aude'
-import Littoral_Gironde from './Littoral_Gironde'
+import { Map, TileLayer } from "react-leaflet";
+import LittoralPasDeCalais from './Littoral_Pas_de_Calais'
+import LittoralSomme from './Littoral_Somme'
+import LittoralSeineMaritime from './Littoral_Seine_Maritime'
+import LittoralCalvados from './Littoral_Calvados'
+import LittoralIleEtVilaine from './Littoral_Ile_et_Vilaine'
+import LittoralAude from './Littoral_Aude'
+import LittoralGironde from './Littoral_Gironde'
 
 export default class CarteLittoral extends Component {
   state = {
@@ -27,13 +26,13 @@ export default class CarteLittoral extends Component {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
-          <Littoral_Calvados />
-          <Littoral_Seine_Maritime />
-          <Littoral_Somme />
-          <Littoral_Pas_de_Calais />
-          <Littoral_Ile_et_Vilaine />
-          <Littoral_Aude />
-          <Littoral_Gironde />
+          <LittoralCalvados />
+          <LittoralSeineMaritime />
+          <LittoralSomme />
+          <LittoralPasDeCalais />
+          <LittoralIleEtVilaine />
+          <LittoralAude />
+          <LittoralGironde />
 
         </Map>
       </div>

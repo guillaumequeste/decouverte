@@ -37,6 +37,7 @@ class Memorial extends Component {
               <a
                 href="https://www.dieppe.fr/mini-sites/19-aout-1942/les-lieux-de-memoire-181/le-memorial-du-19-aout-1942-636"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Mémorial du 19 août 1942
               </a>

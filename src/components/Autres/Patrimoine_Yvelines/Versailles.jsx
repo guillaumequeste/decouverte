@@ -45,7 +45,7 @@ class Versailles extends Component {
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
-              <a href="http://www.chateauversailles.fr/" target="_blank">
+              <a href="http://www.chateauversailles.fr/" target="_blank" rel="noopener noreferrer">
                 Château de Versailles
               </a>
             </p>

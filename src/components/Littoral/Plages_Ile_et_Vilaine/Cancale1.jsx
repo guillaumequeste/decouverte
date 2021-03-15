@@ -3,7 +3,6 @@ import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Zoom from "react-reveal/Zoom";
 import Footer from "../../Footer";
-import Next from "../../Next";
 import Previous from "../../Previous";
 
 class Cancale1 extends Component {

@@ -40,6 +40,7 @@ class Eglise_Saint_Joseph extends Component {
               <a
                 href="http://unesco.lehavre.fr/fr/decouvrir/leglise-saint-joseph"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Eglise Saint-Joseph
               </a>
