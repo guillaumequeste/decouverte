@@ -249,9 +249,11 @@ import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
+import ScrollToTop from './components/ScrollToTop'
 
 const Root = () => (
     <Router>
+        <ScrollToTop />
         <Switch>
             <Route exact path='/' component={App}/>
 
