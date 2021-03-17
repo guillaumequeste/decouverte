@@ -191,6 +191,7 @@ import Autres from './components/Autres/Autres'
 import Abbaye_Mortemer from './components/Autres/Patrimoine_Seine_Maritime/Abbaye_Mortemer'
 import Abbaye_Notre_Dame_du_Bec from './components/Autres/Patrimoine_Eure/Abbaye_Notre_Dame_du_Bec'
 import Abbaye_Saint_Georges_Boscherville from './components/Autres/Patrimoine_Seine_Maritime/Abbaye_Saint_Georges_Boscherville'
+import Arc_de_Triomphe from './components/Autres/Patrimoine_Paris/Arc_de_Triomphe'
 import Auvers_sur_Oise from './components/Autres/Patrimoine_Val_d_Oise/Auvers_sur_Oise'
 import Avenue_Verte_Arques from './components/Autres/Avenue_Verte/Avenue_Verte_Arques'
 import Avenue_Verte_Dampierre from './components/Autres/Avenue_Verte/Avenue_Verte_Dampierre'
@@ -440,10 +441,11 @@ const Root = () => (
             <Route path='/villequier' component={Villequier}/>
             <Route path='/villers-sur-le-roule' component={Villers_sur_le_Roule}/>
 
-            <Route path='/autres' component={Autres}/>
+            <Route path='/patrimoine' component={Autres}/>
             <Route path='/abbaye_mortemer' component={Abbaye_Mortemer}/>
             <Route path='/abbaye_notre-dame_du_bec' component={Abbaye_Notre_Dame_du_Bec}/>
             <Route path='/abbaye_saint_georges_boscherville' component={Abbaye_Saint_Georges_Boscherville}/>
+            <Route path='/arc_de_triomphe' component={Arc_de_Triomphe}/>
             <Route path='/auvers-sur-oise' component={Auvers_sur_Oise}/>
             <Route path='/avenue_verte_arques' component={Avenue_Verte_Arques}/>
             <Route path='/avenue_verte_dampierre' component={Avenue_Verte_Dampierre}/>

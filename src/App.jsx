@@ -35,7 +35,7 @@ const App = () => (
         </Link>
       </Flip>
       <Flip left>
-        <Link to="/autres" className="titleApp">
+        <Link to="/patrimoine" className="titleApp">
           <div className="part partAutres">
             <div className="part2">
               <h1 className="textTitleApp">

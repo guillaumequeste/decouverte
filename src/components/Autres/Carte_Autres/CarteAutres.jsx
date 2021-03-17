@@ -16,6 +16,7 @@ import AutresGard from './Autres_Gard'
 import AutresPuyDeDome from './Autres_Puy_de_Dome'
 import AutresYvelines from './Autres_Yvelines'
 import AutresOrne from './Autres_Orne'
+import AutresParis from './Autres_Paris'
 
 export default class CarteAutres extends Component {
   state = {
@@ -51,6 +52,7 @@ export default class CarteAutres extends Component {
           <AutresPuyDeDome />
           <AutresYvelines />
           <AutresOrne />
+          <AutresParis />
           
         </Map>
       </div>
