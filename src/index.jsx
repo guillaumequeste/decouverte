@@ -192,6 +192,7 @@ import Abbaye_Mortemer from './components/Autres/Patrimoine_Seine_Maritime/Abbay
 import Abbaye_Notre_Dame_du_Bec from './components/Autres/Patrimoine_Eure/Abbaye_Notre_Dame_du_Bec'
 import Abbaye_Saint_Georges_Boscherville from './components/Autres/Patrimoine_Seine_Maritime/Abbaye_Saint_Georges_Boscherville'
 import Arc_de_Triomphe from './components/Autres/Patrimoine_Paris/Arc_de_Triomphe'
+import Arenes_Lutece from './components/Autres/Patrimoine_Paris/Arenes_Lutece'
 import Auvers_sur_Oise from './components/Autres/Patrimoine_Val_d_Oise/Auvers_sur_Oise'
 import Avenue_Verte_Arques from './components/Autres/Avenue_Verte/Avenue_Verte_Arques'
 import Avenue_Verte_Dampierre from './components/Autres/Avenue_Verte/Avenue_Verte_Dampierre'
@@ -201,7 +202,12 @@ import Avenue_Verte_Osmoy from './components/Autres/Avenue_Verte/Avenue_Verte_Os
 import Avenue_Verte_Saint_Aubin_le_Cauf from './components/Autres/Avenue_Verte/Avenue_Verte_Saint_Aubin_le_Cauf.jsx'
 import Avenue_Verte_Saint_Vaast from './components/Autres/Avenue_Verte/Avenue_Verte_Saint_Vaast.jsx'
 import Basilique_Lisieux from './components/Autres/Patrimoine_Calvados/Basilique_Lisieux'
+import Basilique_Saint_Denis from './components/Autres/Patrimoine_Paris/Basilique_Saint_Denis'
 import Biomarine from './components/Autres/Patrimoine_Seine_Maritime/Biomarine'
+import BNF from './components/Autres/Patrimoine_Paris/BNF'
+import Buttes_Chaumont from './components/Autres/Patrimoine_Paris/Buttes_Chaumont'
+import Carrousel_Louvre from './components/Autres/Patrimoine_Paris/Carrousel_Louvre'
+import Catacombes from './components/Autres/Patrimoine_Paris/Catacombes'
 import Cathedrale_Amiens from './components/Autres/Patrimoine_Somme/Cathedrale_Amiens'
 import Cathedrale_Beauvais from './components/Autres/Patrimoine_Oise/Cathedrale_Beauvais'
 import Cathedrale_Reims from './components/Autres/Patrimoine_Marne/Cathedrale_Reims'
@@ -446,6 +452,7 @@ const Root = () => (
             <Route path='/abbaye_notre-dame_du_bec' component={Abbaye_Notre_Dame_du_Bec}/>
             <Route path='/abbaye_saint_georges_boscherville' component={Abbaye_Saint_Georges_Boscherville}/>
             <Route path='/arc_de_triomphe' component={Arc_de_Triomphe}/>
+            <Route path='/arenes_lutece' component={Arenes_Lutece}/>
             <Route path='/auvers-sur-oise' component={Auvers_sur_Oise}/>
             <Route path='/avenue_verte_arques' component={Avenue_Verte_Arques}/>
             <Route path='/avenue_verte_dampierre' component={Avenue_Verte_Dampierre}/>
@@ -455,7 +462,12 @@ const Root = () => (
             <Route path='/avenue_verte_saint-aubin-le-cauf' component={Avenue_Verte_Saint_Aubin_le_Cauf}/>
             <Route path='/avenue_verte_saint-vaast' component={Avenue_Verte_Saint_Vaast}/>
             <Route path='/basilique_lisieux' component={Basilique_Lisieux}/>
+            <Route path='/basilique_saint-denis' component={Basilique_Saint_Denis}/>
             <Route path='/biomarine' component={Biomarine}/>
+            <Route path='/bnf' component={BNF}/>
+            <Route path='/buttes_chaumont' component={Buttes_Chaumont}/>
+            <Route path='/carrousel_louvre' component={Carrousel_Louvre}/>
+            <Route path='/catacombes' component={Catacombes}/>
             <Route path='/cathedrale_amiens' component={Cathedrale_Amiens}/>
             <Route path='/cathedrale_beauvais' component={Cathedrale_Beauvais}/>
             <Route path='/cathedrale_reims' component={Cathedrale_Reims}/>

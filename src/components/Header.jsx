@@ -47,7 +47,7 @@ class Header extends Component {
                   exact
                   activeClassName="active"
                   className="nav-link"
-                  to="/autres"
+                  to="/patrimoine"
                 >
                   Patrimoine
                 </NavLink>
