@@ -233,6 +233,14 @@ import Eglise_Saint_Joseph from './components/Autres/Patrimoine_Seine_Maritime/E
 import Eglise_Saint_Julien_le_Pauvre from './components/Autres/Patrimoine_Paris/Eglise_Saint_Julien_le_Pauvre'
 import Eglise_Saint_Sulpice from './components/Autres/Patrimoine_Paris/Eglise_Saint_Sulpice'
 import Estran from './components/Autres/Patrimoine_Seine_Maritime/Estran.jsx'
+import Funiculaire_Montmartre from './components/Autres/Patrimoine_Paris/Funiculaire_Montmartre.jsx'
+import Funiculaire_Treport from './components/Autres/Patrimoine_Seine_Maritime/Funiculaire_Treport.jsx'
+import Galerie_Colbert from './components/Autres/Patrimoine_Paris/Galerie_Colbert.jsx'
+import Galeries_Lafayette from './components/Autres/Patrimoine_Paris/Galeries_Lafayette.jsx'
+import Galerie_Vero_Dodat from './components/Autres/Patrimoine_Paris/Galerie_Vero_Dodat.jsx'
+import Galerie_Vivienne from './components/Autres/Patrimoine_Paris/Galerie_Vivienne.jsx'
+import Gare_Montparnasse from './components/Autres/Patrimoine_Paris/Gare_Montparnasse.jsx'
+import Gare_Saint_Lazare from './components/Autres/Patrimoine_Paris/Gare_Saint_Lazare.jsx'
 import Giverny from './components/Autres/Patrimoine_Eure/Giverny'
 import Gros_Horloge from './components/Autres/Patrimoine_Seine_Maritime/Gros_Horloge'
 import Haras_du_Pin from './components/Autres/Patrimoine_Orne/Haras_du_Pin'
@@ -502,6 +510,14 @@ const Root = () => (
             <Route path='/eglise_saint-julien-le-pauvre' component={Eglise_Saint_Julien_le_Pauvre}/>
             <Route path='/eglise_saint-sulpice' component={Eglise_Saint_Sulpice}/>
             <Route path='/estran' component={Estran}/>
+            <Route path='/funiculaire_montmartre' component={Funiculaire_Montmartre}/>
+            <Route path='/funiculaire_treport' component={Funiculaire_Treport}/>
+            <Route path='/galerie_colbert' component={Galerie_Colbert}/>
+            <Route path='/galeries_lafayette' component={Galeries_Lafayette}/>
+            <Route path='/galerie_vero-dodat' component={Galerie_Vero_Dodat}/>
+            <Route path='/galerie_vivienne' component={Galerie_Vivienne}/>
+            <Route path='/gare_montparnasse' component={Gare_Montparnasse}/>
+            <Route path='/gare_saint-lazare' component={Gare_Saint_Lazare}/>
             <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/haras_du_pin' component={Haras_du_Pin}/>

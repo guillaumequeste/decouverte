@@ -15,6 +15,7 @@ export default class Autres_Seine_Maritime extends Component {
     const cimetiere_des_canadiens = [49.89598399948992, 1.0678900255719181];
     const eglise_saint_joseph = [49.49094960069601, 0.10123783788756668];
     const estran = [49.93065912643744, 1.083684613302509];
+    const funiculaire_treport = [50.06039722363084, 1.3673788489056493];
     const gros_horloge = [49.44151701844756, 1.0912492166726517];
     const le_sentier_du_verger = [49.803514393904294, 1.1779511566367296];
     const lillebonne = [49.51799724241, 0.5367753386982388];
@@ -152,6 +153,22 @@ export default class Autres_Seine_Maritime extends Component {
                     <img
                       src={require("../../../img/autres/estran/estran.jpeg")}
                       alt="estran"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={funiculaire_treport}>
+            <Popup minWidth={200}>
+              <Link to="/funiculaire_treport" className="linkPlage">
+                <div className="lien">
+                  <div>Funiculaire du Tréport</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/funiculaire_treport/funiculaire_treport.jpeg")}
+                      alt="funiculaire_treport"
                       className="apercu"
                     />
                   </div>

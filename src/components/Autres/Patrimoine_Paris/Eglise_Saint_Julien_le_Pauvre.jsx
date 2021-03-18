@@ -18,7 +18,7 @@ class Eglise_Saint_Julien_le_Pauvre extends Component {
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="titleAutres">Eglise Saint-Julien_le-Pauvre</h1>
+          <h1 className="titleAutres">Eglise Saint-Julien-le-Pauvre</h1>
           <div className="divPhoto">
             <img
               src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
