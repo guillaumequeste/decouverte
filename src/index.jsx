@@ -212,6 +212,8 @@ import Cathedrale_Amiens from './components/Autres/Patrimoine_Somme/Cathedrale_A
 import Cathedrale_Beauvais from './components/Autres/Patrimoine_Oise/Cathedrale_Beauvais'
 import Cathedrale_Reims from './components/Autres/Patrimoine_Marne/Cathedrale_Reims'
 import Cathedrale_Rouen from './components/Autres/Patrimoine_Seine_Maritime/Cathedrale_Rouen'
+import Cathedrale_Sainte_Trinite from './components/Autres/Patrimoine_Paris/Cathedrale_Sainte_Trinite'
+import Centre_Pompidou from './components/Autres/Patrimoine_Paris/Centre_Pompidou'
 import Champagne_Lanson from './components/Autres/Patrimoine_Marne/Champagne_Lanson'
 import Chateau_Carrouges from './components/Autres/Patrimoine_Orne/Chateau_Carrouges.jsx'
 import Chateau_Chantilly from './components/Autres/Patrimoine_Oise/Chateau_Chantilly.jsx'
@@ -472,6 +474,8 @@ const Root = () => (
             <Route path='/cathedrale_beauvais' component={Cathedrale_Beauvais}/>
             <Route path='/cathedrale_reims' component={Cathedrale_Reims}/>
             <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
+            <Route path='/cathedrale_sainte_trinite' component={Cathedrale_Sainte_Trinite}/>
+            <Route path='/centre_pompidou' component={Centre_Pompidou}/>
             <Route path='/champagne_lanson' component={Champagne_Lanson}/>
             <Route path='/chateau_carrouges' component={Chateau_Carrouges}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>

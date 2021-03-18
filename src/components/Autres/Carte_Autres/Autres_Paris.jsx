@@ -11,6 +11,8 @@ export default class Autres_Paris extends Component {
     const buttes_chaumont = [48.8776770998102, 2.3799030008548243];
     const carrousel_louvre = [48.8628, 2.3348399999999856];
     const catacombes = [48.833964, 2.3324924];
+    const catherale_sainte_trinite = [48.86188119477401, 2.301068542327812];
+    const centre_pompidou = [48.86062131486451, 2.35247186085212];
 
     return (
       <div>
@@ -119,6 +121,38 @@ export default class Autres_Paris extends Component {
                     <img
                       src={require("../../../img/autres/catacombes/catacombes.jpeg")}
                       alt="catacombes"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={catherale_sainte_trinite}>
+            <Popup minWidth={200}>
+              <Link to="/cathedrale_sainte_trinite" className="linkPlage">
+                <div className="lien">
+                  <div>Catherale de la Sainte-Trinité</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
+                      alt="arc_de_triomphe"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={centre_pompidou}>
+            <Popup minWidth={200}>
+              <Link to="/centre_pompidou" className="linkPlage">
+                <div className="lien">
+                  <div>Centre Pompidou</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
+                      alt="arc_de_triomphe"
                       className="apercu"
                     />
                   </div>
