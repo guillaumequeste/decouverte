@@ -13,6 +13,13 @@ export default class Autres_Paris extends Component {
     const catacombes = [48.833964, 2.3324924];
     const catherale_sainte_trinite = [48.86188119477401, 2.301068542327812];
     const centre_pompidou = [48.86062131486451, 2.35247186085212];
+    const champ_de_mars = [48.85565166326895, 2.298588752746582];
+    const champs_elysees = [48.87262793802567, 2.298660869038713];
+    const cite_du_cinema = [48.922640257476935, 2.336547374725342];
+    const coulee_verte = [48.84938276601615, 2.3714590072631836];
+    const eglise_saint_germain_des_pres = [48.85396450348454, 2.33434796333313];
+    const eglise_saint_julien_le_pauvre = [48.85202314049355, 2.347126007080078];
+    const eglise_saint_sulpice = [48.850987235120066, 2.334597404754618];
 
     return (
       <div>
@@ -151,8 +158,120 @@ export default class Autres_Paris extends Component {
                   <div>Centre Pompidou</div>
                   <div>
                     <img
-                      src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-                      alt="arc_de_triomphe"
+                      src={require("../../../img/autres/centre_pompidou/centre_pompidou.jpeg")}
+                      alt="centre_pompidou"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={champ_de_mars}>
+            <Popup minWidth={200}>
+              <Link to="/champ_de_mars" className="linkPlage">
+                <div className="lien">
+                  <div>Champ de Mars</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/champ_de_mars/champ_de_mars.jpeg")}
+                      alt="champ_de_mars"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={champs_elysees}>
+            <Popup minWidth={200}>
+              <Link to="/champs_elysees" className="linkPlage">
+                <div className="lien">
+                  <div>Champs Elysées</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/champs_elysees/champs_elysees.jpeg")}
+                      alt="champs_elysees"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={cite_du_cinema}>
+            <Popup minWidth={200}>
+              <Link to="/cite_du_cinema" className="linkPlage">
+                <div className="lien">
+                  <div>Cité du cinéma</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
+                      alt="cite_du_cinema"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={coulee_verte}>
+            <Popup minWidth={200}>
+              <Link to="/coulee_verte" className="linkPlage">
+                <div className="lien">
+                  <div>Coulée verte</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
+                      alt="coulee_verte"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={eglise_saint_germain_des_pres}>
+            <Popup minWidth={200}>
+              <Link to="/eglise_saint-germain-des-pres" className="linkPlage">
+                <div className="lien">
+                  <div>Eglise Saint-Germain-des-Prés</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
+                      alt="coulee_verte"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={eglise_saint_julien_le_pauvre}>
+            <Popup minWidth={200}>
+              <Link to="/eglise_saint-julien-le-pauvre" className="linkPlage">
+                <div className="lien">
+                  <div>Eglise Saint-Julien-le-Pauvre</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
+                      alt="coulee_verte"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={eglise_saint_sulpice}>
+            <Popup minWidth={200}>
+              <Link to="/eglise_saint-sulpice" className="linkPlage">
+                <div className="lien">
+                  <div>Eglise Saint-Sulpice</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
+                      alt="coulee_verte"
                       className="apercu"
                     />
                   </div>

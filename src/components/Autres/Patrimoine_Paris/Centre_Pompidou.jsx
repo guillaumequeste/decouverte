@@ -19,8 +19,8 @@ class Centre_Pompidou extends Component {
           </h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/centre_pompidou/centre_pompidou.jpeg")}
+              alt="centre_pompidou"
               className="photo"
             />
           </div>

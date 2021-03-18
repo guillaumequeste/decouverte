@@ -215,6 +215,8 @@ import Cathedrale_Rouen from './components/Autres/Patrimoine_Seine_Maritime/Cath
 import Cathedrale_Sainte_Trinite from './components/Autres/Patrimoine_Paris/Cathedrale_Sainte_Trinite'
 import Centre_Pompidou from './components/Autres/Patrimoine_Paris/Centre_Pompidou'
 import Champagne_Lanson from './components/Autres/Patrimoine_Marne/Champagne_Lanson'
+import Champ_de_Mars from './components/Autres/Patrimoine_Paris/Champ_de_Mars'
+import Champs_Elysees from './components/Autres/Patrimoine_Paris/Champs_Elysees'
 import Chateau_Carrouges from './components/Autres/Patrimoine_Orne/Chateau_Carrouges.jsx'
 import Chateau_Chantilly from './components/Autres/Patrimoine_Oise/Chateau_Chantilly.jsx'
 import Chateau_Dieppe from './components/Autres/Patrimoine_Seine_Maritime/Chateau_Dieppe'
@@ -223,8 +225,13 @@ import Chateau_Harcourt from './components/Autres/Patrimoine_Eure/Chateau_Harcou
 import Chateau_Pierrefonds from './components/Autres/Patrimoine_Oise/Chateau_Pierrefonds'
 import Chateau_Vascoeuil from './components/Autres/Patrimoine_Eure/Chateau_Vascoeuil'
 import Cimetiere_des_Canadiens from './components/Autres/Patrimoine_Seine_Maritime/Cimetiere_des_Canadiens'
+import Cite_du_Cinema from './components/Autres/Patrimoine_Paris/Cite_du_Cinema'
+import Coulee_Verte from './components/Autres/Patrimoine_Paris/Coulee_Verte'
 import Domaine_du_Champ_de_Bataille from './components/Autres/Patrimoine_Eure/Domaine_du_Champ_de_Bataille'
+import Eglise_Saint_Germain_des_Pres from './components/Autres/Patrimoine_Paris/Eglise_Saint_Germain_des_Pres'
 import Eglise_Saint_Joseph from './components/Autres/Patrimoine_Seine_Maritime/Eglise_Saint_Joseph'
+import Eglise_Saint_Julien_le_Pauvre from './components/Autres/Patrimoine_Paris/Eglise_Saint_Julien_le_Pauvre'
+import Eglise_Saint_Sulpice from './components/Autres/Patrimoine_Paris/Eglise_Saint_Sulpice'
 import Estran from './components/Autres/Patrimoine_Seine_Maritime/Estran.jsx'
 import Giverny from './components/Autres/Patrimoine_Eure/Giverny'
 import Gros_Horloge from './components/Autres/Patrimoine_Seine_Maritime/Gros_Horloge'
@@ -477,6 +484,8 @@ const Root = () => (
             <Route path='/cathedrale_sainte_trinite' component={Cathedrale_Sainte_Trinite}/>
             <Route path='/centre_pompidou' component={Centre_Pompidou}/>
             <Route path='/champagne_lanson' component={Champagne_Lanson}/>
+            <Route path='/champs_elysees' component={Champs_Elysees}/>
+            <Route path='/champ_de_mars' component={Champ_de_Mars}/>
             <Route path='/chateau_carrouges' component={Chateau_Carrouges}/>
             <Route path='/chateau_chantilly' component={Chateau_Chantilly}/>
             <Route path='/chateau_dieppe' component={Chateau_Dieppe}/>
@@ -485,8 +494,13 @@ const Root = () => (
             <Route path='/chateau_pierrefonds' component={Chateau_Pierrefonds}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
             <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
+            <Route path='/cite_du_cinema' component={Cite_du_Cinema}/>
+            <Route path='/coulee_verte' component={Coulee_Verte}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
+            <Route path='/eglise_saint-germain-des-pres' component={Eglise_Saint_Germain_des_Pres}/>
             <Route path='/eglise_saint-joseph' component={Eglise_Saint_Joseph}/>
+            <Route path='/eglise_saint-julien-le-pauvre' component={Eglise_Saint_Julien_le_Pauvre}/>
+            <Route path='/eglise_saint-sulpice' component={Eglise_Saint_Sulpice}/>
             <Route path='/estran' component={Estran}/>
             <Route path='/giverny' component={Giverny}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
