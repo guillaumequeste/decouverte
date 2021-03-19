@@ -26,43 +26,24 @@ class Sacre_Coeur extends Component {
           </div>
           <div className="container">
             <p>
-              La ligne de Petite Ceinture de Paris, communément désignée sous le
-              nom de « Petite Ceinture », est une ligne de chemin de fer à
-              double voie de 32 kilomètres de longueur faisant le tour de Paris
-              à l'intérieur des boulevards des Maréchaux. Bien que faisant
-              toujours partie du réseau ferré national, elle est aujourd'hui
-              inutilisée sur la majeure partie de son parcours. Ouverte par
-              tronçons de 1852 à 1869, la ligne a d'abord pour but de permettre
-              aux trains de marchandises de contourner Paris en évitant les
-              gares terminales. À partir de 1862, elle intègre la ligne
-              d'Auteuil dans sa partie occidentale et s'ouvre aux voyageurs,
-              offrant des services circulaires à travers les quartiers
-              périphériques de la capitale. Après l'apogée du trafic à 38
-              millions lors de l'exposition universelle de 1900, la Petite
-              Ceinture connaît une longue période de déclin qui voit la ligne
-              délaissée par les Parisiens en raison de la concurrence croissante
-              du métropolitain et ses fréquences peu attractives. En
-              conséquence, la ligne est définitivement fermée au trafic des
-              voyageurs le 23 juillet 1934. Seule subsiste une partie de la
-              ligne d'Auteuil, qui est intégrée depuis 1988 à la ligne C du RER
-              pour former la nouvelle ligne d'Ermont - Eaubonne à Champ-de-Mars.
-              La Petite Ceinture constitue la ligne 955 0001 du réseau ferré
-              national sous le nom de « ligne de La Rapée à Batignolles », 971
-              0001 pour la ligne d'Auteuil sous le nom de « ligne de
-              Pont-Cardinet à Auteuil-Boulogne » et 980 0001 pour le tronçon
-              suivant, sous le nom de « ligne d'Auteuil-Boulogne à La Rapée ».
-              Laissées en friche, les infrastructures ont aujourd'hui été
-              envahies par la végétation, ce qui donne à la ligne une atmosphère
-              particulière et a permis le développement d'une biodiversité
-              unique à Paris. Si l'accès demeure théoriquement interdit, la
-              Petite Ceinture est donc particulièrement prisée des amateurs
-              d'exploration urbaine et accueille, de temps en temps, des
-              activités culturelles. La question de la réouverture ou de la
-              reconversion de la Petite Ceinture est régulièrement au cœur des
-              débats politiques parisiens. Depuis 2007, la municipalité a
-              entrepris de transformer certaines portions en coulées vertes, le
-              maintien de la plateforme laissant toutefois possible une future
-              réouverture au trafic de voyageurs.
+              La basilique du Sacré-Cœur de Montmartre, dite du Vœu national,
+              située au sommet de la butte Montmartre, dans le quartier de
+              Clignancourt du 18e arrondissement de Paris (France), est un
+              édifice religieux parisien majeur, « sanctuaire de l'adoration
+              eucharistique et de la miséricorde divine » et propriété de
+              l'archidiocèse de Paris1. La construction de cette église,
+              monument à la fois politique et culturel, suit l'après-guerre de
+              1870. Elle est déclarée d'utilité publique par une loi votée le 24
+              juillet 1873 par l'Assemblée nationale de 1871 ; le bâtiment est
+              officiellement achevé en 1923. Elle s'inscrit dans le contexte de
+              recharge sacrale et dans le cadre d'un nouvel « ordre moral »2
+              faisant suite aux événements de la Commune de Paris, dont
+              Montmartre fut un des hauts lieux. Sa situation à 130 m d'altitude
+              près de l'un des points culminants de Paris, et son dôme qui
+              s'élève à 83 mètres, la rendent visible de très loin. Avec près de
+              onze millions de pèlerins et visiteurs par an, c'est le deuxième
+              monument religieux parisien le plus visité après la cathédrale
+              Notre-Dame de Paris.
             </p>
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
