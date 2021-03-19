@@ -54,6 +54,13 @@ export default class Autres_Paris extends Component {
     const passage_des_panoramas = [48.8715151, 2.3419216];
     const passage_du_grand_cerf = [48.8647, 2.3501099999999724];
     const pere_lachaise = [48.86145078869662, 2.3964662542755377];
+    const petite_ceinture = [48.82136394186036, 2.3504663583358933];
+    const petit_palais = [48.866021060751876, 2.3138524048183626];
+    const rue_des_thermopyles = [48.8329, 2.3184099999999717];
+    const sacre_coeur = [48.886210238849394, 2.3431308824621055];
+    const square_vert_galant = [48.85744790485559, 2.340282794923496];
+    const stade_jean_bouin = [48.8432317969697, 2.2529955311081267];
+    const tour_montparnasse = [48.8420898, 2.3219569];
 
     return (
       <div>
@@ -802,6 +809,118 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
                     alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={petite_ceinture}>
+          <Popup minWidth={200}>
+            <Link to="/petite_ceinture" className="linkPlage">
+              <div className="lien">
+                <div>Petite Ceinture de Paris</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={petit_palais}>
+          <Popup minWidth={200}>
+            <Link to="/petit_palais" className="linkPlage">
+              <div className="lien">
+                <div>Petit Palais</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
+                    alt="petit_palais"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={rue_des_thermopyles}>
+          <Popup minWidth={200}>
+            <Link to="/rue_des_thermopyles" className="linkPlage">
+              <div className="lien">
+                <div>Rue des Thermopyles</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
+                    alt="petit_palais"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={sacre_coeur}>
+          <Popup minWidth={200}>
+            <Link to="/sacre-coeur" className="linkPlage">
+              <div className="lien">
+                <div>Basilique du Sacré-Coeur</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/sacre-coeur/sacre-coeur.jpeg")}
+                    alt="sacre-coeur"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={square_vert_galant}>
+          <Popup minWidth={200}>
+            <Link to="/square_vert_galant" className="linkPlage">
+              <div className="lien">
+                <div>Square vert galant</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
+                    alt="petit_palais"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={rue_des_thermopyles}>
+          <Popup minWidth={200}>
+            <Link to="/rue_des_thermopyles" className="linkPlage">
+              <div className="lien">
+                <div>Rue des Thermopyles</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
+                    alt="petit_palais"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={rue_des_thermopyles}>
+          <Popup minWidth={200}>
+            <Link to="/rue_des_thermopyles" className="linkPlage">
+              <div className="lien">
+                <div>Rue des Thermopyles</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
+                    alt="petit_palais"
                     className="apercu"
                   />
                 </div>

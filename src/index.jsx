@@ -283,12 +283,16 @@ import Passage_Brady from './components/Autres/Patrimoine_Paris/Passage_Brady.js
 import Passage_des_Panoramas from './components/Autres/Patrimoine_Paris/Passage_des_Panoramas.jsx'
 import Passage_du_Grand_Cerf from './components/Autres/Patrimoine_Paris/Passage_du_Grand_Cerf.jsx'
 import Pere_Lachaise from './components/Autres/Patrimoine_Paris/Pere_Lachaise.jsx'
+import Petite_Ceinture from './components/Autres/Patrimoine_Paris/Petite_Ceinture.jsx'
 import Petite_France from './components/Autres/Patrimoine_Bas_Rhin/Petite_France.jsx'
+import Petit_Palais from './components/Autres/Patrimoine_Paris/Petit_Palais.jsx'
 import Phare_d_Ailly from './components/Autres/Patrimoine_Seine_Maritime/Phare_d_Ailly'
 import Plan_eau_Canada from './components/Autres/Patrimoine_Oise/Plan_eau_Canada.jsx'
 import Pont_du_Gard from './components/Autres/Patrimoine_Gard/Pont_du_Gard'
 import Puy_de_Dome from './components/Autres/Patrimoine_Puy_de_Dome/Puy_de_Dome'
 import Quartier_Saint_Leu from './components/Autres/Patrimoine_Somme/Quartier_Saint_Leu'
+import Rue_des_Thermopyles from './components/Autres/Patrimoine_Paris/Rue_des_Thermopyles.jsx'
+import Sacre_Coeur from './components/Autres/Patrimoine_Paris/Sacre_Coeur.jsx'
 import Tapisserie_Bayeux from './components/Autres/Patrimoine_Calvados/Tapisserie_Bayeux'
 import Varenne from './components/Autres/Patrimoine_Seine_Maritime/Varenne'
 import Versailles from './components/Autres/Patrimoine_Yvelines/Versailles'
@@ -584,12 +588,16 @@ const Root = () => (
             <Route path='/passage_des_panoramas' component={Passage_des_Panoramas}/>
             <Route path='/passage_du_grand_cerf' component={Passage_du_Grand_Cerf}/>
             <Route path='/pere-lachaise' component={Pere_Lachaise}/>
+            <Route path='/petite_ceinture' component={Petite_Ceinture}/>
             <Route path='/petite_france' component={Petite_France}/>
+            <Route path='/petit_palais' component={Petit_Palais}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>
             <Route path='/pont_du_gard' component={Pont_du_Gard}/>
             <Route path='/puy_de_dome' component={Puy_de_Dome}/>
             <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
+            <Route path='/rue_des_thermopyles' component={Rue_des_Thermopyles}/>
+            <Route path='/sacre-coeur' component={Sacre_Coeur}/>
             <Route path='/tapisserie_bayeux' component={Tapisserie_Bayeux}/>
             <Route path='/varenne' component={Varenne}/>
             <Route path='/versailles' component={Versailles}/>
