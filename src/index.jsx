@@ -242,19 +242,32 @@ import Galerie_Vivienne from './components/Autres/Patrimoine_Paris/Galerie_Vivie
 import Gare_Montparnasse from './components/Autres/Patrimoine_Paris/Gare_Montparnasse.jsx'
 import Gare_Saint_Lazare from './components/Autres/Patrimoine_Paris/Gare_Saint_Lazare.jsx'
 import Giverny from './components/Autres/Patrimoine_Eure/Giverny'
+import Grande_Arche from './components/Autres/Patrimoine_Paris/Grande_Arche'
 import Gros_Horloge from './components/Autres/Patrimoine_Seine_Maritime/Gros_Horloge'
 import Haras_du_Pin from './components/Autres/Patrimoine_Orne/Haras_du_Pin'
 import Hortillonnages from './components/Autres/Patrimoine_Somme/Hortillonnages'
+import Jardin_Palais_Royal from './components/Autres/Patrimoine_Paris/Jardin_Palais_Royal'
+import Jardin_Tuileries from './components/Autres/Patrimoine_Paris/Jardin_Tuileries'
 import Lac_du_Salagou from './components/Autres/Patrimoine_Herault/Lac_du_Salagou'
 import Le_Bec_Hellouin from './components/Autres/Patrimoine_Eure/Le_Bec_Hellouin'
 import Le_Sentier_du_Verger from './components/Autres/Patrimoine_Seine_Maritime/Le_Sentier_du_Verger'
 import Maison_Jules_Verne from './components/Autres/Patrimoine_Somme/Maison_Jules_Verne'
 import Lillebonne from './components/Autres/Patrimoine_Seine_Maritime/Lillebonne'
+import Louvre from './components/Autres/Patrimoine_Paris/Louvre'
 import Manoir_Ango from './components/Autres/Patrimoine_Seine_Maritime/Manoir_Ango'
+import Martyrium from './components/Autres/Patrimoine_Paris/Martyrium'
 import Memorial from './components/Autres/Patrimoine_Seine_Maritime/Memorial'
 import Montreuil_sur_Mer from './components/Autres/Patrimoine_Pas_de_Calais/Montreuil_sur_Mer'
 import Musee_Beaux_Arts from './components/Autres/Patrimoine_Seine_Maritime/Musee_Beaux_Arts'
+import Musee_Carte from './components/Autres/Patrimoine_Paris/Musee_Carte'
+import Musee_Egouts from './components/Autres/Patrimoine_Paris/Musee_Egouts'
 import Musee_Emma_Bovary from './components/Autres/Patrimoine_Seine_Maritime/Musee_Emma_Bovary'
+import Musee_Grevin from './components/Autres/Patrimoine_Paris/Musee_Grevin'
+import Musee_Jacquemart from './components/Autres/Patrimoine_Paris/Musee_Jacquemart'
+import Musee_Marmottan_Monet from './components/Autres/Patrimoine_Paris/Musee_Marmottan_Monet'
+import Musee_Monnaie from './components/Autres/Patrimoine_Paris/Musee_Monnaie'
+import Musee_Orsay from './components/Autres/Patrimoine_Paris/Musee_Orsay'
+import Musee_Parfum from './components/Autres/Patrimoine_Paris/Musee_Parfum'
 import Panorama_Evreux from './components/Autres/Patrimoine_Eure/Panorama_Evreux'
 import Panorama_Marais_Vernier from './components/Autres/Patrimoine_Eure/Panorama_Marais_Vernier'
 import Panorama_Vert_Village from './components/Autres/Patrimoine_Eure/Panorama_Vert_Village'
@@ -519,19 +532,32 @@ const Root = () => (
             <Route path='/gare_montparnasse' component={Gare_Montparnasse}/>
             <Route path='/gare_saint-lazare' component={Gare_Saint_Lazare}/>
             <Route path='/giverny' component={Giverny}/>
+            <Route path='/grande_arche' component={Grande_Arche}/>
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/haras_du_pin' component={Haras_du_Pin}/>
             <Route path='/hortillonnages' component={Hortillonnages}/>
+            <Route path='/jardin_palais_royal' component={Jardin_Palais_Royal}/>
+            <Route path='/jardin_tuileries' component={Jardin_Tuileries}/>
             <Route path='/lac_du_salagou' component={Lac_du_Salagou}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
+            <Route path='/louvre' component={Louvre}/>
             <Route path='/maison_jules_verne' component={Maison_Jules_Verne}/>
             <Route path='/manoir_ango' component={Manoir_Ango}/>
+            <Route path='/martyrium' component={Martyrium}/>
             <Route path='/memorial' component={Memorial}/>
             <Route path='/montreuil-sur-mer' component={Montreuil_sur_Mer}/>
             <Route path='/musee_beaux_arts' component={Musee_Beaux_Arts}/>
+            <Route path='/musee_carte' component={Musee_Carte}/>
+            <Route path='/musee_egouts' component={Musee_Egouts}/>
             <Route path='/musee_emma_bovary' component={Musee_Emma_Bovary}/>
+            <Route path='/musee_grevin' component={Musee_Grevin}/>
+            <Route path='/musee_jacquemart' component={Musee_Jacquemart}/>
+            <Route path='/musee_marmottan_monet' component={Musee_Marmottan_Monet}/>
+            <Route path='/musee_monnaie' component={Musee_Monnaie}/>
+            <Route path='/musee_orsay' component={Musee_Orsay}/>
+            <Route path='/musee_parfum' component={Musee_Parfum}/>
             <Route path='/panorama_evreux' component={Panorama_Evreux}/>
             <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
             <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>

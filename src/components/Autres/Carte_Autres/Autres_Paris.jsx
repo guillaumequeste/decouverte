@@ -30,6 +30,19 @@ export default class Autres_Paris extends Component {
     const galerie_vivienne = [48.8665963, 2.3401302];
     const gare_montparnasse = [48.841161677872485, 2.319732040987219];
     const gare_saint_lazare = [48.876302407887714, 2.3254001140594482];
+    const grande_arche = [48.89259960797655, 2.2361040115356445];
+    const jardin_palais_royal = [48.86498295934279, 2.337791919708252];
+    const jardin_tuileries = [48.86338786861697, 2.32785701751709];
+    const louvre = [48.86062104200994, 2.337641716003418];
+    const martyrium = [48.8840838, 2.3402373];
+    const musee_carte = [48.8226911, 2.2734484];
+    const musee_egouts = [48.86272243617286, 2.3023888852596883];
+    const musee_grevin = [48.8718365, 2.3420974];
+    const musee_jacquemart = [48.8753, 2.3107700000000477];
+    const musee_marmottan_monet = [48.8592281, 2.2671622];
+    const musee_monnaie = [48.85688380612597, 2.338897187415455];
+    const musee_orsay = [48.8599179, 2.3265828];
+    const musee_parfum = [48.8714998, 2.314865];
 
     return (
       <div>
@@ -394,6 +407,214 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/gare_saint-lazare/gare_saint-lazare.jpeg")}
                     alt="gare_saint-lazare"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={grande_arche}>
+          <Popup minWidth={200}>
+            <Link to="/grande_arche" className="linkPlage">
+              <div className="lien">
+                <div>Grande Arche de la Défense</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
+                    alt="grande_arche"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={jardin_palais_royal}>
+          <Popup minWidth={200}>
+            <Link to="/jardin_palais_royal" className="linkPlage">
+              <div className="lien">
+                <div>Jardin du Palais Royal</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
+                    alt="grande_arche"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={jardin_tuileries}>
+          <Popup minWidth={200}>
+            <Link to="/jardin_tuileries" className="linkPlage">
+              <div className="lien">
+                <div>Jardin des Tuileries</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
+                    alt="grande_arche"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={louvre}>
+          <Popup minWidth={200}>
+            <Link to="/louvre" className="linkPlage">
+              <div className="lien">
+                <div>Musée du Louvre</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/louvre/louvre.jpeg")}
+                    alt="louvre"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={martyrium}>
+          <Popup minWidth={200}>
+            <Link to="/jardin_tuileries" className="linkPlage">
+              <div className="lien">
+                <div>Crypte du martyrium de Saint Denis</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/martyrium/martyrium.jpeg")}
+                    alt="martyrium"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_carte}>
+          <Popup minWidth={200}>
+            <Link to="/musee_carte" className="linkPlage">
+              <div className="lien">
+                <div>Musée français de la Carte à Jouer</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_carte/musee_carte.jpeg")}
+                    alt="musee_carte"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_egouts}>
+          <Popup minWidth={200}>
+            <Link to="/musee_egouts" className="linkPlage">
+              <div className="lien">
+                <div>Musée des Egouts de Paris</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_egouts/musee_egouts.jpeg")}
+                    alt="musee_egouts"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_grevin}>
+          <Popup minWidth={200}>
+            <Link to="/musee_grevin" className="linkPlage">
+              <div className="lien">
+                <div>Musée Grévin</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_grevin/musee_grevin.png")}
+                    alt="musee_grevin"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_jacquemart}>
+          <Popup minWidth={200}>
+            <Link to="/musee_jacquemart" className="linkPlage">
+              <div className="lien">
+                <div>Musée Jacquemart-André</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_jacquemart/musee_jacquemart.jpeg")}
+                    alt="musee_jacquemart"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_marmottan_monet}>
+          <Popup minWidth={200}>
+            <Link to="/musee_marmottan_monet" className="linkPlage">
+              <div className="lien">
+                <div>Musée Marmottan Monet</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_marmottan_monet/musee_marmottan_monet.jpeg")}
+                    alt="musee_marmottan_monet"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_monnaie}>
+          <Popup minWidth={200}>
+            <Link to="/musee_monnaie" className="linkPlage">
+              <div className="lien">
+                <div>Musée de la Monnaie de Paris</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_monnaie/musee_monnaie.jpeg")}
+                    alt="musee_monnaie"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_orsay}>
+          <Popup minWidth={200}>
+            <Link to="/musee_orsay" className="linkPlage">
+              <div className="lien">
+                <div>Musée d'Orsay</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
+                    alt="musee_orsay"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={musee_parfum}>
+          <Popup minWidth={200}>
+            <Link to="/musee_parfum" className="linkPlage">
+              <div className="lien">
+                <div>Grand Musée du Parfum</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
+                    alt="musee_orsay"
                     className="apercu"
                   />
                 </div>
