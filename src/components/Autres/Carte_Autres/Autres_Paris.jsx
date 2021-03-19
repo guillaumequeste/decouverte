@@ -43,6 +43,11 @@ export default class Autres_Paris extends Component {
     const musee_monnaie = [48.85688380612597, 2.338897187415455];
     const musee_orsay = [48.8599179, 2.3265828];
     const musee_parfum = [48.8714998, 2.314865];
+    const notre_dame_paris = [48.85295168692098, 2.3498513316543495];
+    const opera_garnier = [48.871977659908524, 2.331835541261057];
+    const palais_de_justice = [48.85572931360579, 2.3451411724090576];
+    const palais_de_la_decouverte = [48.86619341081601, 2.310826873049564];
+    const pantheon = [48.84618602174832, 2.345960611114492];
 
     return (
       <div>
@@ -615,6 +620,86 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
                     alt="musee_orsay"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={notre_dame_paris}>
+          <Popup minWidth={200}>
+            <Link to="/notre_dame_paris" className="linkPlage">
+              <div className="lien">
+                <div>Cathédrale Notre-Dame de Paris</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
+                    alt="musee_orsay"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={opera_garnier}>
+          <Popup minWidth={200}>
+            <Link to="/opera_garnier" className="linkPlage">
+              <div className="lien">
+                <div>Opéra Garnier</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/opera_garnier/opera_garnier.jpg")}
+                    alt="opera_garnier"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={palais_de_justice}>
+          <Popup minWidth={200}>
+            <Link to="/palais_de_justice" className="linkPlage">
+              <div className="lien">
+                <div>Palais de Justice de Paris</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/opera_garnier/opera_garnier.jpg")}
+                    alt="opera_garnier"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={palais_de_la_decouverte}>
+          <Popup minWidth={200}>
+            <Link to="/palais_de_la_decouverte" className="linkPlage">
+              <div className="lien">
+                <div>Palais de la Découverte</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/palais_de_la_decouverte/palais_de_la_decouverte.jpeg")}
+                    alt="palais_de_la_decouverte"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={pantheon}>
+          <Popup minWidth={200}>
+            <Link to="/pantheon" className="linkPlage">
+              <div className="lien">
+                <div>Panthéon</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/pantheon/pantheon.jpeg")}
+                    alt="pantheon"
                     className="apercu"
                   />
                 </div>

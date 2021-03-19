@@ -268,10 +268,15 @@ import Musee_Marmottan_Monet from './components/Autres/Patrimoine_Paris/Musee_Ma
 import Musee_Monnaie from './components/Autres/Patrimoine_Paris/Musee_Monnaie'
 import Musee_Orsay from './components/Autres/Patrimoine_Paris/Musee_Orsay'
 import Musee_Parfum from './components/Autres/Patrimoine_Paris/Musee_Parfum'
+import Notre_Dame_Paris from './components/Autres/Patrimoine_Paris/Notre_Dame_Paris'
+import Opera_Garnier from './components/Autres/Patrimoine_Paris/Opera_Garnier'
+import Palais_de_Justice from './components/Autres/Patrimoine_Paris/Palais_de_Justice'
+import Palais_de_la_Decouverte from './components/Autres/Patrimoine_Paris/Palais_de_la_Decouverte'
 import Panorama_Evreux from './components/Autres/Patrimoine_Eure/Panorama_Evreux'
 import Panorama_Marais_Vernier from './components/Autres/Patrimoine_Eure/Panorama_Marais_Vernier'
 import Panorama_Vert_Village from './components/Autres/Patrimoine_Eure/Panorama_Vert_Village'
 import Panorama_XXL from './components/Autres/Patrimoine_Seine_Maritime/Panorama_XXL.jsx'
+import Pantheon from './components/Autres/Patrimoine_Paris/Pantheon.jsx'
 import Petite_France from './components/Autres/Patrimoine_Bas_Rhin/Petite_France.jsx'
 import Phare_d_Ailly from './components/Autres/Patrimoine_Seine_Maritime/Phare_d_Ailly'
 import Plan_eau_Canada from './components/Autres/Patrimoine_Oise/Plan_eau_Canada.jsx'
@@ -558,10 +563,15 @@ const Root = () => (
             <Route path='/musee_monnaie' component={Musee_Monnaie}/>
             <Route path='/musee_orsay' component={Musee_Orsay}/>
             <Route path='/musee_parfum' component={Musee_Parfum}/>
+            <Route path='/notre_dame_paris' component={Notre_Dame_Paris}/>
+            <Route path='/opera_garnier' component={Opera_Garnier}/>
+            <Route path='/palais_de_justice' component={Palais_de_Justice}/>
+            <Route path='/palais_de_la_decouverte' component={Palais_de_la_Decouverte}/>
             <Route path='/panorama_evreux' component={Panorama_Evreux}/>
             <Route path='/panorama_marais_vernier' component={Panorama_Marais_Vernier}/>
             <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
+            <Route path='/pantheon' component={Pantheon}/>
             <Route path='/petite_france' component={Petite_France}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>
