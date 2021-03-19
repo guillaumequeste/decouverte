@@ -227,6 +227,7 @@ import Chateau_Vascoeuil from './components/Autres/Patrimoine_Eure/Chateau_Vasco
 import Cimetiere_des_Canadiens from './components/Autres/Patrimoine_Seine_Maritime/Cimetiere_des_Canadiens'
 import Cite_du_Cinema from './components/Autres/Patrimoine_Paris/Cite_du_Cinema'
 import Coulee_Verte from './components/Autres/Patrimoine_Paris/Coulee_Verte'
+import Domaine_Saint_Cloud from './components/Autres/Patrimoine_Paris/Domaine_Saint_Cloud'
 import Domaine_du_Champ_de_Bataille from './components/Autres/Patrimoine_Eure/Domaine_du_Champ_de_Bataille'
 import Eglise_Saint_Germain_des_Pres from './components/Autres/Patrimoine_Paris/Eglise_Saint_Germain_des_Pres'
 import Eglise_Saint_Joseph from './components/Autres/Patrimoine_Seine_Maritime/Eglise_Saint_Joseph'
@@ -277,6 +278,11 @@ import Panorama_Marais_Vernier from './components/Autres/Patrimoine_Eure/Panoram
 import Panorama_Vert_Village from './components/Autres/Patrimoine_Eure/Panorama_Vert_Village'
 import Panorama_XXL from './components/Autres/Patrimoine_Seine_Maritime/Panorama_XXL.jsx'
 import Pantheon from './components/Autres/Patrimoine_Paris/Pantheon.jsx'
+import Parc_des_Princes from './components/Autres/Patrimoine_Paris/Parc_des_Princes.jsx'
+import Passage_Brady from './components/Autres/Patrimoine_Paris/Passage_Brady.jsx'
+import Passage_des_Panoramas from './components/Autres/Patrimoine_Paris/Passage_des_Panoramas.jsx'
+import Passage_du_Grand_Cerf from './components/Autres/Patrimoine_Paris/Passage_du_Grand_Cerf.jsx'
+import Pere_Lachaise from './components/Autres/Patrimoine_Paris/Pere_Lachaise.jsx'
 import Petite_France from './components/Autres/Patrimoine_Bas_Rhin/Petite_France.jsx'
 import Phare_d_Ailly from './components/Autres/Patrimoine_Seine_Maritime/Phare_d_Ailly'
 import Plan_eau_Canada from './components/Autres/Patrimoine_Oise/Plan_eau_Canada.jsx'
@@ -523,6 +529,7 @@ const Root = () => (
             <Route path='/cite_du_cinema' component={Cite_du_Cinema}/>
             <Route path='/coulee_verte' component={Coulee_Verte}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
+            <Route path='/domaine_saint-cloud' component={Domaine_Saint_Cloud}/>
             <Route path='/eglise_saint-germain-des-pres' component={Eglise_Saint_Germain_des_Pres}/>
             <Route path='/eglise_saint-joseph' component={Eglise_Saint_Joseph}/>
             <Route path='/eglise_saint-julien-le-pauvre' component={Eglise_Saint_Julien_le_Pauvre}/>
@@ -572,6 +579,11 @@ const Root = () => (
             <Route path='/panorama_vert_village' component={Panorama_Vert_Village}/>
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
             <Route path='/pantheon' component={Pantheon}/>
+            <Route path='/parc_des_princes' component={Parc_des_Princes}/>
+            <Route path='/passage_brady' component={Passage_Brady}/>
+            <Route path='/passage_des_panoramas' component={Passage_des_Panoramas}/>
+            <Route path='/passage_du_grand_cerf' component={Passage_du_Grand_Cerf}/>
+            <Route path='/pere-lachaise' component={Pere_Lachaise}/>
             <Route path='/petite_france' component={Petite_France}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
             <Route path='/plan_eau_canada' component={Plan_eau_Canada}/>

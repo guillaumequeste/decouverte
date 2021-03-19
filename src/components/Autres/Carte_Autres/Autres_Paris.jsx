@@ -17,6 +17,7 @@ export default class Autres_Paris extends Component {
     const champs_elysees = [48.87262793802567, 2.298660869038713];
     const cite_du_cinema = [48.922640257476935, 2.336547374725342];
     const coulee_verte = [48.84938276601615, 2.3714590072631836];
+    const domaine_saint_cloud = [48.837462334382074, 2.21291142800294];
     const eglise_saint_germain_des_pres = [48.85396450348454, 2.33434796333313];
     const eglise_saint_julien_le_pauvre = [
       48.85202314049355,
@@ -48,6 +49,11 @@ export default class Autres_Paris extends Component {
     const palais_de_justice = [48.85572931360579, 2.3451411724090576];
     const palais_de_la_decouverte = [48.86619341081601, 2.310826873049564];
     const pantheon = [48.84618602174832, 2.345960611114492];
+    const parc_des_princes = [48.84139593499248, 2.2529526157638884];
+    const passage_brady = [48.8708845, 2.3565237];
+    const passage_des_panoramas = [48.8715151, 2.3419216];
+    const passage_du_grand_cerf = [48.8647, 2.3501099999999724];
+    const pere_lachaise = [48.86145078869662, 2.3964662542755377];
 
     return (
       <div>
@@ -252,6 +258,22 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
                     alt="coulee_verte"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={domaine_saint_cloud}>
+          <Popup minWidth={200}>
+            <Link to="/domaine_saint-cloud" className="linkPlage">
+              <div className="lien">
+                <div>Domaine national de Saint-Cloud</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/pantheon/pantheon.jpeg")}
+                    alt="pantheon"
                     className="apercu"
                   />
                 </div>
@@ -700,6 +722,86 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/pantheon/pantheon.jpeg")}
                     alt="pantheon"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={parc_des_princes}>
+          <Popup minWidth={200}>
+            <Link to="/parc_des_princes" className="linkPlage">
+              <div className="lien">
+                <div>Parc des Princes</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_brady}>
+          <Popup minWidth={200}>
+            <Link to="/passage_brady" className="linkPlage">
+              <div className="lien">
+                <div>Passage Brady</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_des_panoramas}>
+          <Popup minWidth={200}>
+            <Link to="/passage_des_panoramas" className="linkPlage">
+              <div className="lien">
+                <div>Passage des Panoramas</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_du_grand_cerf}>
+          <Popup minWidth={200}>
+            <Link to="/passage_du_grand-cerf" className="linkPlage">
+              <div className="lien">
+                <div>Passage du Grand-Cerf</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={pere_lachaise}>
+          <Popup minWidth={200}>
+            <Link to="/pere-lachaise" className="linkPlage">
+              <div className="lien">
+                <div>Cimetière du Père-Lachaise</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
+                    alt="parc_des_princes"
                     className="apercu"
                   />
                 </div>
