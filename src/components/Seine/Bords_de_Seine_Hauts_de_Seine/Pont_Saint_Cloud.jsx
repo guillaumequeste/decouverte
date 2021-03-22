@@ -4,6 +4,7 @@ import Helmet from "../../Helmet";
 import Footer from "../../Footer";
 import Next from "../../Next";
 import Previous from "../../Previous";
+import Zoom from "react-reveal/Zoom";
 
 class Pont_Saint_Cloud extends Component {
   render() {
@@ -25,6 +26,15 @@ class Pont_Saint_Cloud extends Component {
               alt="pont_saint-cloud01"
               className="photo"
             />
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/seine/pont_saint-cloud/pont_saint-cloud02.jpg")}
+                alt="pont_saint-cloud02"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

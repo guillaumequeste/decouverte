@@ -23,7 +23,7 @@ class Pont_Charles_de_Gaulle extends Component {
             <img
               src={require("../../../img/seine/pont_charles_de_gaulle/pont_charles_de_gaulle01.jpg")}
               alt="pont_charles_de_gaulle01"
-              className="photoGrosHorloge"
+              className="photo"
             />
           </div>
         </div>

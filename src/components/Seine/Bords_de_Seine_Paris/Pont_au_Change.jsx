@@ -17,9 +17,9 @@ class Pont_au_Change extends Component {
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"ile_cite"} />
+          <Previous prev={"pont_neuf"} />
           <h1 className="title">Pont au Change</h1>
-          <Next next={"notre_dame"} />
+          <Next next={"ile_cite"} />
           <div className="divPhoto">
             <img
               src={require("../../../img/seine/pont_au_change/pont_au_change01.jpg")}

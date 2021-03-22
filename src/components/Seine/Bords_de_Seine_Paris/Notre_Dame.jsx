@@ -17,7 +17,7 @@ class Notre_Dame extends Component {
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"pont_au_change"} />
+          <Previous prev={"pont_au_double"} />
           <h1 className="title">Notre Dame</h1>
           <Next next={"pont_saint-louis"} />
           <div className="divPhoto">

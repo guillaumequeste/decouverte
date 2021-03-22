@@ -712,8 +712,8 @@ export default class Autres_Paris extends Component {
                 <div>Palais de Justice de Paris</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/opera_garnier/opera_garnier.jpg")}
-                    alt="opera_garnier"
+                    src={require("../../../img/autres/palais_de_justice/palais_de_justice01min.jpg")}
+                    alt="palais_de_justice01min"
                     className="apercu"
                   />
                 </div>

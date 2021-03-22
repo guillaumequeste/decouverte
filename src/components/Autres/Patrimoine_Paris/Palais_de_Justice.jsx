@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Palais_de_Justice extends Component {
   render() {
@@ -17,8 +18,8 @@ class Palais_de_Justice extends Component {
           <h1 className="titleAutres">Palais de Justice de Paris</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/palais_de_justice/palais_de_justice01.jpg")}
+              alt="palais_de_justice01"
               className="photo"
             />
           </div>

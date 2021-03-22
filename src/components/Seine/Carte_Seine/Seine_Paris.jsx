@@ -9,7 +9,9 @@ export default class Seine_Paris extends Component {
     const ile_saint_louis = [48.851763743343156, 2.357079065869625];
     const notre_dame = [48.85297093349124, 2.349745636990672];
     const pont_au_change = [48.856664448657654, 2.346722409591049];
+    const pont_au_double = [48.85260751425116, 2.348445542817914];
     const pont_charles_de_gaulle = [48.842592621958296, 2.3690977001586155];
+    const pont_des_arts = [48.85852301773302, 2.3375965521764197];
     const pont_de_sully = [48.84990140647367, 2.358337923076781];
     const pont_d_iena = [48.85977066070461, 2.292117746632192];
     const pont_du_garigliano = [48.83924816252435, 2.2684471491681624];
@@ -17,6 +19,7 @@ export default class Seine_Paris extends Component {
     const pont_national = [48.82784464797287, 2.3869750071940654];
     const pont_neuf = [48.85767502321728, 2.3418120562873224];
     const pont_saint_louis = [48.852736412536544, 2.3528050596371353];
+    const pont_saint_michel = [48.85409289662824, 2.344633340598574];
 
     return (
       <div>
@@ -84,6 +87,22 @@ export default class Seine_Paris extends Component {
               </Link>
             </Popup>
           </Marker>
+          <Marker position={pont_au_double}>
+            <Popup minWidth={200}>
+              <Link to="/pont_au_double" className="linkPlage">
+                <div className="lien">
+                  <div>Pont au Double</div>
+                  <div>
+                    <img
+                      src={require("../../../img/seine/pont_au_double/pont_au_double01min.jpg")}
+                      alt="pont_au_double01min"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
           <Marker position={pont_charles_de_gaulle}>
             <Popup minWidth={200}>
               <Link to="/pont_charles_de_gaulle" className="linkPlage">
@@ -93,6 +112,22 @@ export default class Seine_Paris extends Component {
                     <img
                       src={require("../../../img/seine/pont_charles_de_gaulle/pont_charles_de_gaulle01min.jpg")}
                       alt="pont_charles_de_gaulle"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={pont_des_arts}>
+            <Popup minWidth={200}>
+              <Link to="/pont_des_arts" className="linkPlage">
+                <div className="lien">
+                  <div>Pont des Arts</div>
+                  <div>
+                    <img
+                      src={require("../../../img/seine/pont_des_arts/pont_des_arts01min.jpg")}
+                      alt="pont_des_arts01min"
                       className="apercu"
                     />
                   </div>
@@ -205,6 +240,22 @@ export default class Seine_Paris extends Component {
                     <img
                       src={require("../../../img/seine/pont_saint-louis/pont_saint-louis01min.jpg")}
                       alt="pont_saint-louis"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={pont_saint_michel}>
+            <Popup minWidth={200}>
+              <Link to="/pont_saint-michel" className="linkPlage">
+                <div className="lien">
+                  <div>Pont Saint-Michel</div>
+                  <div>
+                    <img
+                      src={require("../../../img/seine/pont_saint-michel/pont_saint-michel01min.jpg")}
+                      alt="pont_saint-michel"
                       className="apercu"
                     />
                   </div>

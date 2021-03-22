@@ -151,7 +151,9 @@ import Passage_du_Trait from './components/Seine/Bords_de_Seine_Seine_Maritime/P
 import Passage_d_Yssainville from './components/Seine/Bords_de_Seine_Seine_Maritime/Passage_d_Yssainville'
 import Phare_de_la_Roque from './components/Seine/Bords_de_Seine_Eure/Phare_de_la_Roque'
 import Pont_au_Change from './components/Seine/Bords_de_Seine_Paris/Pont_au_Change'
+import Pont_au_Double from './components/Seine/Bords_de_Seine_Paris/Pont_au_Double'
 import Pont_Charles_de_Gaulle from './components/Seine/Bords_de_Seine_Paris/Pont_Charles_de_Gaulle'
+import Pont_des_Arts from './components/Seine/Bords_de_Seine_Paris/Pont_des_Arts'
 import Pont_de_Sully from './components/Seine/Bords_de_Seine_Paris/Pont_de_Sully'
 import Pont_d_Iena from './components/Seine/Bords_de_Seine_Paris/Pont_d_Iena'
 import Pont_du_Garigliano from './components/Seine/Bords_de_Seine_Paris/Pont_du_Garigliano'
@@ -160,6 +162,7 @@ import Pont_National from './components/Seine/Bords_de_Seine_Paris/Pont_National
 import Pont_Neuf from './components/Seine/Bords_de_Seine_Paris/Pont_Neuf'
 import Pont_Saint_Cloud from './components/Seine/Bords_de_Seine_Hauts_de_Seine/Pont_Saint_Cloud'
 import Pont_Saint_Louis from './components/Seine/Bords_de_Seine_Paris/Pont_Saint_Louis'
+import Pont_Saint_Michel from './components/Seine/Bords_de_Seine_Paris/Pont_Saint_Michel'
 import Porcheville from './components/Seine/Bords_de_Seine_Yvelines/Porcheville'
 import Port_Jerome from './components/Seine/Bords_de_Seine_Seine_Maritime/Port_Jerome'
 import Port_Jumieges from './components/Seine/Bords_de_Seine_Seine_Maritime/Port_Jumieges'
@@ -460,7 +463,9 @@ const Root = () => (
             <Route path='/passage_d_yssainville' component={Passage_d_Yssainville}/>
             <Route path='/phare_de_la_roque' component={Phare_de_la_Roque}/>
             <Route path='/pont_au_change' component={Pont_au_Change}/>
+            <Route path='/pont_au_double' component={Pont_au_Double}/>
             <Route path='/pont_charles_de_gaulle' component={Pont_Charles_de_Gaulle}/>
+            <Route path='/pont_des_arts' component={Pont_des_Arts}/>
             <Route path='/pont_de_sully' component={Pont_de_Sully}/>
             <Route path='/pont_d_iena' component={Pont_d_Iena}/>
             <Route path='/pont_du_garigliano' component={Pont_du_Garigliano}/>
@@ -469,6 +474,7 @@ const Root = () => (
             <Route path='/pont_neuf' component={Pont_Neuf}/>
             <Route path='/pont_saint-cloud' component={Pont_Saint_Cloud}/>
             <Route path='/pont_saint-louis' component={Pont_Saint_Louis}/>
+            <Route path='/pont_saint-michel' component={Pont_Saint_Michel}/>
             <Route path='/porcheville' component={Porcheville}/>
             <Route path='/port-jerome' component={Port_Jerome}/>
             <Route path='/port_jumieges' component={Port_Jumieges}/>

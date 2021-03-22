@@ -17,9 +17,9 @@ class Ile_Cite extends Component {
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"pont_neuf"} />
+          <Previous prev={"pont_au_change"} />
           <h1 className="title">Ile de la Cité</h1>
-          <Next next={"pont_au_change"} />
+          <Next next={"pont_saint-michel"} />
           <div className="divPhoto">
             <img
               src={require("../../../img/seine/ile_cite/ile_cite01.jpg")}

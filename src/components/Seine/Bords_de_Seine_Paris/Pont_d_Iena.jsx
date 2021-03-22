@@ -19,7 +19,7 @@ class Pont_d_Iena extends Component {
         <div className="bodySeine">
           <Previous prev={"pont_du_garigliano"} />
           <h1 className="title">Pont d'Iena</h1>
-          <Next next={"pont_neuf"} />
+          <Next next={"pont_des_arts"} />
           <div className="divPhoto">
             <img
               src={require("../../../img/seine/pont_d_iena/pont_d_iena01.jpg")}

@@ -17,9 +17,9 @@ class Pont_Neuf extends Component {
         <Header />
         <Footer />
         <div className="bodySeine">
-          <Previous prev={"pont_d_iena"} />
+          <Previous prev={"pont_des_arts"} />
           <h1 className="title">Pont Neuf</h1>
-          <Next next={"ile_cite"} />
+          <Next next={"pont_au_change"} />
           <div className="divPhoto">
             <img
               src={require("../../../img/seine/pont_neuf/pont_neuf01.jpg")}
@@ -50,6 +50,24 @@ class Pont_Neuf extends Component {
               <img
                 src={require("../../../img/seine/pont_neuf/pont_neuf04.jpg")}
                 alt="pont_neuf04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/seine/pont_neuf/pont_neuf05.jpg")}
+                alt="pont_neuf05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/seine/pont_neuf/pont_neuf06.jpg")}
+                alt="pont_neuf06"
                 className="photo"
               />
             </Zoom>
