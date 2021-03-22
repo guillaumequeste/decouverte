@@ -34,6 +34,7 @@ export default class Autres_Paris extends Component {
     const grande_arche = [48.89259960797655, 2.2361040115356445];
     const jardin_palais_royal = [48.86498295934279, 2.337791919708252];
     const jardin_tuileries = [48.86338786861697, 2.32785701751709];
+    const la_villette = [48.890628432806395, 2.390911502685526];
     const louvre = [48.86062104200994, 2.337641716003418];
     const martyrium = [48.8840838, 2.3402373];
     const musee_carte = [48.8226911, 2.2734484];
@@ -59,7 +60,7 @@ export default class Autres_Paris extends Component {
     const rue_des_thermopyles = [48.8329, 2.3184099999999717];
     const sacre_coeur = [48.886210238849394, 2.3431308824621055];
     const square_vert_galant = [48.85744790485559, 2.340282794923496];
-    const stade_jean_bouin = [48.8432317969697, 2.2529955311081267];
+    const stade_jean_boin = [48.8432317969697, 2.2529955311081267];
     const tour_montparnasse = [48.8420898, 2.3219569];
 
     return (
@@ -87,8 +88,8 @@ export default class Autres_Paris extends Component {
                 <div>Arènes de Lutèce</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-                    alt="arc_de_triomphe"
+                    src={require("../../../img/autres/arenes_lutece/arenes_lutece01min.jpg")}
+                    alt="arenes_lutece"
                     className="apercu"
                   />
                 </div>
@@ -103,8 +104,8 @@ export default class Autres_Paris extends Component {
                 <div>Basilique Saint-Denis</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-                    alt="arc_de_triomphe"
+                    src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis01.jpg")}
+                    alt="basilique_saint_denis01"
                     className="apercu"
                   />
                 </div>
@@ -279,8 +280,8 @@ export default class Autres_Paris extends Component {
                 <div>Domaine national de Saint-Cloud</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/pantheon/pantheon.jpeg")}
-                    alt="pantheon"
+                    src={require("../../../img/autres/domaine_saint-cloud/domaine_saint-cloud01min.jpg")}
+                    alt="domaine_saint-cloud01"
                     className="apercu"
                   />
                 </div>
@@ -340,7 +341,7 @@ export default class Autres_Paris extends Component {
           <Popup minWidth={200}>
             <Link to="/funiculaire_montmartre" className="linkPlage">
               <div className="lien">
-                <div>Funiculaire de Montlmartre</div>
+                <div>Funiculaire de Montmartre</div>
                 <div>
                   <img
                     src={require("../../../img/autres/funiculaire_montmartre/funiculaire_montmartre.jpeg")}
@@ -487,8 +488,24 @@ export default class Autres_Paris extends Component {
                 <div>Jardin des Tuileries</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
-                    alt="grande_arche"
+                    src={require("../../../img/autres/jardin_tuileries/jardin_tuileries01min.jpg")}
+                    alt="jardin_tuileries01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={la_villette}>
+          <Popup minWidth={200}>
+            <Link to="/la_villette" className="linkPlage">
+              <div className="lien">
+                <div>La Villette</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
+                    alt="la_villette"
                     className="apercu"
                   />
                 </div>
@@ -503,8 +520,8 @@ export default class Autres_Paris extends Component {
                 <div>Musée du Louvre</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/louvre/louvre.jpeg")}
-                    alt="louvre"
+                    src={require("../../../img/autres/louvre/louvre01min.jpg")}
+                    alt="louvre01min"
                     className="apercu"
                   />
                 </div>
@@ -663,8 +680,8 @@ export default class Autres_Paris extends Component {
                 <div>Cathédrale Notre-Dame de Paris</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
-                    alt="musee_orsay"
+                    src={require("../../../img/autres/notre-dame_paris/notre-dame_paris01min.jpg")}
+                    alt="notre-dame_paris01min"
                     className="apercu"
                   />
                 </div>
@@ -882,9 +899,9 @@ export default class Autres_Paris extends Component {
         </Marker>
         <Marker position={square_vert_galant}>
           <Popup minWidth={200}>
-            <Link to="/square_vert_galant" className="linkPlage">
+            <Link to="/square_vert-galant" className="linkPlage">
               <div className="lien">
-                <div>Square vert galant</div>
+                <div>Square du Vert-Galant</div>
                 <div>
                   <img
                     src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
@@ -896,15 +913,15 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
-        <Marker position={rue_des_thermopyles}>
+        <Marker position={stade_jean_boin}>
           <Popup minWidth={200}>
-            <Link to="/rue_des_thermopyles" className="linkPlage">
+            <Link to="/stade_jean_boin" className="linkPlage">
               <div className="lien">
-                <div>Rue des Thermopyles</div>
+                <div>Stade Jean Boin</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
-                    alt="petit_palais"
+                    src={require("../../../img/autres/stade_jean_boin/stade_jean_boin.jpeg")}
+                    alt="stade_jean_boin"
                     className="apercu"
                   />
                 </div>
@@ -912,15 +929,15 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
-        <Marker position={rue_des_thermopyles}>
+        <Marker position={tour_montparnasse}>
           <Popup minWidth={200}>
-            <Link to="/rue_des_thermopyles" className="linkPlage">
+            <Link to="/tour_montparnasse" className="linkPlage">
               <div className="lien">
-                <div>Rue des Thermopyles</div>
+                <div>Tour Montparnasse</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
-                    alt="petit_palais"
+                    src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
+                    alt="tour_montparnasse"
                     className="apercu"
                   />
                 </div>

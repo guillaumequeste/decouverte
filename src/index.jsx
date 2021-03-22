@@ -250,6 +250,7 @@ import Hortillonnages from './components/Autres/Patrimoine_Somme/Hortillonnages'
 import Jardin_Palais_Royal from './components/Autres/Patrimoine_Paris/Jardin_Palais_Royal'
 import Jardin_Tuileries from './components/Autres/Patrimoine_Paris/Jardin_Tuileries'
 import Lac_du_Salagou from './components/Autres/Patrimoine_Herault/Lac_du_Salagou'
+import La_Villette from './components/Autres/Patrimoine_Paris/La_Villette'
 import Le_Bec_Hellouin from './components/Autres/Patrimoine_Eure/Le_Bec_Hellouin'
 import Le_Sentier_du_Verger from './components/Autres/Patrimoine_Seine_Maritime/Le_Sentier_du_Verger'
 import Maison_Jules_Verne from './components/Autres/Patrimoine_Somme/Maison_Jules_Verne'
@@ -293,7 +294,10 @@ import Puy_de_Dome from './components/Autres/Patrimoine_Puy_de_Dome/Puy_de_Dome'
 import Quartier_Saint_Leu from './components/Autres/Patrimoine_Somme/Quartier_Saint_Leu'
 import Rue_des_Thermopyles from './components/Autres/Patrimoine_Paris/Rue_des_Thermopyles.jsx'
 import Sacre_Coeur from './components/Autres/Patrimoine_Paris/Sacre_Coeur.jsx'
+import Square_Vert_Galant from './components/Autres/Patrimoine_Paris/Square_Vert_Galant.jsx'
+import Stade_Jean_Boin from './components/Autres/Patrimoine_Paris/Stade_Jean_Boin.jsx'
 import Tapisserie_Bayeux from './components/Autres/Patrimoine_Calvados/Tapisserie_Bayeux'
+import Tour_Montparnasse from './components/Autres/Patrimoine_Paris/Tour_Montparnasse.jsx'
 import Varenne from './components/Autres/Patrimoine_Seine_Maritime/Varenne'
 import Versailles from './components/Autres/Patrimoine_Yvelines/Versailles'
 
@@ -555,6 +559,7 @@ const Root = () => (
             <Route path='/jardin_palais_royal' component={Jardin_Palais_Royal}/>
             <Route path='/jardin_tuileries' component={Jardin_Tuileries}/>
             <Route path='/lac_du_salagou' component={Lac_du_Salagou}/>
+            <Route path='/la_villette' component={La_Villette}/>
             <Route path='/le_bec-hellouin' component={Le_Bec_Hellouin}/>
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
@@ -598,7 +603,10 @@ const Root = () => (
             <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
             <Route path='/rue_des_thermopyles' component={Rue_des_Thermopyles}/>
             <Route path='/sacre-coeur' component={Sacre_Coeur}/>
+            <Route path='/square_vert-galant' component={Square_Vert_Galant}/>
+            <Route path='/stade_jean_boin' component={Stade_Jean_Boin}/>
             <Route path='/tapisserie_bayeux' component={Tapisserie_Bayeux}/>
+            <Route path='/tour_montparnasse' component={Tour_Montparnasse}/>
             <Route path='/varenne' component={Varenne}/>
             <Route path='/versailles' component={Versailles}/>
 

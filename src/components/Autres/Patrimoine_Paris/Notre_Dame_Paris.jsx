@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Notre_Dame_Paris extends Component {
   render() {
@@ -19,8 +20,8 @@ class Notre_Dame_Paris extends Component {
           <h1 className="titleAutres">Cathédrale Notre-Dame de Paris</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/musee_grevin/musee_grevin.png")}
-              alt="musee_grevin"
+              src={require("../../../img/autres/notre-dame_paris/notre-dame_paris01.jpg")}
+              alt="notre_dame_paris01"
               className="photo"
             />
           </div>
@@ -74,6 +75,339 @@ class Notre_Dame_Paris extends Component {
                 Cathédrale Notre-Dame de Paris
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris02.jpg")}
+                alt="notre-dame_paris02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris03.jpg")}
+                alt="notre-dame_paris03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris04.jpg")}
+                alt="notre-dame_paris04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris05.jpg")}
+                alt="notre-dame_paris05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris06.jpg")}
+                alt="notre-dame_paris06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris07.jpg")}
+                alt="notre-dame_paris07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris08.jpg")}
+                alt="notre-dame_paris08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris09.jpg")}
+                alt="notre-dame_paris09"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris10.jpg")}
+                alt="notre-dame_paris10"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris11.jpg")}
+                alt="notre-dame_paris11"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris12.jpg")}
+                alt="notre-dame_paris12"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris13.jpg")}
+                alt="notre-dame_paris13"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris14.jpg")}
+                alt="notre-dame_paris14"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris15.jpg")}
+                alt="notre-dame_paris15"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris16.jpg")}
+                alt="notre-dame_paris16"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris17.jpg")}
+                alt="notre-dame_paris17"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris18.jpg")}
+                alt="notre-dame_paris18"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris19.jpg")}
+                alt="notre-dame_paris19"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris20.jpg")}
+                alt="notre-dame_paris20"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris21.jpg")}
+                alt="notre-dame_paris21"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris22.jpg")}
+                alt="notre-dame_paris22"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris23.jpg")}
+                alt="notre-dame_paris23"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris24.jpg")}
+                alt="notre-dame_paris24"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris25.jpg")}
+                alt="notre-dame_paris25"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris26.jpg")}
+                alt="notre-dame_paris26"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris27.jpg")}
+                alt="notre-dame_paris27"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris28.jpg")}
+                alt="notre-dame_paris28"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris29.jpg")}
+                alt="notre-dame_paris29"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris30.jpg")}
+                alt="notre-dame_paris30"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris31.jpg")}
+                alt="notre-dame_paris31"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris32.jpg")}
+                alt="notre-dame_paris32"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris33.jpg")}
+                alt="notre-dame_paris33"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris34.jpg")}
+                alt="notre-dame_paris34"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris35.jpg")}
+                alt="notre-dame_paris35"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris36.jpg")}
+                alt="notre-dame_paris36"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris37.jpg")}
+                alt="notre-dame_paris37"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/notre-dame_paris/notre-dame_paris38.jpg")}
+                alt="notre-dame_paris38"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Louvre extends Component {
   render() {
@@ -17,8 +18,8 @@ class Louvre extends Component {
           <h1 className="titleAutres">Musée du Louvre</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/louvre/louvre.jpeg")}
-              alt="louvre"
+              src={require("../../../img/autres/louvre/louvre01.jpg")}
+              alt="louvre01"
               className="photo"
             />
           </div>
@@ -78,6 +79,42 @@ class Louvre extends Component {
                 Musée du Louvre
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre02.jpg")}
+                alt="louvre02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre03.jpg")}
+                alt="louvre03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre04.jpg")}
+                alt="louvre04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre05.jpg")}
+                alt="louvre05"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

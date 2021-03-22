@@ -19,7 +19,7 @@ class Gros_Horloge extends Component {
             <img
               src={require("../../../img/autres/gros-horloge/gros-horloge.jpg")}
               alt="gros-horloge"
-              className="photoGrosHorloge"
+              className="photo"
             />
           </div>
           <div className="container">

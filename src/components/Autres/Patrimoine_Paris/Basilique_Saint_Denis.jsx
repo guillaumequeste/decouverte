@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Basilique_Saint_Denis extends Component {
   render() {
@@ -11,7 +12,7 @@ class Basilique_Saint_Denis extends Component {
           title={
             "Basilique de Saint-Denis Découverte de la Normandie et du Littoral"
           }
-          link={"http://decouverte.guillaumequeste.fr/bsilique_saint-denis"}
+          link={"http://decouverte.guillaumequeste.fr/basilique_saint-denis"}
         />
         <Header />
         <Footer />
@@ -19,8 +20,8 @@ class Basilique_Saint_Denis extends Component {
           <h1 className="titleAutres">Basilique Saint-Denis</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis01.jpg")}
+              alt="basilique_saint-denis01"
               className="photo"
             />
           </div>
@@ -57,6 +58,123 @@ class Basilique_Saint_Denis extends Component {
                 Basilique Saint-Denis
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis02.jpg")}
+                alt="basilique_saint-denis02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis03.jpg")}
+                alt="basilique_saint-denis03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis04.jpg")}
+                alt="basilique_saint-denis04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis05.jpg")}
+                alt="basilique_saint-denis05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis06.jpg")}
+                alt="basilique_saint-denis06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis07.jpg")}
+                alt="basilique_saint-denis07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis08.jpg")}
+                alt="basilique_saint-denis08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis09.jpg")}
+                alt="basilique_saint-denis09"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis10.jpg")}
+                alt="basilique_saint-denis10"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis11.jpg")}
+                alt="basilique_saint-denis11"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis12.jpg")}
+                alt="basilique_saint-denis12"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis13.jpg")}
+                alt="basilique_saint-denis13"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/basilique_saint-denis/basilique_saint-denis14.jpg")}
+                alt="basilique_saint-denis14"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

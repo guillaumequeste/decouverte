@@ -17,8 +17,8 @@ class Arenes_Lutece extends Component {
           <h1 className="titleAutres">Arènes de Lutèce</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arnenes_lutece"
+              src={require("../../../img/autres/arenes_lutece/arenes_lutece01.jpg")}
+              alt="arenes_lutece01"
               className="photo"
             />
           </div>
