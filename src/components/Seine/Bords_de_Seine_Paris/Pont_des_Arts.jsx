@@ -45,6 +45,15 @@ class Pont_des_Arts extends Component {
               />
             </Zoom>
           </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/seine/pont_des_arts/pont_des_arts04.jpg")}
+                alt="pont_des_arts04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
         </div>
       </div>
     );

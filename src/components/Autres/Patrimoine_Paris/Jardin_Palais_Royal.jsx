@@ -19,8 +19,8 @@ class Jardin_Palais_Royal extends Component {
           <h1 className="titleAutres">Jardin du Palais Royal</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal01.jpg")}
+              alt="jardin_palais_royal"
               className="photo"
             />
           </div>

@@ -17,7 +17,7 @@ class Coulee_Verte extends Component {
           <h1 className="titleAutres">Coulée verte René-Dumont</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
+              src={require("../../../img/autres/arc_triomphe/arc_de_triomphe.jpeg")}
               alt="arc_de_triomphe"
               className="photo"
             />

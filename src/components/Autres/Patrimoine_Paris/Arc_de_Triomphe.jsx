@@ -68,7 +68,7 @@ class Arc_de_Triomphe extends Component {
           <div className="divPhoto">
             <Zoom>
               <img
-                src={require("../../../img/autres/arc_de_triomphe/arc_triomphe04.jpg")}
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe04.jpg")}
                 alt="arc_triomphe04"
                 className="photo"
               />

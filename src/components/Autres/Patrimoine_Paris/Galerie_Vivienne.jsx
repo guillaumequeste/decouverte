@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Galerie_Vivienne extends Component {
   render() {
@@ -17,8 +18,8 @@ class Galerie_Vivienne extends Component {
           <h1 className="titleAutres">Galerie Vivienne</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/galerie_vivienne/galerie_vivienne01.jpg")}
+              alt="galerie_vivienne01"
               className="photo"
             />
           </div>
@@ -36,6 +37,24 @@ class Galerie_Vivienne extends Component {
                 Galerie Vivienne
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/galerie_vivienne/galerie_vivienne02.jpg")}
+                alt="galerie_vivienne02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/galerie_vivienne/galerie_vivienne03.jpg")}
+                alt="galerie_vivienne03"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

@@ -51,9 +51,14 @@ export default class Autres_Paris extends Component {
     const palais_de_la_decouverte = [48.86619341081601, 2.310826873049564];
     const pantheon = [48.84618602174832, 2.345960611114492];
     const parc_des_princes = [48.84139593499248, 2.2529526157638884];
+    const passage_beaujolais = [48.866524774054746, 2.3374966547300247];
     const passage_brady = [48.8708845, 2.3565237];
+    const passage_choiseul = [48.86809665460731, 2.335572373704502];
     const passage_des_panoramas = [48.8715151, 2.3419216];
+    const passage_des_princes = [48.87131324303189, 2.339183533960565];
     const passage_du_grand_cerf = [48.8647, 2.3501099999999724];
+    const passage_jouffroy = [48.872132146014245, 2.342027377596545];
+    const passage_verdeau = [48.87336767700049, 2.3422968086553286];
     const pere_lachaise = [48.86145078869662, 2.3964662542755377];
     const petite_ceinture = [48.82136394186036, 2.3504663583358933];
     const petit_palais = [48.866021060751876, 2.3138524048183626];
@@ -360,8 +365,8 @@ export default class Autres_Paris extends Component {
                 <div>Galerie Colbert</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/funiculaire_montmartre/funiculaire_montmartre.jpeg")}
-                    alt="funiculaire_montmartre"
+                    src={require("../../../img/autres/galerie_colbert/galerie_colbert01min.jpg")}
+                    alt="galerie_colbert01min"
                     className="apercu"
                   />
                 </div>
@@ -387,13 +392,13 @@ export default class Autres_Paris extends Component {
         </Marker>
         <Marker position={galerie_vero_dodat}>
           <Popup minWidth={200}>
-            <Link to="/galerie_vero_dodat" className="linkPlage">
+            <Link to="/galerie_vero-dodat" className="linkPlage">
               <div className="lien">
                 <div>Galerie Véro-Dodat</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/funiculaire_montmartre/funiculaire_montmartre.jpeg")}
-                    alt="funiculaire_montmartre"
+                    src={require("../../../img/autres/galerie_vero-dodat/galerie_vero-dodat01min.jpg")}
+                    alt="galerie_vero-dodat01min"
                     className="apercu"
                   />
                 </div>
@@ -408,8 +413,8 @@ export default class Autres_Paris extends Component {
                 <div>Galerie Vivienne</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/funiculaire_montmartre/funiculaire_montmartre.jpeg")}
-                    alt="funiculaire_montmartre"
+                    src={require("../../../img/autres/galerie_vivienne/galerie_vivienne01min.jpg")}
+                    alt="galerie_vivienne01min"
                     className="apercu"
                   />
                 </div>
@@ -472,8 +477,8 @@ export default class Autres_Paris extends Component {
                 <div>Jardin du Palais Royal</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
-                    alt="grande_arche"
+                    src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal01min.jpg")}
+                    alt="jardin_palais_royal01min"
                     className="apercu"
                   />
                 </div>
@@ -769,6 +774,22 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
+        <Marker position={passage_beaujolais}>
+          <Popup minWidth={200}>
+            <Link to="/passage_beaujolais" className="linkPlage">
+              <div className="lien">
+                <div>Passage Beaujolais</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/passage_beaujolais/passage_beaujolais01min.jpg")}
+                    alt="passage_beaujolais01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
         <Marker position={passage_brady}>
           <Popup minWidth={200}>
             <Link to="/passage_brady" className="linkPlage">
@@ -776,8 +797,24 @@ export default class Autres_Paris extends Component {
                 <div>Passage Brady</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
-                    alt="parc_des_princes"
+                    src={require("../../../img/autres/passage_brady/passage_brady01min.jpg")}
+                    alt="passage_brady01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_choiseul}>
+          <Popup minWidth={200}>
+            <Link to="/passage_choiseul" className="linkPlage">
+              <div className="lien">
+                <div>Passage Choiseul</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/passage_choiseul/passage_choiseul01min.jpg")}
+                    alt="passage_choiseul01min"
                     className="apercu"
                   />
                 </div>
@@ -792,8 +829,24 @@ export default class Autres_Paris extends Component {
                 <div>Passage des Panoramas</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
-                    alt="parc_des_princes"
+                    src={require("../../../img/autres/passage_des_panoramas/passage_des_panoramas01min.jpg")}
+                    alt="passage_des_panoramas01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_des_princes}>
+          <Popup minWidth={200}>
+            <Link to="/passage_des_princes" className="linkPlage">
+              <div className="lien">
+                <div>Passage des Princes</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/passage_des_princes/passage_des_princes01min.jpg")}
+                    alt="passage_des_princes01min"
                     className="apercu"
                   />
                 </div>
@@ -808,8 +861,40 @@ export default class Autres_Paris extends Component {
                 <div>Passage du Grand-Cerf</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
-                    alt="parc_des_princes"
+                    src={require("../../../img/autres/passage_du_grand-cerf/passage_du_grand-cerf01min.jpg")}
+                    alt="passage_du_grand-cerf01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_jouffroy}>
+          <Popup minWidth={200}>
+            <Link to="/passage_jouffroy" className="linkPlage">
+              <div className="lien">
+                <div>Passage Jouffroy</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/passage_jouffroy/passage_jouffroy01min.jpg")}
+                    alt="passage_jouffroy01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={passage_verdeau}>
+          <Popup minWidth={200}>
+            <Link to="/passage_verdeau" className="linkPlage">
+              <div className="lien">
+                <div>Passage Verdeau</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/passage_verdeau/passage_verdeau01min.jpg")}
+                    alt="passage_verdeau01min"
                     className="apercu"
                   />
                 </div>

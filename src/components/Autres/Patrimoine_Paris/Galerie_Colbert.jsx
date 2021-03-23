@@ -17,8 +17,8 @@ class Galerie_Colbert extends Component {
           <h1 className="titleAutres">Galerie Colbert</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/galerie_colbert/galerie_colbert01.jpg")}
+              alt="galerie_colbert01"
               className="photo"
             />
           </div>

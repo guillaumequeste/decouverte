@@ -283,9 +283,14 @@ import Panorama_Vert_Village from './components/Autres/Patrimoine_Eure/Panorama_
 import Panorama_XXL from './components/Autres/Patrimoine_Seine_Maritime/Panorama_XXL.jsx'
 import Pantheon from './components/Autres/Patrimoine_Paris/Pantheon.jsx'
 import Parc_des_Princes from './components/Autres/Patrimoine_Paris/Parc_des_Princes.jsx'
+import Passage_Beaujolais from './components/Autres/Patrimoine_Paris/Passage_Beaujolais.jsx'
 import Passage_Brady from './components/Autres/Patrimoine_Paris/Passage_Brady.jsx'
+import Passage_Choiseul from './components/Autres/Patrimoine_Paris/Passage_Choiseul.jsx'
 import Passage_des_Panoramas from './components/Autres/Patrimoine_Paris/Passage_des_Panoramas.jsx'
+import Passage_des_Princes from './components/Autres/Patrimoine_Paris/Passage_des_Princes.jsx'
 import Passage_du_Grand_Cerf from './components/Autres/Patrimoine_Paris/Passage_du_Grand_Cerf.jsx'
+import Passage_Jouffroy from './components/Autres/Patrimoine_Paris/Passage_Jouffroy.jsx'
+import Passage_Verdeau from './components/Autres/Patrimoine_Paris/Passage_Verdeau.jsx'
 import Pere_Lachaise from './components/Autres/Patrimoine_Paris/Pere_Lachaise.jsx'
 import Petite_Ceinture from './components/Autres/Patrimoine_Paris/Petite_Ceinture.jsx'
 import Petite_France from './components/Autres/Patrimoine_Bas_Rhin/Petite_France.jsx'
@@ -595,9 +600,14 @@ const Root = () => (
             <Route path='/panorama_xxl' component={Panorama_XXL}/>
             <Route path='/pantheon' component={Pantheon}/>
             <Route path='/parc_des_princes' component={Parc_des_Princes}/>
+            <Route path='/passage_beaujolais' component={Passage_Beaujolais}/>
             <Route path='/passage_brady' component={Passage_Brady}/>
+            <Route path='/passage_choiseul' component={Passage_Choiseul}/>
             <Route path='/passage_des_panoramas' component={Passage_des_Panoramas}/>
+            <Route path='/passage_des_princes' component={Passage_des_Princes}/>
             <Route path='/passage_du_grand_cerf' component={Passage_du_Grand_Cerf}/>
+            <Route path='/passage_jouffroy' component={Passage_Jouffroy}/>
+            <Route path='/passage_verdeau' component={Passage_Verdeau}/>
             <Route path='/pere-lachaise' component={Pere_Lachaise}/>
             <Route path='/petite_ceinture' component={Petite_Ceinture}/>
             <Route path='/petite_france' component={Petite_France}/>

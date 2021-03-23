@@ -3,24 +3,24 @@ import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
 
-class Passage_des_Panoramas extends Component {
+class Passage_des_Princes extends Component {
   render() {
     return (
       <div>
         <Helmet
           title={
-            "Passage des Panoramas Découverte de la Normandie et du Littoral"
+            "Passage des Princes Découverte de la Normandie et du Littoral"
           }
-          link={"http://decouverte.guillaumequeste.fr/passage_des_panoramas"}
+          link={"http://decouverte.guillaumequeste.fr/passage_des_princes"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="titleAutres">Passage des Panoramas</h1>
+          <h1 className="titleAutres">Passage des Princes</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/passage_des_panoramas/passage_des_panoramas01.jpg")}
-              alt="passage_des_panoramas01"
+              src={require("../../../img/autres/passage_des_princes/passage_des_princes01.jpg")}
+              alt="passage_des_princes01"
               className="photo"
             />
           </div>
@@ -47,4 +47,4 @@ class Passage_des_Panoramas extends Component {
   }
 }
 
-export default Passage_des_Panoramas;
+export default Passage_des_Princes;

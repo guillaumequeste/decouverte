@@ -17,7 +17,7 @@ class Galeries_Lafayette extends Component {
           <h1 className="titleAutres">Galeries Lafayette</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
+              src={require("../../../img/autres/arc_triomphe/arc_de_triomphe.jpeg")}
               alt="arc_de_triomphe"
               className="photo"
             />

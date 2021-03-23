@@ -17,8 +17,8 @@ class Passage_Brady extends Component {
           <h1 className="titleAutres">Passage Brady</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/passage_brady/passage_brady01.jpg")}
+              alt="passage_brady"
               className="photo"
             />
           </div>
