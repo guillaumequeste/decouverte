@@ -116,6 +116,24 @@ class Louvre extends Component {
               />
             </Zoom>
           </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre06.jpg")}
+                alt="louvre06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/louvre/louvre07.jpg")}
+                alt="louvre07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
         </div>
       </div>
     );

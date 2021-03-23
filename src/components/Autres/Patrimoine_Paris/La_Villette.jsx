@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class La_Villette extends Component {
   render() {
@@ -17,8 +18,8 @@ class La_Villette extends Component {
           <h1 className="titleAutres">La Villette</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
-              alt="la_villette"
+              src={require("../../../img/autres/la_villette/la_villette01.jpg")}
+              alt="la_villette01"
               className="photo"
             />
           </div>
@@ -38,6 +39,33 @@ class La_Villette extends Component {
                 La Villette
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/la_villette/la_villette02.jpg")}
+                alt="la_villette02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/la_villette/la_villette03.jpg")}
+                alt="la_villette03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/la_villette/la_villette04.jpg")}
+                alt="la_villette04"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

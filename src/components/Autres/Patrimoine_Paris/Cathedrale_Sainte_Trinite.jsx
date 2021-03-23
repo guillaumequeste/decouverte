@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Cathedrale_Sainte_Trinite extends Component {
   render() {
@@ -12,7 +13,7 @@ class Cathedrale_Sainte_Trinite extends Component {
             "Cathédrale de la Sainte-Trinité Découverte de la Normandie et du Littoral"
           }
           link={
-            "http://decouverte.guillaumequeste.fr/cathedrale_sainte_trinite"
+            "http://decouverte.guillaumequeste.fr/cathedrale_sainte-trinite"
           }
         />
         <Header />
@@ -21,8 +22,8 @@ class Cathedrale_Sainte_Trinite extends Component {
           <h1 className="titleAutres">Cathédrale de la Sainte-Trinité</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite01.jpg")}
+              alt="cathedrale_sainte-trinite01"
               className="photo"
             />
           </div>
@@ -59,6 +60,42 @@ class Cathedrale_Sainte_Trinite extends Component {
                 Cathédrale de la Sainte-Trinité
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite02.jpg")}
+                alt="cathedrale_sainte-trinite02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite03.jpg")}
+                alt="cathedrale_sainte-trinite03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite04.jpg")}
+                alt="cathedrale_sainte-trinite04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite05.jpg")}
+                alt="cathedrale_sainte-trinite05"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

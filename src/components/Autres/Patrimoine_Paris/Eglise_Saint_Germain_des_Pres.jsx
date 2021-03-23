@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Eglise_Saint_Germain_des_Pres extends Component {
   render() {
@@ -19,8 +20,8 @@ class Eglise_Saint_Germain_des_Pres extends Component {
           <h1 className="titleAutres">Eglise Saint-Germain-des-Prés</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres01.jpg")}
+              alt="eglise_saint_germain_des_pres01"
               className="photo"
             />
           </div>
@@ -80,6 +81,51 @@ class Eglise_Saint_Germain_des_Pres extends Component {
                 Eglise Saint-Germain-des-Prés
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres02.jpg")}
+                alt="eglise_saint_germain_des_pres02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres03.jpg")}
+                alt="eglise_saint_germain_des_pres03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres04.jpg")}
+                alt="eglise_saint_germain_des_pres04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres05.jpg")}
+                alt="eglise_saint_germain_des_pres05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres06.jpg")}
+                alt="eglise_saint_germain_des_pres06"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

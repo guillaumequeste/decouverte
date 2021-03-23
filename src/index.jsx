@@ -527,7 +527,7 @@ const Root = () => (
             <Route path='/cathedrale_beauvais' component={Cathedrale_Beauvais}/>
             <Route path='/cathedrale_reims' component={Cathedrale_Reims}/>
             <Route path='/cathedrale_rouen' component={Cathedrale_Rouen}/>
-            <Route path='/cathedrale_sainte_trinite' component={Cathedrale_Sainte_Trinite}/>
+            <Route path='/cathedrale_sainte-trinite' component={Cathedrale_Sainte_Trinite}/>
             <Route path='/centre_pompidou' component={Centre_Pompidou}/>
             <Route path='/champagne_lanson' component={Champagne_Lanson}/>
             <Route path='/champs_elysees' component={Champs_Elysees}/>

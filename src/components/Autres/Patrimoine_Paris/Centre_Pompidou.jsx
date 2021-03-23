@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Centre_Pompidou extends Component {
   render() {
@@ -19,8 +20,8 @@ class Centre_Pompidou extends Component {
           </h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/centre_pompidou/centre_pompidou.jpeg")}
-              alt="centre_pompidou"
+              src={require("../../../img/autres/centre_pompidou/centre_pompidou01.jpeg")}
+              alt="centre_pompidou01"
               className="photo"
             />
           </div>
@@ -65,6 +66,78 @@ class Centre_Pompidou extends Component {
                 Centre Pompidou
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou02.jpg")}
+                alt="centre_pompidou02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou03.jpg")}
+                alt="centre_pompidou03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou04.jpg")}
+                alt="centre_pompidou04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou05.jpg")}
+                alt="centre_pompidou05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou06.jpg")}
+                alt="centre_pompidou06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou07.jpg")}
+                alt="centre_pompidou07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou08.jpg")}
+                alt="centre_pompidou08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/centre_pompidou/centre_pompidou09.jpg")}
+                alt="centre_pompidou09"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

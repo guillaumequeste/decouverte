@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Pere_Lachaise extends Component {
   render() {
@@ -19,8 +20,8 @@ class Pere_Lachaise extends Component {
           <h1 className="titleAutres">Cimetière du Père-Lachaise</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/pere-lachaise/pere-lachaise01.jpg")}
+              alt="pere-lachaise01"
               className="photo"
             />
           </div>
@@ -46,6 +47,78 @@ class Pere_Lachaise extends Component {
                 Cimetière du Père-Lachaise
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise02.jpg")}
+                alt="pere-lachaise02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise03.jpg")}
+                alt="pere-lachaise03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise04.jpg")}
+                alt="pere-lachaise04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise05.jpg")}
+                alt="pere-lachaise05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise06.jpg")}
+                alt="pere-lachaise06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise07.jpg")}
+                alt="pere-lachaise07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise08.jpg")}
+                alt="pere-lachaise08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/pere-lachaise/pere-lachaise09.jpg")}
+                alt="pere-lachaise09"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

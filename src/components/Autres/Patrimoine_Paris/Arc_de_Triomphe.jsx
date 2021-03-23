@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Arc_de_Triomphe extends Component {
   render() {
@@ -17,8 +18,8 @@ class Arc_de_Triomphe extends Component {
           <h1 className="titleAutres">Arc de Triomphe</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/arc_triomphe/arc_triomphe01.jpg")}
+              alt="arc_de_triomphe01"
               className="photo"
             />
           </div>
@@ -45,6 +46,69 @@ class Arc_de_Triomphe extends Component {
                 Arc de Triomphe
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe02.jpg")}
+                alt="arc_triomphe02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe03.jpg")}
+                alt="arc_triomphe03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_de_triomphe/arc_triomphe04.jpg")}
+                alt="arc_triomphe04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe05.jpg")}
+                alt="arc_triomphe05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe06.jpg")}
+                alt="arc_triomphe06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe07.jpg")}
+                alt="arc_triomphe07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/arc_triomphe/arc_triomphe08.jpg")}
+                alt="arc_triomphe08"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

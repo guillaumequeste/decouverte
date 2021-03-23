@@ -11,7 +11,7 @@ export default class Autres_Paris extends Component {
     const buttes_chaumont = [48.8776770998102, 2.3799030008548243];
     const carrousel_louvre = [48.8628, 2.3348399999999856];
     const catacombes = [48.833964, 2.3324924];
-    const catherale_sainte_trinite = [48.86188119477401, 2.301068542327812];
+    const cathedrale_sainte_trinite = [48.86188119477401, 2.301068542327812];
     const centre_pompidou = [48.86062131486451, 2.35247186085212];
     const champ_de_mars = [48.85565166326895, 2.298588752746582];
     const champs_elysees = [48.87262793802567, 2.298660869038713];
@@ -72,8 +72,8 @@ export default class Autres_Paris extends Component {
                 <div>Arc de Triomphe</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-                    alt="arc_de_triomphe"
+                    src={require("../../../img/autres/arc_triomphe/arc_triomphe01min.jpg")}
+                    alt="arc_de_triomphe01min"
                     className="apercu"
                   />
                 </div>
@@ -177,15 +177,15 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
-        <Marker position={catherale_sainte_trinite}>
+        <Marker position={cathedrale_sainte_trinite}>
           <Popup minWidth={200}>
-            <Link to="/cathedrale_sainte_trinite" className="linkPlage">
+            <Link to="/cathedrale_sainte-trinite" className="linkPlage">
               <div className="lien">
                 <div>Catherale de la Sainte-Trinité</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/arc_de_triomphe/arc_de_triomphe.jpeg")}
-                    alt="arc_de_triomphe"
+                    src={require("../../../img/autres/cathedrale_sainte-trinite/cathedrale_sainte-trinite01min.jpg")}
+                    alt="cathedrale_sainte-trinite01min"
                     className="apercu"
                   />
                 </div>
@@ -200,8 +200,8 @@ export default class Autres_Paris extends Component {
                 <div>Centre Pompidou</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/centre_pompidou/centre_pompidou.jpeg")}
-                    alt="centre_pompidou"
+                    src={require("../../../img/autres/centre_pompidou/centre_pompidou01.jpeg")}
+                    alt="centre_pompidou01"
                     className="apercu"
                   />
                 </div>
@@ -296,8 +296,8 @@ export default class Autres_Paris extends Component {
                 <div>Eglise Saint-Germain-des-Prés</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
-                    alt="coulee_verte"
+                    src={require("../../../img/autres/eglise_saint_germain_des_pres/eglise_saint_germain_des_pres01min.jpg")}
+                    alt="eglise_saint_germain_des_pres01min"
                     className="apercu"
                   />
                 </div>
@@ -328,8 +328,8 @@ export default class Autres_Paris extends Component {
                 <div>Eglise Saint-Sulpice</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
-                    alt="coulee_verte"
+                    src={require("../../../img/autres/eglise_saint-sulpice/eglise_saint-sulpice01min.jpg")}
+                    alt="eglise_saint-sulpice01min"
                     className="apercu"
                   />
                 </div>
@@ -456,8 +456,8 @@ export default class Autres_Paris extends Component {
                 <div>Grande Arche de la Défense</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/grande_arche/grande_arche.jpeg")}
-                    alt="grande_arche"
+                    src={require("../../../img/autres/grande_arche/grande_arche01min.jpg")}
+                    alt="grande_arche01min"
                     className="apercu"
                   />
                 </div>
@@ -504,8 +504,8 @@ export default class Autres_Paris extends Component {
                 <div>La Villette</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
-                    alt="la_villette"
+                    src={require("../../../img/autres/la_villette/la_villette01min.jpg")}
+                    alt="la_villette01min"
                     className="apercu"
                   />
                 </div>
@@ -824,8 +824,8 @@ export default class Autres_Paris extends Component {
                 <div>Cimetière du Père-Lachaise</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
-                    alt="parc_des_princes"
+                    src={require("../../../img/autres/pere-lachaise/pere-lachaise01min.jpg")}
+                    alt="pere-lachaise01min"
                     className="apercu"
                   />
                 </div>
@@ -840,8 +840,8 @@ export default class Autres_Paris extends Component {
                 <div>Petite Ceinture de Paris</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/parc_des_princes/parc_des_princes.jpeg")}
-                    alt="parc_des_princes"
+                    src={require("../../../img/autres/petite_ceinture/petite_ceinture01min.jpg")}
+                    alt="petite_ceinture01min"
                     className="apercu"
                   />
                 </div>
