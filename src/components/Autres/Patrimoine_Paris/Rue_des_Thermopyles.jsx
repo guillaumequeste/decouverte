@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Rue_des_Thermopyles extends Component {
   render() {
@@ -19,8 +20,8 @@ class Rue_des_Thermopyles extends Component {
           <h1 className="titleAutres">Rue des Thermopyles</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles01.jpg")}
+              alt="rue_des_thermopyles01"
               className="photo"
             />
           </div>
@@ -44,6 +45,42 @@ class Rue_des_Thermopyles extends Component {
               1958. Elle devient une voie privée ouverte à la circulation le 23
               juin 1959.
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles02.jpg")}
+                alt="rue_des_thermopyles02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles03.jpg")}
+                alt="rue_des_thermopyles03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles04.jpg")}
+                alt="rue_des_thermopyles04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles05.jpg")}
+                alt="rue_des_thermopyles05"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

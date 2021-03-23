@@ -4,6 +4,7 @@ import Helmet from "../../Helmet";
 import Footer from "../../Footer";
 import Next from "../../Next";
 import Previous from "../../Previous";
+import Zoom from "react-reveal/Zoom";
 
 class Pont_Marie extends Component {
   render() {
@@ -23,6 +24,13 @@ class Pont_Marie extends Component {
             <img
               src={require("../../../img/seine/pont_marie/pont_marie01.jpg")}
               alt="pont_marie01"
+              className="photo"
+            />
+          </div>
+          <div className="divPhoto">
+            <img
+              src={require("../../../img/seine/pont_marie/pont_marie02.jpg")}
+              alt="pont_marie02"
               className="photo"
             />
           </div>

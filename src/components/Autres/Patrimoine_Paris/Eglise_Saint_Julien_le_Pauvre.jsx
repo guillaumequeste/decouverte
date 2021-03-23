@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Eglise_Saint_Julien_le_Pauvre extends Component {
   render() {
@@ -21,8 +22,8 @@ class Eglise_Saint_Julien_le_Pauvre extends Component {
           <h1 className="titleAutres">Eglise Saint-Julien-le-Pauvre</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/arc_triomphe/arc_de_triomphe.jpeg")}
-              alt="arc_de_triomphe"
+              src={require("../../../img/autres/eglise_saint-julien-le-pauvre/eglise_saint-julien-le-pauvre01min.jpg")}
+              alt="eglise_saint-julien-le-pauvre01min"
               className="photo"
             />
           </div>
@@ -44,6 +45,33 @@ class Eglise_Saint_Julien_le_Pauvre extends Component {
                 Eglise Saint-Julien-le-Pauvre
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint-julien-le-pauvre/eglise_saint-julien-le-pauvre02.jpg")}
+                alt="eglise_saint-julien-le-pauvre02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint-julien-le-pauvre/eglise_saint-julien-le-pauvre03.jpg")}
+                alt="eglise_saint-julien-le-pauvre03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/eglise_saint-julien-le-pauvre/eglise_saint-julien-le-pauvre04.jpg")}
+                alt="eglise_saint-julien-le-pauvre04"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

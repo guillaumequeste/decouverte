@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Sacre_Coeur extends Component {
   render() {
@@ -19,8 +20,8 @@ class Sacre_Coeur extends Component {
           <h1 className="titleAutres">Basilique du Sacré-Coeur</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/sacre-coeur/sacre-coeur.jpeg")}
-              alt="sacre-coeur"
+              src={require("../../../img/autres/sacre-coeur/sacre-coeur01.jpg")}
+              alt="sacre-coeur01"
               className="photo"
             />
           </div>
@@ -48,13 +49,67 @@ class Sacre_Coeur extends Component {
             <p className="lienSiteOfficiel">
               Site officiel :{" "}
               <a
-                href="https://www.paris.fr/pages/la-petite-ceinture-et-ses-promenades-ecologiques-7855"
+                href="http://www.sacre-coeur-montmartre.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Petite Ceinture de Paris
+                Basilique du Sacré-Coeur
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur02.jpg")}
+                alt="sacre-coeur02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur03.jpg")}
+                alt="sacre-coeur03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur04.jpg")}
+                alt="sacre-coeur04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur05.jpg")}
+                alt="sacre-coeur05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur06.jpg")}
+                alt="sacre-coeur06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/sacre-coeur/sacre-coeur07.jpg")}
+                alt="sacre-coeur07"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

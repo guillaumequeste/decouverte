@@ -208,7 +208,6 @@ import Basilique_Lisieux from './components/Autres/Patrimoine_Calvados/Basilique
 import Basilique_Saint_Denis from './components/Autres/Patrimoine_Paris/Basilique_Saint_Denis'
 import Biomarine from './components/Autres/Patrimoine_Seine_Maritime/Biomarine'
 import BNF from './components/Autres/Patrimoine_Paris/BNF'
-import Buttes_Chaumont from './components/Autres/Patrimoine_Paris/Buttes_Chaumont'
 import Carrousel_Louvre from './components/Autres/Patrimoine_Paris/Carrousel_Louvre'
 import Catacombes from './components/Autres/Patrimoine_Paris/Catacombes'
 import Cathedrale_Amiens from './components/Autres/Patrimoine_Somme/Cathedrale_Amiens'
@@ -228,6 +227,7 @@ import Chateau_Harcourt from './components/Autres/Patrimoine_Eure/Chateau_Harcou
 import Chateau_Pierrefonds from './components/Autres/Patrimoine_Oise/Chateau_Pierrefonds'
 import Chateau_Vascoeuil from './components/Autres/Patrimoine_Eure/Chateau_Vascoeuil'
 import Cimetiere_des_Canadiens from './components/Autres/Patrimoine_Seine_Maritime/Cimetiere_des_Canadiens'
+import Cimetiere_Montparnasse from './components/Autres/Patrimoine_Paris/Cimetiere_Montparnasse'
 import Cite_du_Cinema from './components/Autres/Patrimoine_Paris/Cite_du_Cinema'
 import Coulee_Verte from './components/Autres/Patrimoine_Paris/Coulee_Verte'
 import Domaine_Saint_Cloud from './components/Autres/Patrimoine_Paris/Domaine_Saint_Cloud'
@@ -250,6 +250,8 @@ import Grande_Arche from './components/Autres/Patrimoine_Paris/Grande_Arche'
 import Gros_Horloge from './components/Autres/Patrimoine_Seine_Maritime/Gros_Horloge'
 import Haras_du_Pin from './components/Autres/Patrimoine_Orne/Haras_du_Pin'
 import Hortillonnages from './components/Autres/Patrimoine_Somme/Hortillonnages'
+import Hotel_Sens from './components/Autres/Patrimoine_Paris/Hotel_Sens'
+import Invalides from './components/Autres/Patrimoine_Paris/Invalides'
 import Jardin_Palais_Royal from './components/Autres/Patrimoine_Paris/Jardin_Palais_Royal'
 import Jardin_Tuileries from './components/Autres/Patrimoine_Paris/Jardin_Tuileries'
 import Lac_du_Salagou from './components/Autres/Patrimoine_Herault/Lac_du_Salagou'
@@ -259,6 +261,7 @@ import Le_Sentier_du_Verger from './components/Autres/Patrimoine_Seine_Maritime/
 import Maison_Jules_Verne from './components/Autres/Patrimoine_Somme/Maison_Jules_Verne'
 import Lillebonne from './components/Autres/Patrimoine_Seine_Maritime/Lillebonne'
 import Louvre from './components/Autres/Patrimoine_Paris/Louvre'
+import Louvre_Lens from './components/Autres/Patrimoine_Pas_de_Calais/Louvre_Lens'
 import Manoir_Ango from './components/Autres/Patrimoine_Seine_Maritime/Manoir_Ango'
 import Martyrium from './components/Autres/Patrimoine_Paris/Martyrium'
 import Memorial from './components/Autres/Patrimoine_Seine_Maritime/Memorial'
@@ -292,7 +295,6 @@ import Passage_du_Grand_Cerf from './components/Autres/Patrimoine_Paris/Passage_
 import Passage_Jouffroy from './components/Autres/Patrimoine_Paris/Passage_Jouffroy.jsx'
 import Passage_Verdeau from './components/Autres/Patrimoine_Paris/Passage_Verdeau.jsx'
 import Pere_Lachaise from './components/Autres/Patrimoine_Paris/Pere_Lachaise.jsx'
-import Petite_Ceinture from './components/Autres/Patrimoine_Paris/Petite_Ceinture.jsx'
 import Petite_France from './components/Autres/Patrimoine_Bas_Rhin/Petite_France.jsx'
 import Petit_Palais from './components/Autres/Patrimoine_Paris/Petit_Palais.jsx'
 import Phare_d_Ailly from './components/Autres/Patrimoine_Seine_Maritime/Phare_d_Ailly'
@@ -302,7 +304,8 @@ import Puy_de_Dome from './components/Autres/Patrimoine_Puy_de_Dome/Puy_de_Dome'
 import Quartier_Saint_Leu from './components/Autres/Patrimoine_Somme/Quartier_Saint_Leu'
 import Rue_des_Thermopyles from './components/Autres/Patrimoine_Paris/Rue_des_Thermopyles.jsx'
 import Sacre_Coeur from './components/Autres/Patrimoine_Paris/Sacre_Coeur.jsx'
-import Square_Vert_Galant from './components/Autres/Patrimoine_Paris/Square_Vert_Galant.jsx'
+import Souterroscope_Ardoisieres from './components/Autres/Patrimoine_Calvados/Souterroscope_Ardoisieres.jsx'
+import Stade_Bollaert from './components/Autres/Patrimoine_Pas_de_Calais/Stade_Bollaert'
 import Stade_Jean_Boin from './components/Autres/Patrimoine_Paris/Stade_Jean_Boin.jsx'
 import Tapisserie_Bayeux from './components/Autres/Patrimoine_Calvados/Tapisserie_Bayeux'
 import Tour_Montparnasse from './components/Autres/Patrimoine_Paris/Tour_Montparnasse.jsx'
@@ -525,7 +528,6 @@ const Root = () => (
             <Route path='/basilique_saint-denis' component={Basilique_Saint_Denis}/>
             <Route path='/biomarine' component={Biomarine}/>
             <Route path='/bnf' component={BNF}/>
-            <Route path='/buttes_chaumont' component={Buttes_Chaumont}/>
             <Route path='/carrousel_louvre' component={Carrousel_Louvre}/>
             <Route path='/catacombes' component={Catacombes}/>
             <Route path='/cathedrale_amiens' component={Cathedrale_Amiens}/>
@@ -545,6 +547,7 @@ const Root = () => (
             <Route path='/chateau_pierrefonds' component={Chateau_Pierrefonds}/>
             <Route path='/chateau_vascoeuil' component={Chateau_Vascoeuil}/>
             <Route path='/cimetiere_des_canadiens' component={Cimetiere_des_Canadiens}/>
+            <Route path='/cimetiere_montparnasse' component={Cimetiere_Montparnasse}/>
             <Route path='/cite_du_cinema' component={Cite_du_Cinema}/>
             <Route path='/coulee_verte' component={Coulee_Verte}/>
             <Route path='/domaine_du_champ_de_bataille' component={Domaine_du_Champ_de_Bataille}/>
@@ -567,6 +570,8 @@ const Root = () => (
             <Route path='/gros-horloge' component={Gros_Horloge}/>
             <Route path='/haras_du_pin' component={Haras_du_Pin}/>
             <Route path='/hortillonnages' component={Hortillonnages}/>
+            <Route path='/hotel_sens' component={Hotel_Sens}/>
+            <Route path='/invalides' component={Invalides}/>
             <Route path='/jardin_palais_royal' component={Jardin_Palais_Royal}/>
             <Route path='/jardin_tuileries' component={Jardin_Tuileries}/>
             <Route path='/lac_du_salagou' component={Lac_du_Salagou}/>
@@ -575,6 +580,7 @@ const Root = () => (
             <Route path='/le_sentier_du_verger' component={Le_Sentier_du_Verger}/>
             <Route path='/lillebonne' component={Lillebonne}/>
             <Route path='/louvre' component={Louvre}/>
+            <Route path='/louvre-lens' component={Louvre_Lens}/>
             <Route path='/maison_jules_verne' component={Maison_Jules_Verne}/>
             <Route path='/manoir_ango' component={Manoir_Ango}/>
             <Route path='/martyrium' component={Martyrium}/>
@@ -609,7 +615,6 @@ const Root = () => (
             <Route path='/passage_jouffroy' component={Passage_Jouffroy}/>
             <Route path='/passage_verdeau' component={Passage_Verdeau}/>
             <Route path='/pere-lachaise' component={Pere_Lachaise}/>
-            <Route path='/petite_ceinture' component={Petite_Ceinture}/>
             <Route path='/petite_france' component={Petite_France}/>
             <Route path='/petit_palais' component={Petit_Palais}/>
             <Route path='/phare_d_ailly' component={Phare_d_Ailly}/>
@@ -619,7 +624,8 @@ const Root = () => (
             <Route path='/quartier_saint-leu' component={Quartier_Saint_Leu}/>
             <Route path='/rue_des_thermopyles' component={Rue_des_Thermopyles}/>
             <Route path='/sacre-coeur' component={Sacre_Coeur}/>
-            <Route path='/square_vert-galant' component={Square_Vert_Galant}/>
+            <Route path='/souterroscope_ardoisieres' component={Souterroscope_Ardoisieres}/>
+            <Route path='/stade_bollaert' component={Stade_Bollaert}/>
             <Route path='/stade_jean_boin' component={Stade_Jean_Boin}/>
             <Route path='/tapisserie_bayeux' component={Tapisserie_Bayeux}/>
             <Route path='/tour_montparnasse' component={Tour_Montparnasse}/>

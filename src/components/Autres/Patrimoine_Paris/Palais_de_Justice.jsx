@@ -39,6 +39,42 @@ class Palais_de_Justice extends Component {
               Justice : le Tribunal de Paris.
             </p>
           </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/palais_de_justice/palais_de_justice02.jpg")}
+                alt="palais_de_justice02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/palais_de_justice/palais_de_justice03.jpg")}
+                alt="palais_de_justice03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/palais_de_justice/palais_de_justice04.jpg")}
+                alt="palais_de_justice04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/palais_de_justice/palais_de_justice05.jpg")}
+                alt="palais_de_justice05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
         </div>
       </div>
     );

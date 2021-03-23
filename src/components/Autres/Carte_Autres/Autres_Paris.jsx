@@ -8,13 +8,13 @@ export default class Autres_Paris extends Component {
     const arenes_lutece = [48.845102778773175, 2.3528522878357307];
     const basilique_saint_denis = [48.93544539130951, 2.3597294082122744];
     const bnf = [48.83399819829469, 2.3761074661315433];
-    const buttes_chaumont = [48.8776770998102, 2.3799030008548243];
     const carrousel_louvre = [48.8628, 2.3348399999999856];
     const catacombes = [48.833964, 2.3324924];
     const cathedrale_sainte_trinite = [48.86188119477401, 2.301068542327812];
     const centre_pompidou = [48.86062131486451, 2.35247186085212];
     const champ_de_mars = [48.85565166326895, 2.298588752746582];
     const champs_elysees = [48.87262793802567, 2.298660869038713];
+    const cimetiere_montparnasse = [48.83822382508058, 2.3272058848700095];
     const cite_du_cinema = [48.922640257476935, 2.336547374725342];
     const coulee_verte = [48.84938276601615, 2.3714590072631836];
     const domaine_saint_cloud = [48.837462334382074, 2.21291142800294];
@@ -24,7 +24,7 @@ export default class Autres_Paris extends Component {
       2.347126007080078
     ];
     const eglise_saint_sulpice = [48.850987235120066, 2.334597404754618];
-    var funiculaire_montmartre = [48.884869694658946, 2.3426534492574547];
+    const funiculaire_montmartre = [48.884869694658946, 2.3426534492574547];
     const galerie_colbert = [48.8663, 2.338889999999992];
     const galeries_lafayette = [48.87369656788959, 2.330439465637255];
     const galerie_vero_dodat = [48.8628, 2.340159999999969];
@@ -32,6 +32,8 @@ export default class Autres_Paris extends Component {
     const gare_montparnasse = [48.841161677872485, 2.319732040987219];
     const gare_saint_lazare = [48.876302407887714, 2.3254001140594482];
     const grande_arche = [48.89259960797655, 2.2361040115356445];
+    const hotel_sens = [48.8534292024474, 2.359018580803922];
+    const invalides = [48.856571311243925, 2.3127285503297434];
     const jardin_palais_royal = [48.86498295934279, 2.337791919708252];
     const jardin_tuileries = [48.86338786861697, 2.32785701751709];
     const la_villette = [48.890628432806395, 2.390911502685526];
@@ -60,11 +62,9 @@ export default class Autres_Paris extends Component {
     const passage_jouffroy = [48.872132146014245, 2.342027377596545];
     const passage_verdeau = [48.87336767700049, 2.3422968086553286];
     const pere_lachaise = [48.86145078869662, 2.3964662542755377];
-    const petite_ceinture = [48.82136394186036, 2.3504663583358933];
     const petit_palais = [48.866021060751876, 2.3138524048183626];
     const rue_des_thermopyles = [48.8329, 2.3184099999999717];
     const sacre_coeur = [48.886210238849394, 2.3431308824621055];
-    const square_vert_galant = [48.85744790485559, 2.340282794923496];
     const stade_jean_boin = [48.8432317969697, 2.2529955311081267];
     const tour_montparnasse = [48.8420898, 2.3219569];
 
@@ -123,22 +123,6 @@ export default class Autres_Paris extends Component {
             <Link to="/bnf" className="linkPlage">
               <div className="lien">
                 <div>Bibliothèque nationale de France</div>
-                <div>
-                  <img
-                    src={require("../../../img/autres/bnf/bnf.jpeg")}
-                    alt="bnf"
-                    className="apercu"
-                  />
-                </div>
-              </div>
-            </Link>
-          </Popup>
-        </Marker>
-        <Marker position={buttes_chaumont}>
-          <Popup minWidth={200}>
-            <Link to="/buttes_chaumont" className="linkPlage">
-              <div className="lien">
-                <div>Parc des Buttes-Chaumont</div>
                 <div>
                   <img
                     src={require("../../../img/autres/bnf/bnf.jpeg")}
@@ -246,6 +230,22 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
+        <Marker position={cimetiere_montparnasse}>
+          <Popup minWidth={200}>
+            <Link to="/cimetiere_montparnasse" className="linkPlage">
+              <div className="lien">
+                <div>Cimetière du Montparnasse</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/cimetiere_montparnasse/cimetiere_montparnasse01min.jpg")}
+                    alt="cimetiere_montparnasse01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
         <Marker position={cite_du_cinema}>
           <Popup minWidth={200}>
             <Link to="/cite_du_cinema" className="linkPlage">
@@ -269,8 +269,8 @@ export default class Autres_Paris extends Component {
                 <div>Coulée verte</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/cite_du_cinema/cite_du_cinema.jpeg")}
-                    alt="coulee_verte"
+                    src={require("../../../img/autres/coulee_verte/coulee_verte01min.jpg")}
+                    alt="coulee_verte01min"
                     className="apercu"
                   />
                 </div>
@@ -463,6 +463,38 @@ export default class Autres_Paris extends Component {
                   <img
                     src={require("../../../img/autres/grande_arche/grande_arche01min.jpg")}
                     alt="grande_arche01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={hotel_sens}>
+          <Popup minWidth={200}>
+            <Link to="/hotel_sens" className="linkPlage">
+              <div className="lien">
+                <div>Hôtel de Sens</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/hotel_sens/hotel_sens01min.jpg")}
+                    alt="hotel_sens01min"
+                    className="apercu"
+                  />
+                </div>
+              </div>
+            </Link>
+          </Popup>
+        </Marker>
+        <Marker position={invalides}>
+          <Popup minWidth={200}>
+            <Link to="/invalides" className="linkPlage">
+              <div className="lien">
+                <div>Hôtel des Invalides</div>
+                <div>
+                  <img
+                    src={require("../../../img/autres/invalides/invalides.jpeg")}
+                    alt="invalides"
                     className="apercu"
                   />
                 </div>
@@ -669,8 +701,8 @@ export default class Autres_Paris extends Component {
                 <div>Grand Musée du Parfum</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/musee_orsay/musee_orsay.jpeg")}
-                    alt="musee_orsay"
+                    src={require("../../../img/autres/musee_parfum/musee_parfum01min.jpg")}
+                    alt="musee_parfum01min"
                     className="apercu"
                   />
                 </div>
@@ -918,22 +950,6 @@ export default class Autres_Paris extends Component {
             </Link>
           </Popup>
         </Marker>
-        <Marker position={petite_ceinture}>
-          <Popup minWidth={200}>
-            <Link to="/petite_ceinture" className="linkPlage">
-              <div className="lien">
-                <div>Petite Ceinture de Paris</div>
-                <div>
-                  <img
-                    src={require("../../../img/autres/petite_ceinture/petite_ceinture01min.jpg")}
-                    alt="petite_ceinture01min"
-                    className="apercu"
-                  />
-                </div>
-              </div>
-            </Link>
-          </Popup>
-        </Marker>
         <Marker position={petit_palais}>
           <Popup minWidth={200}>
             <Link to="/petit_palais" className="linkPlage">
@@ -957,8 +973,8 @@ export default class Autres_Paris extends Component {
                 <div>Rue des Thermopyles</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
-                    alt="petit_palais"
+                    src={require("../../../img/autres/rue_des_thermopyles/rue_des_thermopyles01min.jpg")}
+                    alt="rue_des_thermopyles01min"
                     className="apercu"
                   />
                 </div>
@@ -973,24 +989,8 @@ export default class Autres_Paris extends Component {
                 <div>Basilique du Sacré-Coeur</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/sacre-coeur/sacre-coeur.jpeg")}
-                    alt="sacre-coeur"
-                    className="apercu"
-                  />
-                </div>
-              </div>
-            </Link>
-          </Popup>
-        </Marker>
-        <Marker position={square_vert_galant}>
-          <Popup minWidth={200}>
-            <Link to="/square_vert-galant" className="linkPlage">
-              <div className="lien">
-                <div>Square du Vert-Galant</div>
-                <div>
-                  <img
-                    src={require("../../../img/autres/petit_palais/petit_palais.jpeg")}
-                    alt="petit_palais"
+                    src={require("../../../img/autres/sacre-coeur/sacre-coeur01min.jpg")}
+                    alt="sacre-coeur01min"
                     className="apercu"
                   />
                 </div>
@@ -1021,8 +1021,8 @@ export default class Autres_Paris extends Component {
                 <div>Tour Montparnasse</div>
                 <div>
                   <img
-                    src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
-                    alt="tour_montparnasse"
+                    src={require("../../../img/autres/tour_montparnasse/tour_montparnasse01min.jpg")}
+                    alt="tour_montparnasse01min"
                     className="apercu"
                   />
                 </div>

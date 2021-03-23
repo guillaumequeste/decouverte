@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Jardin_Palais_Royal extends Component {
   render() {
@@ -41,6 +42,60 @@ class Jardin_Palais_Royal extends Component {
                 Domaine national du Palais Royal
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal02.jpg")}
+                alt="jardin_palais_royal02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal03.jpg")}
+                alt="jardin_palais_royal03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal04.jpg")}
+                alt="jardin_palais_royal04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal05.jpg")}
+                alt="jardin_palais_royal05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal06.jpg")}
+                alt="jardin_palais_royal06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/jardin_palais_royal/jardin_palais_royal07.jpg")}
+                alt="jardin_palais_royal07"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

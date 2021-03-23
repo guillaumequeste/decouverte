@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Helmet from "../../Helmet";
 import Footer from "../../Footer";
+import Zoom from "react-reveal/Zoom";
 
 class Tour_Montparnasse extends Component {
   render() {
@@ -17,8 +18,8 @@ class Tour_Montparnasse extends Component {
           <h1 className="titleAutres">Tour Montparnasse</h1>
           <div className="divPhoto">
             <img
-              src={require("../../../img/autres/tour_montparnasse/tour_montparnasse.jpeg")}
-              alt="tour_montparnasse"
+              src={require("../../../img/autres/tour_montparnasse/tour_montparnasse01.jpg")}
+              alt="tour_montparnasse01"
               className="photo"
             />
           </div>
@@ -44,6 +45,204 @@ class Tour_Montparnasse extends Component {
                 Tour Montparnasse
               </a>
             </p>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse02.jpg")}
+                alt="tour_montparnasse02"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse03.jpg")}
+                alt="tour_montparnasse03"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse04.jpg")}
+                alt="tour_montparnasse04"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse05.jpg")}
+                alt="tour_montparnasse05"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse06.jpg")}
+                alt="tour_montparnasse06"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse07.jpg")}
+                alt="tour_montparnasse07"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse08.jpg")}
+                alt="tour_montparnasse08"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse09.jpg")}
+                alt="tour_montparnasse09"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse10.jpg")}
+                alt="tour_montparnasse10"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse11.jpg")}
+                alt="tour_montparnasse11"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse12.jpg")}
+                alt="tour_montparnasse12"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse13.jpg")}
+                alt="tour_montparnasse13"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse14.jpg")}
+                alt="tour_montparnasse14"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse15.jpg")}
+                alt="tour_montparnasse15"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse16.jpg")}
+                alt="tour_montparnasse16"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse17.jpg")}
+                alt="tour_montparnasse17"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse18.jpg")}
+                alt="tour_montparnasse18"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse19.jpg")}
+                alt="tour_montparnasse19"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse20.jpg")}
+                alt="tour_montparnasse20"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse21.jpg")}
+                alt="tour_montparnasse21"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse22.jpg")}
+                alt="tour_montparnasse22"
+                className="photo"
+              />
+            </Zoom>
+          </div>
+          <div className="divPhoto">
+            <Zoom>
+              <img
+                src={require("../../../img/autres/tour_montparnasse/tour_montparnasse23.jpg")}
+                alt="tour_montparnasse23"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default class Autres_Calvados extends Component {
   render() {
     const basilique_lisieux = [49.139556789525805, 0.23629679734376907];
+    const souterroscope_ardoisieres = [49.09130240152796, -0.8166054748020057];
     const tapisserie_bayeux = [49.274405158912934, -0.7003888434955718];
 
     return (
@@ -18,6 +19,22 @@ export default class Autres_Calvados extends Component {
                     <img
                       src={require("../../../img/autres/basilique_lisieux/basilique_lisieux01min.jpg")}
                       alt="basilique_lisieux01"
+                      className="apercu"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </Popup>
+          </Marker>
+          <Marker position={souterroscope_ardoisieres}>
+            <Popup minWidth={200}>
+              <Link to="/souterroscope_ardoisieres" className="linkPlage">
+                <div className="lien">
+                  <div>Souterroscope des Ardoisières</div>
+                  <div>
+                    <img
+                      src={require("../../../img/autres/souterroscope_ardoisieres/souterroscope_ardoisieres.jpeg")}
+                      alt="souterroscope_ardoisieres"
                       className="apercu"
                     />
                   </div>
