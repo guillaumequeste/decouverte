@@ -18,7 +18,7 @@ export default class CarteSeine extends Component {
     const position = [this.state.lat, this.state.lng];
     
     return (
-      <div>
+      <div className="carte">
         <Map center={position} zoom={this.state.zoom}>
           <TileLayer
             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

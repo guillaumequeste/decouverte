@@ -387,6 +387,12 @@ body {
     color: white;
 }
 
+.source {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
 
 /* Next */
 
@@ -455,4 +461,12 @@ body {
 
 .imgDoor {
     width: 100px;
+}
+
+
+/* Carte */
+
+.carte {
+    border: solid 2px black;
+    box-shadow: 10px 5px 5px black;
 }
