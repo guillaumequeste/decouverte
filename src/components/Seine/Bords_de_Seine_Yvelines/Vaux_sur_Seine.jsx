@@ -11,7 +11,7 @@ class Vaux_sur_Seine extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Vaux-sur-Seine Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/vaux-sur-seine"}
         />
         <Header />

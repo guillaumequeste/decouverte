@@ -8,7 +8,7 @@ class Cathedrale_Rouen extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Cathédrale Notre-Dame de Rouen Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/cathedrale_rouen"}
         />
         <Header />

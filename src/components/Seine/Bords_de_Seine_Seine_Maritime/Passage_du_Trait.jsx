@@ -11,7 +11,7 @@ class Passage_du_Trait extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Passage du Trait Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/passage_du_trait"}
         />
         <Header />

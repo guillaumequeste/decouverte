@@ -11,7 +11,7 @@ class Les_Grandes_Dalles extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Les Grandes Dalles Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/les_grandes_dalles"}
         />
         <Header />

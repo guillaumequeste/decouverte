@@ -11,7 +11,7 @@ class Notre_Dame_de_Bliquetuit extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Notre-Dame-de-Bliquetuit Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/notre-dame-de-bliquetuit"}
         />
         <Header />

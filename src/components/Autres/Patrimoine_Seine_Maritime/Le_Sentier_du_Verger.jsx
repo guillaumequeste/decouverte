@@ -9,7 +9,7 @@ class Le_Sentier_du_Verger extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Le Sentier du Verger Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_sentier_du_verger"}
         />
         <Header />

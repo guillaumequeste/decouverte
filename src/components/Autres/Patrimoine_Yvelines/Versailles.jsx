@@ -9,7 +9,7 @@ class Versailles extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Château de Versailles Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/versailles"}
         />
         <Header />

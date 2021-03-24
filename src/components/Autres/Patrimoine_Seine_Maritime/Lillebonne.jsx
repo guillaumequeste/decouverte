@@ -9,7 +9,7 @@ class Lillebonne extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Théâtre romain de Lillebonne Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/lillebonne"}
         />
         <Header />

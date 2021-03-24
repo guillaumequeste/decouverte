@@ -11,7 +11,7 @@ class Villers_sur_le_Roule extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Villers-sur-le-Roule Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/villers-sur-le-roule"}
         />
         <Header />

@@ -8,7 +8,7 @@ class Abbaye_Mortemer extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Abbaye de Mortemer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/abbaye_mortemer"}
         />
         <Header />

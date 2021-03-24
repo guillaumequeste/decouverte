@@ -9,7 +9,7 @@ class Memorial extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Mémorial du 19 août 1942 Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/memorial"}
         />
         <Header />

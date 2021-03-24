@@ -11,14 +11,14 @@ class Avenue_Verte_Dampierre extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Dampierre-Saint-Nicolas Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/avenue_verte_dampierre"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_saint-aubin-le-cauf"} />
-          <h1 className="title">Abbaye verte Dampierre-Saint-Nicolas</h1>
+          <h1 className="title">Avenue verte Dampierre-Saint-Nicolas</h1>
           <Next next={"avenue_verte_meulers"} />
           <div className="divPhoto">
             <img

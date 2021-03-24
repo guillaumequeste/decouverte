@@ -11,7 +11,7 @@ class Pont_d_Iena extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont d'Iena Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_d_iena"}
         />
         <Header />

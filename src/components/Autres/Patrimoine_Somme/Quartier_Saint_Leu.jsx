@@ -9,7 +9,7 @@ class Quartier_Saint_Leu extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Quartier Saint-Leu Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/quartier_saint-leu"}
         />
         <Header />

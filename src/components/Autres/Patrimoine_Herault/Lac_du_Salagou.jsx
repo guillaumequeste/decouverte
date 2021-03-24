@@ -9,7 +9,7 @@ class Lac_du_Salagou extends Component {
     return (
       <div>
         <Helmet
-          title={"Petite France Découverte de la Normandie et du Littoral"}
+          title={"Lac du Salagou Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/petite_france"}
         />
         <Header />

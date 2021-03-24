@@ -11,14 +11,14 @@ class LimayA extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Limay (A) Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/limayA"}
         />
         <Header />
         <Footer />
         <div className="bodySeine">
           <Previous prev={"guernes"} />
-          <h1 className="title">Limay</h1>
+          <h1 className="title">Limay (A)</h1>
           <Next next={"limayB"} />
           <div className="divPhoto">
             <img

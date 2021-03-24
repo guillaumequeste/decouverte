@@ -8,7 +8,7 @@ class Gros_Horloge extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Le Gros-Horloge à Rouen Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/gros-horloge"}
         />
         <Header />

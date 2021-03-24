@@ -11,7 +11,7 @@ class La_Roche_Guyon extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"La Roche-Guyon Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/la_roche-guyon"}
         />
         <Header />

@@ -11,14 +11,14 @@ class Avenue_Verte_Saint_Vaast extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Saint-Vaast-d'Equiqueville Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/avenue_verte_saint-vaast"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_meulers"} />
-          <h1 className="title">Abbaye verte Saint-Vaast-d'Equiqueville</h1>
+          <h1 className="title">Avenue verte Saint-Vaast-d'Equiqueville</h1>
           <Next next={"avenue_verte_osmoy"} />
           <div className="divPhoto">
             <img

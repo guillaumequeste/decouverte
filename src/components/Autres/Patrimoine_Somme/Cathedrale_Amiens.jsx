@@ -9,7 +9,7 @@ class Cathedrale_Amiens extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Cathédrale Notre-Dame d'Amiens Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/cathedrale_amiens"}
         />
         <Header />

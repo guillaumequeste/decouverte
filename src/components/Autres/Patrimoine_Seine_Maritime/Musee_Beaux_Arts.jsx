@@ -8,13 +8,13 @@ class Musee_Beaux_Arts extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Musée des Beaux Arts de Rouen Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/muse_beaux_arts"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
-          <h1 className="titleAutres">Musée des Beaux Arts</h1>
+          <h1 className="titleAutres">Musée des Beaux Arts de Rouen</h1>
           <div className="divPhoto">
             <img
               src={require("../../../img/autres/musee_beaux_arts/musee_beaux_arts01.jpg")}

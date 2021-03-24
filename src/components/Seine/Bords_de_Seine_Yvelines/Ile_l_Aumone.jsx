@@ -11,7 +11,7 @@ class Ile_l_Aumone extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Ile l'Aumone Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/ile_l_aumone"}
         />
         <Header />

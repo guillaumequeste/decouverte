@@ -11,7 +11,7 @@ class Saint_Valery_sur_Somme extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Saint-Valéry-sur-Somme Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/saint-valery-sur-somme"}
         />
         <Header />

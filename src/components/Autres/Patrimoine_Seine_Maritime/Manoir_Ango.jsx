@@ -8,7 +8,7 @@ class Manoir_Ango extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Manoir d'Ango Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/manoir_ango"}
         />
         <Header />

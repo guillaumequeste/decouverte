@@ -8,7 +8,7 @@ class Chateau_Dieppe extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Château de Dieppe Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/chateau_dieppe"}
         />
         <Header />

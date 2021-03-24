@@ -11,7 +11,7 @@ class Mesnil_Val extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Mesnil Val Plage Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/mesnil_val"}
         />
         <Header />

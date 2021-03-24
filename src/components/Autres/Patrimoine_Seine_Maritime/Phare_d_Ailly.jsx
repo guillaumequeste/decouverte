@@ -9,7 +9,7 @@ class Phare_d_Ailly extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Phare d'Ailly Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/phare_d_ailly"}
         />
         <Header />

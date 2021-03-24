@@ -11,7 +11,7 @@ class Vieux_Port extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Vieux-Port Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/vieux-port"}
         />
         <Header />

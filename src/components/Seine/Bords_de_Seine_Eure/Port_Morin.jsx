@@ -11,7 +11,7 @@ class Port_Morin extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Port Morin Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/port_morin"}
         />
         <Header />

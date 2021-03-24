@@ -11,7 +11,7 @@ class Les_Mureaux extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Les Mureaux Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/les_mureaux"}
         />
         <Header />

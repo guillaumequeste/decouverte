@@ -11,7 +11,7 @@ class Saint_Pierre_en_Port extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Saint-Pierre-en-Port Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/saint-pierre-en-port"}
         />
         <Header />

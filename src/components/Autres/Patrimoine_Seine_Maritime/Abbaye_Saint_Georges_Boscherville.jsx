@@ -8,7 +8,7 @@ class Abbaye_Saint_Georges_Boscherville extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Abbaye Romane Saint Georges de Boscherville Découverte de la Normandie et du Littoral"}
           link={
             "http://decouverte.guillaumequeste.fr/abbaye_saint_georges_boscherville"
           }

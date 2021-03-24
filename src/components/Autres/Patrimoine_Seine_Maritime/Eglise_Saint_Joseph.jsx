@@ -9,7 +9,7 @@ class Eglise_Saint_Joseph extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Eglise Saint-Joseph du Havre Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/eglise_saint-joseph"}
         />
         <Header />

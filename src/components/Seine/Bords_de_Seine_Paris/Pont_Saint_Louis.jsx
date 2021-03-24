@@ -10,7 +10,7 @@ class Pont_Saint_Louis extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont Saint-Louis Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_saint-louis"}
         />
         <Header />

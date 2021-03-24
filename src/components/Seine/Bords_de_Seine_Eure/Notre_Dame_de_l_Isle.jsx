@@ -11,7 +11,7 @@ class Notre_Dame_de_l_Isle extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Notre-Dame-de-l'Isle Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/notre-dame-del_isle"}
         />
         <Header />

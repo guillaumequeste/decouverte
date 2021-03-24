@@ -11,7 +11,7 @@ class Pont_de_Sully extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont de Sully Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_de_Sully"}
         />
         <Header />

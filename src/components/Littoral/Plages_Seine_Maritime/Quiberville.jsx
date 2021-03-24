@@ -11,7 +11,7 @@ class Quiberville extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Quiberville Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/quiberville"}
         />
         <Header />

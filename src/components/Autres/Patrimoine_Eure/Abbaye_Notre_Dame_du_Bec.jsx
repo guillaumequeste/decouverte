@@ -9,7 +9,7 @@ class Abbaye_Notre_Dame_du_Bec extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Abbaye Notre-Dame du Bec Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/abbaye_notre-dame_du_bec"}
         />
         <Header />

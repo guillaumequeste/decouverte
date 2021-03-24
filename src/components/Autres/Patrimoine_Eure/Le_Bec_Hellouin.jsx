@@ -9,7 +9,7 @@ class Le_Bec_Hellouin extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Le Bec-Hellouin Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_bec-hellouin"}
         />
         <Header />

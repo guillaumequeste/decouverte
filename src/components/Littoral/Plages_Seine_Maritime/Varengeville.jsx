@@ -11,7 +11,7 @@ class Varengeville extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Varengeville-sur-Mer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/varengeville"}
         />
         <Header />

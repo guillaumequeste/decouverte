@@ -8,7 +8,7 @@ class Domaine_du_Champ_de_Bataille extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Domaine du Champ de Bataille Découverte de la Normandie et du Littoral"}
           link={
             "http://decouverte.guillaumequeste.fr/domaine_du_champ_de_bataille"
           }

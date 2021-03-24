@@ -11,7 +11,7 @@ class Mezy_sur_Seine extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Mézy-sur-Seine Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/mezy-sur-seine"}
         />
         <Header />

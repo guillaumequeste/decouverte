@@ -11,7 +11,7 @@ class Barrage_Poses extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Barrage de Poses Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/barrage_poses"}
         />
         <Header />

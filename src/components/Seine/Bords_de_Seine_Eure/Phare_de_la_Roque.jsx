@@ -11,7 +11,7 @@ class Phare_de_la_Roque extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Phare de la Roque Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/phare_de_la_roque"}
         />
         <Header />

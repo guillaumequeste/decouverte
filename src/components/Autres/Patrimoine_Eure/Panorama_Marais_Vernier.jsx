@@ -9,7 +9,7 @@ class Panorama_Marais_Vernier extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Panorama du Marais Vernier Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/panorama_evreux"}
         />
         <Header />

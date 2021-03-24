@@ -11,7 +11,7 @@ class Les_Petites_Dalles extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Les Petites Dalles Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/les_petites_dalles"}
         />
         <Header />

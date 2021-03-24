@@ -8,7 +8,7 @@ class Maison_Jules_Verne extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Maison de Jules Verne Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/maison_jules_verne"}
         />
         <Header />

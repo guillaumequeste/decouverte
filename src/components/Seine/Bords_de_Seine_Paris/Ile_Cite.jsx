@@ -11,7 +11,7 @@ class Ile_Cite extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Ile de la Cité Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/ile_cite"}
         />
         <Header />

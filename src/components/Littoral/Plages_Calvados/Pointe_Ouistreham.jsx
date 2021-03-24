@@ -11,7 +11,7 @@ class Pointe_Ouistreham extends Component {
     return (
       <div>
         <Helmet
-          title={"pointe de Ouistreham Découverte de la Normandie et du Littoral"}
+          title={"Pointe de Ouistreham Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/puys"}
         />
         <Header />

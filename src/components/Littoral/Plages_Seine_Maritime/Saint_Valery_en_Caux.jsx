@@ -11,7 +11,7 @@ class Saint_Valery_en_Caux extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Saint-Valéry-en-Caux Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/saint-valery-en-caux"}
         />
         <Header />

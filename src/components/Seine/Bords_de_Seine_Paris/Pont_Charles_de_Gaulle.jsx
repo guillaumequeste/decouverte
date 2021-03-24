@@ -10,7 +10,7 @@ class Pont_Charles_de_Gaulle extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont Charles de Gaulle Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_charles_de_gaulle"}
         />
         <Header />

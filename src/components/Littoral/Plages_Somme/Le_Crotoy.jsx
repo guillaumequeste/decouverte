@@ -11,7 +11,7 @@ class Le_Crotoy extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Le Crotoy Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_crotoy"}
         />
         <Header />

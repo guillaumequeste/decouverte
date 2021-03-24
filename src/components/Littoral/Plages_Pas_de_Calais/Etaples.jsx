@@ -11,14 +11,14 @@ class Etaples extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Etaples-sur-Mer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/etaples"}
         />
         <Header />
         <Footer />
         <div className="bodyLittoral">
           <Previous prev={"le_touquet"} />
-          <h1 className="title">Etaples</h1>
+          <h1 className="title">Etaples-sur-Mer</h1>
           <Next next={"sainte-cecile_plage"} />
           <div className="divPhoto">
             <img

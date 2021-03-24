@@ -9,7 +9,7 @@ class Montreuil_sur_Mer extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Montreuil-sur-Mer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/montreuil-sur-mer"}
         />
         <Header />

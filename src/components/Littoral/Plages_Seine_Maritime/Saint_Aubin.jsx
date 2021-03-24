@@ -11,7 +11,7 @@ class Saint_Aubin extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Saint-Aubin-sur-Mer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/saint-aubin"}
         />
         <Header />

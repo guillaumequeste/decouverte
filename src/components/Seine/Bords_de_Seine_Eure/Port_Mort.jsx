@@ -10,7 +10,7 @@ class Port_Mort extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Port-Mort Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/port-mort"}
         />
         <Header />

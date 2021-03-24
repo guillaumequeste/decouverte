@@ -8,7 +8,7 @@ class Giverny extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Fondation Claude Monet (Giverny) Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/giverny"}
         />
         <Header />

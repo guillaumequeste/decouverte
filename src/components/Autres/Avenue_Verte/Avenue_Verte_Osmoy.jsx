@@ -11,14 +11,14 @@ class Avenue_Verte_Osmoy extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Osmoy-Saint-Valéry Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/avenue_verte_osmoy"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_saint-vaast"} />
-          <h1 className="title">Abbaye verte Osmoy-Saint-Valéry</h1>
+          <h1 className="title">Avenue verte Osmoy-Saint-Valéry</h1>
           <Next next={"avenue_verte_mesnieres"} />
           <div className="divPhoto">
             <img

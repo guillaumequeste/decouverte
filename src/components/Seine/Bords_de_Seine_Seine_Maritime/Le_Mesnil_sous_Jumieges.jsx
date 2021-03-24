@@ -11,7 +11,7 @@ class Le_Mesnil_sous_Jumieges extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Le Mesnil-sous-Jumièges Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_mesnil-sous-jumieges"}
         />
         <Header />

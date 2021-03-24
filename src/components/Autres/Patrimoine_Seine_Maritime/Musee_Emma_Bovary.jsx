@@ -9,7 +9,7 @@ class Musee_Emma_Bovary extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Galerie Bovary - Musée d'automates Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/musee_emma_bovary"}
         />
         <Header />

@@ -9,7 +9,7 @@ class Basilique_Lisieux extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Basilique Sainte-Thérèse de Lisieux Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/basilique_lisieux"}
         />
         <Header />

@@ -9,7 +9,7 @@ class Panorama_Evreux extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Panorama d'Evreux Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/panorama_evreux"}
         />
         <Header />

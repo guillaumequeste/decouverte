@@ -9,7 +9,7 @@ class Plan_eau_Canada extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Plan d'eau du Canada Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/plan_eau_canada"}
         />
         <Header />

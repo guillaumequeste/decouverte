@@ -11,7 +11,7 @@ class Saint_Nicolas_de_Bliquetuit extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Saint-Nicolas-de-Bliquetuit Découverte de la Normandie et du Littoral"}
           link={
             "http://decouverte.guillaumequeste.fr/saint-nicolas-de-bliquetuit"
           }

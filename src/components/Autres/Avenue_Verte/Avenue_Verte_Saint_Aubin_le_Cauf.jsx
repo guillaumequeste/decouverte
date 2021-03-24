@@ -11,7 +11,7 @@ class Avenue_Verte_Saint_Aubin_le_Cauf extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Saint-Aubin-le-Cauf Découverte de la Normandie et du Littoral"}
           link={
             "http://decouverte.guillaumequeste.fr/avenue_verte_saint-aubin-le-cauf"
           }
@@ -20,7 +20,7 @@ class Avenue_Verte_Saint_Aubin_le_Cauf extends Component {
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_arques"} />
-          <h1 className="title">Abbaye verte Saint-Aubin-le-Cauf</h1>
+          <h1 className="title">Avenue verte Saint-Aubin-le-Cauf</h1>
           <Next next={"avenue_verte_dampierre"} />
           <div className="divPhoto">
             <img

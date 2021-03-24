@@ -11,14 +11,14 @@ class Avenue_Verte_Meulers extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Meulers Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/avenue_verte_meulers"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_dampierre"} />
-          <h1 className="title">Abbaye verte Meulers</h1>
+          <h1 className="title">Avenue verte Meulers</h1>
           <Next next={"avenue_verte_saint-vaast"} />
           <div className="divPhoto">
             <img

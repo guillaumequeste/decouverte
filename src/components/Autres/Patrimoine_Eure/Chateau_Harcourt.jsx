@@ -8,7 +8,7 @@ class Chateau_Harcourt extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Château d'Harcourt Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/chateau_harcourt"}
         />
         <Header />

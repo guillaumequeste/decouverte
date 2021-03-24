@@ -11,7 +11,7 @@ class Passage_d_Yssainville extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Passage d'Yssainville Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/passage_d_yssainville"}
         />
         <Header />

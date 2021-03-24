@@ -8,7 +8,7 @@ class Estran extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Estran Cité de la Mer Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/estran"}
         />
         <Header />

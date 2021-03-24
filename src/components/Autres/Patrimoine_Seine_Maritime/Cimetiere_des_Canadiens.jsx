@@ -9,7 +9,7 @@ class Cimetiere_des_Canadiens extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Cimetière des Canadiens Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/cimetiere_des_canadiens"}
         />
         <Header />

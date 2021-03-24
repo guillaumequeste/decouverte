@@ -11,7 +11,7 @@ class Le_Bois_de_Cise extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Le Bois de Cise Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_bois_de_cise"}
         />
         <Header />

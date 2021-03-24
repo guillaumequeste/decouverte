@@ -9,7 +9,7 @@ class Panorama_Vert_Village extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Panorama du Vert Village Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/panorama_vert_village"}
         />
         <Header />

@@ -10,14 +10,14 @@ class Avenue_Verte_Mesnieres extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Avenue verte Mesnières-en-Bray Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/avenue_verte_mesnieres"}
         />
         <Header />
         <Footer />
         <div className="bodyAutres">
           <Previous prev={"avenue_verte_osmoy"} />
-          <h1 className="title">Abbaye verte Mesnières-en-Bray</h1>
+          <h1 className="title">Avenue verte Mesnières-en-Bray</h1>
           <div className="divPhoto">
             <img
               src={require("../../../img/autres/avenue_verte_mesnieres/avenue_verte_mesnieres01.jpg")}

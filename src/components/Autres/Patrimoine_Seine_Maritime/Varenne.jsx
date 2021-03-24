@@ -9,7 +9,7 @@ class Varenne extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"La Varenne Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/varenne"}
         />
         <Header />

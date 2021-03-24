@@ -11,7 +11,7 @@ class Le_Croquet extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Le Croquet Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/le_croquet"}
         />
         <Header />

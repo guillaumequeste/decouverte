@@ -9,7 +9,7 @@ class Auvers_sur_Oise extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Auvers-sur-Oise Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/auvers-sur-oise"}
         />
         <Header />

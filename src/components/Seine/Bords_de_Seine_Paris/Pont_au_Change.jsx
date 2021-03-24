@@ -11,7 +11,7 @@ class Pont_au_Change extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont au Change Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_au_change"}
         />
         <Header />

@@ -11,7 +11,7 @@ class Sandrancourt extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Sandrancourt Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/sandrancourt"}
         />
         <Header />

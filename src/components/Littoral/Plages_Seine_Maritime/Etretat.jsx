@@ -11,7 +11,7 @@ class Etretat extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Etretat Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/etretat"}
         />
         <Header />

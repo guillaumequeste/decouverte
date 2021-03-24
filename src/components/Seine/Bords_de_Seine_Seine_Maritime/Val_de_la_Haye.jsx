@@ -11,7 +11,7 @@ class Val_de_la_Haye extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Val-de-la-Haye Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/val-de-la-haye"}
         />
         <Header />

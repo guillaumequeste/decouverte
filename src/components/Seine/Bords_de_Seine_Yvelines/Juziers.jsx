@@ -11,7 +11,7 @@ class Juziers extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Juziers Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/juziers"}
         />
         <Header />

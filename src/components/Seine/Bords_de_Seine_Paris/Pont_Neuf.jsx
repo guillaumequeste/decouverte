@@ -11,7 +11,7 @@ class Pont_Neuf extends Component {
     return (
       <div>
         <Helmet
-          title={"Baie de Somme Découverte de la Normandie et du Littoral"}
+          title={"Pont Neuf Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/pont_neuf"}
         />
         <Header />

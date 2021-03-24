@@ -11,7 +11,7 @@ class Sainte_Cecile extends Component {
     return (
       <div>
         <Helmet
-          title={"Ault Découverte de la Normandie et du Littoral"}
+          title={"Sainte-Cécile Plage Découverte de la Normandie et du Littoral"}
           link={"http://decouverte.guillaumequeste.fr/sainte-cecile_plage"}
         />
         <Header />

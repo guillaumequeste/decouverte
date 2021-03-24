@@ -9,7 +9,7 @@ class Eglise_Saint_Germain_des_Pres extends Component {
     return (
       <div>
         <Helmet
-          title={"Arc de Triomphe Découverte de la Normandie et du Littoral"}
+          title={"Eglise Saint-Germain-des-Prés Découverte de la Normandie et du Littoral"}
           link={
             "http://decouverte.guillaumequeste.fr/eglise_saint-germmain-des-pres"
           }
