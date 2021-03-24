@@ -28,11 +28,13 @@ class Pont_Marie extends Component {
             />
           </div>
           <div className="divPhoto">
-            <img
-              src={require("../../../img/seine/pont_marie/pont_marie02.jpg")}
-              alt="pont_marie02"
-              className="photo"
-            />
+            <Zoom>
+              <img
+                src={require("../../../img/seine/pont_marie/pont_marie02.jpg")}
+                alt="pont_marie02"
+                className="photo"
+              />
+            </Zoom>
           </div>
         </div>
       </div>

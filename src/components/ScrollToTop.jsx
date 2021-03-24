@@ -8,7 +8,7 @@ function ScrollToTop({ history }) {
     return () => {
       unlisten();
     }
-  }, []);
+  }, [history]);
   return null;
 }
 export default withRouter(ScrollToTop);
